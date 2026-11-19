@@ -1,0 +1,4 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0002","PH/1311","2026-10-01","B0002","S0007","USD",1,"IT-10242","",25,"EA",25,"EA",6.0700,151.75,"","","Liftgate required","PO_PH_1311.pdf","dev-1"
+"C0002","PH/1311","2026-10-01","B0002","S0007","USD",2,"IT-10096","",250,"EA",250,"EA",0.6700,167.50,"","","Liftgate required","PO_PH_1311.pdf","dev-1"
+"C0002","PH/1311","2026-10-01","B0002","S0007","USD",3,"IT-10050","",1,"BX",250,"EA",20.0000,20.00,"","","Liftgate required","PO_PH_1311.pdf","dev-1"

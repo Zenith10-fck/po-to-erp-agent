@@ -1,0 +1,85 @@
+{
+  "doc_id": "held-001",
+  "split": "heldout",
+  "category": "clean",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "Order-BAP-26-9531.pdf",
+  "truth": {
+    "customer_id": "C0013",
+    "customer_po_number": "BAP-26-9531",
+    "po_date": "2026-11-13",
+    "bill_to_id": "B0013",
+    "ship_to_id": "S0030",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10003",
+        "customer_part_no": "TP-1783",
+        "order_qty": "8",
+        "order_uom": "CS",
+        "base_qty": "4000",
+        "base_uom": "EA",
+        "unit_price": "40.0000",
+        "line_total": "320.00",
+        "requested_date": "2026-12-04"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10007",
+        "customer_part_no": "TP-4880",
+        "order_qty": "100",
+        "order_uom": "EA",
+        "base_qty": "100",
+        "base_uom": "EA",
+        "unit_price": "0.4700",
+        "line_total": "47.00",
+        "requested_date": "2026-12-02"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10017",
+        "customer_part_no": "TP-2540",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "0.1200",
+        "line_total": "6.00",
+        "requested_date": "2026-12-02"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10155",
+        "customer_part_no": "TP-6038",
+        "order_qty": "9",
+        "order_uom": "PR",
+        "base_qty": "9",
+        "base_uom": "PR",
+        "unit_price": "12.2600",
+        "line_total": "110.34",
+        "requested_date": "2026-12-06"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10111",
+        "customer_part_no": "TP-8551",
+        "order_qty": "250",
+        "order_uom": "EA",
+        "base_qty": "250",
+        "base_uom": "EA",
+        "unit_price": "0.8900",
+        "line_total": "222.50",
+        "requested_date": "2026-12-07"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Deliver to rear dock, door 6"
+  },
+  "trap_detail": null
+}

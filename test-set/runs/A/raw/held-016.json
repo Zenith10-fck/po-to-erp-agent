@@ -1,0 +1,250 @@
+{
+  "doc_id": "held-016",
+  "sender": "\"L. Petrova\" <buyer@halvorsen-marine-repair.example>",
+  "subject": "Halvorsen Marine Repair LLC PO 68308",
+  "source_file": "halvorsen_PO_68308.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO from Halvorsen Marine Repair LLC listing items, quantities, and pricing ordered from the supplier."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "68308",
+      "page": 1,
+      "quote": "PO #: 68308"
+    },
+    "po_date": {
+      "value": "13-Nov-2026",
+      "page": 1,
+      "quote": "Order date: 13-Nov-2026"
+    },
+    "customer_name": {
+      "value": "Halvorsen Marine Repair LLC",
+      "page": 1,
+      "quote": "ORDERED BY Halvorsen Marine Repair LLC"
+    },
+    "bill_to_name": {
+      "value": "Halvorsen Marine Repair LLC",
+      "page": 1,
+      "quote": "INVOICE TO Halvorsen Marine Repair LLC"
+    },
+    "bill_to_address": {
+      "value": "18 Ropewalk Ln Suite 4, Sandusky, OH 44870",
+      "page": 1,
+      "quote": "18 Ropewalk Ln Suite 4 Sandusky, OH 44870"
+    },
+    "ship_to_name": {
+      "value": "Halvorsen Maintenance Shop",
+      "page": 1,
+      "quote": "DELIVER TO Halvorsen Maintenance Shop"
+    },
+    "ship_to_address": {
+      "value": "2187 Smelter Way, Youngstown, OH 44503",
+      "page": 1,
+      "quote": "2187 Smelter Way Youngstown, OH 44503"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "$273.59",
+      "page": 1,
+      "quote": "PO Total $273.59"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "$156.59 1 Thread locker blue 50 ml"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "HM7215",
+          "page": 1,
+          "quote": "HM7215 Thread locker blue 50 ml"
+        },
+        "description": {
+          "value": "Thread locker blue 50 ml",
+          "page": 1,
+          "quote": "Thread locker blue 50 ml"
+        },
+        "qty": {
+          "value": "7",
+          "page": 1,
+          "quote": "7 ea HM7215"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "7 ea HM7215"
+        },
+        "unit_price": {
+          "value": "$22.37",
+          "page": 1,
+          "quote": "$22.37 $156.59 1"
+        },
+        "line_total": {
+          "value": "$156.59",
+          "page": 1,
+          "quote": "$22.37 $156.59 1"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "$14.50 2 Grease fitting 1/8 NPT straight"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "HM8890",
+          "page": 1,
+          "quote": "HM8890 Grease fitting 1/8 NPT straight"
+        },
+        "description": {
+          "value": "Grease fitting 1/8 NPT straight",
+          "page": 1,
+          "quote": "Grease fitting 1/8 NPT straight"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 ea HM8890"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "50 ea HM8890"
+        },
+        "unit_price": {
+          "value": "$0.29",
+          "page": 1,
+          "quote": "$0.29 $14.50 2"
+        },
+        "line_total": {
+          "value": "$14.50",
+          "page": 1,
+          "quote": "$0.29 $14.50 2"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "$102.50 3 Sanding belt 6 x 48 in 60 grit"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "HM9616",
+          "page": 1,
+          "quote": "HM9616 Sanding belt 6 x 48 in 60 grit"
+        },
+        "description": {
+          "value": "Sanding belt 6 x 48 in 60 grit",
+          "page": 1,
+          "quote": "Sanding belt 6 x 48 in 60 grit"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 ea HM9616"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "50 ea HM9616"
+        },
+        "unit_price": {
+          "value": "$2.05",
+          "page": 1,
+          "quote": "$2.05 $102.50 3"
+        },
+        "line_total": {
+          "value": "$102.50",
+          "page": 1,
+          "quote": "$2.05 $102.50 3"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 9.2,
+      "cost_usd": 0.0198722,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 42.3,
+      "cost_usd": 0.0851622,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

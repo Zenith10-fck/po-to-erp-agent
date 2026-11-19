@@ -1,0 +1,4 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0011","PO-84082","2026-10-24","B0011","S0027","USD",1,"IT-10072","",12,"BX",120,"EA",63.8000,765.60,"","","Receiving closes at 2:30 pm","Order-PO-84082.pdf","dev-1"
+"C0011","PO-84082","2026-10-24","B0011","S0027","USD",2,"IT-10148","",50,"RL",50,"RL",6.5000,325.00,"","","Receiving closes at 2:30 pm","Order-PO-84082.pdf","dev-1"
+"C0011","PO-84082","2026-10-24","B0011","S0027","USD",3,"IT-10256","",1,"RL",250,"FT",420.0000,420.00,"","","Receiving closes at 2:30 pm","Order-PO-84082.pdf","dev-1"

@@ -1,0 +1,52 @@
+{
+  "doc_id": "dev-006",
+  "split": "dev",
+  "category": "scan",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261001_0895.pdf",
+  "truth": {
+    "customer_id": "C0012",
+    "customer_po_number": "GPMS/6038",
+    "po_date": "2026-10-01",
+    "bill_to_id": "B0012",
+    "ship_to_id": "S0029",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10108",
+        "customer_part_no": "",
+        "order_qty": "100",
+        "order_uom": "EA",
+        "base_qty": "100",
+        "base_uom": "EA",
+        "unit_price": "0.8900",
+        "line_total": "89.00",
+        "requested_date": "2026-11-05"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10168",
+        "customer_part_no": "",
+        "order_qty": "9",
+        "order_uom": "EA",
+        "base_qty": "9",
+        "base_uom": "EA",
+        "unit_price": "19.4900",
+        "line_total": "175.41",
+        "requested_date": "2026-11-05"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Dock 3, call before delivery"
+  },
+  "trap_detail": null
+}

@@ -1,0 +1,108 @@
+{
+  "doc_id": "dev-015",
+  "split": "dev",
+  "seed": 1015,
+  "kind": "po",
+  "layout": "side_by_side",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Granite Peak Mining Services",
+    "address_lines": [
+      "9 Quarry Ln",
+      "Duluth, MN 55802"
+    ],
+    "contact": "Purchasing: P. Whitcombe, 555-0164",
+    "logo_text": "GRANITE"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "GPMS-26-7211",
+  "po_number_label": "P.O. Number",
+  "po_date": "17-Oct-2026",
+  "bill_to": {
+    "name": "Granite Peak Mining Services",
+    "address_lines": [
+      "9 Quarry Ln",
+      "Duluth, MN 55802"
+    ]
+  },
+  "ship_to": {
+    "name": "Granite Main Plant",
+    "address_lines": [
+      "9 Quarry Ln",
+      "Duluth, MN 55802"
+    ]
+  },
+  "currency": "USD",
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10274",
+      "customer_part_no": null,
+      "description": "Ball bearing 6206-2RS",
+      "qty": "4",
+      "uom": "ea",
+      "unit_price": "9.54",
+      "line_total": "38.16",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10210",
+      "customer_part_no": null,
+      "description": "Brake parts cleaner 14 oz aerosol",
+      "qty": "2",
+      "uom": "ea",
+      "unit_price": "19.93",
+      "line_total": "39.86",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10146",
+      "customer_part_no": null,
+      "description": "Packing tape 2 in x 110 yd tan",
+      "qty": "40",
+      "uom": "rl",
+      "unit_price": "9.58",
+      "line_total": "383.20",
+      "requested_date": null
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10228",
+      "customer_part_no": null,
+      "description": "MIG wire ER70S-6 .045 in 33 lb spool",
+      "qty": "7",
+      "uom": "ea",
+      "unit_price": "75.40",
+      "line_total": "527.80",
+      "requested_date": null
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10160",
+      "customer_part_no": null,
+      "description": "Welding gloves 14 in size L",
+      "qty": "2",
+      "uom": "PALLET",
+      "unit_price": "686.80",
+      "line_total": "1373.60",
+      "requested_date": null
+    }
+  ],
+  "order_total": "2362.62",
+  "order_total_label": "Grand Total",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "held-014",
+  "split": "heldout",
+  "category": "trap",
+  "is_po": true,
+  "trap": "missing_po_number",
+  "expected_route": "review",
+  "expected_reason_codes": [
+    "R01"
+  ],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "purchase_order.pdf",
+  "truth": {
+    "customer_id": "C0008",
+    "customer_po_number": null,
+    "po_date": "2026-11-02",
+    "bill_to_id": "B0008",
+    "ship_to_id": "S0019",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10279",
+        "customer_part_no": "",
+        "order_qty": "6",
+        "order_uom": "EA",
+        "base_qty": "6",
+        "base_uom": "EA",
+        "unit_price": "6.2800",
+        "line_total": "37.68",
+        "requested_date": "2026-11-22"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10287",
+        "customer_part_no": "",
+        "order_qty": "200",
+        "order_uom": "EA",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "0.2200",
+        "line_total": "44.00",
+        "requested_date": "2026-11-30"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10109",
+        "customer_part_no": "",
+        "order_qty": "20",
+        "order_uom": "EA",
+        "base_qty": "20",
+        "base_uom": "EA",
+        "unit_price": "1.4500",
+        "line_total": "29.00",
+        "requested_date": "2026-11-23"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10241",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "1.2700",
+        "line_total": "15.24",
+        "requested_date": "2026-11-24"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": ""
+  },
+  "trap_detail": {
+    "field": "po_number",
+    "printed": null
+  }
+}

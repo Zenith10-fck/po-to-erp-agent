@@ -1,0 +1,347 @@
+{
+  "doc_id": "dev-010",
+  "sender": "\"R. Lindqvist\" <purchasing@copperline-electric-contractors.example>",
+  "subject": "Purchase Order 4500281298 - Copperline Electric Contractors",
+  "source_file": "PO_4500281298.pdf",
+  "mode": "text",
+  "pages": 3,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Fax cover sheet explicitly labeled \"Re: Purchase order\" from Copperline Electric Contractors to a supplier's order desk, matching the email's purchase order subject."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      2
+    ],
+    "ignored_pages": [
+      1,
+      3
+    ],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "4500281298",
+      "page": 2,
+      "quote": "Purchase Order No. 4500281298"
+    },
+    "po_date": {
+      "value": "2026-10-03",
+      "page": 2,
+      "quote": "Order date 2026-10-03"
+    },
+    "customer_name": {
+      "value": "Copperline Electric Contractors",
+      "page": 2,
+      "quote": "FROM Copperline Electric Contractors"
+    },
+    "bill_to_name": {
+      "value": "Copperline Electric Contractors",
+      "page": 2,
+      "quote": "BILL TO Copperline Electric Contractors"
+    },
+    "bill_to_address": {
+      "value": "77 Switchyard Rd, Kalamazoo, MI 49007",
+      "page": 2,
+      "quote": "BILL TO Copperline Electric Contractors 77 Switchyard Rd Kalamazoo, MI 49007"
+    },
+    "ship_to_name": {
+      "value": "Copperline Main Plant",
+      "page": 2,
+      "quote": "SHIP TO Copperline Main Plant"
+    },
+    "ship_to_address": {
+      "value": "77 Switchyard Rd, Kalamazoo, MI 49007",
+      "page": 2,
+      "quote": "SHIP TO Copperline Main Plant 77 Switchyard Rd Kalamazoo, MI 49007"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 2,
+      "quote": "Currency USD"
+    },
+    "order_total": {
+      "value": "1,475.60",
+      "page": 2,
+      "quote": "PO Total 1,475.60"
+    },
+    "carrier_name": {
+      "value": "UPS",
+      "page": 2,
+      "quote": "Carrier UPS"
+    },
+    "carrier_account_no": {
+      "value": "K4ZJKP",
+      "page": 2,
+      "quote": "Ship collect, UPS acct K4ZJKP"
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 2,
+          "quote": "1 Pneumatic quick coupler socket 3/8 in"
+        },
+        "item_no": {
+          "value": "IT-10088",
+          "page": 2,
+          "quote": "1 IT-10088 2026-10-30 50 each 8.01 400.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Pneumatic quick coupler socket 3/8 in",
+          "page": 2,
+          "quote": "Pneumatic quick coupler socket 3/8 in"
+        },
+        "qty": {
+          "value": "50",
+          "page": 2,
+          "quote": "50 each 8.01 400.50"
+        },
+        "uom": {
+          "value": "each",
+          "page": 2,
+          "quote": "50 each 8.01"
+        },
+        "unit_price": {
+          "value": "8.01",
+          "page": 2,
+          "quote": "each 8.01 400.50"
+        },
+        "line_total": {
+          "value": "400.50",
+          "page": 2,
+          "quote": "8.01 400.50"
+        },
+        "requested_date": {
+          "value": "2026-10-30",
+          "page": 2,
+          "quote": "IT-10088 2026-10-30 50"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 2,
+          "quote": "2 Brass compression connector 1/2 in"
+        },
+        "item_no": {
+          "value": "IT-10076",
+          "page": 2,
+          "quote": "2 IT-10076 2026-10-28 20 each 6.38 127.60"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass compression connector 1/2 in",
+          "page": 2,
+          "quote": "Brass compression connector 1/2 in"
+        },
+        "qty": {
+          "value": "20",
+          "page": 2,
+          "quote": "20 each 6.38 127.60"
+        },
+        "uom": {
+          "value": "each",
+          "page": 2,
+          "quote": "20 each 6.38"
+        },
+        "unit_price": {
+          "value": "6.38",
+          "page": 2,
+          "quote": "each 6.38 127.60"
+        },
+        "line_total": {
+          "value": "127.60",
+          "page": 2,
+          "quote": "6.38 127.60"
+        },
+        "requested_date": {
+          "value": "2026-10-28",
+          "page": 2,
+          "quote": "IT-10076 2026-10-28 20"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 2,
+          "quote": "3 MIG wire ER70S-6 .045 in 33 lb spool"
+        },
+        "item_no": {
+          "value": "IT-10228",
+          "page": 2,
+          "quote": "3 IT-10228 2026-10-22 3 each 72.50 217.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "MIG wire ER70S-6 .045 in 33 lb spool",
+          "page": 2,
+          "quote": "MIG wire ER70S-6 .045 in 33 lb spool"
+        },
+        "qty": {
+          "value": "3",
+          "page": 2,
+          "quote": "3 each 72.50 217.50"
+        },
+        "uom": {
+          "value": "each",
+          "page": 2,
+          "quote": "3 each 72.50"
+        },
+        "unit_price": {
+          "value": "72.50",
+          "page": 2,
+          "quote": "each 72.50 217.50"
+        },
+        "line_total": {
+          "value": "217.50",
+          "page": 2,
+          "quote": "72.50 217.50"
+        },
+        "requested_date": {
+          "value": "2026-10-22",
+          "page": 2,
+          "quote": "IT-10228 2026-10-22 3"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 2,
+          "quote": "4 Steel pipe plug 1/4 in NPT"
+        },
+        "item_no": {
+          "value": "IT-10108",
+          "page": 2,
+          "quote": "4 IT-10108 2026-10-26 200 each 0.86 172.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Steel pipe plug 1/4 in NPT",
+          "page": 2,
+          "quote": "Steel pipe plug 1/4 in NPT"
+        },
+        "qty": {
+          "value": "200",
+          "page": 2,
+          "quote": "200 each 0.86 172.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 2,
+          "quote": "200 each 0.86"
+        },
+        "unit_price": {
+          "value": "0.86",
+          "page": 2,
+          "quote": "each 0.86 172.00"
+        },
+        "line_total": {
+          "value": "172.00",
+          "page": 2,
+          "quote": "0.86 172.00"
+        },
+        "requested_date": {
+          "value": "2026-10-26",
+          "page": 2,
+          "quote": "IT-10108 2026-10-26 200"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 2,
+          "quote": "5 Wedge anchor 3/8 x 3 in zinc"
+        },
+        "item_no": {
+          "value": "IT-10058",
+          "page": 2,
+          "quote": "5 IT-10058 2026-11-01 12 box 46.50 558.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wedge anchor 3/8 x 3 in zinc",
+          "page": 2,
+          "quote": "Wedge anchor 3/8 x 3 in zinc"
+        },
+        "qty": {
+          "value": "12",
+          "page": 2,
+          "quote": "12 box 46.50 558.00"
+        },
+        "uom": {
+          "value": "box",
+          "page": 2,
+          "quote": "12 box 46.50"
+        },
+        "unit_price": {
+          "value": "46.50",
+          "page": 2,
+          "quote": "box 46.50 558.00"
+        },
+        "line_total": {
+          "value": "558.00",
+          "page": 2,
+          "quote": "46.50 558.00"
+        },
+        "requested_date": {
+          "value": "2026-11-01",
+          "page": 2,
+          "quote": "IT-10058 2026-11-01 12"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 8.4,
+      "cost_usd": 0.019399800000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 38.2,
+      "cost_usd": 0.1003364,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

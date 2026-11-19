@@ -1,0 +1,329 @@
+{
+  "doc_id": "dev-007",
+  "source_file": "scan_20261009_0811.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "sender": "\"H. Sorensen\" <purchasing@tallgrass-equipment-rental.example>",
+  "subject": "Tallgrass Equipment Rental Inc. PO P226967",
+  "route": "review",
+  "reason_codes": [
+    "R11"
+  ],
+  "findings": [
+    {
+      "code": "R11",
+      "scope": "order",
+      "field": "legibility",
+      "read": "partly_unclear",
+      "expected": null,
+      "page": null,
+      "note": "the model could not read every field with certainty",
+      "name": "Low legibility"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO (P226967) with items, quantities, and pricing ordered from Northfield Industrial Supply by Tallgrass Equipment Rental."
+  },
+  "extraction": {
+    "legibility": "partly_unclear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "P226967",
+      "page": 1,
+      "quote": "P.O. Number: P226967"
+    },
+    "po_date": {
+      "value": "10/9/2026",
+      "page": 1,
+      "quote": "ORDER DATE: 10/9/2026"
+    },
+    "customer_name": {
+      "value": "Tallgrass Equipment Rental Inc.",
+      "page": 1,
+      "quote": "Tallgrass Equipment Rental Inc."
+    },
+    "bill_to_name": {
+      "value": "Tallgrass Equipment Rental Inc.",
+      "page": 1,
+      "quote": "BILL TO: Tallgrass Equipment Rental Inc."
+    },
+    "bill_to_address": {
+      "value": "500 Ledger Ct Suite 200, Peoria, IL 61602",
+      "page": 1,
+      "quote": "500 Ledger Ct Suite 200 Peoria, IL 61602"
+    },
+    "ship_to_name": {
+      "value": "Tallgrass Service Center",
+      "page": 1,
+      "quote": "SHIP TO: Tallgrass Service Center"
+    },
+    "ship_to_address": {
+      "value": "2893 Switchyard Rd, Joliet, IL 60432",
+      "page": 1,
+      "quote": "2893 Switchyard Rd Joliet, IL 60432"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "764.40",
+      "page": 1,
+      "quote": "Total .... 764.40"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Dock 3, call before delivery",
+      "page": 1,
+      "quote": "SHIPPING INSTR: Dock 3, call before delivery"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 IT-10118 Cut-off wheel 14 x 1/8 in chop saw"
+        },
+        "item_no": {
+          "value": "IT-10118",
+          "page": 1,
+          "quote": "10 IT-10118 Cut-off wheel 14 x 1/8 in chop saw"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cut-off wheel 14 x 1/8 in chop saw",
+          "page": 1,
+          "quote": "Cut-off wheel 14 x 1/8 in chop saw"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 ea"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "50 ea"
+        },
+        "unit_price": {
+          "value": "6.67",
+          "page": 1,
+          "quote": "6.67"
+        },
+        "line_total": {
+          "value": "333.50",
+          "page": 1,
+          "quote": "333.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "20",
+          "page": 1,
+          "quote": "20 IT-10272 Ball bearing 6204-2RS"
+        },
+        "item_no": {
+          "value": "IT-10272",
+          "page": 1,
+          "quote": "20 IT-10272 Ball bearing 6204-2RS"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6204-2RS",
+          "page": 1,
+          "quote": "Ball bearing 6204-2RS"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 bx"
+        },
+        "uom": {
+          "value": "bx",
+          "page": 1,
+          "quote": "12 bx"
+        },
+        "unit_price": {
+          "value": "35.20",
+          "page": 1,
+          "quote": "35.20"
+        },
+        "line_total": {
+          "value": "422.40",
+          "page": 1,
+          "quote": "422.40"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "30",
+          "page": 1,
+          "quote": "30 IT-10032 Flat washer M16 stainless A2"
+        },
+        "item_no": {
+          "value": "IT-10032",
+          "page": 1,
+          "quote": "30 IT-10032 Flat washer M16 stainless A2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Flat washer M16 stainless A2",
+          "page": 1,
+          "quote": "Flat washer M16 stainless A2"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 ea"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "50 ea"
+        },
+        "unit_price": {
+          "value": "0.17",
+          "page": 1,
+          "quote": "0.17"
+        },
+        "line_total": {
+          "value": "8.50",
+          "page": 1,
+          "quote": "8.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0009",
+    "customer_name": "Tallgrass Equipment Rental Inc.",
+    "bill_to_id": "B0009",
+    "ship_to_id": "S0021",
+    "currency": "USD",
+    "po_number": "P226967",
+    "po_date": "2026-10-09",
+    "carrier_account_no": "",
+    "shipping_notes": "Dock 3, call before delivery",
+    "order_total_printed": "764.40",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10118",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "6.67",
+        "list_price": "6.67",
+        "line_total_printed": "333.50",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10272",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "BX",
+        "base_qty": "120",
+        "base_uom": "EA",
+        "unit_price": "35.20",
+        "list_price": "35.20",
+        "line_total_printed": "422.40",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10032",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "0.17",
+        "list_price": "0.17",
+        "line_total_printed": "8.50",
+        "requested_date": ""
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.3,
+      "cost_usd": 0.018451600000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 94.8,
+      "cost_usd": 0.14054280000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 120.3,
+      "cost_usd": 0.2066518,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

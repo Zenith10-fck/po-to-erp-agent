@@ -1,0 +1,75 @@
+{
+  "doc_id": "held-002",
+  "split": "heldout",
+  "seed": 5002,
+  "kind": "po",
+  "layout": "form_boxes",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Stonebridge Elevator Service",
+    "address_lines": [
+      "220 Gantry Way",
+      "South Bend, IN 46601"
+    ],
+    "contact": "Purchasing: J. Marchetti, 555-0183",
+    "logo_text": "STONEBRIDGE"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "4500361594",
+  "po_number_label": "PO Number",
+  "po_date": "11/3/2026",
+  "bill_to": {
+    "name": "Stonebridge Elevator Service",
+    "address_lines": [
+      "220 Gantry Way",
+      "South Bend, IN 46601"
+    ]
+  },
+  "ship_to": {
+    "name": "Stonebridge Main Plant",
+    "address_lines": [
+      "220 Gantry Way",
+      "South Bend, IN 46601"
+    ]
+  },
+  "currency": "USD",
+  "carrier": null,
+  "shipping_notes": "Deliver Mon-Fri 7am-3pm only",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "98-8149",
+      "customer_part_no": null,
+      "description": "Hex bolt M6 x 30 zinc",
+      "qty": "250",
+      "uom": "pcs",
+      "unit_price": "0.08",
+      "line_total": "20.00",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "51-3587",
+      "customer_part_no": null,
+      "description": "Polyurethane tubing 1/4 in OD blue",
+      "qty": "50",
+      "uom": "ft",
+      "unit_price": "1.71",
+      "line_total": "85.50",
+      "requested_date": null
+    }
+  ],
+  "order_total": "105.50",
+  "order_total_label": "Grand Total",
+  "payment_terms": "Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets (none are needed, never commit any)
+.env
+.env.*
+*.credentials.json
+
+# Pipeline output and scratch
+out/
+state/
+tmp/
+*.csv.tmp
+
+# doc2md cache
+*.pdf.md
+
+# Internal build notes, not for the public repo
+MASTER-PROMPT.md
+
+# Render previews (large, regenerate with preview.py)
+test-set/preview/
+
+# Not part of this project
+proposals/
+
+# Public staging copy (built for publishing, never committed here)
+dist/

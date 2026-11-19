@@ -1,0 +1,26 @@
+{
+  "doc_id": "held-018",
+  "sender": "Accounts Receivable <billing@thistledown-pallet.example>",
+  "subject": "Invoice INV-65865",
+  "source_file": "INV-65865.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "invoice",
+    "reason": "Document is a billing invoice (INV-65865) with amount due and payment terms, not an order."
+  },
+  "extract": null,
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 6.8,
+      "cost_usd": 0.018073000000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

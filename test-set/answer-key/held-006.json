@@ -1,0 +1,100 @@
+{
+  "doc_id": "held-006",
+  "split": "heldout",
+  "category": "scan",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261030_1100.pdf",
+  "truth": {
+    "customer_id": "C0017",
+    "customer_po_number": "71741",
+    "po_date": "2026-10-30",
+    "bill_to_id": "B0017",
+    "ship_to_id": "S0042",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10089",
+        "customer_part_no": "",
+        "order_qty": "8",
+        "order_uom": "PK",
+        "base_qty": "80",
+        "base_uom": "EA",
+        "unit_price": "52.4000",
+        "line_total": "419.20",
+        "requested_date": "2026-11-18"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10097",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "1.3400",
+        "line_total": "16.08",
+        "requested_date": "2026-11-17"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10183",
+        "customer_part_no": "",
+        "order_qty": "8",
+        "order_uom": "PK",
+        "base_qty": "48",
+        "base_uom": "EA",
+        "unit_price": "86.0400",
+        "line_total": "688.32",
+        "requested_date": "2026-11-12"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10291",
+        "customer_part_no": "",
+        "order_qty": "6",
+        "order_uom": "EA",
+        "base_qty": "6",
+        "base_uom": "EA",
+        "unit_price": "1.3600",
+        "line_total": "8.16",
+        "requested_date": "2026-11-11"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10125",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "7.1100",
+        "line_total": "355.50",
+        "requested_date": "2026-11-16"
+      },
+      {
+        "line_no": 6,
+        "item_id": "IT-10005",
+        "customer_part_no": "",
+        "order_qty": "8",
+        "order_uom": "CS",
+        "base_qty": "8000",
+        "base_uom": "EA",
+        "unit_price": "230.0000",
+        "line_total": "1840.00",
+        "requested_date": "2026-11-10"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Partial shipments OK"
+  },
+  "trap_detail": null
+}

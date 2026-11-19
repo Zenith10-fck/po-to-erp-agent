@@ -1,0 +1,110 @@
+{
+  "doc_id": "held-005",
+  "split": "heldout",
+  "seed": 5005,
+  "kind": "po",
+  "layout": "modern_blocks",
+  "degradations": [
+    "scan"
+  ],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Maplewick Furniture Mfg.",
+    "address_lines": [
+      "57 Loomis Ct",
+      "Holland, MI 49423"
+    ],
+    "contact": "Purchasing: L. Petrova, 555-0124",
+    "logo_text": "MAPLEWICK"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "64115",
+  "po_number_label": "Purchase Order No.",
+  "po_date": "2026-11-01",
+  "bill_to": {
+    "name": "Maplewick Furniture Mfg.",
+    "address_lines": [
+      "57 Loomis Ct",
+      "Holland, MI 49423"
+    ]
+  },
+  "ship_to": {
+    "name": "Maplewick Main Plant",
+    "address_lines": [
+      "57 Loomis Ct",
+      "Holland, MI 49423"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Liftgate required",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10259",
+      "customer_part_no": null,
+      "description": "Wire rope galvanized 1/8 in",
+      "qty": "100",
+      "uom": "FT",
+      "unit_price": "3.27",
+      "line_total": "327.00",
+      "requested_date": "2026-11-10"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10179",
+      "customer_part_no": null,
+      "description": "HSS jobber drill bit 1/4 in",
+      "qty": "6",
+      "uom": "EA",
+      "unit_price": "3.96",
+      "line_total": "23.76",
+      "requested_date": "2026-11-30"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10145",
+      "customer_part_no": null,
+      "description": "Packing tape 2 in x 110 yd clear",
+      "qty": "10",
+      "uom": "RL",
+      "unit_price": "7.57",
+      "line_total": "75.70",
+      "requested_date": "2026-11-26"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10099",
+      "customer_part_no": null,
+      "description": "Hose clamp worm drive #48 stainless",
+      "qty": "3",
+      "uom": "BX",
+      "unit_price": "7.10",
+      "line_total": "21.30",
+      "requested_date": "2026-11-12"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10047",
+      "customer_part_no": null,
+      "description": "Self-drilling screw #8 x 3/4 in hex washer head",
+      "qty": "200",
+      "uom": "EA",
+      "unit_price": "0.13",
+      "line_total": "26.00",
+      "requested_date": "2026-11-14"
+    }
+  ],
+  "order_total": "473.76",
+  "order_total_label": "Total USD",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

@@ -1,0 +1,373 @@
+{
+  "doc_id": "dev-014",
+  "source_file": "Order-KM-26-2432.pdf",
+  "mode": "text",
+  "pages": 1,
+  "sender": "\"L. Petrova\" <procurement@kessler-machine.example>",
+  "subject": "Kessler Machine PO KM-26-2432",
+  "route": "review",
+  "reason_codes": [
+    "R02"
+  ],
+  "findings": [
+    {
+      "code": "R02",
+      "scope": "order",
+      "field": "customer_name",
+      "read": "Kessler Machine",
+      "expected": null,
+      "page": 1,
+      "note": "two customers match equally well",
+      "name": "Customer not matched"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal PO from Kessler Machine listing items, quantities, costs, and ship-to details ordering goods from the supplier."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "KM-26-2432",
+      "page": 1,
+      "quote": "PO Number KM-26-2432"
+    },
+    "po_date": {
+      "value": "October 13, 2026",
+      "page": 1,
+      "quote": "Order Date October 13, 2026"
+    },
+    "customer_name": {
+      "value": "Kessler Machine",
+      "page": 1,
+      "quote": "KESSLER Kessler Machine 1450 Foundry Rd"
+    },
+    "bill_to_name": {
+      "value": "Kessler Machine",
+      "page": 1,
+      "quote": "BILL TO Kessler Machine"
+    },
+    "bill_to_address": {
+      "value": "1450 Foundry Rd, Akron, OH 44301",
+      "page": 1,
+      "quote": "Kessler Machine 1450 Foundry Rd Akron, OH 44301"
+    },
+    "ship_to_name": {
+      "value": "Kessler Tool Crib",
+      "page": 1,
+      "quote": "SHIP TO Kessler Tool Crib"
+    },
+    "ship_to_address": {
+      "value": "1835 Ironworks Blvd, Findlay, OH 45840",
+      "page": 1,
+      "quote": "Kessler Tool Crib 1835 Ironworks Blvd Findlay, OH 45840"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency USD"
+    },
+    "order_total": {
+      "value": "6,595.50",
+      "page": 1,
+      "quote": "Total 6,595.50"
+    },
+    "carrier_name": {
+      "value": "UPS Ground",
+      "page": 1,
+      "quote": "Ship Via UPS Ground"
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Reference our PO number on the packing slip",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS Reference our PO number on the packing slip"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10224"
+        },
+        "item_no": {
+          "value": "IT-10224",
+          "page": 1,
+          "quote": "Vendor Part IT-10224"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Dry film lubricant 11 oz aerosol",
+          "page": 1,
+          "quote": "Dry film lubricant 11 oz aerosol"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "Ord Qty 10"
+        },
+        "uom": {
+          "value": "case",
+          "page": 1,
+          "quote": "UOM case"
+        },
+        "unit_price": {
+          "value": "154.38",
+          "page": 1,
+          "quote": "Unit Cost 154.38"
+        },
+        "line_total": {
+          "value": "1,543.80",
+          "page": 1,
+          "quote": "Ext Cost 1,543.80"
+        },
+        "requested_date": {
+          "value": "November 4, 2026",
+          "page": 1,
+          "quote": "Need Date November 4, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10092"
+        },
+        "item_no": {
+          "value": "IT-10092",
+          "page": 1,
+          "quote": "Vendor Part IT-10092"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball valve brass 1-1/4 in full port",
+          "page": 1,
+          "quote": "Ball valve brass 1-1/4 in full port"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "Ord Qty 10"
+        },
+        "uom": {
+          "value": "box",
+          "page": 1,
+          "quote": "UOM box"
+        },
+        "unit_price": {
+          "value": "92.94",
+          "page": 1,
+          "quote": "Unit Cost 92.94"
+        },
+        "line_total": {
+          "value": "929.40",
+          "page": 1,
+          "quote": "Ext Cost 929.40"
+        },
+        "requested_date": {
+          "value": "November 12, 2026",
+          "page": 1,
+          "quote": "Need Date November 12, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 IT-10244"
+        },
+        "item_no": {
+          "value": "IT-10244",
+          "page": 1,
+          "quote": "Vendor Part IT-10244"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cable tie 14 in natural (bag of 100)",
+          "page": 1,
+          "quote": "Cable tie 14 in natural (bag of 100)"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "Ord Qty 6"
+        },
+        "uom": {
+          "value": "case",
+          "page": 1,
+          "quote": "UOM case"
+        },
+        "unit_price": {
+          "value": "65.40",
+          "page": 1,
+          "quote": "Unit Cost 65.40"
+        },
+        "line_total": {
+          "value": "392.40",
+          "page": 1,
+          "quote": "Ext Cost 392.40"
+        },
+        "requested_date": {
+          "value": "November 6, 2026",
+          "page": 1,
+          "quote": "Need Date November 6, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10268"
+        },
+        "item_no": {
+          "value": "IT-10268",
+          "page": 1,
+          "quote": "Vendor Part IT-10268"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6200-2RS",
+          "page": 1,
+          "quote": "Ball bearing 6200-2RS"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "Ord Qty 3"
+        },
+        "uom": {
+          "value": "box",
+          "page": 1,
+          "quote": "UOM box"
+        },
+        "unit_price": {
+          "value": "43.30",
+          "page": 1,
+          "quote": "Unit Cost 43.30"
+        },
+        "line_total": {
+          "value": "129.90",
+          "page": 1,
+          "quote": "Ext Cost 129.90"
+        },
+        "requested_date": {
+          "value": "October 27, 2026",
+          "page": 1,
+          "quote": "Need Date October 27, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 IT-10256"
+        },
+        "item_no": {
+          "value": "IT-10256",
+          "page": 1,
+          "quote": "Vendor Part IT-10256"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 1/4 in OD black",
+          "page": 1,
+          "quote": "Polyurethane tubing 1/4 in OD black"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "Ord Qty 8"
+        },
+        "uom": {
+          "value": "roll",
+          "page": 1,
+          "quote": "UOM roll"
+        },
+        "unit_price": {
+          "value": "450.00",
+          "page": 1,
+          "quote": "Unit Cost 450.00"
+        },
+        "line_total": {
+          "value": "3,600.00",
+          "page": 1,
+          "quote": "Ext Cost 3,600.00"
+        },
+        "requested_date": {
+          "value": "November 9, 2026",
+          "page": 1,
+          "quote": "Need Date November 9, 2026"
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": null,
+    "customer_name": null,
+    "bill_to_id": null,
+    "ship_to_id": null,
+    "currency": null,
+    "po_number": "KM-26-2432",
+    "po_date": "2026-10-13",
+    "carrier_account_no": "",
+    "shipping_notes": "Reference our PO number on the packing slip",
+    "order_total_printed": "6595.50",
+    "lines": []
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.9,
+      "cost_usd": 0.0183016,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 45.1,
+      "cost_usd": 0.0926698,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

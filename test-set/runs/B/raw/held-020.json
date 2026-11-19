@@ -1,0 +1,26 @@
+{
+  "doc_id": "held-020",
+  "sender": "Midwest Fastener Forum <newsletter@midwest-fastener-forum.example>",
+  "subject": "Midwest Fastener Forum Newsletter - November 2026",
+  "source_file": "newsletter_2026_11.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "other",
+    "reason": "This is a newsletter with industry news and announcements, not an order, invoice, or price inquiry."
+  },
+  "extract": null,
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 6.5,
+      "cost_usd": 0.0180574,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

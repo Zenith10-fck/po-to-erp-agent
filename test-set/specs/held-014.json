@@ -1,0 +1,97 @@
+{
+  "doc_id": "held-014",
+  "split": "heldout",
+  "seed": 5014,
+  "kind": "po",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Ironvale Welding Supply",
+    "address_lines": [
+      "254 Smelter Way",
+      "Erie, PA 16501"
+    ],
+    "contact": "Purchasing: E. Varga, 555-0155",
+    "logo_text": "IRONVALE"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": null,
+  "po_number_label": null,
+  "po_date": "11/2/2026",
+  "bill_to": {
+    "name": "Ironvale Welding Supply",
+    "address_lines": [
+      "254 Smelter Way",
+      "Erie, PA 16501"
+    ]
+  },
+  "ship_to": {
+    "name": "Ironvale Main Plant",
+    "address_lines": [
+      "254 Smelter Way",
+      "Erie, PA 16501"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10279",
+      "customer_part_no": null,
+      "description": "V-belt A54",
+      "qty": "6",
+      "uom": "EA",
+      "unit_price": "6.28",
+      "line_total": "37.68",
+      "requested_date": "11/22/2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10287",
+      "customer_part_no": null,
+      "description": "O-ring Buna-N dash 214",
+      "qty": "200",
+      "uom": "ea",
+      "unit_price": "0.22",
+      "line_total": "44.00",
+      "requested_date": "11/30/2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10109",
+      "customer_part_no": null,
+      "description": "Steel pipe plug 3/8 in NPT",
+      "qty": "20",
+      "uom": "EA",
+      "unit_price": "1.45",
+      "line_total": "29.00",
+      "requested_date": "11/23/2026"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10241",
+      "customer_part_no": null,
+      "description": "Cable tie 4 in black (bag of 100)",
+      "qty": "12",
+      "uom": "pcs",
+      "unit_price": "1.27",
+      "line_total": "15.24",
+      "requested_date": "11/24/2026"
+    }
+  ],
+  "order_total": "125.92",
+  "order_total_label": "Total USD",
+  "payment_terms": "2% 10 Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

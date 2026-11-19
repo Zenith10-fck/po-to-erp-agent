@@ -1,0 +1,122 @@
+{
+  "doc_id": "held-007",
+  "split": "heldout",
+  "seed": 5007,
+  "kind": "po",
+  "layout": "classic_table",
+  "degradations": [
+    "skew",
+    "noise"
+  ],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Sablewood Cabinet Co.",
+    "address_lines": [
+      "300 Tannery Row Suite 12",
+      "Elkhart, IN 46516"
+    ],
+    "contact": "Purchasing: K. Abernathy, 555-0146",
+    "logo_text": "SABLEWOOD"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "SC-26-4344",
+  "po_number_label": "P.O. Number",
+  "po_date": "11/06/2026",
+  "bill_to": {
+    "name": "Sablewood Cabinet Co.",
+    "address_lines": [
+      "300 Tannery Row Suite 12",
+      "Elkhart, IN 46516"
+    ]
+  },
+  "ship_to": {
+    "name": "Sablewood Maintenance Shop",
+    "address_lines": [
+      "838 Mill Road",
+      "South Bend, IN 46601"
+    ]
+  },
+  "currency": "USD",
+  "carrier": null,
+  "shipping_notes": "Liftgate required",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10195",
+      "customer_part_no": null,
+      "description": "Hacksaw blade 12 in 18 TPI",
+      "qty": "12",
+      "uom": "each",
+      "unit_price": "1.58",
+      "line_total": "18.96",
+      "requested_date": "11/24/2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10207",
+      "customer_part_no": null,
+      "description": "Cutting fluid 1 gal",
+      "qty": "10",
+      "uom": "each",
+      "unit_price": "23.63",
+      "line_total": "236.30",
+      "requested_date": "12/09/2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10065",
+      "customer_part_no": null,
+      "description": "Blind rivet aluminum 3/16 x 1/2 in",
+      "qty": "4",
+      "uom": "case",
+      "unit_price": "500.00",
+      "line_total": "2,000.00",
+      "requested_date": "11/27/2026"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10273",
+      "customer_part_no": null,
+      "description": "Ball bearing 6205-2RS",
+      "qty": "12",
+      "uom": "each",
+      "unit_price": "8.49",
+      "line_total": "101.88",
+      "requested_date": "12/02/2026"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10101",
+      "customer_part_no": null,
+      "description": "Brass hose barb 3/8 in x 1/4 NPT",
+      "qty": "24",
+      "uom": "each",
+      "unit_price": "1.82",
+      "line_total": "43.68",
+      "requested_date": "11/27/2026"
+    },
+    {
+      "line_no": "6",
+      "item_no": "IT-10179",
+      "customer_part_no": null,
+      "description": "HSS jobber drill bit 1/4 in",
+      "qty": "4",
+      "uom": "each",
+      "unit_price": "4.24",
+      "line_total": "16.96",
+      "requested_date": "11/18/2026"
+    }
+  ],
+  "order_total": "2,417.78",
+  "order_total_label": "Grand Total",
+  "payment_terms": "Net 30 days",
+  "injection_text": null,
+  "injection_style": null
+}

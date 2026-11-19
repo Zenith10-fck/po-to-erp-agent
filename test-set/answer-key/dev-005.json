@@ -1,0 +1,100 @@
+{
+  "doc_id": "dev-005",
+  "split": "dev",
+  "category": "scan",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261023_1617.pdf",
+  "truth": {
+    "customer_id": "C0007",
+    "customer_po_number": "OC-26-8757",
+    "po_date": "2026-10-23",
+    "bill_to_id": "B0007",
+    "ship_to_id": "S0018",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10156",
+        "customer_part_no": "",
+        "order_qty": "6",
+        "order_uom": "PR",
+        "base_qty": "6",
+        "base_uom": "PR",
+        "unit_price": "11.3500",
+        "line_total": "68.10",
+        "requested_date": "2026-11-24"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10186",
+        "customer_part_no": "",
+        "order_qty": "11",
+        "order_uom": "PK",
+        "base_qty": "66",
+        "base_uom": "EA",
+        "unit_price": "74.1000",
+        "line_total": "815.10",
+        "requested_date": "2026-11-08"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10288",
+        "customer_part_no": "",
+        "order_qty": "200",
+        "order_uom": "EA",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "0.2600",
+        "line_total": "52.00",
+        "requested_date": "2026-11-02"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10094",
+        "customer_part_no": "",
+        "order_qty": "5",
+        "order_uom": "BX",
+        "base_qty": "30",
+        "base_uom": "EA",
+        "unit_price": "71.8800",
+        "line_total": "359.40",
+        "requested_date": "2026-11-27"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10256",
+        "customer_part_no": "",
+        "order_qty": "250",
+        "order_uom": "FT",
+        "base_qty": "250",
+        "base_uom": "FT",
+        "unit_price": "1.7300",
+        "line_total": "432.50",
+        "requested_date": "2026-11-10"
+      },
+      {
+        "line_no": 6,
+        "item_id": "IT-10066",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "8.4400",
+        "line_total": "422.00",
+        "requested_date": "2026-11-07"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Dock 3, call before delivery"
+  },
+  "trap_detail": null
+}

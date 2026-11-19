@@ -1,0 +1,121 @@
+{
+  "doc_id": "dev-005",
+  "split": "dev",
+  "seed": 1005,
+  "kind": "po",
+  "layout": "compact_grid",
+  "degradations": [
+    "scan"
+  ],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Oakhaven Conveyor Co.",
+    "address_lines": [
+      "608 Trestle Rd",
+      "Lima, OH 45801"
+    ],
+    "contact": "Purchasing: F. Ibarra, 555-0146",
+    "logo_text": "OAKHAVEN"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "OC-26-8757",
+  "po_number_label": "P.O. Number",
+  "po_date": "Oct 23, 2026",
+  "bill_to": {
+    "name": "Oakhaven Conveyor Co.",
+    "address_lines": [
+      "608 Trestle Rd",
+      "Lima, OH 45801"
+    ]
+  },
+  "ship_to": {
+    "name": "Oakhaven Main Plant",
+    "address_lines": [
+      "608 Trestle Rd",
+      "Lima, OH 45801"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Dock 3, call before delivery",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10156",
+      "customer_part_no": null,
+      "description": "Leather driver gloves size XL",
+      "qty": "6",
+      "uom": "pair",
+      "unit_price": "$11.35",
+      "line_total": "$68.10",
+      "requested_date": "Nov 24, 2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10186",
+      "customer_part_no": null,
+      "description": "Cobalt drill bit 1/2 in",
+      "qty": "11",
+      "uom": "PK",
+      "unit_price": "$74.10",
+      "line_total": "$815.10",
+      "requested_date": "Nov 8, 2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10288",
+      "customer_part_no": null,
+      "description": "O-ring Buna-N dash 222",
+      "qty": "200",
+      "uom": "pcs",
+      "unit_price": "$0.26",
+      "line_total": "$52.00",
+      "requested_date": "Nov 2, 2026"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10094",
+      "customer_part_no": null,
+      "description": "Ball valve stainless 1-1/4 in full port",
+      "qty": "5",
+      "uom": "BX",
+      "unit_price": "$71.88",
+      "line_total": "$359.40",
+      "requested_date": "Nov 27, 2026"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10256",
+      "customer_part_no": null,
+      "description": "Polyurethane tubing 1/4 in OD black",
+      "qty": "250",
+      "uom": "feet",
+      "unit_price": "$1.73",
+      "line_total": "$432.50",
+      "requested_date": "Nov 10, 2026"
+    },
+    {
+      "line_no": "6",
+      "item_no": "IT-10066",
+      "customer_part_no": null,
+      "description": "Brass compression elbow 1/4 in",
+      "qty": "50",
+      "uom": "EA",
+      "unit_price": "$8.44",
+      "line_total": "$422.00",
+      "requested_date": "Nov 7, 2026"
+    }
+  ],
+  "order_total": "$2,149.10",
+  "order_total_label": "PO Total",
+  "payment_terms": "Net 30 days",
+  "injection_text": null,
+  "injection_style": null
+}

@@ -1,0 +1,568 @@
+{
+  "doc_id": "held-008",
+  "sender": "\"B. Aldana\" <purchasing@quillfeather-printing-works.example>",
+  "subject": "Quillfeather Printing Works PO 4500292109",
+  "source_file": "scan_20261113_1435.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is titled \"Purchase Order\" with PO number, line items, quantities, and costs for goods ordered from the supplier."
+  },
+  "extract": {
+    "legibility": "partly_unclear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "4500292109",
+      "page": 1,
+      "quote": "Purchase Order No 4500292109"
+    },
+    "po_date": {
+      "value": "11/13/2026",
+      "page": 1,
+      "quote": "Order Date 11/13/2026"
+    },
+    "customer_name": {
+      "value": "Quillfeather Printing Works",
+      "page": 1,
+      "quote": "BILL TO Quillfeather Printing Works 1388 Depot St"
+    },
+    "bill_to_name": {
+      "value": "Quillfeather Printing Works",
+      "page": 1,
+      "quote": "BILL TO Quillfeather Printing Works"
+    },
+    "bill_to_address": {
+      "value": "1388 Depot St, Cedar Rapids, IA 52401",
+      "page": 1,
+      "quote": "1388 Depot St Cedar Rapids, IA 52401"
+    },
+    "ship_to_name": {
+      "value": "Quillfeather Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Quillfeather Main Plant"
+    },
+    "ship_to_address": {
+      "value": "1388 Depot St, Cedar Rapids, IA 52401",
+      "page": 1,
+      "quote": "1388 Depot St Cedar Rapids, IA 52401"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency USD"
+    },
+    "order_total": {
+      "value": "$342.88",
+      "page": 1,
+      "quote": "Total $342.88"
+    },
+    "carrier_name": {
+      "value": "FedEx Ground",
+      "page": 1,
+      "quote": "Ship Via FedEx Ground"
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Deliver to rear dock, door 6",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS: Deliver to rear dock, door 6"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10129 Wire cup brush 3 in knotted"
+        },
+        "item_no": {
+          "value": "IT-10129",
+          "page": 1,
+          "quote": "Vendor Part IT-10129 Wire cup brush 3 in knotted"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wire cup brush 3 in knotted",
+          "page": 1,
+          "quote": "IT-10129 Wire cup brush 3 in knotted"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "Wire cup brush 3 in knotted 3 ea"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "3 ea $14.93"
+        },
+        "unit_price": {
+          "value": "$14.93",
+          "page": 1,
+          "quote": "3 ea $14.93 $44.79"
+        },
+        "line_total": {
+          "value": "$44.79",
+          "page": 1,
+          "quote": "$14.93 $44.79 12/7/2026"
+        },
+        "requested_date": {
+          "value": "12/7/2026",
+          "page": 1,
+          "quote": "$44.79 12/7/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10169 Ear plugs uncorded (box of 200)"
+        },
+        "item_no": {
+          "value": "IT-10169",
+          "page": 1,
+          "quote": "Vendor Part IT-10169 Ear plugs uncorded"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ear plugs uncorded (box of 200)",
+          "page": 1,
+          "quote": "IT-10169 Ear plugs uncorded (box of 200)"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "Ear plugs uncorded (box of 200) 6 ea"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "6 ea $17.89"
+        },
+        "unit_price": {
+          "value": "$17.89",
+          "page": 1,
+          "quote": "6 ea $17.89 $161.01"
+        },
+        "line_total": {
+          "value": "$161.01",
+          "page": 1,
+          "quote": "$17.89 $161.01 11/30/2026"
+        },
+        "requested_date": {
+          "value": "11/30/2026",
+          "page": 1,
+          "quote": "$161.01 11/30/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "item_no": {
+          "value": "IT-10005",
+          "page": 1,
+          "quote": "Vendor Part IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M8 x 25 stainless A2",
+          "page": 1,
+          "quote": "IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "Hex bolt M8 x 25 stainless A2 250 ea"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "250 ea $0.24"
+        },
+        "unit_price": {
+          "value": "$0.24",
+          "page": 1,
+          "quote": "250 ea $0.24 $60.00"
+        },
+        "line_total": {
+          "value": "$60.00",
+          "page": 1,
+          "quote": "$0.24 $60.00 12/5/2026"
+        },
+        "requested_date": {
+          "value": "12/5/2026",
+          "page": 1,
+          "quote": "$60.00 12/5/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10213 Anti-seize compound 8 oz"
+        },
+        "item_no": {
+          "value": "IT-10213",
+          "page": 1,
+          "quote": "Vendor Part IT-10213 Anti-seize compound 8 oz"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Anti-seize compound 8 oz",
+          "page": 1,
+          "quote": "IT-10213 Anti-seize compound 8 oz"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "Anti-seize compound 8 oz 4 ea"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "4 ea $19.27"
+        },
+        "unit_price": {
+          "value": "$19.27",
+          "page": 1,
+          "quote": "4 ea $19.27 $77.06"
+        },
+        "line_total": {
+          "value": "$77.06",
+          "page": 1,
+          "quote": "$19.27 $77.06 11/28/2026"
+        },
+        "requested_date": {
+          "value": "11/28/2026",
+          "page": 1,
+          "quote": "$77.06 11/28/2026"
+        }
+      }
+    ]
+  },
+  "extract2": {
+    "legibility": "partly_unclear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "4500292109",
+      "page": 1,
+      "quote": "Purchase Order No 4500292109"
+    },
+    "po_date": {
+      "value": "11/13/2026",
+      "page": 1,
+      "quote": "Order Date 11/13/2026"
+    },
+    "customer_name": {
+      "value": "Quillfeather Printing Works",
+      "page": 1,
+      "quote": "Quillfeather Printing Works 1388 Depot St Cedar Rapids, IA 52401"
+    },
+    "bill_to_name": {
+      "value": "Quillfeather Printing Works",
+      "page": 1,
+      "quote": "BILL TO: Quillfeather Printing Works"
+    },
+    "bill_to_address": {
+      "value": "1388 Depot St, Cedar Rapids, IA 52401",
+      "page": 1,
+      "quote": "BILL TO: Quillfeather Printing Works, 1388 Depot St, Cedar Rapids, IA 52401"
+    },
+    "ship_to_name": {
+      "value": "Quillfeather Main Plant",
+      "page": 1,
+      "quote": "SHIP TO: Quillfeather Main Plant"
+    },
+    "ship_to_address": {
+      "value": "1388 Depot St, Cedar Rapids, IA 52401",
+      "page": 1,
+      "quote": "SHIP TO: Quillfeather Main Plant, 1388 Depot St, Cedar Rapids, IA 52401"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency USD"
+    },
+    "order_total": {
+      "value": "$342.88",
+      "page": 1,
+      "quote": "Total $342.88"
+    },
+    "carrier_name": {
+      "value": "FedEx Ground",
+      "page": 1,
+      "quote": "Ship Via FedEx Ground"
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Deliver to rear dock, door 6",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS: Deliver to rear dock, door 6"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10129 Wire cup brush 3 in knotted"
+        },
+        "item_no": {
+          "value": "IT-10129",
+          "page": 1,
+          "quote": "1 IT-10129 Wire cup brush 3 in knotted"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wire cup brush 3 in knotted",
+          "page": 1,
+          "quote": "IT-10129 Wire cup brush 3 in knotted"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 ea $14.93 $44.79"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "3 ea $14.93 $44.79"
+        },
+        "unit_price": {
+          "value": "$14.93",
+          "page": 1,
+          "quote": "3 ea $14.93 $44.79"
+        },
+        "line_total": {
+          "value": "$44.79",
+          "page": 1,
+          "quote": "3 ea $14.93 $44.79"
+        },
+        "requested_date": {
+          "value": "12/7/2026",
+          "page": 1,
+          "quote": "$44.79 12/7/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10169 Ear plugs uncorded (box of 200)"
+        },
+        "item_no": {
+          "value": "IT-10169",
+          "page": 1,
+          "quote": "2 IT-10169 Ear plugs uncorded (box of 200)"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ear plugs uncorded (box of 200)",
+          "page": 1,
+          "quote": "IT-10169 Ear plugs uncorded (box of 200)"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 ea $17.89 $161.01"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "6 ea $17.89 $161.01"
+        },
+        "unit_price": {
+          "value": "$17.89",
+          "page": 1,
+          "quote": "6 ea $17.89 $161.01"
+        },
+        "line_total": {
+          "value": "$161.01",
+          "page": 1,
+          "quote": "6 ea $17.89 $161.01"
+        },
+        "requested_date": {
+          "value": "11/30/2026",
+          "page": 1,
+          "quote": "$161.01 11/30/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "item_no": {
+          "value": "IT-10005",
+          "page": 1,
+          "quote": "3 IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M8 x 25 stainless A2",
+          "page": 1,
+          "quote": "IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 ea $0.24 $60.00"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "250 ea $0.24 $60.00"
+        },
+        "unit_price": {
+          "value": "$0.24",
+          "page": 1,
+          "quote": "250 ea $0.24 $60.00"
+        },
+        "line_total": {
+          "value": "$60.00",
+          "page": 1,
+          "quote": "250 ea $0.24 $60.00"
+        },
+        "requested_date": {
+          "value": "12/5/2026",
+          "page": 1,
+          "quote": "$60.00 12/5/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10213 Anti-seize compound 8 oz"
+        },
+        "item_no": {
+          "value": "IT-10213",
+          "page": 1,
+          "quote": "4 IT-10213 Anti-seize compound 8 oz"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Anti-seize compound 8 oz",
+          "page": 1,
+          "quote": "IT-10213 Anti-seize compound 8 oz"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 ea $19.27 $77.06"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "4 ea $19.27 $77.06"
+        },
+        "unit_price": {
+          "value": "$19.27",
+          "page": 1,
+          "quote": "4 ea $19.27 $77.06"
+        },
+        "line_total": {
+          "value": "$77.06",
+          "page": 1,
+          "quote": "4 ea $19.27 $77.06"
+        },
+        "requested_date": {
+          "value": "11/28/2026",
+          "page": 1,
+          "quote": "$77.06 11/28/2026"
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 10.3,
+      "cost_usd": 0.0190744,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 90.3,
+      "cost_usd": 0.1500304,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 99.2,
+      "cost_usd": 0.16217800000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

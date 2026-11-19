@@ -1,0 +1,509 @@
+{
+  "doc_id": "dev-016",
+  "source_file": "PO_OC_6610.pdf",
+  "mode": "text",
+  "pages": 1,
+  "sender": "\"B. Aldana\" <orders@oakhaven-conveyor.example>",
+  "subject": "Oakhaven Conveyor Co. PO OC/6610",
+  "route": "review",
+  "reason_codes": [
+    "R07"
+  ],
+  "findings": [
+    {
+      "code": "R07",
+      "scope": "line 2",
+      "field": "line_total",
+      "read": "56.00",
+      "expected": "65.00",
+      "page": 1,
+      "note": "qty x unit price is not the printed line total",
+      "name": "Math mismatch"
+    },
+    {
+      "code": "R07",
+      "scope": "order",
+      "field": "order_total",
+      "read": "1,417.16",
+      "expected": "1426.16",
+      "page": 1,
+      "note": "the lines do not add up to the printed order total",
+      "name": "Math mismatch"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal Oakhaven Conveyor Co. purchase order (PO OC/6610) listing items, quantities, and prices directing the vendor to supply goods."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "OC/6610",
+      "page": 1,
+      "quote": "P.O. Number OC/6610"
+    },
+    "po_date": {
+      "value": "2026-10-22",
+      "page": 1,
+      "quote": "DATE 2026-10-22"
+    },
+    "customer_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "BILL TO Oakhaven Conveyor Co."
+    },
+    "bill_to_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "BILL TO Oakhaven Conveyor Co."
+    },
+    "bill_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "Oakhaven Conveyor Co. 608 Trestle Rd Lima, OH 45801"
+    },
+    "ship_to_name": {
+      "value": "Oakhaven Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Oakhaven Main Plant"
+    },
+    "ship_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "Oakhaven Main Plant 608 Trestle Rd Lima, OH 45801"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "1,417.16",
+      "page": 1,
+      "quote": "PO Total 1,417.16"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS Liftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 8 EA IT-10090"
+        },
+        "item_no": {
+          "value": "IT-10090",
+          "page": 1,
+          "quote": "PART NO. ... IT-10090"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball valve brass 1/2 in full port",
+          "page": 1,
+          "quote": "Ball valve brass 1/2 in full port"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "1 8 EA IT-10090"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "1 8 EA IT-10090"
+        },
+        "unit_price": {
+          "value": "26.07",
+          "page": 1,
+          "quote": "26.07 208.56"
+        },
+        "line_total": {
+          "value": "208.56",
+          "page": 1,
+          "quote": "26.07 208.56"
+        },
+        "requested_date": {
+          "value": "2026-11-16",
+          "page": 1,
+          "quote": "DATE REQ'D 2026-11-16"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 500 EA IT-10036"
+        },
+        "item_no": {
+          "value": "IT-10036",
+          "page": 1,
+          "quote": "PART NO. ... IT-10036"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Split lock washer M12 zinc",
+          "page": 1,
+          "quote": "Split lock washer M12 zinc"
+        },
+        "qty": {
+          "value": "500",
+          "page": 1,
+          "quote": "2 500 EA IT-10036"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "2 500 EA IT-10036"
+        },
+        "unit_price": {
+          "value": "0.13",
+          "page": 1,
+          "quote": "0.13 56.00"
+        },
+        "line_total": {
+          "value": "56.00",
+          "page": 1,
+          "quote": "0.13 56.00"
+        },
+        "requested_date": {
+          "value": "2026-11-03",
+          "page": 1,
+          "quote": "2026-11-03 0.13"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 10 EA IT-10182"
+        },
+        "item_no": {
+          "value": "IT-10182",
+          "page": 1,
+          "quote": "PART NO. ... IT-10182"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/2 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/2 in"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "3 10 EA IT-10182"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "3 10 EA IT-10182"
+        },
+        "unit_price": {
+          "value": "7.71",
+          "page": 1,
+          "quote": "7.71 77.10"
+        },
+        "line_total": {
+          "value": "77.10",
+          "page": 1,
+          "quote": "7.71 77.10"
+        },
+        "requested_date": {
+          "value": "2026-11-01",
+          "page": 1,
+          "quote": "2026-11-01 7.71"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 150 FT IT-10258"
+        },
+        "item_no": {
+          "value": "IT-10258",
+          "page": 1,
+          "quote": "PART NO. ... IT-10258"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 3/8 in OD black",
+          "page": 1,
+          "quote": "Polyurethane tubing 3/8 in OD black"
+        },
+        "qty": {
+          "value": "150",
+          "page": 1,
+          "quote": "4 150 FT IT-10258"
+        },
+        "uom": {
+          "value": "FT",
+          "page": 1,
+          "quote": "4 150 FT IT-10258"
+        },
+        "unit_price": {
+          "value": "4.57",
+          "page": 1,
+          "quote": "4.57 685.50"
+        },
+        "line_total": {
+          "value": "685.50",
+          "page": 1,
+          "quote": "4.57 685.50"
+        },
+        "requested_date": {
+          "value": "2026-11-08",
+          "page": 1,
+          "quote": "2026-11-08 4.57"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 200 EA IT-10018"
+        },
+        "item_no": {
+          "value": "IT-10018",
+          "page": 1,
+          "quote": "PART NO. ... IT-10018"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex nut M10 zinc",
+          "page": 1,
+          "quote": "Hex nut M10 zinc"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "5 200 EA IT-10018"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "5 200 EA IT-10018"
+        },
+        "unit_price": {
+          "value": "0.38",
+          "page": 1,
+          "quote": "0.38 76.00"
+        },
+        "line_total": {
+          "value": "76.00",
+          "page": 1,
+          "quote": "0.38 76.00"
+        },
+        "requested_date": {
+          "value": "2026-11-09",
+          "page": 1,
+          "quote": "2026-11-09 0.38"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 5 CS IT-10244"
+        },
+        "item_no": {
+          "value": "IT-10244",
+          "page": 1,
+          "quote": "PART NO. ... IT-10244"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cable tie 14 in natural (bag of 100)",
+          "page": 1,
+          "quote": "Cable tie 14 in natural (bag of 100)"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "6 5 CS IT-10244"
+        },
+        "uom": {
+          "value": "CS",
+          "page": 1,
+          "quote": "6 5 CS IT-10244"
+        },
+        "unit_price": {
+          "value": "62.80",
+          "page": 1,
+          "quote": "62.80 314.00"
+        },
+        "line_total": {
+          "value": "314.00",
+          "page": 1,
+          "quote": "62.80 314.00"
+        },
+        "requested_date": {
+          "value": "2026-11-21",
+          "page": 1,
+          "quote": "2026-11-21 62.80"
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0007",
+    "customer_name": "Oakhaven Conveyor Co.",
+    "bill_to_id": "B0007",
+    "ship_to_id": "S0018",
+    "currency": "USD",
+    "po_number": "OC/6610",
+    "po_date": "2026-10-22",
+    "carrier_account_no": "",
+    "shipping_notes": "Liftgate required",
+    "order_total_printed": "1417.16",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10090",
+        "customer_part_no": "",
+        "order_qty": "8",
+        "order_uom": "EA",
+        "base_qty": "8",
+        "base_uom": "EA",
+        "unit_price": "26.07",
+        "list_price": "26.07",
+        "line_total_printed": "208.56",
+        "requested_date": "2026-11-16"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10036",
+        "customer_part_no": "",
+        "order_qty": "500",
+        "order_uom": "EA",
+        "base_qty": "500",
+        "base_uom": "EA",
+        "unit_price": "0.13",
+        "list_price": "0.13",
+        "line_total_printed": "56.00",
+        "requested_date": "2026-11-03"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10182",
+        "customer_part_no": "",
+        "order_qty": "10",
+        "order_uom": "EA",
+        "base_qty": "10",
+        "base_uom": "EA",
+        "unit_price": "7.71",
+        "list_price": "7.71",
+        "line_total_printed": "77.10",
+        "requested_date": "2026-11-01"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10258",
+        "customer_part_no": "",
+        "order_qty": "150",
+        "order_uom": "FT",
+        "base_qty": "150",
+        "base_uom": "FT",
+        "unit_price": "4.57",
+        "list_price": "4.57",
+        "line_total_printed": "685.50",
+        "requested_date": "2026-11-08"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10018",
+        "customer_part_no": "",
+        "order_qty": "200",
+        "order_uom": "EA",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "0.38",
+        "list_price": "0.38",
+        "line_total_printed": "76.00",
+        "requested_date": "2026-11-09"
+      },
+      {
+        "line_no": 6,
+        "item_id": "IT-10244",
+        "customer_part_no": "",
+        "order_qty": "5",
+        "order_uom": "CS",
+        "base_qty": "100",
+        "base_uom": "EA",
+        "unit_price": "62.80",
+        "list_price": "62.80",
+        "line_total_printed": "314.00",
+        "requested_date": "2026-11-21"
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.2,
+      "cost_usd": 0.0184454,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 29.9,
+      "cost_usd": 0.057281799999999994,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

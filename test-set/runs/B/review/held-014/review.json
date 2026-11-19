@@ -1,0 +1,379 @@
+{
+  "doc_id": "held-014",
+  "source_file": "purchase_order.pdf",
+  "mode": "text",
+  "pages": 1,
+  "sender": "\"E. Varga\" <procurement@ironvale-welding-supply.example>",
+  "subject": "New order",
+  "route": "review",
+  "reason_codes": [
+    "R01"
+  ],
+  "findings": [
+    {
+      "code": "R01",
+      "scope": "order",
+      "field": "po_number",
+      "read": null,
+      "expected": null,
+      "page": null,
+      "note": "no PO number in the document",
+      "name": "PO number missing"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO from customer Ironvale Welding Supply to vendor Northfield Industrial Supply, listing specific items, quantities, and prices to be supplied."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "po_date": {
+      "value": "11/2/2026",
+      "page": 1,
+      "quote": "Date 11/2/2026"
+    },
+    "customer_name": {
+      "value": "Ironvale Welding Supply",
+      "page": 1,
+      "quote": "Ironvale Welding Supply 254 Smelter Way Erie, PA 16501 Purchasing: E. Varga, 555-0155"
+    },
+    "bill_to_name": {
+      "value": "Ironvale Welding Supply",
+      "page": 1,
+      "quote": "BILL TO Ironvale Welding Supply 254 Smelter Way Erie, PA 16501"
+    },
+    "bill_to_address": {
+      "value": "254 Smelter Way, Erie, PA 16501",
+      "page": 1,
+      "quote": "Ironvale Welding Supply 254 Smelter Way Erie, PA 16501"
+    },
+    "ship_to_name": {
+      "value": "Ironvale Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Ironvale Main Plant 254 Smelter Way Erie, PA 16501"
+    },
+    "ship_to_address": {
+      "value": "254 Smelter Way, Erie, PA 16501",
+      "page": 1,
+      "quote": "Ironvale Main Plant 254 Smelter Way Erie, PA 16501"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD 125.92"
+    },
+    "order_total": {
+      "value": "125.92",
+      "page": 1,
+      "quote": "Total USD 125.92"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10279 V-belt A54"
+        },
+        "item_no": {
+          "value": "IT-10279",
+          "page": 1,
+          "quote": "1 IT-10279 V-belt A54"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "V-belt A54",
+          "page": 1,
+          "quote": "IT-10279 V-belt A54"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 EA 6.28 37.68"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "6 EA 6.28"
+        },
+        "unit_price": {
+          "value": "6.28",
+          "page": 1,
+          "quote": "EA 6.28 37.68"
+        },
+        "line_total": {
+          "value": "37.68",
+          "page": 1,
+          "quote": "6.28 37.68 11/22/2026"
+        },
+        "requested_date": {
+          "value": "11/22/2026",
+          "page": 1,
+          "quote": "37.68 11/22/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10287 O-ring Buna-N dash 214"
+        },
+        "item_no": {
+          "value": "IT-10287",
+          "page": 1,
+          "quote": "2 IT-10287 O-ring Buna-N dash 214"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "O-ring Buna-N dash 214",
+          "page": 1,
+          "quote": "IT-10287 O-ring Buna-N dash 214"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "200 ea 0.22 44.00"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "200 ea 0.22"
+        },
+        "unit_price": {
+          "value": "0.22",
+          "page": 1,
+          "quote": "ea 0.22 44.00"
+        },
+        "line_total": {
+          "value": "44.00",
+          "page": 1,
+          "quote": "0.22 44.00 11/30/2026"
+        },
+        "requested_date": {
+          "value": "11/30/2026",
+          "page": 1,
+          "quote": "44.00 11/30/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 IT-10109 Steel pipe plug 3/8 in NPT"
+        },
+        "item_no": {
+          "value": "IT-10109",
+          "page": 1,
+          "quote": "3 IT-10109 Steel pipe plug 3/8 in NPT"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Steel pipe plug 3/8 in NPT",
+          "page": 1,
+          "quote": "IT-10109 Steel pipe plug 3/8 in NPT"
+        },
+        "qty": {
+          "value": "20",
+          "page": 1,
+          "quote": "20 EA 1.45 29.00"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "20 EA 1.45"
+        },
+        "unit_price": {
+          "value": "1.45",
+          "page": 1,
+          "quote": "EA 1.45 29.00"
+        },
+        "line_total": {
+          "value": "29.00",
+          "page": 1,
+          "quote": "1.45 29.00 11/23/2026"
+        },
+        "requested_date": {
+          "value": "11/23/2026",
+          "page": 1,
+          "quote": "29.00 11/23/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10241 Cable tie 4 in black (bag of 100)"
+        },
+        "item_no": {
+          "value": "IT-10241",
+          "page": 1,
+          "quote": "4 IT-10241 Cable tie 4 in black (bag of 100)"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cable tie 4 in black (bag of 100)",
+          "page": 1,
+          "quote": "IT-10241 Cable tie 4 in black (bag of 100)"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 pcs 1.27 15.24"
+        },
+        "uom": {
+          "value": "pcs",
+          "page": 1,
+          "quote": "12 pcs 1.27"
+        },
+        "unit_price": {
+          "value": "1.27",
+          "page": 1,
+          "quote": "pcs 1.27 15.24"
+        },
+        "line_total": {
+          "value": "15.24",
+          "page": 1,
+          "quote": "1.27 15.24 11/24/2026"
+        },
+        "requested_date": {
+          "value": "11/24/2026",
+          "page": 1,
+          "quote": "15.24 11/24/2026"
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0008",
+    "customer_name": "Ironvale Welding Supply",
+    "bill_to_id": "B0008",
+    "ship_to_id": "S0019",
+    "currency": "USD",
+    "po_number": "",
+    "po_date": "2026-11-02",
+    "carrier_account_no": "",
+    "shipping_notes": "",
+    "order_total_printed": "125.92",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10279",
+        "customer_part_no": "",
+        "order_qty": "6",
+        "order_uom": "EA",
+        "base_qty": "6",
+        "base_uom": "EA",
+        "unit_price": "6.28",
+        "list_price": "6.28",
+        "line_total_printed": "37.68",
+        "requested_date": "2026-11-22"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10287",
+        "customer_part_no": "",
+        "order_qty": "200",
+        "order_uom": "EA",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "0.22",
+        "list_price": "0.22",
+        "line_total_printed": "44.00",
+        "requested_date": "2026-11-30"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10109",
+        "customer_part_no": "",
+        "order_qty": "20",
+        "order_uom": "EA",
+        "base_qty": "20",
+        "base_uom": "EA",
+        "unit_price": "1.45",
+        "list_price": "1.45",
+        "line_total_printed": "29.00",
+        "requested_date": "2026-11-23"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10241",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "1.27",
+        "list_price": "1.27",
+        "line_total_printed": "15.24",
+        "requested_date": "2026-11-24"
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 10.1,
+      "cost_usd": 0.021643799999999998,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 39.1,
+      "cost_usd": 0.0848344,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

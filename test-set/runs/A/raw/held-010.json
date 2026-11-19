@@ -1,0 +1,253 @@
+{
+  "doc_id": "held-010",
+  "sender": "\"S. Halloran\" <buyer@westmark-plastics.example>",
+  "subject": "Westmark Plastics Inc. PO 49386",
+  "source_file": "PO_49386.pdf",
+  "mode": "text",
+  "pages": 3,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Fax cover sheet explicitly labels the attached document as a purchase order (PO 49386) from Westmark Plastics to the order desk, matching the email."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      2
+    ],
+    "ignored_pages": [
+      1,
+      3
+    ],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "49386",
+      "page": 2,
+      "quote": "Order No.: 49386"
+    },
+    "po_date": {
+      "value": "26-Oct-2026",
+      "page": 2,
+      "quote": "Order date: 26-Oct-2026"
+    },
+    "customer_name": {
+      "value": "Westmark Plastics Inc.",
+      "page": 2,
+      "quote": "ORDERED BY Westmark Plastics Inc."
+    },
+    "bill_to_name": {
+      "value": "Westmark Plastics Inc.",
+      "page": 2,
+      "quote": "INVOICE TO Westmark Plastics Inc."
+    },
+    "bill_to_address": {
+      "value": "2460 Kiln St, Evansville, IN 47708",
+      "page": 2,
+      "quote": "2460 Kiln St Evansville, IN 47708"
+    },
+    "ship_to_name": {
+      "value": "Westmark Service Center",
+      "page": 2,
+      "quote": "DELIVER TO Westmark Service Center"
+    },
+    "ship_to_address": {
+      "value": "1101 Depot St, Muncie, IN 47305",
+      "page": 2,
+      "quote": "1101 Depot St Muncie, IN 47305"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "436.00",
+      "page": 2,
+      "quote": "Order Total 436.00"
+    },
+    "carrier_name": {
+      "value": "FedEx",
+      "page": 2,
+      "quote": "Carrier: FedEx"
+    },
+    "carrier_account_no": {
+      "value": "701593519",
+      "page": 2,
+      "quote": "Bill freight to our FedEx account: 701593519"
+    },
+    "shipping_notes": {
+      "value": "Dock 3, call before delivery",
+      "page": 2,
+      "quote": "Delivery instructions: Dock 3, call before delivery"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 2,
+          "quote": "363.00 1"
+        },
+        "item_no": {
+          "value": "IT-10121",
+          "page": 2,
+          "quote": "IT-10121 Sanding belt 3 x 21 in 60 grit"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Sanding belt 3 x 21 in 60 grit",
+          "page": 2,
+          "quote": "IT-10121 Sanding belt 3 x 21 in 60 grit"
+        },
+        "qty": {
+          "value": "50",
+          "page": 2,
+          "quote": "50 each IT-10121"
+        },
+        "uom": {
+          "value": "each",
+          "page": 2,
+          "quote": "50 each IT-10121"
+        },
+        "unit_price": {
+          "value": "7.26",
+          "page": 2,
+          "quote": "7.26 363.00 1"
+        },
+        "line_total": {
+          "value": "363.00",
+          "page": 2,
+          "quote": "7.26 363.00 1"
+        },
+        "requested_date": {
+          "value": "14-Nov-2026",
+          "page": 2,
+          "quote": "14-Nov-2026 7.26 363.00 1"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 2,
+          "quote": "43.00 2"
+        },
+        "item_no": {
+          "value": "IT-10177",
+          "page": 2,
+          "quote": "IT-10177 HSS jobber drill bit 1/8 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/8 in",
+          "page": 2,
+          "quote": "IT-10177 HSS jobber drill bit 1/8 in"
+        },
+        "qty": {
+          "value": "10",
+          "page": 2,
+          "quote": "10 ea. IT-10177"
+        },
+        "uom": {
+          "value": "ea.",
+          "page": 2,
+          "quote": "10 ea. IT-10177"
+        },
+        "unit_price": {
+          "value": "4.30",
+          "page": 2,
+          "quote": "4.30 43.00 2"
+        },
+        "line_total": {
+          "value": "43.00",
+          "page": 2,
+          "quote": "4.30 43.00 2"
+        },
+        "requested_date": {
+          "value": "22-Nov-2026",
+          "page": 2,
+          "quote": "22-Nov-2026 4.30 43.00 2"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 2,
+          "quote": "30.00 3"
+        },
+        "item_no": {
+          "value": "IT-10235",
+          "page": 2,
+          "quote": "IT-10235 MIG contact tip .045 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "MIG contact tip .045 in",
+          "page": 2,
+          "quote": "IT-10235 MIG contact tip .045 in"
+        },
+        "qty": {
+          "value": "24",
+          "page": 2,
+          "quote": "24 ea IT-10235"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 2,
+          "quote": "24 ea IT-10235"
+        },
+        "unit_price": {
+          "value": "1.25",
+          "page": 2,
+          "quote": "1.25 30.00 3"
+        },
+        "line_total": {
+          "value": "30.00",
+          "page": 2,
+          "quote": "1.25 30.00 3"
+        },
+        "requested_date": {
+          "value": "12-Nov-2026",
+          "page": 2,
+          "quote": "12-Nov-2026 1.25 30.00 3"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 9.5,
+      "cost_usd": 0.0189216,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 46.6,
+      "cost_usd": 0.1265846,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

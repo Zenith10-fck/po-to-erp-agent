@@ -1,0 +1,339 @@
+{
+  "doc_id": "dev-011",
+  "split": "dev",
+  "seed": 1011,
+  "kind": "po",
+  "layout": "erp_export",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Redfern Packaging",
+    "address_lines": [
+      "33 Cannery Ave",
+      "Grand Rapids, MI 49503"
+    ],
+    "contact": "Purchasing: L. Petrova, 555-0198",
+    "logo_text": "REDFERN"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "PO-66217",
+  "po_number_label": "P.O. Number",
+  "po_date": "Oct 21, 2026",
+  "bill_to": {
+    "name": "Redfern Packaging Systems LLC",
+    "address_lines": [
+      "33 Cannery Ave",
+      "Grand Rapids, MI 49503"
+    ]
+  },
+  "ship_to": {
+    "name": "Redfern Plant 2",
+    "address_lines": [
+      "4278 Switchyard Rd",
+      "Lansing, MI 48933"
+    ]
+  },
+  "currency": "USD",
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "10",
+      "item_no": "IT-10218",
+      "customer_part_no": null,
+      "description": "Way oil 1 gal",
+      "qty": "9",
+      "uom": "cs",
+      "unit_price": "158.82",
+      "line_total": "1429.38",
+      "requested_date": "Nov 19, 2026"
+    },
+    {
+      "line_no": "20",
+      "item_no": "10-7370",
+      "customer_part_no": null,
+      "description": "Ball valve stainless 1-1/4 in full port",
+      "qty": "5",
+      "uom": "ea",
+      "unit_price": "11.62",
+      "line_total": "58.10",
+      "requested_date": "Nov 4, 2026"
+    },
+    {
+      "line_no": "30",
+      "item_no": "71-2721",
+      "customer_part_no": null,
+      "description": "Stick electrode E7018 5/32 in",
+      "qty": "3",
+      "uom": "bx",
+      "unit_price": "174.00",
+      "line_total": "522.00",
+      "requested_date": "Nov 19, 2026"
+    },
+    {
+      "line_no": "40",
+      "item_no": "98-1122",
+      "customer_part_no": null,
+      "description": "Brake parts cleaner 14 oz aerosol",
+      "qty": "3",
+      "uom": "ea",
+      "unit_price": "18.59",
+      "line_total": "55.77",
+      "requested_date": "Nov 3, 2026"
+    },
+    {
+      "line_no": "50",
+      "item_no": "IT-10296",
+      "customer_part_no": null,
+      "description": "Trash liner 55 gal (box of 100)",
+      "qty": "20",
+      "uom": "ea",
+      "unit_price": "8.47",
+      "line_total": "169.40",
+      "requested_date": "Nov 2, 2026"
+    },
+    {
+      "line_no": "60",
+      "item_no": "IT-10264",
+      "customer_part_no": null,
+      "description": "Proof coil chain grade 30 3/8 in",
+      "qty": "7",
+      "uom": "rl",
+      "unit_price": "927.50",
+      "line_total": "6492.50",
+      "requested_date": "Nov 2, 2026"
+    },
+    {
+      "line_no": "70",
+      "item_no": "42-5056",
+      "customer_part_no": null,
+      "description": "Masking tape 1-1/2 in x 60 yd",
+      "qty": "10",
+      "uom": "rl",
+      "unit_price": "8.98",
+      "line_total": "89.80",
+      "requested_date": "Nov 1, 2026"
+    },
+    {
+      "line_no": "80",
+      "item_no": "IT-10298",
+      "customer_part_no": null,
+      "description": "Spray bottle 32 oz",
+      "qty": "3",
+      "uom": "cs",
+      "unit_price": "133.10",
+      "line_total": "399.30",
+      "requested_date": "Nov 3, 2026"
+    },
+    {
+      "line_no": "90",
+      "item_no": "IT-10064",
+      "customer_part_no": null,
+      "description": "Cotter pin 3/16 x 2-1/2 in zinc",
+      "qty": "10",
+      "uom": "pk",
+      "unit_price": "9.00",
+      "line_total": "90.00",
+      "requested_date": "Nov 5, 2026"
+    },
+    {
+      "line_no": "100",
+      "item_no": "30-1070",
+      "customer_part_no": null,
+      "description": "Cable tie 14 in natural (bag of 100)",
+      "qty": "4",
+      "uom": "ea",
+      "unit_price": "3.05",
+      "line_total": "12.20",
+      "requested_date": "Nov 11, 2026"
+    },
+    {
+      "line_no": "110",
+      "item_no": "IT-10154",
+      "customer_part_no": null,
+      "description": "Leather driver gloves size M",
+      "qty": "12",
+      "uom": "pr",
+      "unit_price": "9.54",
+      "line_total": "114.48",
+      "requested_date": "Nov 21, 2026"
+    },
+    {
+      "line_no": "120",
+      "item_no": null,
+      "customer_part_no": "RP-7206",
+      "description": "Utility knife blades (dispenser of 100)",
+      "qty": "5",
+      "uom": "ea",
+      "unit_price": "14.50",
+      "line_total": "72.50",
+      "requested_date": "Nov 1, 2026"
+    },
+    {
+      "line_no": "130",
+      "item_no": "89-7198",
+      "customer_part_no": null,
+      "description": "Wedge anchor 1/2 x 5-1/2 in zinc",
+      "qty": "12",
+      "uom": "bx",
+      "unit_price": "94.50",
+      "line_total": "1134.00",
+      "requested_date": "Nov 11, 2026"
+    },
+    {
+      "line_no": "140",
+      "item_no": "IT-10182",
+      "customer_part_no": null,
+      "description": "HSS jobber drill bit 1/2 in",
+      "qty": "8",
+      "uom": "pk",
+      "unit_price": "89.76",
+      "line_total": "718.08",
+      "requested_date": "Nov 21, 2026"
+    },
+    {
+      "line_no": "150",
+      "item_no": "IT-10112",
+      "customer_part_no": null,
+      "description": "Flap disc 4-1/2 in 40 grit",
+      "qty": "6",
+      "uom": "ea",
+      "unit_price": "4.73",
+      "line_total": "28.38",
+      "requested_date": "Nov 16, 2026"
+    },
+    {
+      "line_no": "160",
+      "item_no": "IT-10044",
+      "customer_part_no": null,
+      "description": "Socket head cap screw M10 x 40 black oxide",
+      "qty": "12",
+      "uom": "bx",
+      "unit_price": "54.00",
+      "line_total": "648.00",
+      "requested_date": "Nov 13, 2026"
+    },
+    {
+      "line_no": "170",
+      "item_no": "88-9993",
+      "customer_part_no": null,
+      "description": "MIG wire ER70S-6 .030 in 33 lb spool",
+      "qty": "10",
+      "uom": "ea",
+      "unit_price": "64.83",
+      "line_total": "648.30",
+      "requested_date": "Nov 7, 2026"
+    },
+    {
+      "line_no": "180",
+      "item_no": "IT-10272",
+      "customer_part_no": null,
+      "description": "Ball bearing 6204-2RS",
+      "qty": "12",
+      "uom": "ea",
+      "unit_price": "3.28",
+      "line_total": "39.36",
+      "requested_date": "Nov 2, 2026"
+    },
+    {
+      "line_no": "190",
+      "item_no": "IT-10250",
+      "customer_part_no": null,
+      "description": "Rubber air hose 1/2 in ID",
+      "qty": "8",
+      "uom": "rl",
+      "unit_price": "775.00",
+      "line_total": "6200.00",
+      "requested_date": "Nov 23, 2026"
+    },
+    {
+      "line_no": "200",
+      "item_no": "IT-10010",
+      "customer_part_no": null,
+      "description": "Hex bolt M10 x 50 stainless A2",
+      "qty": "250",
+      "uom": "ea",
+      "unit_price": "0.71",
+      "line_total": "177.50",
+      "requested_date": "Nov 21, 2026"
+    },
+    {
+      "line_no": "210",
+      "item_no": "IT-10124",
+      "customer_part_no": null,
+      "description": "Sanding belt 6 x 48 in 80 grit",
+      "qty": "40",
+      "uom": "ea",
+      "unit_price": "2.81",
+      "line_total": "112.40",
+      "requested_date": "Nov 22, 2026"
+    },
+    {
+      "line_no": "220",
+      "item_no": "61-2776",
+      "customer_part_no": null,
+      "description": "Marking paint white 17 oz",
+      "qty": "11",
+      "uom": "cs",
+      "unit_price": "82.86",
+      "line_total": "911.46",
+      "requested_date": "Nov 2, 2026"
+    },
+    {
+      "line_no": "230",
+      "item_no": "IT-10256",
+      "customer_part_no": null,
+      "description": "Polyurethane tubing 1/4 in OD black",
+      "qty": "100",
+      "uom": "ft",
+      "unit_price": "1.68",
+      "line_total": "168.00",
+      "requested_date": "Nov 8, 2026"
+    },
+    {
+      "line_no": "240",
+      "item_no": "72-7314",
+      "customer_part_no": null,
+      "description": "Silicone sealant grey 10 oz",
+      "qty": "10",
+      "uom": "ea",
+      "unit_price": "21.34",
+      "line_total": "213.40",
+      "requested_date": "Nov 7, 2026"
+    },
+    {
+      "line_no": "250",
+      "item_no": "70-3383",
+      "customer_part_no": null,
+      "description": "Ball bearing 6200-2RS",
+      "qty": "10",
+      "uom": "bx",
+      "unit_price": "40.40",
+      "line_total": "404.00",
+      "requested_date": "Nov 23, 2026"
+    },
+    {
+      "line_no": "260",
+      "item_no": "IT-10140",
+      "customer_part_no": null,
+      "description": "Electrical tape 3/4 in blue",
+      "qty": "12",
+      "uom": "pk",
+      "unit_price": "33.48",
+      "line_total": "401.76",
+      "requested_date": "Nov 6, 2026"
+    }
+  ],
+  "order_total": "21310.07",
+  "order_total_label": "Total USD",
+  "payment_terms": "Net 30 days",
+  "injection_text": null,
+  "injection_style": null
+}

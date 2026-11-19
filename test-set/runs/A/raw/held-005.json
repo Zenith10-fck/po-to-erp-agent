@@ -1,0 +1,662 @@
+{
+  "doc_id": "held-005",
+  "sender": "\"L. Petrova\" <purchasing@maplewick-furniture.example>",
+  "subject": "New order 64115",
+  "source_file": "scan_20261101_1098.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a Purchase Order (No. 64115) from Maplewick to Northfield Industrial Supply listing items, quantities, and prices to be supplied."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "64115",
+      "page": 1,
+      "quote": "Purchase Order No. 64115"
+    },
+    "po_date": {
+      "value": "2026-11-01",
+      "page": 1,
+      "quote": "Order date\n2026-11-01"
+    },
+    "customer_name": {
+      "value": "Maplewick Furniture Mfg.",
+      "page": 1,
+      "quote": "FROM\nMaplewick Furniture Mfg."
+    },
+    "bill_to_name": {
+      "value": "Maplewick Furniture Mfg.",
+      "page": 1,
+      "quote": "BILL TO\nMaplewick Furniture Mfg."
+    },
+    "bill_to_address": {
+      "value": "57 Loomis Ct, Holland, MI 49423",
+      "page": 1,
+      "quote": "Maplewick Furniture Mfg.\n57 Loomis Ct\nHolland, MI 49423"
+    },
+    "ship_to_name": {
+      "value": "Maplewick Main Plant",
+      "page": 1,
+      "quote": "SHIP TO\nMaplewick Main Plant"
+    },
+    "ship_to_address": {
+      "value": "57 Loomis Ct, Holland, MI 49423",
+      "page": 1,
+      "quote": "Maplewick Main Plant\n57 Loomis Ct\nHolland, MI 49423"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD"
+    },
+    "order_total": {
+      "value": "473.76",
+      "page": 1,
+      "quote": "Total USD          473.76"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "DELIVERY NOTES\nLiftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1   Wire rope galvanized 1/8 in"
+        },
+        "item_no": {
+          "value": "IT-10259",
+          "page": 1,
+          "quote": "IT-10259"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wire rope galvanized 1/8 in",
+          "page": 1,
+          "quote": "Wire rope galvanized 1/8 in"
+        },
+        "qty": {
+          "value": "100",
+          "page": 1,
+          "quote": "100  FT"
+        },
+        "uom": {
+          "value": "FT",
+          "page": 1,
+          "quote": "100  FT"
+        },
+        "unit_price": {
+          "value": "3.27",
+          "page": 1,
+          "quote": "3.27"
+        },
+        "line_total": {
+          "value": "327.00",
+          "page": 1,
+          "quote": "327.00"
+        },
+        "requested_date": {
+          "value": "2026-11-10",
+          "page": 1,
+          "quote": "2026-11-10"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2   HSS jobber drill bit 1/4 in"
+        },
+        "item_no": {
+          "value": "IT-10179",
+          "page": 1,
+          "quote": "IT-10179"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/4 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/4 in"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6  EA"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "6  EA"
+        },
+        "unit_price": {
+          "value": "3.96",
+          "page": 1,
+          "quote": "3.96"
+        },
+        "line_total": {
+          "value": "23.76",
+          "page": 1,
+          "quote": "23.76"
+        },
+        "requested_date": {
+          "value": "2026-11-30",
+          "page": 1,
+          "quote": "2026-11-30"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3   Packing tape 2 in x 110 yd clear"
+        },
+        "item_no": {
+          "value": "IT-10145",
+          "page": 1,
+          "quote": "IT-10145"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Packing tape 2 in x 110 yd clear",
+          "page": 1,
+          "quote": "Packing tape 2 in x 110 yd clear"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10  RL"
+        },
+        "uom": {
+          "value": "RL",
+          "page": 1,
+          "quote": "10  RL"
+        },
+        "unit_price": {
+          "value": "7.57",
+          "page": 1,
+          "quote": "7.57"
+        },
+        "line_total": {
+          "value": "75.70",
+          "page": 1,
+          "quote": "75.70"
+        },
+        "requested_date": {
+          "value": "2026-11-26",
+          "page": 1,
+          "quote": "2026-11-26"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4   Hose clamp worm drive #48 stainless"
+        },
+        "item_no": {
+          "value": "IT-10099",
+          "page": 1,
+          "quote": "IT-10099"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hose clamp worm drive #48 stainless",
+          "page": 1,
+          "quote": "Hose clamp worm drive #48 stainless"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3  BX"
+        },
+        "uom": {
+          "value": "BX",
+          "page": 1,
+          "quote": "3  BX"
+        },
+        "unit_price": {
+          "value": "7.10",
+          "page": 1,
+          "quote": "7.10"
+        },
+        "line_total": {
+          "value": "21.30",
+          "page": 1,
+          "quote": "21.30"
+        },
+        "requested_date": {
+          "value": "2026-11-12",
+          "page": 1,
+          "quote": "2026-11-12"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5   Self-drilling screw #8 x 3/4 in hex washer head"
+        },
+        "item_no": {
+          "value": "IT-10047",
+          "page": 1,
+          "quote": "IT-10047"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Self-drilling screw #8 x 3/4 in hex washer head",
+          "page": 1,
+          "quote": "Self-drilling screw #8 x 3/4 in hex washer head"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "200  EA"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "200  EA"
+        },
+        "unit_price": {
+          "value": "0.13",
+          "page": 1,
+          "quote": "0.13"
+        },
+        "line_total": {
+          "value": "26.00",
+          "page": 1,
+          "quote": "26.00"
+        },
+        "requested_date": {
+          "value": "2026-11-14",
+          "page": 1,
+          "quote": "2026-11-14"
+        }
+      }
+    ]
+  },
+  "extract2": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "64115",
+      "page": 1,
+      "quote": "Purchase Order No. 64115"
+    },
+    "po_date": {
+      "value": "2026-11-01",
+      "page": 1,
+      "quote": "Order date\n2026-11-01"
+    },
+    "customer_name": {
+      "value": "Maplewick Furniture Mfg.",
+      "page": 1,
+      "quote": "FROM\nMaplewick Furniture Mfg."
+    },
+    "bill_to_name": {
+      "value": "Maplewick Furniture Mfg.",
+      "page": 1,
+      "quote": "BILL TO\nMaplewick Furniture Mfg."
+    },
+    "bill_to_address": {
+      "value": "57 Loomis Ct, Holland, MI 49423",
+      "page": 1,
+      "quote": "57 Loomis Ct\nHolland, MI 49423"
+    },
+    "ship_to_name": {
+      "value": "Maplewick Main Plant",
+      "page": 1,
+      "quote": "SHIP TO\nMaplewick Main Plant"
+    },
+    "ship_to_address": {
+      "value": "57 Loomis Ct, Holland, MI 49423",
+      "page": 1,
+      "quote": "57 Loomis Ct\nHolland, MI 49423"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD"
+    },
+    "order_total": {
+      "value": "473.76",
+      "page": 1,
+      "quote": "Total USD                473.76"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "DELIVERY NOTES\nLiftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1   Wire rope galvanized 1/8 in"
+        },
+        "item_no": {
+          "value": "IT-10259",
+          "page": 1,
+          "quote": "IT-10259"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wire rope galvanized 1/8 in",
+          "page": 1,
+          "quote": "Wire rope galvanized 1/8 in"
+        },
+        "qty": {
+          "value": "100",
+          "page": 1,
+          "quote": "100  FT"
+        },
+        "uom": {
+          "value": "FT",
+          "page": 1,
+          "quote": "100  FT"
+        },
+        "unit_price": {
+          "value": "3.27",
+          "page": 1,
+          "quote": "3.27    327.00"
+        },
+        "line_total": {
+          "value": "327.00",
+          "page": 1,
+          "quote": "3.27    327.00"
+        },
+        "requested_date": {
+          "value": "2026-11-10",
+          "page": 1,
+          "quote": "2026-11-10"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2   HSS jobber drill bit 1/4 in"
+        },
+        "item_no": {
+          "value": "IT-10179",
+          "page": 1,
+          "quote": "IT-10179"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/4 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/4 in"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6  EA"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "6  EA"
+        },
+        "unit_price": {
+          "value": "3.96",
+          "page": 1,
+          "quote": "3.96    23.76"
+        },
+        "line_total": {
+          "value": "23.76",
+          "page": 1,
+          "quote": "3.96    23.76"
+        },
+        "requested_date": {
+          "value": "2026-11-30",
+          "page": 1,
+          "quote": "2026-11-30"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3   Packing tape 2 in x 110 yd clear"
+        },
+        "item_no": {
+          "value": "IT-10145",
+          "page": 1,
+          "quote": "IT-10145"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Packing tape 2 in x 110 yd clear",
+          "page": 1,
+          "quote": "Packing tape 2 in x 110 yd clear"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10  RL"
+        },
+        "uom": {
+          "value": "RL",
+          "page": 1,
+          "quote": "10  RL"
+        },
+        "unit_price": {
+          "value": "7.57",
+          "page": 1,
+          "quote": "7.57    75.70"
+        },
+        "line_total": {
+          "value": "75.70",
+          "page": 1,
+          "quote": "7.57    75.70"
+        },
+        "requested_date": {
+          "value": "2026-11-26",
+          "page": 1,
+          "quote": "2026-11-26"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4   Hose clamp worm drive #48 stainless"
+        },
+        "item_no": {
+          "value": "IT-10099",
+          "page": 1,
+          "quote": "IT-10099"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hose clamp worm drive #48 stainless",
+          "page": 1,
+          "quote": "Hose clamp worm drive #48 stainless"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3  BX"
+        },
+        "uom": {
+          "value": "BX",
+          "page": 1,
+          "quote": "3  BX"
+        },
+        "unit_price": {
+          "value": "7.10",
+          "page": 1,
+          "quote": "7.10    21.30"
+        },
+        "line_total": {
+          "value": "21.30",
+          "page": 1,
+          "quote": "7.10    21.30"
+        },
+        "requested_date": {
+          "value": "2026-11-12",
+          "page": 1,
+          "quote": "2026-11-12"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5   Self-drilling screw #8 x 3/4 in hex washer head"
+        },
+        "item_no": {
+          "value": "IT-10047",
+          "page": 1,
+          "quote": "IT-10047"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Self-drilling screw #8 x 3/4 in hex washer head",
+          "page": 1,
+          "quote": "Self-drilling screw #8 x 3/4 in hex washer head"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "200  EA"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "200  EA"
+        },
+        "unit_price": {
+          "value": "0.13",
+          "page": 1,
+          "quote": "0.13    26.00"
+        },
+        "line_total": {
+          "value": "26.00",
+          "page": 1,
+          "quote": "0.13    26.00"
+        },
+        "requested_date": {
+          "value": "2026-11-14",
+          "page": 1,
+          "quote": "2026-11-14"
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.6,
+      "cost_usd": 0.0183158,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 40.8,
+      "cost_usd": 0.08335139999999999,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 43.4,
+      "cost_usd": 0.0920674,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "dev-008",
+  "split": "dev",
+  "seed": 1008,
+  "kind": "po",
+  "layout": "classic_table",
+  "degradations": [
+    "fax",
+    "rotate180"
+  ],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Kessler Machine Works East",
+    "address_lines": [
+      "2875 Eastgate Pkwy",
+      "Akron, OH 44301"
+    ],
+    "contact": "Purchasing: T. Nakamura, 555-0123",
+    "logo_text": "KESSLER"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "KMWE-26-3404",
+  "po_number_label": "P.O. Number",
+  "po_date": "October 19, 2026",
+  "bill_to": {
+    "name": "Kessler Machine Works East",
+    "address_lines": [
+      "2875 Eastgate Pkwy",
+      "Akron, OH 44301"
+    ]
+  },
+  "ship_to": {
+    "name": "Kessler Main Plant",
+    "address_lines": [
+      "2875 Eastgate Pkwy",
+      "Akron, OH 44301"
+    ]
+  },
+  "currency": "USD",
+  "carrier": null,
+  "shipping_notes": "Partial shipments OK",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10028",
+      "customer_part_no": null,
+      "description": "Flat washer M8 stainless A2",
+      "qty": "500",
+      "uom": "EA",
+      "unit_price": "0.17",
+      "line_total": "85.00",
+      "requested_date": "October 29, 2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10076",
+      "customer_part_no": null,
+      "description": "Brass compression connector 1/2 in",
+      "qty": "4",
+      "uom": "EA",
+      "unit_price": "6.64",
+      "line_total": "26.56",
+      "requested_date": "November 12, 2026"
+    }
+  ],
+  "order_total": "111.56",
+  "order_total_label": "Total",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

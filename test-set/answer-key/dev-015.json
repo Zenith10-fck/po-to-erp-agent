@@ -1,0 +1,91 @@
+{
+  "doc_id": "dev-015",
+  "split": "dev",
+  "category": "trap",
+  "is_po": true,
+  "trap": "unknown_uom",
+  "expected_route": "review",
+  "expected_reason_codes": [
+    "R05"
+  ],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "PO_GPMS-26-7211.pdf",
+  "truth": {
+    "customer_id": "C0012",
+    "customer_po_number": "GPMS-26-7211",
+    "po_date": "2026-10-17",
+    "bill_to_id": "B0012",
+    "ship_to_id": "S0029",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10274",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "EA",
+        "base_qty": "4",
+        "base_uom": "EA",
+        "unit_price": "9.5400",
+        "line_total": "38.16",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10210",
+        "customer_part_no": "",
+        "order_qty": "2",
+        "order_uom": "EA",
+        "base_qty": "2",
+        "base_uom": "EA",
+        "unit_price": "19.9300",
+        "line_total": "39.86",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10146",
+        "customer_part_no": "",
+        "order_qty": "40",
+        "order_uom": "RL",
+        "base_qty": "40",
+        "base_uom": "RL",
+        "unit_price": "9.5800",
+        "line_total": "383.20",
+        "requested_date": ""
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10228",
+        "customer_part_no": "",
+        "order_qty": "7",
+        "order_uom": "EA",
+        "base_qty": "7",
+        "base_uom": "EA",
+        "unit_price": "75.4000",
+        "line_total": "527.80",
+        "requested_date": ""
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10160",
+        "customer_part_no": "",
+        "order_qty": "2",
+        "order_uom": null,
+        "base_qty": null,
+        "base_uom": "PR",
+        "unit_price": "686.8000",
+        "line_total": "1373.60",
+        "requested_date": ""
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": ""
+  },
+  "trap_detail": {
+    "line_no": 5,
+    "field": "uom",
+    "printed": "PALLET"
+  }
+}

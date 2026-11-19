@@ -1,0 +1,61 @@
+{
+  "doc_id": "dev-003",
+  "split": "dev",
+  "category": "clean",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "dunmore_PO_DF-26-9288.pdf",
+  "truth": {
+    "customer_id": "C0003",
+    "customer_po_number": "DF-26-9288",
+    "po_date": "2026-10-29",
+    "bill_to_id": "B0003",
+    "ship_to_id": "S0009",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10242",
+        "customer_part_no": "",
+        "order_qty": "7",
+        "order_uom": "CS",
+        "base_qty": "350",
+        "base_uom": "EA",
+        "unit_price": "292.0000",
+        "line_total": "2044.00",
+        "requested_date": "2026-11-05"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10234",
+        "customer_part_no": "",
+        "order_qty": "25",
+        "order_uom": "LB",
+        "base_qty": "25",
+        "base_uom": "LB",
+        "unit_price": "4.2100",
+        "line_total": "105.25",
+        "requested_date": "2026-11-07"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10284",
+        "customer_part_no": "",
+        "order_qty": "8",
+        "order_uom": "EA",
+        "base_qty": "8",
+        "base_uom": "EA",
+        "unit_price": "27.4400",
+        "line_total": "219.52",
+        "requested_date": "2026-11-21"
+      }
+    ],
+    "carrier_account_no": "560381519",
+    "shipping_notes": "Reference our PO number on the packing slip"
+  },
+  "trap_detail": null
+}

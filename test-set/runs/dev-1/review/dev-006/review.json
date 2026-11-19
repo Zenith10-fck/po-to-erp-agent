@@ -1,0 +1,269 @@
+{
+  "doc_id": "dev-006",
+  "source_file": "scan_20261001_0895.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "sender": "\"R. Lindqvist\" <procurement@granite-peak-mining.example>",
+  "subject": "PO GPMS/6038",
+  "route": "review",
+  "reason_codes": [
+    "R09"
+  ],
+  "findings": [
+    {
+      "code": "R09",
+      "scope": "order",
+      "field": "shipping_notes",
+      "read": "Delivery instructions: Dock 3, call before delivery",
+      "expected": "Dock 3, call before delivery",
+      "page": 1,
+      "note": "second read differs",
+      "name": "Dual-read disagreement"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal purchase order (PO GPMS/6038) listing items, quantities, prices, and delivery instructions for goods ordered from the supplier."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "GPMS/6038",
+      "page": 1,
+      "quote": "Purchase Order No. GPMS/6038 for the goods listed below"
+    },
+    "po_date": {
+      "value": "10/01/2026",
+      "page": 1,
+      "quote": "10/01/2026"
+    },
+    "customer_name": {
+      "value": "Granite Peak Mining Services",
+      "page": 1,
+      "quote": "Granite Peak Mining Services\n9 Quarry Ln, Duluth, MN 55802"
+    },
+    "bill_to_name": {
+      "value": "Granite Peak Mining Services",
+      "page": 1,
+      "quote": "Invoices should be addressed to Granite Peak Mining Services, 9 Quarry Ln, Duluth, MN 55802."
+    },
+    "bill_to_address": {
+      "value": "9 Quarry Ln, Duluth, MN 55802",
+      "page": 1,
+      "quote": "Invoices should be addressed to Granite Peak Mining Services, 9 Quarry Ln, Duluth, MN 55802."
+    },
+    "ship_to_name": {
+      "value": "Granite Main Plant",
+      "page": 1,
+      "quote": "Please deliver the goods to Granite Main Plant, 9 Quarry Ln, Duluth, MN 55802."
+    },
+    "ship_to_address": {
+      "value": "9 Quarry Ln, Duluth, MN 55802",
+      "page": 1,
+      "quote": "Please deliver the goods to Granite Main Plant, 9 Quarry Ln, Duluth, MN 55802."
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "264.41",
+      "page": 1,
+      "quote": "PO Total: 264.41"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Delivery instructions: Dock 3, call before delivery",
+      "page": 1,
+      "quote": "Delivery instructions: Dock 3, call before delivery"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1    100  each  IT-10108  Steel pipe plug 1/4 in NPT"
+        },
+        "item_no": {
+          "value": "IT-10108",
+          "page": 1,
+          "quote": "Your Item ... IT-10108"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Steel pipe plug 1/4 in NPT",
+          "page": 1,
+          "quote": "Steel pipe plug 1/4 in NPT"
+        },
+        "qty": {
+          "value": "100",
+          "page": 1,
+          "quote": "100  each  IT-10108"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "100  each  IT-10108"
+        },
+        "unit_price": {
+          "value": "0.89",
+          "page": 1,
+          "quote": "11/05/2026  0.89  89.00"
+        },
+        "line_total": {
+          "value": "89.00",
+          "page": 1,
+          "quote": "0.89  89.00"
+        },
+        "requested_date": {
+          "value": "11/05/2026",
+          "page": 1,
+          "quote": "11/05/2026  0.89  89.00"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2    9  each  IT-10168  Ear plugs corded (box of 100)"
+        },
+        "item_no": {
+          "value": "IT-10168",
+          "page": 1,
+          "quote": "Your Item ... IT-10168"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ear plugs corded (box of 100)",
+          "page": 1,
+          "quote": "Ear plugs corded (box of 100)"
+        },
+        "qty": {
+          "value": "9",
+          "page": 1,
+          "quote": "9  each  IT-10168"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "9  each  IT-10168"
+        },
+        "unit_price": {
+          "value": "19.49",
+          "page": 1,
+          "quote": "11/05/2026  19.49  175.41"
+        },
+        "line_total": {
+          "value": "175.41",
+          "page": 1,
+          "quote": "19.49  175.41"
+        },
+        "requested_date": {
+          "value": "11/05/2026",
+          "page": 1,
+          "quote": "11/05/2026  19.49  175.41"
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0012",
+    "customer_name": "Granite Peak Mining Services",
+    "bill_to_id": "B0012",
+    "ship_to_id": "S0029",
+    "currency": "USD",
+    "po_number": "GPMS/6038",
+    "po_date": "2026-10-01",
+    "carrier_account_no": "",
+    "shipping_notes": "Delivery instructions: Dock 3, call before delivery",
+    "order_total_printed": "264.41",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10108",
+        "customer_part_no": "",
+        "order_qty": "100",
+        "order_uom": "EA",
+        "base_qty": "100",
+        "base_uom": "EA",
+        "unit_price": "0.89",
+        "list_price": "0.89",
+        "line_total_printed": "89.00",
+        "requested_date": "2026-11-05"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10168",
+        "customer_part_no": "",
+        "order_qty": "9",
+        "order_uom": "EA",
+        "base_qty": "9",
+        "base_uom": "EA",
+        "unit_price": "19.49",
+        "list_price": "19.49",
+        "line_total_printed": "175.41",
+        "requested_date": "2026-11-05"
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.2,
+      "cost_usd": 0.018345,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 50.6,
+      "cost_usd": 0.0935502,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 47.4,
+      "cost_usd": 0.09584340000000001,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

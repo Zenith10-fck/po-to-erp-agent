@@ -1,0 +1,6 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0014","HMR/8992","2026-10-31","B0014","S0036","USD",1,"IT-10151","",9,"PK",108,"PR",36.6000,329.40,"","YFZF2A","Reference our PO number on the packing slip","PO_HMR_8992.pdf","A"
+"C0014","HMR/8992","2026-10-31","B0014","S0036","USD",2,"IT-10283","",4,"EA",4,"EA",33.5700,134.28,"","YFZF2A","Reference our PO number on the packing slip","PO_HMR_8992.pdf","A"
+"C0014","HMR/8992","2026-10-31","B0014","S0036","USD",3,"IT-10203","",5,"EA",5,"EA",19.0700,95.35,"","YFZF2A","Reference our PO number on the packing slip","PO_HMR_8992.pdf","A"
+"C0014","HMR/8992","2026-10-31","B0014","S0036","USD",4,"IT-10235","",40,"EA",40,"EA",1.3400,53.60,"","YFZF2A","Reference our PO number on the packing slip","PO_HMR_8992.pdf","A"
+"C0014","HMR/8992","2026-10-31","B0014","S0036","USD",5,"IT-10273","",12,"EA",12,"EA",8.4900,101.88,"","YFZF2A","Reference our PO number on the packing slip","PO_HMR_8992.pdf","A"

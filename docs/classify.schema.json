@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DocumentClassification",
+  "description": "Small first call. Decides if an email with its attachment is a purchase order. Anything that is not 'purchase_order' is ignored by the pipeline and logged.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["doc_type", "reason"],
+  "properties": {
+    "doc_type": {
+      "type": "string",
+      "enum": ["purchase_order", "invoice", "quote_request", "other"]
+    },
+    "reason": {
+      "description": "One short sentence. For the audit log only. Code never acts on it.",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "doc_id": "dev-018",
+  "sender": "Accounts Receivable <billing@ashgrove-corrugated.example>",
+  "subject": "Invoice INV-62075",
+  "source_file": "INV-62075.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "invoice",
+    "reason": "Document is titled INVOICE with an amount due and payment terms, billing the recipient."
+  },
+  "extract": null,
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.5,
+      "cost_usd": 0.018109,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

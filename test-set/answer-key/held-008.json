@@ -1,0 +1,76 @@
+{
+  "doc_id": "held-008",
+  "split": "heldout",
+  "category": "scan",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261113_1435.pdf",
+  "truth": {
+    "customer_id": "C0024",
+    "customer_po_number": "4500292109",
+    "po_date": "2026-11-13",
+    "bill_to_id": "B0024",
+    "ship_to_id": "S0056",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10129",
+        "customer_part_no": "",
+        "order_qty": "3",
+        "order_uom": "EA",
+        "base_qty": "3",
+        "base_uom": "EA",
+        "unit_price": "14.9300",
+        "line_total": "44.79",
+        "requested_date": "2026-12-07"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10169",
+        "customer_part_no": "",
+        "order_qty": "9",
+        "order_uom": "EA",
+        "base_qty": "9",
+        "base_uom": "EA",
+        "unit_price": "17.8900",
+        "line_total": "161.01",
+        "requested_date": "2026-11-30"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10005",
+        "customer_part_no": "",
+        "order_qty": "250",
+        "order_uom": "EA",
+        "base_qty": "250",
+        "base_uom": "EA",
+        "unit_price": "0.2400",
+        "line_total": "60.00",
+        "requested_date": "2026-12-05"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10213",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "EA",
+        "base_qty": "4",
+        "base_uom": "EA",
+        "unit_price": "19.2700",
+        "line_total": "77.08",
+        "requested_date": "2026-11-28"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Deliver to rear dock, door 6"
+  },
+  "trap_detail": null
+}

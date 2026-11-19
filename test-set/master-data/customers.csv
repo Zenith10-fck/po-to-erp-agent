@@ -1,0 +1,26 @@
+customer_id,name,aliases,bill_to_id,bill_to_address,currency,price_list_id,active
+C0001,Harlow Fastener Supply Inc.,Harlow Fastener;Harlow,B0001,"410 Mill Road, Dayton, OH 45402",USD,PL-A,Y
+C0002,Pinecrest Hydraulics Corp.,Pinecrest Hydraulics;PHC,B0002,"92 Gantry Way, Toledo, OH 43604",USD,PL-B,Y
+C0003,Dunmore Fabrication Co.,Dunmore Fabrication;Dunmore Fab,B0003,"1705 Ironworks Blvd, Fort Wayne, IN 46802",USD,PL-A,Y
+C0004,Kessler Machine Works,KMW,B0004,"1450 Foundry Rd, Akron, OH 44301",USD,PL-B,Y
+C0005,Kessler Machine Works East,KMW East,B0005,"2875 Eastgate Pkwy, Akron, OH 44301",USD,PL-B,Y
+C0006,Redfern Packaging Systems LLC,Redfern Packaging;RPS,B0006,"33 Cannery Ave, Grand Rapids, MI 49503",USD,PL-C,Y
+C0007,Oakhaven Conveyor Co.,Oakhaven Conveyor;Oakhaven,B0007,"608 Trestle Rd, Lima, OH 45801",USD,PL-A,Y
+C0008,Ironvale Welding Supply,Ironvale Welding;Ironvale,B0008,"254 Smelter Way, Erie, PA 16501",USD,PL-C,Y
+C0009,Tallgrass Equipment Rental Inc.,Tallgrass Equipment;Tallgrass Rental,B0009,"500 Ledger Ct Suite 200, Peoria, IL 61602",USD,PL-B,Y
+C0010,Copperline Electric Contractors,Copperline Electric;Copperline,B0010,"77 Switchyard Rd, Kalamazoo, MI 49007",USD,PL-A,Y
+C0011,Larkspur Food Machinery Ltd.,Larkspur Machinery;LFM,B0011,"1120 Granary Rd, Madison, WI 53703",USD,PL-C,Y
+C0012,Granite Peak Mining Services,Granite Peak;GPMS,B0012,"9 Quarry Ln, Duluth, MN 55802",USD,PL-B,Y
+C0013,Bluestem Agri Parts Inc.,Bluestem Agri;Bluestem,B0013,"3310 Sawmill Rd, Des Moines, IA 50309",USD,PL-A,Y
+C0014,Halvorsen Marine Repair LLC,Halvorsen Marine;HMR,B0014,"18 Ropewalk Ln Suite 4, Sandusky, OH 44870",USD,PL-B,Y
+C0015,Westmark Plastics Inc.,Westmark Plastics;Westmark,B0015,"2460 Kiln St, Evansville, IN 47708",USD,PL-C,Y
+C0016,Brightwater Tool & Die LLC,BTD,B0016,"615 Lathe St, Rockford, IL 61101",USD,PL-A,Y
+C0017,Brightwater Tool & Supply LLC,BTS,B0017,"1299 Anvil Dr, Rockford, IL 61101",USD,PL-A,Y
+C0018,Thornbury Steel Erectors,Thornbury Steel;Thornbury,B0018,"840 Boiler Ave, Youngstown, OH 44503",USD,PL-B,Y
+C0019,Maplewick Furniture Mfg.,Maplewick Furniture;Maplewick,B0019,"57 Loomis Ct, Holland, MI 49423",USD,PL-C,Y
+C0020,Cinderford Foundry Co.,Cinderford Foundry;Cinderford,B0020,"2001 Depot St, Canton, OH 44702",USD,PL-A,Y
+C0021,Sablewood Cabinet Co.,Sablewood Cabinet;Sablewood,B0021,"300 Tannery Row Suite 12, Elkhart, IN 46516",USD,PL-B,Y
+C0022,Ravenglass Bottling Co.,Ravenglass Bottling;Ravenglass,B0022,"715 Commerce Dr, Green Bay, WI 54301",USD,PL-C,Y
+C0023,Fennimore Auto Body Supply,Fennimore Auto Body;Fennimore,B0023,"46 Mill Road, Springfield, IL 62701",USD,PL-A,Y
+C0024,Quillfeather Printing Works,Quillfeather Printing;Quillfeather,B0024,"1388 Depot St, Cedar Rapids, IA 52401",USD,PL-B,Y
+C0025,Stonebridge Elevator Service,Stonebridge Elevator;Stonebridge,B0025,"220 Gantry Way, South Bend, IN 46601",USD,PL-C,Y

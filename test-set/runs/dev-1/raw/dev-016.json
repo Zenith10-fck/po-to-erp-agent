@@ -1,0 +1,391 @@
+{
+  "doc_id": "dev-016",
+  "sender": "\"B. Aldana\" <orders@oakhaven-conveyor.example>",
+  "subject": "Oakhaven Conveyor Co. PO OC/6610",
+  "source_file": "PO_OC_6610.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal PO (OC/6610) listing items, quantities, and prices ordered by Oakhaven from Northfield Industrial Supply."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "OC/6610",
+      "page": 1,
+      "quote": "P.O. Number OC/6610"
+    },
+    "po_date": {
+      "value": "2026-10-22",
+      "page": 1,
+      "quote": "DATE 2026-10-22"
+    },
+    "customer_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "BILL TO Oakhaven Conveyor Co."
+    },
+    "bill_to_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "BILL TO Oakhaven Conveyor Co."
+    },
+    "bill_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "Oakhaven Conveyor Co. 608 Trestle Rd Lima, OH 45801"
+    },
+    "ship_to_name": {
+      "value": "Oakhaven Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Oakhaven Main Plant"
+    },
+    "ship_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "Oakhaven Main Plant 608 Trestle Rd Lima, OH 45801"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "1,417.16",
+      "page": 1,
+      "quote": "PO Total 1,417.16"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS Liftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 8 EA IT-10090"
+        },
+        "item_no": {
+          "value": "IT-10090",
+          "page": 1,
+          "quote": "IT-10090 Ball valve brass 1/2 in full port"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball valve brass 1/2 in full port",
+          "page": 1,
+          "quote": "Ball valve brass 1/2 in full port"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "1 8 EA IT-10090"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "8 EA IT-10090"
+        },
+        "unit_price": {
+          "value": "26.07",
+          "page": 1,
+          "quote": "2026-11-16 26.07 208.56"
+        },
+        "line_total": {
+          "value": "208.56",
+          "page": 1,
+          "quote": "26.07 208.56"
+        },
+        "requested_date": {
+          "value": "2026-11-16",
+          "page": 1,
+          "quote": "DATE REQ'D 2026-11-16"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 500 EA IT-10036"
+        },
+        "item_no": {
+          "value": "IT-10036",
+          "page": 1,
+          "quote": "IT-10036 Split lock washer M12 zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Split lock washer M12 zinc",
+          "page": 1,
+          "quote": "Split lock washer M12 zinc"
+        },
+        "qty": {
+          "value": "500",
+          "page": 1,
+          "quote": "2 500 EA IT-10036"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "500 EA IT-10036"
+        },
+        "unit_price": {
+          "value": "0.13",
+          "page": 1,
+          "quote": "2026-11-03 0.13 56.00"
+        },
+        "line_total": {
+          "value": "56.00",
+          "page": 1,
+          "quote": "0.13 56.00"
+        },
+        "requested_date": {
+          "value": "2026-11-03",
+          "page": 1,
+          "quote": "2026-11-03 0.13 56.00"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 10 EA IT-10182"
+        },
+        "item_no": {
+          "value": "IT-10182",
+          "page": 1,
+          "quote": "IT-10182 HSS jobber drill bit 1/2 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/2 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/2 in"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "3 10 EA IT-10182"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "10 EA IT-10182"
+        },
+        "unit_price": {
+          "value": "7.71",
+          "page": 1,
+          "quote": "2026-11-01 7.71 77.10"
+        },
+        "line_total": {
+          "value": "77.10",
+          "page": 1,
+          "quote": "7.71 77.10"
+        },
+        "requested_date": {
+          "value": "2026-11-01",
+          "page": 1,
+          "quote": "2026-11-01 7.71 77.10"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 150 FT IT-10258"
+        },
+        "item_no": {
+          "value": "IT-10258",
+          "page": 1,
+          "quote": "IT-10258 Polyurethane tubing 3/8 in OD black"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 3/8 in OD black",
+          "page": 1,
+          "quote": "Polyurethane tubing 3/8 in OD black"
+        },
+        "qty": {
+          "value": "150",
+          "page": 1,
+          "quote": "4 150 FT IT-10258"
+        },
+        "uom": {
+          "value": "FT",
+          "page": 1,
+          "quote": "150 FT IT-10258"
+        },
+        "unit_price": {
+          "value": "4.57",
+          "page": 1,
+          "quote": "2026-11-08 4.57 685.50"
+        },
+        "line_total": {
+          "value": "685.50",
+          "page": 1,
+          "quote": "4.57 685.50"
+        },
+        "requested_date": {
+          "value": "2026-11-08",
+          "page": 1,
+          "quote": "2026-11-08 4.57 685.50"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 200 EA IT-10018"
+        },
+        "item_no": {
+          "value": "IT-10018",
+          "page": 1,
+          "quote": "IT-10018 Hex nut M10 zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex nut M10 zinc",
+          "page": 1,
+          "quote": "Hex nut M10 zinc"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "5 200 EA IT-10018"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "200 EA IT-10018"
+        },
+        "unit_price": {
+          "value": "0.38",
+          "page": 1,
+          "quote": "2026-11-09 0.38 76.00"
+        },
+        "line_total": {
+          "value": "76.00",
+          "page": 1,
+          "quote": "0.38 76.00"
+        },
+        "requested_date": {
+          "value": "2026-11-09",
+          "page": 1,
+          "quote": "2026-11-09 0.38 76.00"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 5 CS IT-10244"
+        },
+        "item_no": {
+          "value": "IT-10244",
+          "page": 1,
+          "quote": "IT-10244 Cable tie 14 in natural (bag of 100)"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cable tie 14 in natural (bag of 100)",
+          "page": 1,
+          "quote": "Cable tie 14 in natural (bag of 100)"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "6 5 CS IT-10244"
+        },
+        "uom": {
+          "value": "CS",
+          "page": 1,
+          "quote": "5 CS IT-10244"
+        },
+        "unit_price": {
+          "value": "62.80",
+          "page": 1,
+          "quote": "2026-11-21 62.80 314.00"
+        },
+        "line_total": {
+          "value": "314.00",
+          "page": 1,
+          "quote": "62.80 314.00"
+        },
+        "requested_date": {
+          "value": "2026-11-21",
+          "page": 1,
+          "quote": "2026-11-21 62.80 314.00"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.2,
+      "cost_usd": 0.018362800000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 54.2,
+      "cost_usd": 0.10142319999999999,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

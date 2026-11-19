@@ -1,0 +1,474 @@
+{
+  "doc_id": "dev-009",
+  "sender": "\"V. Dutta\" <procurement@fennimore-auto-body.example>",
+  "subject": "Purchase Order FABS/6533 - Fennimore Auto Body Supply",
+  "source_file": "scan_20260928_1508.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a completed Purchase Order (FABS/6533) from Fennimore Auto Body Supply to vendor Northfield Industrial Supply listing items, quantities, and prices to be supplied."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "FABS/6533",
+      "page": 1,
+      "quote": "PO Number FABS/6533"
+    },
+    "po_date": {
+      "value": "09/28/2026",
+      "page": 1,
+      "quote": "DATE 09/28/2026"
+    },
+    "customer_name": {
+      "value": "Fennimore Auto Body Supply",
+      "page": 1,
+      "quote": "Fennimore Auto Body Supply 46 Mill Road Springfield, IL 62701"
+    },
+    "bill_to_name": {
+      "value": "Fennimore Auto Body Supply",
+      "page": 1,
+      "quote": "BILL TO Fennimore Auto Body Supply"
+    },
+    "bill_to_address": {
+      "value": "46 Mill Road, Springfield, IL 62701",
+      "page": 1,
+      "quote": "46 Mill Road, Springfield, IL 62701"
+    },
+    "ship_to_name": {
+      "value": "Fennimore Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Fennimore Main Plant"
+    },
+    "ship_to_address": {
+      "value": "46 Mill Road, Springfield, IL 62701",
+      "page": 1,
+      "quote": "46 Mill Road, Springfield, IL 62701"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "3324.56",
+      "page": 1,
+      "quote": "Order Total 3324.56"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS Liftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 100 EA IT-10042"
+        },
+        "item_no": {
+          "value": "IT-10042",
+          "page": 1,
+          "quote": "IT-10042 Socket head cap screw M8 x 25 black oxide"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Socket head cap screw M8 x 25 black oxide",
+          "page": 1,
+          "quote": "Socket head cap screw M8 x 25 black oxide"
+        },
+        "qty": {
+          "value": "100",
+          "page": 1,
+          "quote": "100 EA IT-10042"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "100 EA IT-10042"
+        },
+        "unit_price": {
+          "value": "0.84",
+          "page": 1,
+          "quote": "0.84 84.00"
+        },
+        "line_total": {
+          "value": "84.00",
+          "page": 1,
+          "quote": "0.84 84.00"
+        },
+        "requested_date": {
+          "value": "10/21/2026",
+          "page": 1,
+          "quote": "DATE REQ'D 10/21/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 12 EA IT-10272"
+        },
+        "item_no": {
+          "value": "IT-10272",
+          "page": 1,
+          "quote": "IT-10272 Ball bearing 6204-2RS"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6204-2RS",
+          "page": 1,
+          "quote": "Ball bearing 6204-2RS"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 EA IT-10272"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "12 EA IT-10272"
+        },
+        "unit_price": {
+          "value": "3.38",
+          "page": 1,
+          "quote": "3.38 40.56"
+        },
+        "line_total": {
+          "value": "40.56",
+          "page": 1,
+          "quote": "3.38 40.56"
+        },
+        "requested_date": {
+          "value": "10/11/2026",
+          "page": 1,
+          "quote": "DATE REQ'D 10/11/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 4 RL IT-10250"
+        },
+        "item_no": {
+          "value": "IT-10250",
+          "page": 1,
+          "quote": "IT-10250 Rubber air hose 1/2 in ID"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Rubber air hose 1/2 in ID",
+          "page": 1,
+          "quote": "Rubber air hose 1/2 in ID"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 RL IT-10250"
+        },
+        "uom": {
+          "value": "RL",
+          "page": 1,
+          "quote": "4 RL IT-10250"
+        },
+        "unit_price": {
+          "value": "800.00",
+          "page": 1,
+          "quote": "800.00 3200.00"
+        },
+        "line_total": {
+          "value": "3200.00",
+          "page": 1,
+          "quote": "800.00 3200.00"
+        },
+        "requested_date": {
+          "value": "10/11/2026",
+          "page": 1,
+          "quote": "DATE REQ'D 10/11/2026"
+        }
+      }
+    ]
+  },
+  "extract2": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "FABS/6533",
+      "page": 1,
+      "quote": "PO Number\nFABS/6533"
+    },
+    "po_date": {
+      "value": "09/28/2026",
+      "page": 1,
+      "quote": "DATE\n09/28/2026"
+    },
+    "customer_name": {
+      "value": "Fennimore Auto Body Supply",
+      "page": 1,
+      "quote": "Fennimore Auto Body Supply\n46 Mill Road\nSpringfield, IL 62701"
+    },
+    "bill_to_name": {
+      "value": "Fennimore Auto Body Supply",
+      "page": 1,
+      "quote": "BILL TO\nFennimore Auto Body Supply"
+    },
+    "bill_to_address": {
+      "value": "46 Mill Road, Springfield, IL 62701",
+      "page": 1,
+      "quote": "46 Mill Road\nSpringfield, IL 62701"
+    },
+    "ship_to_name": {
+      "value": "Fennimore Main Plant",
+      "page": 1,
+      "quote": "SHIP TO\nFennimore Main Plant"
+    },
+    "ship_to_address": {
+      "value": "46 Mill Road, Springfield, IL 62701",
+      "page": 1,
+      "quote": "46 Mill Road\nSpringfield, IL 62701"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "3324.56",
+      "page": 1,
+      "quote": "Order Total\n3324.56"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS\nLiftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "LN\n1"
+        },
+        "item_no": {
+          "value": "IT-10042",
+          "page": 1,
+          "quote": "PART NO.\nIT-10042"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Socket head cap screw M8 x 25 black oxide",
+          "page": 1,
+          "quote": "DESCRIPTION\nSocket head cap screw M8 x 25 black oxide"
+        },
+        "qty": {
+          "value": "100",
+          "page": 1,
+          "quote": "QTY\n100"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT\nEA"
+        },
+        "unit_price": {
+          "value": "0.84",
+          "page": 1,
+          "quote": "UNIT PRICE\n0.84"
+        },
+        "line_total": {
+          "value": "84.00",
+          "page": 1,
+          "quote": "AMOUNT\n84.00"
+        },
+        "requested_date": {
+          "value": "10/21/2026",
+          "page": 1,
+          "quote": "DATE REQ'D\n10/21/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "LN\n2"
+        },
+        "item_no": {
+          "value": "IT-10272",
+          "page": 1,
+          "quote": "PART NO.\nIT-10272"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6204-2RS",
+          "page": 1,
+          "quote": "DESCRIPTION\nBall bearing 6204-2RS"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "QTY\n12"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT\nEA"
+        },
+        "unit_price": {
+          "value": "3.38",
+          "page": 1,
+          "quote": "UNIT PRICE\n3.38"
+        },
+        "line_total": {
+          "value": "40.56",
+          "page": 1,
+          "quote": "AMOUNT\n40.56"
+        },
+        "requested_date": {
+          "value": "10/11/2026",
+          "page": 1,
+          "quote": "DATE REQ'D\n10/11/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "LN\n3"
+        },
+        "item_no": {
+          "value": "IT-10250",
+          "page": 1,
+          "quote": "PART NO.\nIT-10250"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Rubber air hose 1/2 in ID",
+          "page": 1,
+          "quote": "DESCRIPTION\nRubber air hose 1/2 in ID"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "QTY\n4"
+        },
+        "uom": {
+          "value": "RL",
+          "page": 1,
+          "quote": "UNIT\nRL"
+        },
+        "unit_price": {
+          "value": "800.00",
+          "page": 1,
+          "quote": "UNIT PRICE\n800.00"
+        },
+        "line_total": {
+          "value": "3200.00",
+          "page": 1,
+          "quote": "AMOUNT\n3200.00"
+        },
+        "requested_date": {
+          "value": "10/11/2026",
+          "page": 1,
+          "quote": "DATE REQ'D\n10/11/2026"
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.7,
+      "cost_usd": 0.0185874,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 39.1,
+      "cost_usd": 0.0757994,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 35.9,
+      "cost_usd": 0.0778,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

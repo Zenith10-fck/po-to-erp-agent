@@ -1,0 +1,26 @@
+{
+  "doc_id": "dev-019",
+  "sender": "\"E. Varga\" <purchasing@tallgrass-equipment-rental.example>",
+  "subject": "Request for quotation RFQ-7339",
+  "source_file": "RFQ-7339.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "quote_request",
+    "reason": "Document is explicitly labeled a Request for Quotation asking for price/lead time, not an order to supply goods."
+  },
+  "extract": null,
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.3,
+      "cost_usd": 0.018283,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

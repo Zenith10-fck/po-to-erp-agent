@@ -1,0 +1,344 @@
+{
+  "doc_id": "held-003",
+  "sender": "\"T. Nakamura\" <buyer@halvorsen-marine-repair.example>",
+  "subject": "Halvorsen Marine Repair LLC PO HMR/8992",
+  "source_file": "PO_HMR_8992.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO letter listing items, quantities, and prices with a request to supply and deliver the goods."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "HMR/8992",
+      "page": 1,
+      "quote": "Please accept this letter as our PO Number HMR/8992 for the goods listed below."
+    },
+    "po_date": {
+      "value": "October 31, 2026",
+      "page": 1,
+      "quote": "October 31, 2026"
+    },
+    "customer_name": {
+      "value": "Halvorsen Marine Repair LLC",
+      "page": 1,
+      "quote": "Purchasing: T. Nakamura, 555-0151\nHalvorsen Marine Repair LLC"
+    },
+    "bill_to_name": {
+      "value": "Halvorsen Marine Repair LLC",
+      "page": 1,
+      "quote": "Invoices should be addressed to Halvorsen Marine Repair LLC, 18 Ropewalk Ln Suite 4, Sandusky, OH 44870."
+    },
+    "bill_to_address": {
+      "value": "18 Ropewalk Ln Suite 4, Sandusky, OH 44870",
+      "page": 1,
+      "quote": "Invoices should be addressed to Halvorsen Marine Repair LLC, 18 Ropewalk Ln Suite 4, Sandusky, OH 44870."
+    },
+    "ship_to_name": {
+      "value": "Halvorsen North Yard",
+      "page": 1,
+      "quote": "Please deliver the goods to Halvorsen North Yard, 4722 Depot St, Toledo, OH 43604."
+    },
+    "ship_to_address": {
+      "value": "4722 Depot St, Toledo, OH 43604",
+      "page": 1,
+      "quote": "Please deliver the goods to Halvorsen North Yard, 4722 Depot St, Toledo, OH 43604."
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD: 714.51 USD"
+    },
+    "order_total": {
+      "value": "714.51",
+      "page": 1,
+      "quote": "Total USD: 714.51 USD"
+    },
+    "carrier_name": {
+      "value": "UPS",
+      "page": 1,
+      "quote": "Please ship via UPS."
+    },
+    "carrier_account_no": {
+      "value": "YFZF2A",
+      "page": 1,
+      "quote": "Ship collect, UPS acct: YFZF2A"
+    },
+    "shipping_notes": {
+      "value": "Reference our PO number on the packing slip",
+      "page": 1,
+      "quote": "Delivery instructions: Reference our PO number on the packing slip"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 9 pack IT-10151"
+        },
+        "item_no": {
+          "value": "IT-10151",
+          "page": 1,
+          "quote": "1 9 pack IT-10151 Nitrile coated work gloves size M"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Nitrile coated work gloves size M",
+          "page": 1,
+          "quote": "IT-10151 Nitrile coated work gloves size M 36.60 329.40"
+        },
+        "qty": {
+          "value": "9",
+          "page": 1,
+          "quote": "1 9 pack IT-10151"
+        },
+        "uom": {
+          "value": "pack",
+          "page": 1,
+          "quote": "9 pack IT-10151"
+        },
+        "unit_price": {
+          "value": "36.60",
+          "page": 1,
+          "quote": "Nitrile coated work gloves size M 36.60 329.40"
+        },
+        "line_total": {
+          "value": "329.40",
+          "page": 1,
+          "quote": "36.60 329.40"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 4 each IT-10283"
+        },
+        "item_no": {
+          "value": "IT-10283",
+          "page": 1,
+          "quote": "2 4 each IT-10283 Roller chain #40 10 ft box"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Roller chain #40 10 ft box",
+          "page": 1,
+          "quote": "IT-10283 Roller chain #40 10 ft box 33.57 134.28"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "2 4 each IT-10283"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "4 each IT-10283"
+        },
+        "unit_price": {
+          "value": "33.57",
+          "page": 1,
+          "quote": "Roller chain #40 10 ft box 33.57 134.28"
+        },
+        "line_total": {
+          "value": "134.28",
+          "page": 1,
+          "quote": "33.57 134.28"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 5 each IT-10203"
+        },
+        "item_no": {
+          "value": "IT-10203",
+          "page": 1,
+          "quote": "3 5 each IT-10203 Carbide burr 1/4 in cylinder"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Carbide burr 1/4 in cylinder",
+          "page": 1,
+          "quote": "IT-10203 Carbide burr 1/4 in cylinder 19.07 95.35"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "3 5 each IT-10203"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "5 each IT-10203"
+        },
+        "unit_price": {
+          "value": "19.07",
+          "page": 1,
+          "quote": "Carbide burr 1/4 in cylinder 19.07 95.35"
+        },
+        "line_total": {
+          "value": "95.35",
+          "page": 1,
+          "quote": "19.07 95.35"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 40 each IT-10235"
+        },
+        "item_no": {
+          "value": "IT-10235",
+          "page": 1,
+          "quote": "4 40 each IT-10235 MIG contact tip .045 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "MIG contact tip .045 in",
+          "page": 1,
+          "quote": "IT-10235 MIG contact tip .045 in 1.34 53.60"
+        },
+        "qty": {
+          "value": "40",
+          "page": 1,
+          "quote": "4 40 each IT-10235"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "40 each IT-10235"
+        },
+        "unit_price": {
+          "value": "1.34",
+          "page": 1,
+          "quote": "MIG contact tip .045 in 1.34 53.60"
+        },
+        "line_total": {
+          "value": "53.60",
+          "page": 1,
+          "quote": "1.34 53.60"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 12 each IT-10273"
+        },
+        "item_no": {
+          "value": "IT-10273",
+          "page": 1,
+          "quote": "5 12 each IT-10273 Ball bearing 6205-2RS"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6205-2RS",
+          "page": 1,
+          "quote": "IT-10273 Ball bearing 6205-2RS 8.49 101.88"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "5 12 each IT-10273"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each IT-10273"
+        },
+        "unit_price": {
+          "value": "8.49",
+          "page": 1,
+          "quote": "Ball bearing 6205-2RS 8.49 101.88"
+        },
+        "line_total": {
+          "value": "101.88",
+          "page": 1,
+          "quote": "8.49 101.88"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.2,
+      "cost_usd": 0.018284,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 52.5,
+      "cost_usd": 0.1024242,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

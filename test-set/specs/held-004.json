@@ -1,0 +1,101 @@
+{
+  "doc_id": "held-004",
+  "split": "heldout",
+  "seed": 5004,
+  "kind": "po",
+  "layout": "free_text",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Ravenglass",
+    "address_lines": [
+      "715 Commerce Dr",
+      "Green Bay, WI 54301"
+    ],
+    "contact": "Purchasing: S. Halloran, 555-0126",
+    "logo_text": "RAVENGLASS"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "P118572",
+  "po_number_label": "Purchase Order No.",
+  "po_date": "05-Nov-2026",
+  "bill_to": {
+    "name": "Ravenglass Bottling Co.",
+    "address_lines": [
+      "715 Commerce Dr",
+      "Green Bay, WI 54301"
+    ]
+  },
+  "ship_to": {
+    "name": "Ravenglass Distribution Center",
+    "address_lines": [
+      "618 Cannery Ave",
+      "Madison, WI 53703"
+    ]
+  },
+  "currency": "USD",
+  "carrier": {
+    "name": "Our truck will pick up",
+    "account_no": null,
+    "label": "Ship via"
+  },
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10069",
+      "customer_part_no": null,
+      "description": "Brass compression elbow 3/4 in",
+      "qty": "11",
+      "uom": "cs",
+      "unit_price": "$722.00",
+      "line_total": "$7,942.00",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10261",
+      "customer_part_no": null,
+      "description": "Wire rope galvanized 1/4 in",
+      "qty": "2",
+      "uom": "rl",
+      "unit_price": "$642.50",
+      "line_total": "$1,285.00",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10141",
+      "customer_part_no": null,
+      "description": "Electrical tape 3/4 in white",
+      "qty": "4",
+      "uom": "rl",
+      "unit_price": "$5.29",
+      "line_total": "$21.16",
+      "requested_date": null
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10033",
+      "customer_part_no": null,
+      "description": "Split lock washer M6 zinc",
+      "qty": "12",
+      "uom": "bx",
+      "unit_price": "$7.00",
+      "line_total": "$84.00",
+      "requested_date": null
+    }
+  ],
+  "order_total": "$9,332.16",
+  "order_total_label": "Order Total",
+  "payment_terms": "2% 10 Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

@@ -1,0 +1,1332 @@
+{
+  "doc_id": "dev-011",
+  "sender": "\"L. Petrova\" <buyer@redfern-packaging.example>",
+  "subject": "Purchase Order PO-66217 - Redfern Packaging",
+  "source_file": "redfern_PO_PO-66217.pdf",
+  "mode": "text",
+  "pages": 2,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal PO (PO-66217) from Redfern Packaging listing items, quantities, and due dates for the vendor to supply."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1,
+      2
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "PO-66217",
+      "page": 1,
+      "quote": "P.O. Number: PO-66217"
+    },
+    "po_date": {
+      "value": "Oct 21, 2026",
+      "page": 1,
+      "quote": "ORDER DATE: Oct 21, 2026   TERMS: Net 30 days   CURRENCY: USD"
+    },
+    "customer_name": {
+      "value": "Redfern Packaging Systems LLC",
+      "page": 1,
+      "quote": "BILL TO:  Redfern Packaging Systems LLC"
+    },
+    "bill_to_name": {
+      "value": "Redfern Packaging Systems LLC",
+      "page": 1,
+      "quote": "BILL TO:  Redfern Packaging Systems LLC"
+    },
+    "bill_to_address": {
+      "value": "33 Cannery Ave, Grand Rapids, MI 49503",
+      "page": 1,
+      "quote": "33 Cannery Ave\nGrand Rapids, MI 49503"
+    },
+    "ship_to_name": {
+      "value": "Redfern Plant 2",
+      "page": 1,
+      "quote": "SHIP TO:  Redfern Plant 2"
+    },
+    "ship_to_address": {
+      "value": "4278 Switchyard Rd, Lansing, MI 48933",
+      "page": 1,
+      "quote": "4278 Switchyard Rd\nLansing, MI 48933"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "CURRENCY: USD"
+    },
+    "order_total": {
+      "value": "21310.07",
+      "page": 2,
+      "quote": "Total USD (USD) ....    21310.07"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "10",
+          "page": 1,
+          "quote": "10    IT-10218   Way oil 1 gal"
+        },
+        "item_no": {
+          "value": "IT-10218",
+          "page": 1,
+          "quote": "10    IT-10218   Way oil 1 gal"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Way oil 1 gal",
+          "page": 1,
+          "quote": "Way oil 1 gal"
+        },
+        "qty": {
+          "value": "9",
+          "page": 1,
+          "quote": "9 cs   158.82  1429.38 Nov 19, 2026"
+        },
+        "uom": {
+          "value": "cs",
+          "page": 1,
+          "quote": "9 cs   158.82  1429.38 Nov 19, 2026"
+        },
+        "unit_price": {
+          "value": "158.82",
+          "page": 1,
+          "quote": "9 cs   158.82  1429.38 Nov 19, 2026"
+        },
+        "line_total": {
+          "value": "1429.38",
+          "page": 1,
+          "quote": "9 cs   158.82  1429.38 Nov 19, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 19, 2026",
+          "page": 1,
+          "quote": "9 cs   158.82  1429.38 Nov 19, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "20",
+          "page": 1,
+          "quote": "20    10-7370   Ball valve stainless"
+        },
+        "item_no": {
+          "value": "10-7370",
+          "page": 1,
+          "quote": "20    10-7370   Ball valve stainless"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball valve stainless 1-1/4 in full port",
+          "page": 1,
+          "quote": "Ball valve stainless 1-1/4 in full port"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 ea   11.62   58.10 Nov 4, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "5 ea   11.62   58.10 Nov 4, 2026"
+        },
+        "unit_price": {
+          "value": "11.62",
+          "page": 1,
+          "quote": "5 ea   11.62   58.10 Nov 4, 2026"
+        },
+        "line_total": {
+          "value": "58.10",
+          "page": 1,
+          "quote": "5 ea   11.62   58.10 Nov 4, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 4, 2026",
+          "page": 1,
+          "quote": "5 ea   11.62   58.10 Nov 4, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "30",
+          "page": 1,
+          "quote": "30    71-2721   Stick electrode E7018"
+        },
+        "item_no": {
+          "value": "71-2721",
+          "page": 1,
+          "quote": "30    71-2721   Stick electrode E7018"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Stick electrode E7018 5/32 in",
+          "page": 1,
+          "quote": "Stick electrode E7018 5/32 in"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 bx  174.00  522.00 Nov 19, 2026"
+        },
+        "uom": {
+          "value": "bx",
+          "page": 1,
+          "quote": "3 bx  174.00  522.00 Nov 19, 2026"
+        },
+        "unit_price": {
+          "value": "174.00",
+          "page": 1,
+          "quote": "3 bx  174.00  522.00 Nov 19, 2026"
+        },
+        "line_total": {
+          "value": "522.00",
+          "page": 1,
+          "quote": "3 bx  174.00  522.00 Nov 19, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 19, 2026",
+          "page": 1,
+          "quote": "3 bx  174.00  522.00 Nov 19, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "40",
+          "page": 1,
+          "quote": "40    98-1122   Brake parts cleaner 14"
+        },
+        "item_no": {
+          "value": "98-1122",
+          "page": 1,
+          "quote": "40    98-1122   Brake parts cleaner 14"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brake parts cleaner 14 oz aerosol",
+          "page": 1,
+          "quote": "Brake parts cleaner 14 oz aerosol"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 ea   18.59   55.77 Nov 3, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "3 ea   18.59   55.77 Nov 3, 2026"
+        },
+        "unit_price": {
+          "value": "18.59",
+          "page": 1,
+          "quote": "3 ea   18.59   55.77 Nov 3, 2026"
+        },
+        "line_total": {
+          "value": "55.77",
+          "page": 1,
+          "quote": "3 ea   18.59   55.77 Nov 3, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 3, 2026",
+          "page": 1,
+          "quote": "3 ea   18.59   55.77 Nov 3, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "50",
+          "page": 1,
+          "quote": "50    IT-10296   Trash liner 55 gal (box"
+        },
+        "item_no": {
+          "value": "IT-10296",
+          "page": 1,
+          "quote": "50    IT-10296   Trash liner 55 gal (box"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Trash liner 55 gal (box of 100)",
+          "page": 1,
+          "quote": "Trash liner 55 gal (box of 100)"
+        },
+        "qty": {
+          "value": "20",
+          "page": 1,
+          "quote": "20 ea    8.47  169.40 Nov 2, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "20 ea    8.47  169.40 Nov 2, 2026"
+        },
+        "unit_price": {
+          "value": "8.47",
+          "page": 1,
+          "quote": "20 ea    8.47  169.40 Nov 2, 2026"
+        },
+        "line_total": {
+          "value": "169.40",
+          "page": 1,
+          "quote": "20 ea    8.47  169.40 Nov 2, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 2, 2026",
+          "page": 1,
+          "quote": "20 ea    8.47  169.40 Nov 2, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "60",
+          "page": 1,
+          "quote": "60    IT-10264   Proof coil chain grade"
+        },
+        "item_no": {
+          "value": "IT-10264",
+          "page": 1,
+          "quote": "60    IT-10264   Proof coil chain grade"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Proof coil chain grade 30 3/8 in",
+          "page": 1,
+          "quote": "Proof coil chain grade 30 3/8 in"
+        },
+        "qty": {
+          "value": "7",
+          "page": 1,
+          "quote": "7 rl  927.50 6492.50 Nov 2, 2026"
+        },
+        "uom": {
+          "value": "rl",
+          "page": 1,
+          "quote": "7 rl  927.50 6492.50 Nov 2, 2026"
+        },
+        "unit_price": {
+          "value": "927.50",
+          "page": 1,
+          "quote": "7 rl  927.50 6492.50 Nov 2, 2026"
+        },
+        "line_total": {
+          "value": "6492.50",
+          "page": 1,
+          "quote": "7 rl  927.50 6492.50 Nov 2, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 2, 2026",
+          "page": 1,
+          "quote": "7 rl  927.50 6492.50 Nov 2, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "70",
+          "page": 1,
+          "quote": "70    42-5056   Masking tape 1-1/2 in x"
+        },
+        "item_no": {
+          "value": "42-5056",
+          "page": 1,
+          "quote": "70    42-5056   Masking tape 1-1/2 in x"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Masking tape 1-1/2 in x 60 yd",
+          "page": 1,
+          "quote": "Masking tape 1-1/2 in x 60 yd"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 rl    8.98   89.80 Nov 1, 2026"
+        },
+        "uom": {
+          "value": "rl",
+          "page": 1,
+          "quote": "10 rl    8.98   89.80 Nov 1, 2026"
+        },
+        "unit_price": {
+          "value": "8.98",
+          "page": 1,
+          "quote": "10 rl    8.98   89.80 Nov 1, 2026"
+        },
+        "line_total": {
+          "value": "89.80",
+          "page": 1,
+          "quote": "10 rl    8.98   89.80 Nov 1, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 1, 2026",
+          "page": 1,
+          "quote": "10 rl    8.98   89.80 Nov 1, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "80",
+          "page": 1,
+          "quote": "80    IT-10298   Spray bottle 32 oz"
+        },
+        "item_no": {
+          "value": "IT-10298",
+          "page": 1,
+          "quote": "80    IT-10298   Spray bottle 32 oz"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Spray bottle 32 oz",
+          "page": 1,
+          "quote": "Spray bottle 32 oz"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 cs  133.10  399.30 Nov 3, 2026"
+        },
+        "uom": {
+          "value": "cs",
+          "page": 1,
+          "quote": "3 cs  133.10  399.30 Nov 3, 2026"
+        },
+        "unit_price": {
+          "value": "133.10",
+          "page": 1,
+          "quote": "3 cs  133.10  399.30 Nov 3, 2026"
+        },
+        "line_total": {
+          "value": "399.30",
+          "page": 1,
+          "quote": "3 cs  133.10  399.30 Nov 3, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 3, 2026",
+          "page": 1,
+          "quote": "3 cs  133.10  399.30 Nov 3, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "90",
+          "page": 1,
+          "quote": "90    IT-10064   Cotter pin 3/16 x 2-1/2"
+        },
+        "item_no": {
+          "value": "IT-10064",
+          "page": 1,
+          "quote": "90    IT-10064   Cotter pin 3/16 x 2-1/2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cotter pin 3/16 x 2-1/2 in zinc",
+          "page": 1,
+          "quote": "Cotter pin 3/16 x 2-1/2 in zinc"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 pk    9.00   90.00 Nov 5, 2026"
+        },
+        "uom": {
+          "value": "pk",
+          "page": 1,
+          "quote": "10 pk    9.00   90.00 Nov 5, 2026"
+        },
+        "unit_price": {
+          "value": "9.00",
+          "page": 1,
+          "quote": "10 pk    9.00   90.00 Nov 5, 2026"
+        },
+        "line_total": {
+          "value": "90.00",
+          "page": 1,
+          "quote": "10 pk    9.00   90.00 Nov 5, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 5, 2026",
+          "page": 1,
+          "quote": "10 pk    9.00   90.00 Nov 5, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "100",
+          "page": 1,
+          "quote": "100    30-1070   Cable tie 14 in natural"
+        },
+        "item_no": {
+          "value": "30-1070",
+          "page": 1,
+          "quote": "100    30-1070   Cable tie 14 in natural"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cable tie 14 in natural (bag of 100)",
+          "page": 1,
+          "quote": "Cable tie 14 in natural (bag of 100)"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 ea    3.05   12.20 Nov 11, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "4 ea    3.05   12.20 Nov 11, 2026"
+        },
+        "unit_price": {
+          "value": "3.05",
+          "page": 1,
+          "quote": "4 ea    3.05   12.20 Nov 11, 2026"
+        },
+        "line_total": {
+          "value": "12.20",
+          "page": 1,
+          "quote": "4 ea    3.05   12.20 Nov 11, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 11, 2026",
+          "page": 1,
+          "quote": "4 ea    3.05   12.20 Nov 11, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "110",
+          "page": 1,
+          "quote": "110    IT-10154   Leather driver gloves"
+        },
+        "item_no": {
+          "value": "IT-10154",
+          "page": 1,
+          "quote": "110    IT-10154   Leather driver gloves"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Leather driver gloves size M",
+          "page": 1,
+          "quote": "Leather driver gloves size M"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 pr    9.54  114.48 Nov 21, 2026"
+        },
+        "uom": {
+          "value": "pr",
+          "page": 1,
+          "quote": "12 pr    9.54  114.48 Nov 21, 2026"
+        },
+        "unit_price": {
+          "value": "9.54",
+          "page": 1,
+          "quote": "12 pr    9.54  114.48 Nov 21, 2026"
+        },
+        "line_total": {
+          "value": "114.48",
+          "page": 1,
+          "quote": "12 pr    9.54  114.48 Nov 21, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 21, 2026",
+          "page": 1,
+          "quote": "12 pr    9.54  114.48 Nov 21, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "120",
+          "page": 1,
+          "quote": "120 RP-7206            Utility knife blades"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "RP-7206",
+          "page": 1,
+          "quote": "120 RP-7206            Utility knife blades"
+        },
+        "description": {
+          "value": "Utility knife blades (dispenser of 100)",
+          "page": 1,
+          "quote": "Utility knife blades (dispenser of 100)"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 ea   14.50   72.50 Nov 1, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "5 ea   14.50   72.50 Nov 1, 2026"
+        },
+        "unit_price": {
+          "value": "14.50",
+          "page": 1,
+          "quote": "5 ea   14.50   72.50 Nov 1, 2026"
+        },
+        "line_total": {
+          "value": "72.50",
+          "page": 1,
+          "quote": "5 ea   14.50   72.50 Nov 1, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 1, 2026",
+          "page": 1,
+          "quote": "5 ea   14.50   72.50 Nov 1, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "130",
+          "page": 1,
+          "quote": "130    89-7198   Wedge anchor 1/2 x 5-1/2"
+        },
+        "item_no": {
+          "value": "89-7198",
+          "page": 1,
+          "quote": "130    89-7198   Wedge anchor 1/2 x 5-1/2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wedge anchor 1/2 x 5-1/2 in zinc",
+          "page": 1,
+          "quote": "Wedge anchor 1/2 x 5-1/2 in zinc"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 bx   94.50 1134.00 Nov 11, 2026"
+        },
+        "uom": {
+          "value": "bx",
+          "page": 1,
+          "quote": "12 bx   94.50 1134.00 Nov 11, 2026"
+        },
+        "unit_price": {
+          "value": "94.50",
+          "page": 1,
+          "quote": "12 bx   94.50 1134.00 Nov 11, 2026"
+        },
+        "line_total": {
+          "value": "1134.00",
+          "page": 1,
+          "quote": "12 bx   94.50 1134.00 Nov 11, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 11, 2026",
+          "page": 1,
+          "quote": "12 bx   94.50 1134.00 Nov 11, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "140",
+          "page": 1,
+          "quote": "140    IT-10182   HSS jobber drill bit 1/2"
+        },
+        "item_no": {
+          "value": "IT-10182",
+          "page": 1,
+          "quote": "140    IT-10182   HSS jobber drill bit 1/2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/2 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/2 in"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 pk   89.76  718.08 Nov 21, 2026"
+        },
+        "uom": {
+          "value": "pk",
+          "page": 1,
+          "quote": "8 pk   89.76  718.08 Nov 21, 2026"
+        },
+        "unit_price": {
+          "value": "89.76",
+          "page": 1,
+          "quote": "8 pk   89.76  718.08 Nov 21, 2026"
+        },
+        "line_total": {
+          "value": "718.08",
+          "page": 1,
+          "quote": "8 pk   89.76  718.08 Nov 21, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 21, 2026",
+          "page": 1,
+          "quote": "8 pk   89.76  718.08 Nov 21, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "150",
+          "page": 1,
+          "quote": "150    IT-10112   Flap disc 4-1/2 in 40"
+        },
+        "item_no": {
+          "value": "IT-10112",
+          "page": 1,
+          "quote": "150    IT-10112   Flap disc 4-1/2 in 40"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Flap disc 4-1/2 in 40 grit",
+          "page": 1,
+          "quote": "Flap disc 4-1/2 in 40 grit"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 ea    4.73   28.38 Nov 16, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "6 ea    4.73   28.38 Nov 16, 2026"
+        },
+        "unit_price": {
+          "value": "4.73",
+          "page": 1,
+          "quote": "6 ea    4.73   28.38 Nov 16, 2026"
+        },
+        "line_total": {
+          "value": "28.38",
+          "page": 1,
+          "quote": "6 ea    4.73   28.38 Nov 16, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 16, 2026",
+          "page": 1,
+          "quote": "6 ea    4.73   28.38 Nov 16, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "160",
+          "page": 1,
+          "quote": "160    IT-10044   Socket head cap screw"
+        },
+        "item_no": {
+          "value": "IT-10044",
+          "page": 1,
+          "quote": "160    IT-10044   Socket head cap screw"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Socket head cap screw M10 x 40 black oxide",
+          "page": 1,
+          "quote": "Socket head cap screw M10 x 40 black oxide"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 bx   54.00  648.00 Nov 13, 2026"
+        },
+        "uom": {
+          "value": "bx",
+          "page": 1,
+          "quote": "12 bx   54.00  648.00 Nov 13, 2026"
+        },
+        "unit_price": {
+          "value": "54.00",
+          "page": 1,
+          "quote": "12 bx   54.00  648.00 Nov 13, 2026"
+        },
+        "line_total": {
+          "value": "648.00",
+          "page": 1,
+          "quote": "12 bx   54.00  648.00 Nov 13, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 13, 2026",
+          "page": 1,
+          "quote": "12 bx   54.00  648.00 Nov 13, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "170",
+          "page": 1,
+          "quote": "170    88-9993   MIG wire ER70S-6 .030 in"
+        },
+        "item_no": {
+          "value": "88-9993",
+          "page": 1,
+          "quote": "170    88-9993   MIG wire ER70S-6 .030 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "MIG wire ER70S-6 .030 in 33 lb spool",
+          "page": 1,
+          "quote": "MIG wire ER70S-6 .030 in 33 lb spool"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 ea   64.83  648.30 Nov 7, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "10 ea   64.83  648.30 Nov 7, 2026"
+        },
+        "unit_price": {
+          "value": "64.83",
+          "page": 1,
+          "quote": "10 ea   64.83  648.30 Nov 7, 2026"
+        },
+        "line_total": {
+          "value": "648.30",
+          "page": 1,
+          "quote": "10 ea   64.83  648.30 Nov 7, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 7, 2026",
+          "page": 1,
+          "quote": "10 ea   64.83  648.30 Nov 7, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "180",
+          "page": 1,
+          "quote": "180    IT-10272   Ball bearing 6204-2RS"
+        },
+        "item_no": {
+          "value": "IT-10272",
+          "page": 1,
+          "quote": "180    IT-10272   Ball bearing 6204-2RS"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6204-2RS",
+          "page": 1,
+          "quote": "Ball bearing 6204-2RS"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 ea    3.28   39.36 Nov 2, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "12 ea    3.28   39.36 Nov 2, 2026"
+        },
+        "unit_price": {
+          "value": "3.28",
+          "page": 1,
+          "quote": "12 ea    3.28   39.36 Nov 2, 2026"
+        },
+        "line_total": {
+          "value": "39.36",
+          "page": 1,
+          "quote": "12 ea    3.28   39.36 Nov 2, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 2, 2026",
+          "page": 1,
+          "quote": "12 ea    3.28   39.36 Nov 2, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "190",
+          "page": 1,
+          "quote": "190    IT-10250   Rubber air hose 1/2 in"
+        },
+        "item_no": {
+          "value": "IT-10250",
+          "page": 1,
+          "quote": "190    IT-10250   Rubber air hose 1/2 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Rubber air hose 1/2 in ID",
+          "page": 1,
+          "quote": "Rubber air hose 1/2 in ID"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 rl  775.00 6200.00 Nov 23, 2026"
+        },
+        "uom": {
+          "value": "rl",
+          "page": 1,
+          "quote": "8 rl  775.00 6200.00 Nov 23, 2026"
+        },
+        "unit_price": {
+          "value": "775.00",
+          "page": 1,
+          "quote": "8 rl  775.00 6200.00 Nov 23, 2026"
+        },
+        "line_total": {
+          "value": "6200.00",
+          "page": 1,
+          "quote": "8 rl  775.00 6200.00 Nov 23, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 23, 2026",
+          "page": 1,
+          "quote": "8 rl  775.00 6200.00 Nov 23, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "200",
+          "page": 1,
+          "quote": "200    IT-10010   Hex bolt M10 x 50"
+        },
+        "item_no": {
+          "value": "IT-10010",
+          "page": 1,
+          "quote": "200    IT-10010   Hex bolt M10 x 50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M10 x 50 stainless A2",
+          "page": 1,
+          "quote": "Hex bolt M10 x 50 stainless A2"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 ea    0.71  177.50 Nov 21, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "250 ea    0.71  177.50 Nov 21, 2026"
+        },
+        "unit_price": {
+          "value": "0.71",
+          "page": 1,
+          "quote": "250 ea    0.71  177.50 Nov 21, 2026"
+        },
+        "line_total": {
+          "value": "177.50",
+          "page": 1,
+          "quote": "250 ea    0.71  177.50 Nov 21, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 21, 2026",
+          "page": 1,
+          "quote": "250 ea    0.71  177.50 Nov 21, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "210",
+          "page": 1,
+          "quote": "210    IT-10124   Sanding belt 6 x 48 in"
+        },
+        "item_no": {
+          "value": "IT-10124",
+          "page": 1,
+          "quote": "210    IT-10124   Sanding belt 6 x 48 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Sanding belt 6 x 48 in 80 grit",
+          "page": 1,
+          "quote": "Sanding belt 6 x 48 in 80 grit"
+        },
+        "qty": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 ea    2.81  112.40 Nov 22, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "40 ea    2.81  112.40 Nov 22, 2026"
+        },
+        "unit_price": {
+          "value": "2.81",
+          "page": 1,
+          "quote": "40 ea    2.81  112.40 Nov 22, 2026"
+        },
+        "line_total": {
+          "value": "112.40",
+          "page": 1,
+          "quote": "40 ea    2.81  112.40 Nov 22, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 22, 2026",
+          "page": 1,
+          "quote": "40 ea    2.81  112.40 Nov 22, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "220",
+          "page": 1,
+          "quote": "220    61-2776   Marking paint white 17"
+        },
+        "item_no": {
+          "value": "61-2776",
+          "page": 1,
+          "quote": "220    61-2776   Marking paint white 17"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Marking paint white 17 oz",
+          "page": 1,
+          "quote": "Marking paint white 17 oz"
+        },
+        "qty": {
+          "value": "11",
+          "page": 1,
+          "quote": "11 cs   82.86  911.46 Nov 2, 2026"
+        },
+        "uom": {
+          "value": "cs",
+          "page": 1,
+          "quote": "11 cs   82.86  911.46 Nov 2, 2026"
+        },
+        "unit_price": {
+          "value": "82.86",
+          "page": 1,
+          "quote": "11 cs   82.86  911.46 Nov 2, 2026"
+        },
+        "line_total": {
+          "value": "911.46",
+          "page": 1,
+          "quote": "11 cs   82.86  911.46 Nov 2, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 2, 2026",
+          "page": 1,
+          "quote": "11 cs   82.86  911.46 Nov 2, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "230",
+          "page": 2,
+          "quote": "230    IT-10256   Polyurethane tubing 1/4"
+        },
+        "item_no": {
+          "value": "IT-10256",
+          "page": 2,
+          "quote": "230    IT-10256   Polyurethane tubing 1/4"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 1/4 in OD black",
+          "page": 2,
+          "quote": "Polyurethane tubing 1/4 in OD black"
+        },
+        "qty": {
+          "value": "100",
+          "page": 2,
+          "quote": "100 ft    1.68  168.00 Nov 8, 2026"
+        },
+        "uom": {
+          "value": "ft",
+          "page": 2,
+          "quote": "100 ft    1.68  168.00 Nov 8, 2026"
+        },
+        "unit_price": {
+          "value": "1.68",
+          "page": 2,
+          "quote": "100 ft    1.68  168.00 Nov 8, 2026"
+        },
+        "line_total": {
+          "value": "168.00",
+          "page": 2,
+          "quote": "100 ft    1.68  168.00 Nov 8, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 8, 2026",
+          "page": 2,
+          "quote": "100 ft    1.68  168.00 Nov 8, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "240",
+          "page": 2,
+          "quote": "240    72-7314   Silicone sealant grey 10"
+        },
+        "item_no": {
+          "value": "72-7314",
+          "page": 2,
+          "quote": "240    72-7314   Silicone sealant grey 10"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Silicone sealant grey 10 oz",
+          "page": 2,
+          "quote": "Silicone sealant grey 10 oz"
+        },
+        "qty": {
+          "value": "10",
+          "page": 2,
+          "quote": "10 ea   21.34  213.40 Nov 7, 2026"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 2,
+          "quote": "10 ea   21.34  213.40 Nov 7, 2026"
+        },
+        "unit_price": {
+          "value": "21.34",
+          "page": 2,
+          "quote": "10 ea   21.34  213.40 Nov 7, 2026"
+        },
+        "line_total": {
+          "value": "213.40",
+          "page": 2,
+          "quote": "10 ea   21.34  213.40 Nov 7, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 7, 2026",
+          "page": 2,
+          "quote": "10 ea   21.34  213.40 Nov 7, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "250",
+          "page": 2,
+          "quote": "250    70-3383   Ball bearing 6200-2RS"
+        },
+        "item_no": {
+          "value": "70-3383",
+          "page": 2,
+          "quote": "250    70-3383   Ball bearing 6200-2RS"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6200-2RS",
+          "page": 2,
+          "quote": "Ball bearing 6200-2RS"
+        },
+        "qty": {
+          "value": "10",
+          "page": 2,
+          "quote": "10 bx   40.40  404.00 Nov 23, 2026"
+        },
+        "uom": {
+          "value": "bx",
+          "page": 2,
+          "quote": "10 bx   40.40  404.00 Nov 23, 2026"
+        },
+        "unit_price": {
+          "value": "40.40",
+          "page": 2,
+          "quote": "10 bx   40.40  404.00 Nov 23, 2026"
+        },
+        "line_total": {
+          "value": "404.00",
+          "page": 2,
+          "quote": "10 bx   40.40  404.00 Nov 23, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 23, 2026",
+          "page": 2,
+          "quote": "10 bx   40.40  404.00 Nov 23, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "260",
+          "page": 2,
+          "quote": "260    IT-10140   Electrical tape 3/4 in"
+        },
+        "item_no": {
+          "value": "IT-10140",
+          "page": 2,
+          "quote": "260    IT-10140   Electrical tape 3/4 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Electrical tape 3/4 in blue",
+          "page": 2,
+          "quote": "Electrical tape 3/4 in blue"
+        },
+        "qty": {
+          "value": "12",
+          "page": 2,
+          "quote": "12 pk   33.48  401.76 Nov 6, 2026"
+        },
+        "uom": {
+          "value": "pk",
+          "page": 2,
+          "quote": "12 pk   33.48  401.76 Nov 6, 2026"
+        },
+        "unit_price": {
+          "value": "33.48",
+          "page": 2,
+          "quote": "12 pk   33.48  401.76 Nov 6, 2026"
+        },
+        "line_total": {
+          "value": "401.76",
+          "page": 2,
+          "quote": "12 pk   33.48  401.76 Nov 6, 2026"
+        },
+        "requested_date": {
+          "value": "Nov 6, 2026",
+          "page": 2,
+          "quote": "12 pk   33.48  401.76 Nov 6, 2026"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 8.8,
+      "cost_usd": 0.0201468,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 196.4,
+      "cost_usd": 0.3910658,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

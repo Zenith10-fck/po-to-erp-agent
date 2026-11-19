@@ -1,0 +1,6 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0019","64115","2026-11-01","B0019","S0045","USD",1,"IT-10259","",100,"FT",100,"FT",3.2700,327.00,"2026-11-10","","Liftgate required","scan_20261101_1098.pdf","A"
+"C0019","64115","2026-11-01","B0019","S0045","USD",2,"IT-10179","",6,"EA",6,"EA",3.9600,23.76,"2026-11-30","","Liftgate required","scan_20261101_1098.pdf","A"
+"C0019","64115","2026-11-01","B0019","S0045","USD",3,"IT-10145","",10,"RL",10,"RL",7.5700,75.70,"2026-11-26","","Liftgate required","scan_20261101_1098.pdf","A"
+"C0019","64115","2026-11-01","B0019","S0045","USD",4,"IT-10099","",3,"BX",30,"EA",7.1000,21.30,"2026-11-12","","Liftgate required","scan_20261101_1098.pdf","A"
+"C0019","64115","2026-11-01","B0019","S0045","USD",5,"IT-10047","",200,"EA",200,"EA",0.1300,26.00,"2026-11-14","","Liftgate required","scan_20261101_1098.pdf","A"

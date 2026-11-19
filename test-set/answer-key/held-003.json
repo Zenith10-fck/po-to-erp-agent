@@ -1,0 +1,85 @@
+{
+  "doc_id": "held-003",
+  "split": "heldout",
+  "category": "clean",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "PO_HMR_8992.pdf",
+  "truth": {
+    "customer_id": "C0014",
+    "customer_po_number": "HMR/8992",
+    "po_date": "2026-10-31",
+    "bill_to_id": "B0014",
+    "ship_to_id": "S0036",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10151",
+        "customer_part_no": "",
+        "order_qty": "9",
+        "order_uom": "PK",
+        "base_qty": "108",
+        "base_uom": "PR",
+        "unit_price": "36.6000",
+        "line_total": "329.40",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10283",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "EA",
+        "base_qty": "4",
+        "base_uom": "EA",
+        "unit_price": "33.5700",
+        "line_total": "134.28",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10203",
+        "customer_part_no": "",
+        "order_qty": "5",
+        "order_uom": "EA",
+        "base_qty": "5",
+        "base_uom": "EA",
+        "unit_price": "19.0700",
+        "line_total": "95.35",
+        "requested_date": ""
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10235",
+        "customer_part_no": "",
+        "order_qty": "40",
+        "order_uom": "EA",
+        "base_qty": "40",
+        "base_uom": "EA",
+        "unit_price": "1.3400",
+        "line_total": "53.60",
+        "requested_date": ""
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10273",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "8.4900",
+        "line_total": "101.88",
+        "requested_date": ""
+      }
+    ],
+    "carrier_account_no": "YFZF2A",
+    "shipping_notes": "Reference our PO number on the packing slip"
+  },
+  "trap_detail": null
+}

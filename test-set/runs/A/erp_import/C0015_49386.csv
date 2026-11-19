@@ -1,0 +1,4 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0015","49386","2026-10-26","B0015","S0038","USD",1,"IT-10121","",50,"EA",50,"EA",7.2600,363.00,"2026-11-14","701593519","Dock 3, call before delivery","PO_49386.pdf","A"
+"C0015","49386","2026-10-26","B0015","S0038","USD",2,"IT-10177","",10,"EA",10,"EA",4.3000,43.00,"2026-11-22","701593519","Dock 3, call before delivery","PO_49386.pdf","A"
+"C0015","49386","2026-10-26","B0015","S0038","USD",3,"IT-10235","",24,"EA",24,"EA",1.2500,30.00,"2026-11-12","701593519","Dock 3, call before delivery","PO_49386.pdf","A"

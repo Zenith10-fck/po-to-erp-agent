@@ -1,0 +1,86 @@
+{
+  "doc_id": "dev-012",
+  "split": "dev",
+  "seed": 1012,
+  "kind": "po",
+  "layout": "letter_style",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Harlow Fastener Supply Inc.",
+    "address_lines": [
+      "410 Mill Road",
+      "Dayton, OH 45402"
+    ],
+    "contact": "Purchasing: L. Petrova, 555-0136",
+    "logo_text": "HARLOW"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "PO-72531",
+  "po_number_label": "PO #",
+  "po_date": "10/08/2026",
+  "bill_to": {
+    "name": "Harlow Fastener Supply Inc.",
+    "address_lines": [
+      "410 Mill Road",
+      "Dayton, OH 45402"
+    ]
+  },
+  "ship_to": {
+    "name": "Harlow Distribution Center",
+    "address_lines": [
+      "2800 Gantry Way",
+      "Lima, OH 45801"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10016",
+      "customer_part_no": null,
+      "description": "Hex nut M6 stainless A2",
+      "qty": "250",
+      "uom": "EA",
+      "unit_price": "0.22",
+      "line_total": "55.00",
+      "requested_date": "11/01/2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10180",
+      "customer_part_no": null,
+      "description": "HSS jobber drill bit 5/16 in",
+      "qty": "12",
+      "uom": "EA",
+      "unit_price": "8.47",
+      "line_total": "101.64",
+      "requested_date": "11/04/2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10134",
+      "customer_part_no": null,
+      "description": "Duct tape 2 in x 60 yd silver",
+      "qty": "1",
+      "uom": "CS",
+      "unit_price": "226.80",
+      "line_total": "226.80",
+      "requested_date": "10/27/2026"
+    }
+  ],
+  "order_total": "383.44",
+  "order_total_label": "Total USD",
+  "payment_terms": "2% 10 Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

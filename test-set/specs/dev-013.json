@@ -1,0 +1,86 @@
+{
+  "doc_id": "dev-013",
+  "split": "dev",
+  "seed": 1013,
+  "kind": "po",
+  "layout": "modern_blocks",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Larkspur Food Machinery Ltd.",
+    "address_lines": [
+      "1120 Granary Rd",
+      "Madison, WI 53703"
+    ],
+    "contact": "Purchasing: V. Dutta, 555-0193",
+    "logo_text": "LARKSPUR"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "PO-84082",
+  "po_number_label": "Purchase Order No.",
+  "po_date": "October 24, 2026",
+  "bill_to": {
+    "name": "Larkspur Food Machinery Ltd.",
+    "address_lines": [
+      "1120 Granary Rd",
+      "Madison, WI 53703"
+    ]
+  },
+  "ship_to": {
+    "name": "Larkspur Service Center",
+    "address_lines": [
+      "1783 Smelter Way",
+      "Madison, WI 53703"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Receiving closes at 2:30 pm",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "14-7981",
+      "customer_part_no": null,
+      "description": "Brass compression union 1/4 in",
+      "qty": "12",
+      "uom": "box",
+      "unit_price": "63.80",
+      "line_total": "765.60",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "59-9674",
+      "customer_part_no": null,
+      "description": "Double-sided foam tape 3/4 in",
+      "qty": "50",
+      "uom": "roll",
+      "unit_price": "6.50",
+      "line_total": "325.00",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "63-6288",
+      "customer_part_no": null,
+      "description": "Polyurethane tubing 1/4 in OD black",
+      "qty": "1",
+      "uom": "roll",
+      "unit_price": "420.00",
+      "line_total": "420.00",
+      "requested_date": null
+    }
+  ],
+  "order_total": "1,510.60",
+  "order_total_label": "Total USD",
+  "payment_terms": "2% 10 Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

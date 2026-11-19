@@ -1,0 +1,112 @@
+{
+  "doc_id": "dev-014",
+  "split": "dev",
+  "seed": 1014,
+  "kind": "po",
+  "layout": "compact_grid",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Kessler Machine",
+    "address_lines": [
+      "1450 Foundry Rd",
+      "Akron, OH 44301"
+    ],
+    "contact": "Purchasing: L. Petrova, 555-0184",
+    "logo_text": "KESSLER"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "KM-26-2432",
+  "po_number_label": "PO Number",
+  "po_date": "October 13, 2026",
+  "bill_to": {
+    "name": "Kessler Machine",
+    "address_lines": [
+      "1450 Foundry Rd",
+      "Akron, OH 44301"
+    ]
+  },
+  "ship_to": {
+    "name": "Kessler Tool Crib",
+    "address_lines": [
+      "1835 Ironworks Blvd",
+      "Findlay, OH 45840"
+    ]
+  },
+  "currency": "USD",
+  "carrier": {
+    "name": "UPS Ground",
+    "account_no": null,
+    "label": "Ship via"
+  },
+  "shipping_notes": "Reference our PO number on the packing slip",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10224",
+      "customer_part_no": null,
+      "description": "Dry film lubricant 11 oz aerosol",
+      "qty": "10",
+      "uom": "case",
+      "unit_price": "154.38",
+      "line_total": "1,543.80",
+      "requested_date": "November 4, 2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10092",
+      "customer_part_no": null,
+      "description": "Ball valve brass 1-1/4 in full port",
+      "qty": "10",
+      "uom": "box",
+      "unit_price": "92.94",
+      "line_total": "929.40",
+      "requested_date": "November 12, 2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10244",
+      "customer_part_no": null,
+      "description": "Cable tie 14 in natural (bag of 100)",
+      "qty": "6",
+      "uom": "case",
+      "unit_price": "65.40",
+      "line_total": "392.40",
+      "requested_date": "November 6, 2026"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10268",
+      "customer_part_no": null,
+      "description": "Ball bearing 6200-2RS",
+      "qty": "3",
+      "uom": "box",
+      "unit_price": "43.30",
+      "line_total": "129.90",
+      "requested_date": "October 27, 2026"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10256",
+      "customer_part_no": null,
+      "description": "Polyurethane tubing 1/4 in OD black",
+      "qty": "8",
+      "uom": "roll",
+      "unit_price": "450.00",
+      "line_total": "3,600.00",
+      "requested_date": "November 9, 2026"
+    }
+  ],
+  "order_total": "6,595.50",
+  "order_total_label": "Total",
+  "payment_terms": "Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

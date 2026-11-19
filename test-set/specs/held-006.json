@@ -1,0 +1,126 @@
+{
+  "doc_id": "held-006",
+  "split": "heldout",
+  "seed": 5006,
+  "kind": "po",
+  "layout": "side_by_side",
+  "degradations": [
+    "scan",
+    "rotate90"
+  ],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Brightwater Tool & Supply LLC",
+    "address_lines": [
+      "1299 Anvil Dr",
+      "Rockford, IL 61101"
+    ],
+    "contact": "Purchasing: A. Castellano, 555-0167",
+    "logo_text": "BRIGHTWATER"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "71741",
+  "po_number_label": "PO Number",
+  "po_date": "Oct 30, 2026",
+  "bill_to": {
+    "name": "Brightwater Tool & Supply LLC",
+    "address_lines": [
+      "1299 Anvil Dr",
+      "Rockford, IL 61101"
+    ]
+  },
+  "ship_to": {
+    "name": "Brightwater Main Plant",
+    "address_lines": [
+      "1299 Anvil Dr",
+      "Rockford, IL 61101"
+    ]
+  },
+  "currency": null,
+  "carrier": {
+    "name": "UPS Ground",
+    "account_no": null,
+    "label": "Ship via"
+  },
+  "shipping_notes": "Partial shipments OK",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10089",
+      "customer_part_no": null,
+      "description": "Pneumatic quick coupler socket 1/2 in",
+      "qty": "8",
+      "uom": "PK",
+      "unit_price": "52.40",
+      "line_total": "419.20",
+      "requested_date": "Nov 18, 2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10097",
+      "customer_part_no": null,
+      "description": "Hose clamp worm drive #16 stainless",
+      "qty": "12",
+      "uom": "EA",
+      "unit_price": "1.34",
+      "line_total": "16.08",
+      "requested_date": "Nov 17, 2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10183",
+      "customer_part_no": null,
+      "description": "Cobalt drill bit 1/8 in",
+      "qty": "8",
+      "uom": "PK",
+      "unit_price": "86.04",
+      "line_total": "688.32",
+      "requested_date": "Nov 12, 2026"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10291",
+      "customer_part_no": null,
+      "description": "Shaft collar set screw 1 in",
+      "qty": "6",
+      "uom": "each",
+      "unit_price": "1.36",
+      "line_total": "8.16",
+      "requested_date": "Nov 11, 2026"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10125",
+      "customer_part_no": null,
+      "description": "Sanding belt 6 x 48 in 120 grit",
+      "qty": "50",
+      "uom": "pcs",
+      "unit_price": "7.11",
+      "line_total": "355.50",
+      "requested_date": "Nov 16, 2026"
+    },
+    {
+      "line_no": "6",
+      "item_no": "IT-10005",
+      "customer_part_no": null,
+      "description": "Hex bolt M8 x 25 stainless A2",
+      "qty": "8",
+      "uom": "ctn",
+      "unit_price": "230.00",
+      "line_total": "1840.00",
+      "requested_date": "Nov 10, 2026"
+    }
+  ],
+  "order_total": "3327.26",
+  "order_total_label": "PO Total",
+  "payment_terms": "Net 60",
+  "injection_text": null,
+  "injection_style": null
+}

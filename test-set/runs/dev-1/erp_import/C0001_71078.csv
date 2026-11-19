@@ -1,0 +1,7 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0001","71078","2026-10-24","B0001","S0003","USD",1,"IT-10284","",10,"CS",100,"EA",274.4000,2744.00,"2026-11-11","","Liftgate required","harlow_PO_71078.pdf","dev-1"
+"C0001","71078","2026-10-24","B0001","S0003","USD",2,"IT-10266","",50,"FT",50,"FT",3.2200,161.00,"2026-11-16","","Liftgate required","harlow_PO_71078.pdf","dev-1"
+"C0001","71078","2026-10-24","B0001","S0003","USD",3,"IT-10100","",3,"PK",30,"EA",19.7000,59.10,"2026-11-22","","Liftgate required","harlow_PO_71078.pdf","dev-1"
+"C0001","71078","2026-10-24","B0001","S0003","USD",4,"IT-10110","",2,"BX",50,"EA",33.5000,67.00,"2026-11-26","","Liftgate required","harlow_PO_71078.pdf","dev-1"
+"C0001","71078","2026-10-24","B0001","S0003","USD",5,"IT-10178","",25,"EA",25,"EA",6.8600,171.50,"2026-11-09","","Liftgate required","harlow_PO_71078.pdf","dev-1"
+"C0001","71078","2026-10-24","B0001","S0003","USD",6,"IT-10034","",2,"BX",200,"EA",9.0000,18.00,"2026-11-15","","Liftgate required","harlow_PO_71078.pdf","dev-1"

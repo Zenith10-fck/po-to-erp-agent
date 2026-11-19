@@ -1,0 +1,86 @@
+{
+  "doc_id": "dev-009",
+  "split": "dev",
+  "seed": 1009,
+  "kind": "po",
+  "layout": "form_boxes",
+  "degradations": [],
+  "handwritten": true,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Fennimore Auto Body Supply",
+    "address_lines": [
+      "46 Mill Road",
+      "Springfield, IL 62701"
+    ],
+    "contact": "Purchasing: V. Dutta, 555-0111",
+    "logo_text": "FENNIMORE"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "FABS/6533",
+  "po_number_label": "PO Number",
+  "po_date": "09/28/2026",
+  "bill_to": {
+    "name": "Fennimore Auto Body Supply",
+    "address_lines": [
+      "46 Mill Road",
+      "Springfield, IL 62701"
+    ]
+  },
+  "ship_to": {
+    "name": "Fennimore Main Plant",
+    "address_lines": [
+      "46 Mill Road",
+      "Springfield, IL 62701"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Liftgate required",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10042",
+      "customer_part_no": null,
+      "description": "Socket head cap screw M8 x 25 black oxide",
+      "qty": "100",
+      "uom": "EA",
+      "unit_price": "0.84",
+      "line_total": "84.00",
+      "requested_date": "10/21/2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10272",
+      "customer_part_no": null,
+      "description": "Ball bearing 6204-2RS",
+      "qty": "12",
+      "uom": "EA",
+      "unit_price": "3.38",
+      "line_total": "40.56",
+      "requested_date": "10/11/2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10250",
+      "customer_part_no": null,
+      "description": "Rubber air hose 1/2 in ID",
+      "qty": "4",
+      "uom": "RL",
+      "unit_price": "800.00",
+      "line_total": "3200.00",
+      "requested_date": "10/11/2026"
+    }
+  ],
+  "order_total": "3324.56",
+  "order_total_label": "Order Total",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

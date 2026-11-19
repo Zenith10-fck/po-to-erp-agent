@@ -1,0 +1,80 @@
+{
+  "doc_id": "dev-018",
+  "split": "dev",
+  "seed": 1018,
+  "kind": "invoice",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Ashgrove Corrugated Supply",
+    "address_lines": [
+      "77 Boxboard Ln",
+      "Marion, OH 43302"
+    ],
+    "contact": "Billing: 555-0160",
+    "logo_text": "ASHGROVE"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "INV-62075",
+  "po_number_label": "Invoice No.",
+  "po_date": "2026-10-23",
+  "bill_to": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "ship_to": null,
+  "currency": "USD",
+  "carrier": null,
+  "shipping_notes": "Your PO NF-7726",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "CB-1210",
+      "customer_part_no": null,
+      "description": "Corrugated box 12 x 10 x 8 in, 200# test",
+      "qty": "500",
+      "uom": "EA",
+      "unit_price": "0.62",
+      "line_total": "310.00",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "CB-1812",
+      "customer_part_no": null,
+      "description": "Corrugated box 18 x 12 x 12 in, 200# test",
+      "qty": "250",
+      "uom": "EA",
+      "unit_price": "1.14",
+      "line_total": "285.00",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "ST-0300",
+      "customer_part_no": null,
+      "description": "Stretch film 18 in x 1500 ft",
+      "qty": "24",
+      "uom": "EA",
+      "unit_price": "21.75",
+      "line_total": "522.00",
+      "requested_date": null
+    }
+  ],
+  "order_total": "$1,117.00",
+  "order_total_label": "Amount Due",
+  "payment_terms": "Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

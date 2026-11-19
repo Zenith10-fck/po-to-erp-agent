@@ -1,0 +1,26 @@
+{
+  "doc_id": "held-019",
+  "sender": "\"D. Brennan\" <purchasing@westmark-plastics.example>",
+  "subject": "Request for quotation RFQ-1722",
+  "source_file": "RFQ-1722.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "quote_request",
+    "reason": "Document is explicitly labeled \"Request for Quotation\" asking for price/lead time estimates, not placing an order."
+  },
+  "extract": null,
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.1,
+      "cost_usd": 0.018259400000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

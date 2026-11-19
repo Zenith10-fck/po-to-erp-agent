@@ -1,0 +1,119 @@
+{
+  "doc_id": "dev-004",
+  "split": "dev",
+  "seed": 1004,
+  "kind": "po",
+  "layout": "free_text",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Harlow Fastener",
+    "address_lines": [
+      "410 Mill Road",
+      "Dayton, OH 45402"
+    ],
+    "contact": "Purchasing: V. Dutta, 555-0117",
+    "logo_text": "HARLOW"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "71078",
+  "po_number_label": "Order No.",
+  "po_date": "2026-10-24",
+  "bill_to": {
+    "name": "Harlow Fastener Supply Inc.",
+    "address_lines": [
+      "410 Mill Road",
+      "Dayton, OH 45402"
+    ]
+  },
+  "ship_to": {
+    "name": "Harlow South Plant",
+    "address_lines": [
+      "3802 Loomis Ct",
+      "Akron, OH 44301"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Liftgate required",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10284",
+      "customer_part_no": null,
+      "description": "Roller chain #50 10 ft box",
+      "qty": "10",
+      "uom": "CS",
+      "unit_price": "274.40",
+      "line_total": "2,744.00",
+      "requested_date": "2026-11-11"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10266",
+      "customer_part_no": null,
+      "description": "Hydraulic hose 100R2 3/8 in",
+      "qty": "50",
+      "uom": "FT",
+      "unit_price": "3.22",
+      "line_total": "161.00",
+      "requested_date": "2026-11-16"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10100",
+      "customer_part_no": null,
+      "description": "Brass hose barb 1/4 in x 1/4 NPT",
+      "qty": "3",
+      "uom": "PK",
+      "unit_price": "19.70",
+      "line_total": "59.10",
+      "requested_date": "2026-11-22"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10110",
+      "customer_part_no": null,
+      "description": "Steel pipe plug 1/2 in NPT",
+      "qty": "2",
+      "uom": "BX",
+      "unit_price": "33.50",
+      "line_total": "67.00",
+      "requested_date": "2026-11-26"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10178",
+      "customer_part_no": null,
+      "description": "HSS jobber drill bit 3/16 in",
+      "qty": "25",
+      "uom": "EA",
+      "unit_price": "6.86",
+      "line_total": "171.50",
+      "requested_date": "2026-11-09"
+    },
+    {
+      "line_no": "6",
+      "item_no": "IT-10034",
+      "customer_part_no": null,
+      "description": "Split lock washer M8 zinc",
+      "qty": "2",
+      "uom": "BX",
+      "unit_price": "9.00",
+      "line_total": "18.00",
+      "requested_date": "2026-11-15"
+    }
+  ],
+  "order_total": "3,220.60",
+  "order_total_label": "Grand Total",
+  "payment_terms": "Net 60",
+  "injection_text": null,
+  "injection_style": null
+}

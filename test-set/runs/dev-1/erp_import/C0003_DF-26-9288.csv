@@ -1,0 +1,4 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0003","DF-26-9288","2026-10-29","B0003","S0009","USD",1,"IT-10242","",7,"CS",350,"EA",292.0000,2044.00,"2026-11-05","560381519","Reference our PO number on the packing slip","dunmore_PO_DF-26-9288.pdf","dev-1"
+"C0003","DF-26-9288","2026-10-29","B0003","S0009","USD",2,"IT-10234","",25,"LB",25,"LB",4.2100,105.25,"2026-11-07","560381519","Reference our PO number on the packing slip","dunmore_PO_DF-26-9288.pdf","dev-1"
+"C0003","DF-26-9288","2026-10-29","B0003","S0009","USD",3,"IT-10284","",8,"EA",8,"EA",27.4400,219.52,"2026-11-21","560381519","Reference our PO number on the packing slip","dunmore_PO_DF-26-9288.pdf","dev-1"

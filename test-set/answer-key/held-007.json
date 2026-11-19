@@ -1,0 +1,100 @@
+{
+  "doc_id": "held-007",
+  "split": "heldout",
+  "category": "scan",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261106_1073.pdf",
+  "truth": {
+    "customer_id": "C0021",
+    "customer_po_number": "SC-26-4344",
+    "po_date": "2026-11-06",
+    "bill_to_id": "B0021",
+    "ship_to_id": "S0051",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10195",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "1.5800",
+        "line_total": "18.96",
+        "requested_date": "2026-11-24"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10207",
+        "customer_part_no": "",
+        "order_qty": "10",
+        "order_uom": "EA",
+        "base_qty": "10",
+        "base_uom": "EA",
+        "unit_price": "23.6300",
+        "line_total": "236.30",
+        "requested_date": "2026-12-09"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10065",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "CS",
+        "base_qty": "20000",
+        "base_uom": "EA",
+        "unit_price": "500.0000",
+        "line_total": "2000.00",
+        "requested_date": "2026-11-27"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10273",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "8.4900",
+        "line_total": "101.88",
+        "requested_date": "2026-12-02"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10101",
+        "customer_part_no": "",
+        "order_qty": "24",
+        "order_uom": "EA",
+        "base_qty": "24",
+        "base_uom": "EA",
+        "unit_price": "1.8200",
+        "line_total": "43.68",
+        "requested_date": "2026-11-27"
+      },
+      {
+        "line_no": 6,
+        "item_id": "IT-10179",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "EA",
+        "base_qty": "4",
+        "base_uom": "EA",
+        "unit_price": "4.2400",
+        "line_total": "16.96",
+        "requested_date": "2026-11-18"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Liftgate required"
+  },
+  "trap_detail": null
+}

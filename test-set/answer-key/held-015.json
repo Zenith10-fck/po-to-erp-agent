@@ -1,0 +1,90 @@
+{
+  "doc_id": "held-015",
+  "split": "heldout",
+  "category": "trap",
+  "is_po": true,
+  "trap": "carrier_not_on_file",
+  "expected_route": "review",
+  "expected_reason_codes": [
+    "R12"
+  ],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "quillfeather_PO_QPW_4117.pdf",
+  "truth": {
+    "customer_id": "C0024",
+    "customer_po_number": "QPW/4117",
+    "po_date": "2026-11-10",
+    "bill_to_id": "B0024",
+    "ship_to_id": "S0057",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10047",
+        "customer_part_no": "",
+        "order_qty": "500",
+        "order_uom": "EA",
+        "base_qty": "500",
+        "base_uom": "EA",
+        "unit_price": "0.1400",
+        "line_total": "70.00",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10007",
+        "customer_part_no": "",
+        "order_qty": "100",
+        "order_uom": "EA",
+        "base_qty": "100",
+        "base_uom": "EA",
+        "unit_price": "0.4900",
+        "line_total": "49.00",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10059",
+        "customer_part_no": "",
+        "order_qty": "40",
+        "order_uom": "EA",
+        "base_qty": "40",
+        "base_uom": "EA",
+        "unit_price": "1.2800",
+        "line_total": "51.20",
+        "requested_date": ""
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10263",
+        "customer_part_no": "",
+        "order_qty": "250",
+        "order_uom": "FT",
+        "base_qty": "250",
+        "base_uom": "FT",
+        "unit_price": "4.8400",
+        "line_total": "1210.00",
+        "requested_date": ""
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10175",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "5.5200",
+        "line_total": "66.24",
+        "requested_date": ""
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Deliver to rear dock, door 6"
+  },
+  "trap_detail": {
+    "field": "carrier_account_no",
+    "printed": "SB7YHJ"
+  }
+}

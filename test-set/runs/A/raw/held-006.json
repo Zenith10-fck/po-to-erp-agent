@@ -1,0 +1,756 @@
+{
+  "doc_id": "held-006",
+  "sender": "\"A. Castellano\" <orders@brightwater-tool-supply.example>",
+  "subject": "New order 71741",
+  "source_file": "scan_20261030_1100.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Scanned document is a Purchase Order (PO #71741) from Brightwater Tool & Supply listing items, quantities, and delivery details ordered from the supplier."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "71741",
+      "page": 1,
+      "quote": "PO Number: 71741"
+    },
+    "po_date": {
+      "value": "Oct 30, 2026",
+      "page": 1,
+      "quote": "Order date: Oct 30, 2026"
+    },
+    "customer_name": {
+      "value": "Brightwater Tool & Supply LLC",
+      "page": 1,
+      "quote": "ORDERED BY\nBrightwater Tool & Supply LLC"
+    },
+    "bill_to_name": {
+      "value": "Brightwater Tool & Supply LLC",
+      "page": 1,
+      "quote": "INVOICE TO\nBrightwater Tool & Supply LLC"
+    },
+    "bill_to_address": {
+      "value": "1299 Anvil Dr, Rockford, IL 61101",
+      "page": 1,
+      "quote": "1299 Anvil Dr\nRockford, IL 61101"
+    },
+    "ship_to_name": {
+      "value": "Brightwater Main Plant",
+      "page": 1,
+      "quote": "DELIVER TO\nBrightwater Main Plant"
+    },
+    "ship_to_address": {
+      "value": "1299 Anvil Dr, Rockford, IL 61101",
+      "page": 1,
+      "quote": "1299 Anvil Dr\nRockford, IL 61101"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "3327.26",
+      "page": 1,
+      "quote": "PO Total 3327.26"
+    },
+    "carrier_name": {
+      "value": "UPS Ground",
+      "page": 1,
+      "quote": "Carrier: UPS Ground"
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Partial shipments OK",
+      "page": 1,
+      "quote": "Delivery instructions: Partial shipments OK"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "419.20 1"
+        },
+        "item_no": {
+          "value": "IT-10089",
+          "page": 1,
+          "quote": "IT-10089 Pneumatic quick coupler socket 1/2 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Pneumatic quick coupler socket 1/2 in",
+          "page": 1,
+          "quote": "IT-10089 Pneumatic quick coupler socket 1/2 in"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 PK IT-10089"
+        },
+        "uom": {
+          "value": "PK",
+          "page": 1,
+          "quote": "8 PK IT-10089"
+        },
+        "unit_price": {
+          "value": "52.40",
+          "page": 1,
+          "quote": "52.40 419.20"
+        },
+        "line_total": {
+          "value": "419.20",
+          "page": 1,
+          "quote": "52.40 419.20 1"
+        },
+        "requested_date": {
+          "value": "Nov 18, 2026",
+          "page": 1,
+          "quote": "Nov 18, 2026 52.40"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "16.08 2"
+        },
+        "item_no": {
+          "value": "IT-10097",
+          "page": 1,
+          "quote": "IT-10097 Hose clamp worm drive #16 stainless"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hose clamp worm drive #16 stainless",
+          "page": 1,
+          "quote": "IT-10097 Hose clamp worm drive #16 stainless"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 EA IT-10097"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "12 EA IT-10097"
+        },
+        "unit_price": {
+          "value": "1.34",
+          "page": 1,
+          "quote": "1.34 16.08"
+        },
+        "line_total": {
+          "value": "16.08",
+          "page": 1,
+          "quote": "1.34 16.08 2"
+        },
+        "requested_date": {
+          "value": "Nov 17, 2026",
+          "page": 1,
+          "quote": "Nov 17, 2026 1.34"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "688.32 3"
+        },
+        "item_no": {
+          "value": "IT-10183",
+          "page": 1,
+          "quote": "IT-10183 Cobalt drill bit 1/8 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cobalt drill bit 1/8 in",
+          "page": 1,
+          "quote": "IT-10183 Cobalt drill bit 1/8 in"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 PK IT-10183"
+        },
+        "uom": {
+          "value": "PK",
+          "page": 1,
+          "quote": "8 PK IT-10183"
+        },
+        "unit_price": {
+          "value": "86.04",
+          "page": 1,
+          "quote": "86.04 688.32"
+        },
+        "line_total": {
+          "value": "688.32",
+          "page": 1,
+          "quote": "86.04 688.32 3"
+        },
+        "requested_date": {
+          "value": "Nov 12, 2026",
+          "page": 1,
+          "quote": "Nov 12, 2026 86.04"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "8.16 4"
+        },
+        "item_no": {
+          "value": "IT-10291",
+          "page": 1,
+          "quote": "IT-10291 Shaft collar set screw 1 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Shaft collar set screw 1 in",
+          "page": 1,
+          "quote": "IT-10291 Shaft collar set screw 1 in"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 each IT-10291"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "6 each IT-10291"
+        },
+        "unit_price": {
+          "value": "1.36",
+          "page": 1,
+          "quote": "1.36 8.16"
+        },
+        "line_total": {
+          "value": "8.16",
+          "page": 1,
+          "quote": "1.36 8.16 4"
+        },
+        "requested_date": {
+          "value": "Nov 11, 2026",
+          "page": 1,
+          "quote": "Nov 11, 2026 1.36"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "355.50 5"
+        },
+        "item_no": {
+          "value": "IT-10125",
+          "page": 1,
+          "quote": "IT-10125 Sanding belt 6 x 48 in 120 grit"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Sanding belt 6 x 48 in 120 grit",
+          "page": 1,
+          "quote": "IT-10125 Sanding belt 6 x 48 in 120 grit"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 pcs IT-10125"
+        },
+        "uom": {
+          "value": "pcs",
+          "page": 1,
+          "quote": "50 pcs IT-10125"
+        },
+        "unit_price": {
+          "value": "7.11",
+          "page": 1,
+          "quote": "7.11 355.50"
+        },
+        "line_total": {
+          "value": "355.50",
+          "page": 1,
+          "quote": "7.11 355.50 5"
+        },
+        "requested_date": {
+          "value": "Nov 16, 2026",
+          "page": 1,
+          "quote": "Nov 16, 2026 7.11"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "1840.00 6"
+        },
+        "item_no": {
+          "value": "IT-10005",
+          "page": 1,
+          "quote": "IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M8 x 25 stainless A2",
+          "page": 1,
+          "quote": "IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 ctn IT-10005"
+        },
+        "uom": {
+          "value": "ctn",
+          "page": 1,
+          "quote": "8 ctn IT-10005"
+        },
+        "unit_price": {
+          "value": "230.00",
+          "page": 1,
+          "quote": "230.00 1840.00"
+        },
+        "line_total": {
+          "value": "1840.00",
+          "page": 1,
+          "quote": "230.00 1840.00 6"
+        },
+        "requested_date": {
+          "value": "Nov 10, 2026",
+          "page": 1,
+          "quote": "Nov 10, 2026 230.00"
+        }
+      }
+    ]
+  },
+  "extract2": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "71741",
+      "page": 1,
+      "quote": "PO Number: 71741"
+    },
+    "po_date": {
+      "value": "Oct 30, 2026",
+      "page": 1,
+      "quote": "Order date: Oct 30, 2026"
+    },
+    "customer_name": {
+      "value": "Brightwater Tool & Supply LLC",
+      "page": 1,
+      "quote": "ORDERED BY Brightwater Tool & Supply LLC"
+    },
+    "bill_to_name": {
+      "value": "Brightwater Tool & Supply LLC",
+      "page": 1,
+      "quote": "INVOICE TO Brightwater Tool & Supply LLC"
+    },
+    "bill_to_address": {
+      "value": "1299 Anvil Dr, Rockford, IL 61101",
+      "page": 1,
+      "quote": "1299 Anvil Dr Rockford, IL 61101"
+    },
+    "ship_to_name": {
+      "value": "Brightwater Main Plant",
+      "page": 1,
+      "quote": "DELIVER TO Brightwater Main Plant"
+    },
+    "ship_to_address": {
+      "value": "1299 Anvil Dr, Rockford, IL 61101",
+      "page": 1,
+      "quote": "1299 Anvil Dr Rockford, IL 61101"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "3327.26",
+      "page": 1,
+      "quote": "PO Total 3327.26"
+    },
+    "carrier_name": {
+      "value": "UPS Ground",
+      "page": 1,
+      "quote": "Carrier: UPS Ground"
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Partial shipments OK",
+      "page": 1,
+      "quote": "Delivery instructions: Partial shipments OK"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "419.20 1"
+        },
+        "item_no": {
+          "value": "IT-10089",
+          "page": 1,
+          "quote": "IT-10089 Pneumatic quick coupler socket 1/2 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Pneumatic quick coupler socket 1/2 in",
+          "page": 1,
+          "quote": "IT-10089 Pneumatic quick coupler socket 1/2 in"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 PK IT-10089"
+        },
+        "uom": {
+          "value": "PK",
+          "page": 1,
+          "quote": "8 PK IT-10089"
+        },
+        "unit_price": {
+          "value": "52.40",
+          "page": 1,
+          "quote": "Nov 18, 2026 52.40 419.20"
+        },
+        "line_total": {
+          "value": "419.20",
+          "page": 1,
+          "quote": "52.40 419.20 1"
+        },
+        "requested_date": {
+          "value": "Nov 18, 2026",
+          "page": 1,
+          "quote": "Nov 18, 2026 52.40"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "16.08 2"
+        },
+        "item_no": {
+          "value": "IT-10097",
+          "page": 1,
+          "quote": "IT-10097 Hose clamp worm drive #16 stainless"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hose clamp worm drive #16 stainless",
+          "page": 1,
+          "quote": "IT-10097 Hose clamp worm drive #16 stainless"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 EA IT-10097"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "12 EA IT-10097"
+        },
+        "unit_price": {
+          "value": "1.34",
+          "page": 1,
+          "quote": "Nov 17, 2026 1.34 16.08"
+        },
+        "line_total": {
+          "value": "16.08",
+          "page": 1,
+          "quote": "1.34 16.08 2"
+        },
+        "requested_date": {
+          "value": "Nov 17, 2026",
+          "page": 1,
+          "quote": "Nov 17, 2026 1.34"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "688.32 3"
+        },
+        "item_no": {
+          "value": "IT-10183",
+          "page": 1,
+          "quote": "IT-10183 Cobalt drill bit 1/8 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cobalt drill bit 1/8 in",
+          "page": 1,
+          "quote": "IT-10183 Cobalt drill bit 1/8 in"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 PK IT-10183"
+        },
+        "uom": {
+          "value": "PK",
+          "page": 1,
+          "quote": "8 PK IT-10183"
+        },
+        "unit_price": {
+          "value": "86.04",
+          "page": 1,
+          "quote": "Nov 12, 2026 86.04 688.32"
+        },
+        "line_total": {
+          "value": "688.32",
+          "page": 1,
+          "quote": "86.04 688.32 3"
+        },
+        "requested_date": {
+          "value": "Nov 12, 2026",
+          "page": 1,
+          "quote": "Nov 12, 2026 86.04"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "8.16 4"
+        },
+        "item_no": {
+          "value": "IT-10291",
+          "page": 1,
+          "quote": "IT-10291 Shaft collar set screw 1 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Shaft collar set screw 1 in",
+          "page": 1,
+          "quote": "IT-10291 Shaft collar set screw 1 in"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 each IT-10291"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "6 each IT-10291"
+        },
+        "unit_price": {
+          "value": "1.36",
+          "page": 1,
+          "quote": "Nov 11, 2026 1.36 8.16"
+        },
+        "line_total": {
+          "value": "8.16",
+          "page": 1,
+          "quote": "1.36 8.16 4"
+        },
+        "requested_date": {
+          "value": "Nov 11, 2026",
+          "page": 1,
+          "quote": "Nov 11, 2026 1.36"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "355.50 5"
+        },
+        "item_no": {
+          "value": "IT-10125",
+          "page": 1,
+          "quote": "IT-10125 Sanding belt 6 x 48 in 120 grit"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Sanding belt 6 x 48 in 120 grit",
+          "page": 1,
+          "quote": "IT-10125 Sanding belt 6 x 48 in 120 grit"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 pcs IT-10125"
+        },
+        "uom": {
+          "value": "pcs",
+          "page": 1,
+          "quote": "50 pcs IT-10125"
+        },
+        "unit_price": {
+          "value": "7.11",
+          "page": 1,
+          "quote": "Nov 16, 2026 7.11 355.50"
+        },
+        "line_total": {
+          "value": "355.50",
+          "page": 1,
+          "quote": "7.11 355.50 5"
+        },
+        "requested_date": {
+          "value": "Nov 16, 2026",
+          "page": 1,
+          "quote": "Nov 16, 2026 7.11"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "1840.00 6"
+        },
+        "item_no": {
+          "value": "IT-10005",
+          "page": 1,
+          "quote": "IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M8 x 25 stainless A2",
+          "page": 1,
+          "quote": "IT-10005 Hex bolt M8 x 25 stainless A2"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 ctn IT-10005"
+        },
+        "uom": {
+          "value": "ctn",
+          "page": 1,
+          "quote": "8 ctn IT-10005"
+        },
+        "unit_price": {
+          "value": "230.00",
+          "page": 1,
+          "quote": "Nov 10, 2026 230.00 1840.00"
+        },
+        "line_total": {
+          "value": "1840.00",
+          "page": 1,
+          "quote": "230.00 1840.00 6"
+        },
+        "requested_date": {
+          "value": "Nov 10, 2026",
+          "page": 1,
+          "quote": "Nov 10, 2026 230.00"
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.1,
+      "cost_usd": 0.01835,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 57.9,
+      "cost_usd": 0.11378619999999999,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 66.2,
+      "cost_usd": 0.1286728,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

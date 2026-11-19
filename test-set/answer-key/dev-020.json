@@ -1,0 +1,14 @@
+{
+  "doc_id": "dev-020",
+  "split": "dev",
+  "category": "non_po",
+  "is_po": false,
+  "trap": null,
+  "expected_route": "ignored",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "newsletter_2026_10.pdf",
+  "truth": null,
+  "doc_type": "newsletter"
+}

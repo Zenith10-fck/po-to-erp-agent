@@ -1,0 +1,319 @@
+{
+  "doc_id": "dev-012",
+  "source_file": "PO_PO-72531.pdf",
+  "mode": "text",
+  "pages": 1,
+  "sender": "\"L. Petrova\" <purchasing@harlow-fastener-supply.example>",
+  "subject": "Purchase Order PO-72531 - Harlow Fastener Supply Inc.",
+  "route": "review",
+  "reason_codes": [
+    "R06"
+  ],
+  "findings": [
+    {
+      "code": "R06",
+      "scope": "line 2",
+      "field": "unit_price",
+      "read": "8.47",
+      "expected": "8.9200",
+      "page": 1,
+      "note": "differs from the list price per EA",
+      "name": "Price problem"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document lists specific items, quantities, and prices ordered by Harlow from the recipient, with PO number and delivery instructions."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "PO-72531",
+      "page": 1,
+      "quote": "Please accept this letter as our PO # PO-72531 for the goods listed below."
+    },
+    "po_date": {
+      "value": "10/08/2026",
+      "page": 1,
+      "quote": "10/08/2026"
+    },
+    "customer_name": {
+      "value": "Harlow Fastener Supply Inc.",
+      "page": 1,
+      "quote": "Harlow Fastener Supply Inc. 410 Mill Road, Dayton, OH 45402"
+    },
+    "bill_to_name": {
+      "value": "Harlow Fastener Supply Inc.",
+      "page": 1,
+      "quote": "Invoices should be addressed to Harlow Fastener Supply Inc., 410 Mill Road, Dayton, OH 45402."
+    },
+    "bill_to_address": {
+      "value": "410 Mill Road, Dayton, OH 45402",
+      "page": 1,
+      "quote": "Invoices should be addressed to Harlow Fastener Supply Inc., 410 Mill Road, Dayton, OH 45402."
+    },
+    "ship_to_name": {
+      "value": "Harlow Distribution Center",
+      "page": 1,
+      "quote": "Please deliver the goods to Harlow Distribution Center, 2800 Gantry Way, Lima, OH 45801."
+    },
+    "ship_to_address": {
+      "value": "2800 Gantry Way, Lima, OH 45801",
+      "page": 1,
+      "quote": "Please deliver the goods to Harlow Distribution Center, 2800 Gantry Way, Lima, OH 45801."
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD: 383.44"
+    },
+    "order_total": {
+      "value": "383.44",
+      "page": 1,
+      "quote": "Total USD: 383.44"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 250 EA IT-10016"
+        },
+        "item_no": {
+          "value": "IT-10016",
+          "page": 1,
+          "quote": "1 250 EA IT-10016"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex nut M6 stainless A2",
+          "page": 1,
+          "quote": "Hex nut M6 stainless A2"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "1 250 EA IT-10016"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "250 EA IT-10016"
+        },
+        "unit_price": {
+          "value": "0.22",
+          "page": 1,
+          "quote": "11/01/2026 0.22 55.00"
+        },
+        "line_total": {
+          "value": "55.00",
+          "page": 1,
+          "quote": "11/01/2026 0.22 55.00"
+        },
+        "requested_date": {
+          "value": "11/01/2026",
+          "page": 1,
+          "quote": "11/01/2026 0.22 55.00"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 12 EA IT-10180"
+        },
+        "item_no": {
+          "value": "IT-10180",
+          "page": 1,
+          "quote": "2 12 EA IT-10180"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 5/16 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 5/16 in"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "2 12 EA IT-10180"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "12 EA IT-10180"
+        },
+        "unit_price": {
+          "value": "8.47",
+          "page": 1,
+          "quote": "11/04/2026 8.47 101.64"
+        },
+        "line_total": {
+          "value": "101.64",
+          "page": 1,
+          "quote": "11/04/2026 8.47 101.64"
+        },
+        "requested_date": {
+          "value": "11/04/2026",
+          "page": 1,
+          "quote": "11/04/2026 8.47 101.64"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 1 CS IT-10134"
+        },
+        "item_no": {
+          "value": "IT-10134",
+          "page": 1,
+          "quote": "3 1 CS IT-10134"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Duct tape 2 in x 60 yd silver",
+          "page": 1,
+          "quote": "Duct tape 2 in x 60 yd silver"
+        },
+        "qty": {
+          "value": "1",
+          "page": 1,
+          "quote": "3 1 CS IT-10134"
+        },
+        "uom": {
+          "value": "CS",
+          "page": 1,
+          "quote": "1 CS IT-10134"
+        },
+        "unit_price": {
+          "value": "226.80",
+          "page": 1,
+          "quote": "10/27/2026 226.80 226.80"
+        },
+        "line_total": {
+          "value": "226.80",
+          "page": 1,
+          "quote": "10/27/2026 226.80 226.80"
+        },
+        "requested_date": {
+          "value": "10/27/2026",
+          "page": 1,
+          "quote": "10/27/2026 226.80 226.80"
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0001",
+    "customer_name": "Harlow Fastener Supply Inc.",
+    "bill_to_id": "B0001",
+    "ship_to_id": "S0004",
+    "currency": "USD",
+    "po_number": "PO-72531",
+    "po_date": "2026-10-08",
+    "carrier_account_no": "",
+    "shipping_notes": "",
+    "order_total_printed": "383.44",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10016",
+        "customer_part_no": "",
+        "order_qty": "250",
+        "order_uom": "EA",
+        "base_qty": "250",
+        "base_uom": "EA",
+        "unit_price": "0.22",
+        "list_price": "0.22",
+        "line_total_printed": "55.00",
+        "requested_date": "2026-11-01"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10180",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": null,
+        "list_price": "8.92",
+        "line_total_printed": "101.64",
+        "requested_date": "2026-11-04"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10134",
+        "customer_part_no": "",
+        "order_qty": "1",
+        "order_uom": "CS",
+        "base_qty": "24",
+        "base_uom": "RL",
+        "unit_price": "226.80",
+        "list_price": "226.80",
+        "line_total_printed": "226.80",
+        "requested_date": "2026-10-27"
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.2,
+      "cost_usd": 0.0182674,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 50.3,
+      "cost_usd": 0.0961696,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

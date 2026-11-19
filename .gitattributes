@@ -1,0 +1,15 @@
+# Documents and fonts are binary: never touch their bytes or line endings.
+*.pdf binary
+*.eml binary
+*.png binary
+*.jpg binary
+*.ttf binary
+# Source and text files are stored with LF.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.html text eol=lf
+# Master data CSVs stay exactly as generated.
+*.csv -text
+*.woff2 binary

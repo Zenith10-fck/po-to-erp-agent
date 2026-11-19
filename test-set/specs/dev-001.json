@@ -1,0 +1,86 @@
+{
+  "doc_id": "dev-001",
+  "split": "dev",
+  "seed": 1001,
+  "kind": "po",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Pinecrest Hydraulics Corp.",
+    "address_lines": [
+      "92 Gantry Way",
+      "Toledo, OH 43604"
+    ],
+    "contact": "Purchasing: S. Halloran, 555-0191",
+    "logo_text": "PINECREST"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "PH/1311",
+  "po_number_label": "Purchase Order No.",
+  "po_date": "10/1/2026",
+  "bill_to": {
+    "name": "Pinecrest Hydraulics Corp.",
+    "address_lines": [
+      "92 Gantry Way",
+      "Toledo, OH 43604"
+    ]
+  },
+  "ship_to": {
+    "name": "Pinecrest North Yard",
+    "address_lines": [
+      "2961 Loomis Ct",
+      "Akron, OH 44301"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Liftgate required",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": null,
+      "customer_part_no": "MRO-4685",
+      "description": "Cable tie 11 in black (bag of 100)",
+      "qty": "25",
+      "uom": "each",
+      "unit_price": "$6.07",
+      "line_total": "$151.75",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": null,
+      "customer_part_no": "MRO-6098",
+      "description": "Hose clamp worm drive #10 stainless",
+      "qty": "250",
+      "uom": "ea.",
+      "unit_price": "$0.67",
+      "line_total": "$167.50",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": null,
+      "customer_part_no": "MRO-7176",
+      "description": "Self-drilling screw #12 x 1-1/2 in hex washer head",
+      "qty": "1",
+      "uom": "boxes",
+      "unit_price": "$20.00",
+      "line_total": "$20.00",
+      "requested_date": null
+    }
+  ],
+  "order_total": "$339.25",
+  "order_total_label": "Grand Total",
+  "payment_terms": "Net 30 days",
+  "injection_text": null,
+  "injection_style": null
+}

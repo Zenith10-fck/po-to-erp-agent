@@ -1,0 +1,756 @@
+{
+  "doc_id": "dev-005",
+  "sender": "\"F. Ibarra\" <buyer@oakhaven-conveyor.example>",
+  "subject": "Purchase Order OC-26-8757 - Oakhaven Conveyor Co.",
+  "source_file": "scan_20261023_1617.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO (OC-26-8757) from Oakhaven Conveyor Co. listing items, quantities, and ship-to instructions ordering goods from Northfield Industrial Supply."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "OC-26-8757",
+      "page": 1,
+      "quote": "P.O. Number OC-26-8757"
+    },
+    "po_date": {
+      "value": "Oct 23, 2026",
+      "page": 1,
+      "quote": "Order Date Oct 23, 2026"
+    },
+    "customer_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "OAKHAVEN Oakhaven Conveyor Co. 608 Trestle Rd"
+    },
+    "bill_to_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "BILL TO Oakhaven Conveyor Co. 608 Trestle Rd Lima, OH 45801"
+    },
+    "bill_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "Oakhaven Conveyor Co. 608 Trestle Rd Lima, OH 45801"
+    },
+    "ship_to_name": {
+      "value": "Oakhaven Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Oakhaven Main Plant 608 Trestle Rd Lima, OH 45801"
+    },
+    "ship_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "Oakhaven Main Plant 608 Trestle Rd Lima, OH 45801"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "$2,149.10",
+      "page": 1,
+      "quote": "PO Total $2,149.10"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Dock 3, call before delivery",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS Dock 3, call before delivery"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10156 Leather driver gloves size XL"
+        },
+        "item_no": {
+          "value": "IT-10156",
+          "page": 1,
+          "quote": "1 IT-10156 Leather driver gloves size XL"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Leather driver gloves size XL",
+          "page": 1,
+          "quote": "1 IT-10156 Leather driver gloves size XL"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 pair $11.35 $68.10"
+        },
+        "uom": {
+          "value": "pair",
+          "page": 1,
+          "quote": "6 pair $11.35 $68.10"
+        },
+        "unit_price": {
+          "value": "$11.35",
+          "page": 1,
+          "quote": "6 pair $11.35 $68.10"
+        },
+        "line_total": {
+          "value": "$68.10",
+          "page": 1,
+          "quote": "6 pair $11.35 $68.10"
+        },
+        "requested_date": {
+          "value": "Nov 24, 2026",
+          "page": 1,
+          "quote": "$68.10 Nov 24, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10186 Cobalt drill bit 1/2 in"
+        },
+        "item_no": {
+          "value": "IT-10186",
+          "page": 1,
+          "quote": "2 IT-10186 Cobalt drill bit 1/2 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cobalt drill bit 1/2 in",
+          "page": 1,
+          "quote": "2 IT-10186 Cobalt drill bit 1/2 in"
+        },
+        "qty": {
+          "value": "11",
+          "page": 1,
+          "quote": "11 PK $74.10 $815.10"
+        },
+        "uom": {
+          "value": "PK",
+          "page": 1,
+          "quote": "11 PK $74.10 $815.10"
+        },
+        "unit_price": {
+          "value": "$74.10",
+          "page": 1,
+          "quote": "11 PK $74.10 $815.10"
+        },
+        "line_total": {
+          "value": "$815.10",
+          "page": 1,
+          "quote": "11 PK $74.10 $815.10"
+        },
+        "requested_date": {
+          "value": "Nov 8, 2026",
+          "page": 1,
+          "quote": "$815.10 Nov 8, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 IT-10288 O-ring Buna-N dash 222"
+        },
+        "item_no": {
+          "value": "IT-10288",
+          "page": 1,
+          "quote": "3 IT-10288 O-ring Buna-N dash 222"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "O-ring Buna-N dash 222",
+          "page": 1,
+          "quote": "3 IT-10288 O-ring Buna-N dash 222"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "200 pcs $0.26 $52.00"
+        },
+        "uom": {
+          "value": "pcs",
+          "page": 1,
+          "quote": "200 pcs $0.26 $52.00"
+        },
+        "unit_price": {
+          "value": "$0.26",
+          "page": 1,
+          "quote": "200 pcs $0.26 $52.00"
+        },
+        "line_total": {
+          "value": "$52.00",
+          "page": 1,
+          "quote": "200 pcs $0.26 $52.00"
+        },
+        "requested_date": {
+          "value": "Nov 2, 2026",
+          "page": 1,
+          "quote": "$52.00 Nov 2, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10094 Ball valve stainless 1-1/4 in full port"
+        },
+        "item_no": {
+          "value": "IT-10094",
+          "page": 1,
+          "quote": "4 IT-10094 Ball valve stainless 1-1/4 in full port"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball valve stainless 1-1/4 in full port",
+          "page": 1,
+          "quote": "4 IT-10094 Ball valve stainless 1-1/4 in full port"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 BX $71.88 $359.40"
+        },
+        "uom": {
+          "value": "BX",
+          "page": 1,
+          "quote": "5 BX $71.88 $359.40"
+        },
+        "unit_price": {
+          "value": "$71.88",
+          "page": 1,
+          "quote": "5 BX $71.88 $359.40"
+        },
+        "line_total": {
+          "value": "$359.40",
+          "page": 1,
+          "quote": "5 BX $71.88 $359.40"
+        },
+        "requested_date": {
+          "value": "Nov 27, 2026",
+          "page": 1,
+          "quote": "$359.40 Nov 27, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 IT-10256 Polyurethane tubing 1/4 in OD black"
+        },
+        "item_no": {
+          "value": "IT-10256",
+          "page": 1,
+          "quote": "5 IT-10256 Polyurethane tubing 1/4 in OD black"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 1/4 in OD black",
+          "page": 1,
+          "quote": "5 IT-10256 Polyurethane tubing 1/4 in OD black"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 feet $1.73 $432.50"
+        },
+        "uom": {
+          "value": "feet",
+          "page": 1,
+          "quote": "250 feet $1.73 $432.50"
+        },
+        "unit_price": {
+          "value": "$1.73",
+          "page": 1,
+          "quote": "250 feet $1.73 $432.50"
+        },
+        "line_total": {
+          "value": "$432.50",
+          "page": 1,
+          "quote": "250 feet $1.73 $432.50"
+        },
+        "requested_date": {
+          "value": "Nov 10, 2026",
+          "page": 1,
+          "quote": "$432.50 Nov 10, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 IT-10066 Brass compression elbow 1/4 in"
+        },
+        "item_no": {
+          "value": "IT-10066",
+          "page": 1,
+          "quote": "6 IT-10066 Brass compression elbow 1/4 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass compression elbow 1/4 in",
+          "page": 1,
+          "quote": "6 IT-10066 Brass compression elbow 1/4 in"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 EA $8.44 $422.00"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "50 EA $8.44 $422.00"
+        },
+        "unit_price": {
+          "value": "$8.44",
+          "page": 1,
+          "quote": "50 EA $8.44 $422.00"
+        },
+        "line_total": {
+          "value": "$422.00",
+          "page": 1,
+          "quote": "50 EA $8.44 $422.00"
+        },
+        "requested_date": {
+          "value": "Nov 7, 2026",
+          "page": 1,
+          "quote": "$422.00 Nov 7, 2026"
+        }
+      }
+    ]
+  },
+  "extract2": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "OC-26-8757",
+      "page": 1,
+      "quote": "P.O. Number\nOC-26-8757"
+    },
+    "po_date": {
+      "value": "Oct 23, 2026",
+      "page": 1,
+      "quote": "Order Date\nOct 23, 2026"
+    },
+    "customer_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "OAKHAVEN\nOakhaven Conveyor Co."
+    },
+    "bill_to_name": {
+      "value": "Oakhaven Conveyor Co.",
+      "page": 1,
+      "quote": "BILL TO\nOakhaven Conveyor Co."
+    },
+    "bill_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "608 Trestle Rd\nLima, OH 45801"
+    },
+    "ship_to_name": {
+      "value": "Oakhaven Main Plant",
+      "page": 1,
+      "quote": "SHIP TO\nOakhaven Main Plant"
+    },
+    "ship_to_address": {
+      "value": "608 Trestle Rd, Lima, OH 45801",
+      "page": 1,
+      "quote": "608 Trestle Rd\nLima, OH 45801"
+    },
+    "currency": {
+      "value": "$",
+      "page": 1,
+      "quote": "Unit Cost\n$11.35"
+    },
+    "order_total": {
+      "value": "$2,149.10",
+      "page": 1,
+      "quote": "PO Total\n$2,149.10"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Dock 3, call before delivery",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS\nDock 3, call before delivery"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 | IT-10156"
+        },
+        "item_no": {
+          "value": "IT-10156",
+          "page": 1,
+          "quote": "Vendor Part\n1 | IT-10156"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Leather driver gloves size XL",
+          "page": 1,
+          "quote": "Leather driver gloves size XL"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 | pair"
+        },
+        "uom": {
+          "value": "pair",
+          "page": 1,
+          "quote": "6 | pair"
+        },
+        "unit_price": {
+          "value": "$11.35",
+          "page": 1,
+          "quote": "$11.35"
+        },
+        "line_total": {
+          "value": "$68.10",
+          "page": 1,
+          "quote": "$68.10"
+        },
+        "requested_date": {
+          "value": "Nov 24, 2026",
+          "page": 1,
+          "quote": "Need Date\nNov 24, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 | IT-10186"
+        },
+        "item_no": {
+          "value": "IT-10186",
+          "page": 1,
+          "quote": "Vendor Part\n2 | IT-10186"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cobalt drill bit 1/2 in",
+          "page": 1,
+          "quote": "Cobalt drill bit 1/2 in"
+        },
+        "qty": {
+          "value": "11",
+          "page": 1,
+          "quote": "11 | PK"
+        },
+        "uom": {
+          "value": "PK",
+          "page": 1,
+          "quote": "11 | PK"
+        },
+        "unit_price": {
+          "value": "$74.10",
+          "page": 1,
+          "quote": "$74.10"
+        },
+        "line_total": {
+          "value": "$815.10",
+          "page": 1,
+          "quote": "$815.10"
+        },
+        "requested_date": {
+          "value": "Nov 8, 2026",
+          "page": 1,
+          "quote": "Need Date\nNov 8, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 | IT-10288"
+        },
+        "item_no": {
+          "value": "IT-10288",
+          "page": 1,
+          "quote": "Vendor Part\n3 | IT-10288"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "O-ring Buna-N dash 222",
+          "page": 1,
+          "quote": "O-ring Buna-N dash 222"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "200 | pcs"
+        },
+        "uom": {
+          "value": "pcs",
+          "page": 1,
+          "quote": "200 | pcs"
+        },
+        "unit_price": {
+          "value": "$0.26",
+          "page": 1,
+          "quote": "$0.26"
+        },
+        "line_total": {
+          "value": "$52.00",
+          "page": 1,
+          "quote": "$52.00"
+        },
+        "requested_date": {
+          "value": "Nov 2, 2026",
+          "page": 1,
+          "quote": "Need Date\nNov 2, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 | IT-10094"
+        },
+        "item_no": {
+          "value": "IT-10094",
+          "page": 1,
+          "quote": "Vendor Part\n4 | IT-10094"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball valve stainless 1-1/4 in full port",
+          "page": 1,
+          "quote": "Ball valve stainless 1-1/4 in full port"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 | BX"
+        },
+        "uom": {
+          "value": "BX",
+          "page": 1,
+          "quote": "5 | BX"
+        },
+        "unit_price": {
+          "value": "$71.88",
+          "page": 1,
+          "quote": "$71.88"
+        },
+        "line_total": {
+          "value": "$359.40",
+          "page": 1,
+          "quote": "$359.40"
+        },
+        "requested_date": {
+          "value": "Nov 27, 2026",
+          "page": 1,
+          "quote": "Need Date\nNov 27, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 | IT-10256"
+        },
+        "item_no": {
+          "value": "IT-10256",
+          "page": 1,
+          "quote": "Vendor Part\n5 | IT-10256"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 1/4 in OD black",
+          "page": 1,
+          "quote": "Polyurethane tubing 1/4 in OD black"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 | feet"
+        },
+        "uom": {
+          "value": "feet",
+          "page": 1,
+          "quote": "250 | feet"
+        },
+        "unit_price": {
+          "value": "$1.73",
+          "page": 1,
+          "quote": "$1.73"
+        },
+        "line_total": {
+          "value": "$432.50",
+          "page": 1,
+          "quote": "$432.50"
+        },
+        "requested_date": {
+          "value": "Nov 10, 2026",
+          "page": 1,
+          "quote": "Need Date\nNov 10, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 | IT-10066"
+        },
+        "item_no": {
+          "value": "IT-10066",
+          "page": 1,
+          "quote": "Vendor Part\n6 | IT-10066"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass compression elbow 1/4 in",
+          "page": 1,
+          "quote": "Brass compression elbow 1/4 in"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 | EA"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "50 | EA"
+        },
+        "unit_price": {
+          "value": "$8.44",
+          "page": 1,
+          "quote": "$8.44"
+        },
+        "line_total": {
+          "value": "$422.00",
+          "page": 1,
+          "quote": "$422.00"
+        },
+        "requested_date": {
+          "value": "Nov 7, 2026",
+          "page": 1,
+          "quote": "Need Date\nNov 7, 2026"
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.5,
+      "cost_usd": 0.019133400000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 56.1,
+      "cost_usd": 0.11092579999999999,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 53.3,
+      "cost_usd": 0.108383,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

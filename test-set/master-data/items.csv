@@ -1,0 +1,301 @@
+item_id,description,base_uom,legacy_item_no,active
+IT-10001,Hex bolt M6 x 20 zinc,EA,,Y
+IT-10002,Hex bolt M6 x 20 stainless A2,EA,85-9545,Y
+IT-10003,Hex bolt M6 x 30 zinc,EA,98-8149,Y
+IT-10004,Hex bolt M8 x 25 zinc,EA,,Y
+IT-10005,Hex bolt M8 x 25 stainless A2,EA,23-9808,Y
+IT-10006,Hex bolt M8 x 40 zinc,EA,58-6590,Y
+IT-10007,Hex bolt M10 x 30 zinc,EA,,Y
+IT-10008,Hex bolt M10 x 30 stainless A2,EA,,Y
+IT-10009,Hex bolt M10 x 50 zinc,EA,79-2241,Y
+IT-10010,Hex bolt M10 x 50 stainless A2,EA,,Y
+IT-10011,Hex bolt M12 x 40 zinc,EA,70-8057,Y
+IT-10012,Hex bolt M12 x 40 stainless A2,EA,55-7504,Y
+IT-10013,Hex bolt M12 x 60 zinc,EA,,Y
+IT-10014,Hex nut M5 stainless A2,EA,41-8202,Y
+IT-10015,Hex nut M6 zinc,EA,,Y
+IT-10016,Hex nut M6 stainless A2,EA,,Y
+IT-10017,Hex nut M8 stainless A2,EA,32-5549,Y
+IT-10018,Hex nut M10 zinc,EA,,Y
+IT-10019,Hex nut M10 stainless A2,EA,,Y
+IT-10020,Hex nut M12 zinc,EA,78-9635,N
+IT-10021,Hex nut M16 zinc,EA,63-9048,Y
+IT-10022,Hex nut M16 stainless A2,EA,77-1458,Y
+IT-10023,Flat washer M5 zinc,EA,88-5968,Y
+IT-10024,Flat washer M5 stainless A2,EA,,Y
+IT-10025,Flat washer M6 zinc,EA,,N
+IT-10026,Flat washer M6 stainless A2,EA,29-1994,Y
+IT-10027,Flat washer M8 zinc,EA,,Y
+IT-10028,Flat washer M8 stainless A2,EA,,Y
+IT-10029,Flat washer M10 zinc,EA,,Y
+IT-10030,Flat washer M10 stainless A2,EA,,Y
+IT-10031,Flat washer M12 stainless A2,EA,,Y
+IT-10032,Flat washer M16 stainless A2,EA,28-7986,Y
+IT-10033,Split lock washer M6 zinc,EA,70-7476,Y
+IT-10034,Split lock washer M8 zinc,EA,,Y
+IT-10035,Split lock washer M10 zinc,EA,89-2061,Y
+IT-10036,Split lock washer M12 zinc,EA,31-4446,Y
+IT-10037,Nylon insert lock nut M10 zinc,EA,76-8649,Y
+IT-10038,Nylon insert lock nut M12 zinc,EA,61-4253,Y
+IT-10039,Socket head cap screw M4 x 12 black oxide,EA,37-5971,Y
+IT-10040,Socket head cap screw M5 x 16 black oxide,EA,,Y
+IT-10041,Socket head cap screw M6 x 30 black oxide,EA,48-5627,Y
+IT-10042,Socket head cap screw M8 x 25 black oxide,EA,,Y
+IT-10043,Socket head cap screw M8 x 35 black oxide,EA,28-1842,Y
+IT-10044,Socket head cap screw M10 x 40 black oxide,EA,,Y
+IT-10045,Socket head cap screw M12 x 50 black oxide,EA,,Y
+IT-10046,Self-drilling screw #8 x 1/2 in hex washer head,EA,44-1085,Y
+IT-10047,Self-drilling screw #8 x 3/4 in hex washer head,EA,,Y
+IT-10048,Self-drilling screw #10 x 3/4 in hex washer head,EA,,Y
+IT-10049,Self-drilling screw #12 x 1 in hex washer head,EA,,Y
+IT-10050,Self-drilling screw #12 x 1-1/2 in hex washer head,EA,,Y
+IT-10051,Carriage bolt 1/4-20 x 1 in zinc,EA,,Y
+IT-10052,Carriage bolt 1/4-20 x 2 in zinc,EA,60-5968,Y
+IT-10053,Carriage bolt 5/16-18 x 2 in zinc,EA,72-8696,Y
+IT-10054,Threaded rod M8 x 1 m zinc,EA,48-9711,Y
+IT-10055,Threaded rod M10 x 1 m zinc,EA,,Y
+IT-10056,Threaded rod M12 x 1 m zinc,EA,,Y
+IT-10057,Threaded rod M16 x 1 m zinc,EA,,Y
+IT-10058,Wedge anchor 3/8 x 3 in zinc,EA,69-9743,Y
+IT-10059,Wedge anchor 1/2 x 4 in zinc,EA,,Y
+IT-10060,Wedge anchor 1/2 x 5-1/2 in zinc,EA,89-7198,Y
+IT-10061,Wedge anchor 5/8 x 6 in zinc,EA,,Y
+IT-10062,Cotter pin 1/8 x 1-1/2 in zinc,EA,,Y
+IT-10063,Cotter pin 5/32 x 2 in zinc,EA,49-3921,Y
+IT-10064,Cotter pin 3/16 x 2-1/2 in zinc,EA,,Y
+IT-10065,Blind rivet aluminum 3/16 x 1/2 in,EA,21-9064,Y
+IT-10066,Brass compression elbow 1/4 in,EA,17-2748,Y
+IT-10067,Brass compression elbow 3/8 in,EA,,Y
+IT-10068,Brass compression elbow 1/2 in,EA,,Y
+IT-10069,Brass compression elbow 3/4 in,EA,59-4346,Y
+IT-10070,Brass compression tee 1/2 in,EA,30-6064,Y
+IT-10071,Brass compression tee 3/4 in,EA,,Y
+IT-10072,Brass compression union 1/4 in,EA,14-7981,Y
+IT-10073,Brass compression union 3/8 in,EA,68-7862,Y
+IT-10074,Brass compression union 1/2 in,EA,,Y
+IT-10075,Brass compression connector 1/4 in,EA,39-1636,Y
+IT-10076,Brass compression connector 1/2 in,EA,,Y
+IT-10077,Brass compression connector 3/4 in,EA,43-5634,Y
+IT-10078,Brass pipe nipple 3/8 in x 2 in,EA,26-9494,Y
+IT-10079,Brass pipe nipple 1/2 in x 2 in,EA,,Y
+IT-10080,JIC hydraulic adapter male straight -6,EA,17-2964,Y
+IT-10081,JIC hydraulic adapter male straight -8,EA,11-9139,N
+IT-10082,JIC hydraulic adapter male straight -10,EA,,Y
+IT-10083,JIC hydraulic adapter male straight -12,EA,,Y
+IT-10084,JIC hydraulic adapter male 90 deg elbow -6,EA,36-8735,Y
+IT-10085,JIC hydraulic adapter male 90 deg elbow -8,EA,48-2428,Y
+IT-10086,JIC hydraulic adapter male 90 deg elbow -10,EA,11-5635,Y
+IT-10087,Pneumatic quick coupler plug 1/4 in,EA,,Y
+IT-10088,Pneumatic quick coupler socket 3/8 in,EA,,Y
+IT-10089,Pneumatic quick coupler socket 1/2 in,EA,66-5674,Y
+IT-10090,Ball valve brass 1/2 in full port,EA,84-7390,Y
+IT-10091,Ball valve brass 3/4 in full port,EA,,Y
+IT-10092,Ball valve brass 1-1/4 in full port,EA,15-6082,Y
+IT-10093,Ball valve stainless 1/2 in full port,EA,,Y
+IT-10094,Ball valve stainless 1-1/4 in full port,EA,10-7370,Y
+IT-10095,Hose clamp worm drive #6 stainless,EA,59-4110,Y
+IT-10096,Hose clamp worm drive #10 stainless,EA,78-9883,Y
+IT-10097,Hose clamp worm drive #16 stainless,EA,,Y
+IT-10098,Hose clamp worm drive #24 stainless,EA,,Y
+IT-10099,Hose clamp worm drive #48 stainless,EA,,Y
+IT-10100,Brass hose barb 1/4 in x 1/4 NPT,EA,25-5898,Y
+IT-10101,Brass hose barb 3/8 in x 1/4 NPT,EA,57-9888,Y
+IT-10102,Brass hose barb 1/2 in x 1/4 NPT,EA,,Y
+IT-10103,Brass hose barb 5/8 in x 1/4 NPT,EA,,Y
+IT-10104,Grease fitting 1/4-28 straight,EA,89-3597,Y
+IT-10105,Grease fitting 1/8 NPT straight,EA,,Y
+IT-10106,Grease fitting 1/8 NPT 45 deg,EA,,Y
+IT-10107,Grease fitting 1/8 NPT 90 deg,EA,27-9864,N
+IT-10108,Steel pipe plug 1/4 in NPT,EA,,Y
+IT-10109,Steel pipe plug 3/8 in NPT,EA,18-5396,Y
+IT-10110,Steel pipe plug 1/2 in NPT,EA,,Y
+IT-10111,Steel pipe plug 3/4 in NPT,EA,49-7562,Y
+IT-10112,Flap disc 4-1/2 in 40 grit,EA,23-5799,Y
+IT-10113,Flap disc 4-1/2 in 60 grit,EA,,Y
+IT-10114,Flap disc 4-1/2 in 120 grit,EA,,Y
+IT-10115,Cut-off wheel 4-1/2 x .045 in,EA,10-3051,Y
+IT-10116,Cut-off wheel 5 x .045 in,EA,54-1393,Y
+IT-10117,Cut-off wheel 6 x .045 in,EA,,Y
+IT-10118,Cut-off wheel 14 x 1/8 in chop saw,EA,,Y
+IT-10119,Grinding wheel 4-1/2 x 1/4 in depressed center,EA,,Y
+IT-10120,Grinding wheel 7 x 1/4 in depressed center,EA,,Y
+IT-10121,Sanding belt 3 x 21 in 60 grit,EA,,Y
+IT-10122,Sanding belt 3 x 21 in 120 grit,EA,63-6819,Y
+IT-10123,Sanding belt 6 x 48 in 60 grit,EA,,Y
+IT-10124,Sanding belt 6 x 48 in 80 grit,EA,,Y
+IT-10125,Sanding belt 6 x 48 in 120 grit,EA,,Y
+IT-10126,Sandpaper sheet 9 x 11 in 80 grit,EA,15-3322,Y
+IT-10127,Sandpaper sheet 9 x 11 in 120 grit,EA,99-4404,Y
+IT-10128,Sandpaper sheet 9 x 11 in 180 grit,EA,60-6339,Y
+IT-10129,Wire cup brush 3 in knotted,EA,74-9993,Y
+IT-10130,Wire cup brush 4 in knotted,EA,47-5851,Y
+IT-10131,Wire wheel 6 in crimped,EA,,Y
+IT-10132,Surface conditioning disc 2 in coarse,EA,,Y
+IT-10133,Surface conditioning disc 2 in medium,EA,,Y
+IT-10134,Duct tape 2 in x 60 yd silver,RL,,Y
+IT-10135,Duct tape 2 in x 60 yd black,RL,,Y
+IT-10136,Masking tape 1-1/2 in x 60 yd,RL,42-5056,Y
+IT-10137,Masking tape 2 in x 60 yd,RL,,Y
+IT-10138,Electrical tape 3/4 in black,RL,,Y
+IT-10139,Electrical tape 3/4 in red,RL,,Y
+IT-10140,Electrical tape 3/4 in blue,RL,,Y
+IT-10141,Electrical tape 3/4 in white,RL,,Y
+IT-10142,Electrical tape 3/4 in green,RL,,Y
+IT-10143,PTFE thread seal tape 1/2 in,RL,35-5107,Y
+IT-10144,PTFE thread seal tape 3/4 in,RL,,Y
+IT-10145,Packing tape 2 in x 110 yd clear,RL,,Y
+IT-10146,Packing tape 2 in x 110 yd tan,RL,48-3871,Y
+IT-10147,Aluminum foil tape 2 in x 50 yd,RL,,Y
+IT-10148,Double-sided foam tape 3/4 in,RL,59-9674,Y
+IT-10149,Anti-slip tape 2 in black,RL,,Y
+IT-10150,Nitrile coated work gloves size S,PR,37-4756,Y
+IT-10151,Nitrile coated work gloves size M,PR,,Y
+IT-10152,Nitrile coated work gloves size L,PR,,Y
+IT-10153,Nitrile coated work gloves size XL,PR,61-7536,Y
+IT-10154,Leather driver gloves size M,PR,55-1772,Y
+IT-10155,Leather driver gloves size L,PR,,Y
+IT-10156,Leather driver gloves size XL,PR,28-8959,Y
+IT-10157,Cut-resistant gloves A4 size M,PR,67-9827,Y
+IT-10158,Cut-resistant gloves A4 size L,PR,44-3043,Y
+IT-10159,Cut-resistant gloves A4 size XL,PR,,Y
+IT-10160,Welding gloves 14 in size L,PR,,Y
+IT-10161,Knee pads gel one size,PR,95-9024,Y
+IT-10162,Disposable nitrile gloves size S (box of 100),EA,,Y
+IT-10163,Disposable nitrile gloves size M (box of 100),EA,,Y
+IT-10164,Disposable nitrile gloves size XL (box of 100),EA,,Y
+IT-10165,Safety glasses clear lens,EA,,Y
+IT-10166,Safety glasses smoke lens,EA,45-2878,Y
+IT-10167,Safety glasses amber lens,EA,87-2274,Y
+IT-10168,Ear plugs corded (box of 100),EA,,Y
+IT-10169,Ear plugs uncorded (box of 200),EA,,Y
+IT-10170,Dust mask N95 (box of 20),EA,,Y
+IT-10171,Hard hat white ratchet,EA,,Y
+IT-10172,Hard hat orange ratchet,EA,,Y
+IT-10173,Hi-vis safety vest size L,EA,,Y
+IT-10174,Hi-vis safety vest size XL,EA,,Y
+IT-10175,Hi-vis safety vest size 2XL,EA,,Y
+IT-10176,Face shield clear with headgear,EA,,Y
+IT-10177,HSS jobber drill bit 1/8 in,EA,76-8752,Y
+IT-10178,HSS jobber drill bit 3/16 in,EA,46-8658,Y
+IT-10179,HSS jobber drill bit 1/4 in,EA,89-4012,Y
+IT-10180,HSS jobber drill bit 5/16 in,EA,58-6820,Y
+IT-10181,HSS jobber drill bit 3/8 in,EA,,Y
+IT-10182,HSS jobber drill bit 1/2 in,EA,,Y
+IT-10183,Cobalt drill bit 1/8 in,EA,,Y
+IT-10184,Cobalt drill bit 1/4 in,EA,,Y
+IT-10185,Cobalt drill bit 3/8 in,EA,,Y
+IT-10186,Cobalt drill bit 1/2 in,EA,67-2021,Y
+IT-10187,Spiral point tap M6 x 1.0,EA,52-8500,Y
+IT-10188,Spiral point tap M8 x 1.25,EA,,Y
+IT-10189,Carbide end mill 4 flute 1/4 in,EA,,Y
+IT-10190,Carbide end mill 4 flute 1/2 in,EA,,Y
+IT-10191,Carbide end mill 4 flute 3/4 in,EA,,Y
+IT-10192,Bi-metal hole saw 1 in,EA,,Y
+IT-10193,Bi-metal hole saw 2 in,EA,38-6108,N
+IT-10194,Bi-metal hole saw 2-1/2 in,EA,79-5398,Y
+IT-10195,Hacksaw blade 12 in 18 TPI,EA,,Y
+IT-10196,Hacksaw blade 12 in 24 TPI,EA,85-9530,N
+IT-10197,Hacksaw blade 12 in 32 TPI,EA,,N
+IT-10198,Reciprocating saw blade 9 in metal,EA,78-3067,Y
+IT-10199,Reciprocating saw blade 9 in wood,EA,,Y
+IT-10200,Utility knife blades (dispenser of 100),EA,19-3814,Y
+IT-10201,Step drill bit 1/8 to 1/2 in,EA,16-4887,Y
+IT-10202,Step drill bit 1/4 to 3/4 in,EA,,Y
+IT-10203,Carbide burr 1/4 in cylinder,EA,,Y
+IT-10204,Carbide burr 1/4 in ball,EA,,Y
+IT-10205,Carbide burr 1/4 in tree,EA,76-6332,Y
+IT-10206,Penetrating oil 12 oz aerosol,EA,,Y
+IT-10207,Cutting fluid 1 gal,EA,,Y
+IT-10208,Lithium grease cartridge 14 oz,EA,39-8480,Y
+IT-10209,Moly grease cartridge 14 oz,EA,66-4510,Y
+IT-10210,Brake parts cleaner 14 oz aerosol,EA,98-1122,Y
+IT-10211,Thread locker blue 50 ml,EA,,Y
+IT-10212,Thread locker red 50 ml,EA,29-1420,Y
+IT-10213,Anti-seize compound 8 oz,EA,70-6369,Y
+IT-10214,Silicone sealant clear 10 oz,EA,73-6403,Y
+IT-10215,Silicone sealant black 10 oz,EA,,Y
+IT-10216,Silicone sealant grey 10 oz,EA,72-7314,Y
+IT-10217,Contact cleaner 11 oz aerosol,EA,,Y
+IT-10218,Way oil 1 gal,EA,23-5762,Y
+IT-10219,Pumice hand cleaner 1 gal,EA,,Y
+IT-10220,Marking paint white 17 oz,EA,61-2776,Y
+IT-10221,Marking paint yellow 17 oz,EA,,Y
+IT-10222,Cold galvanizing spray 13 oz,EA,23-8417,Y
+IT-10223,Two-part epoxy 50 ml,EA,13-2478,Y
+IT-10224,Dry film lubricant 11 oz aerosol,EA,,Y
+IT-10225,Rust inhibitor 12 oz aerosol,EA,80-5075,Y
+IT-10226,MIG wire ER70S-6 .030 in 33 lb spool,EA,88-9993,Y
+IT-10227,MIG wire ER70S-6 .035 in 33 lb spool,EA,,Y
+IT-10228,MIG wire ER70S-6 .045 in 33 lb spool,EA,59-8613,Y
+IT-10229,Stick electrode E6011 1/8 in,LB,,Y
+IT-10230,Stick electrode E7018 3/32 in,LB,,Y
+IT-10231,Stick electrode E7018 1/8 in,LB,89-7712,Y
+IT-10232,Stick electrode E7018 5/32 in,LB,71-2721,Y
+IT-10233,TIG rod ER70S-2 1/16 in,LB,,Y
+IT-10234,TIG rod ER70S-2 3/32 in,LB,,Y
+IT-10235,MIG contact tip .045 in,EA,,Y
+IT-10236,MIG nozzle 1/2 in,EA,57-8935,Y
+IT-10237,Welding lens shade 10,EA,,Y
+IT-10238,Chipping hammer spring handle,EA,,Y
+IT-10239,Tip cleaner set,EA,,Y
+IT-10240,Anti-spatter spray 16 oz,EA,,Y
+IT-10241,Cable tie 4 in black (bag of 100),EA,,Y
+IT-10242,Cable tie 11 in black (bag of 100),EA,39-7730,Y
+IT-10243,Cable tie 14 in black (bag of 100),EA,73-3945,Y
+IT-10244,Cable tie 14 in natural (bag of 100),EA,30-1070,Y
+IT-10245,Ring terminal 16-14 AWG #10 (pack of 50),EA,23-9539,Y
+IT-10246,Ring terminal 12-10 AWG 1/4 in (pack of 50),EA,,Y
+IT-10247,Wire connector yellow (box of 100),EA,18-1650,Y
+IT-10248,Heat shrink tubing 1/4 in x 4 ft,EA,,Y
+IT-10249,Heat shrink tubing 1/2 in x 4 ft,EA,,Y
+IT-10250,Rubber air hose 1/2 in ID,FT,,Y
+IT-10251,PVC clear tubing 1/4 in ID,FT,,Y
+IT-10252,PVC clear tubing 3/8 in ID,FT,,Y
+IT-10253,PVC clear tubing 1/2 in ID,FT,72-2550,Y
+IT-10254,PVC clear tubing 3/4 in ID,FT,,Y
+IT-10255,Polyurethane tubing 1/4 in OD blue,FT,51-3587,Y
+IT-10256,Polyurethane tubing 1/4 in OD black,FT,63-6288,Y
+IT-10257,Polyurethane tubing 3/8 in OD blue,FT,64-1916,Y
+IT-10258,Polyurethane tubing 3/8 in OD black,FT,63-2141,Y
+IT-10259,Wire rope galvanized 1/8 in,FT,69-7673,Y
+IT-10260,Wire rope galvanized 3/16 in,FT,,Y
+IT-10261,Wire rope galvanized 1/4 in,FT,,Y
+IT-10262,Proof coil chain grade 30 3/16 in,FT,,Y
+IT-10263,Proof coil chain grade 30 5/16 in,FT,92-9395,Y
+IT-10264,Proof coil chain grade 30 3/8 in,FT,,Y
+IT-10265,Hydraulic hose 100R2 1/4 in,FT,,Y
+IT-10266,Hydraulic hose 100R2 3/8 in,FT,35-6109,Y
+IT-10267,Hydraulic hose 100R2 1/2 in,FT,72-6665,Y
+IT-10268,Ball bearing 6200-2RS,EA,70-3383,Y
+IT-10269,Ball bearing 6201-2RS,EA,,Y
+IT-10270,Ball bearing 6202-2RS,EA,,Y
+IT-10271,Ball bearing 6203-2RS,EA,,Y
+IT-10272,Ball bearing 6204-2RS,EA,,Y
+IT-10273,Ball bearing 6205-2RS,EA,,Y
+IT-10274,Ball bearing 6206-2RS,EA,,Y
+IT-10275,Ball bearing 6208-2RS,EA,,Y
+IT-10276,V-belt A30,EA,,Y
+IT-10277,V-belt A36,EA,,Y
+IT-10278,V-belt A48,EA,94-5149,N
+IT-10279,V-belt A54,EA,,Y
+IT-10280,V-belt A60,EA,,Y
+IT-10281,Pillow block bearing UCP204,EA,,Y
+IT-10282,Pillow block bearing UCP205,EA,89-7413,Y
+IT-10283,Roller chain #40 10 ft box,EA,97-3634,Y
+IT-10284,Roller chain #50 10 ft box,EA,,Y
+IT-10285,Roller chain connecting link #40,EA,,Y
+IT-10286,Roller chain connecting link #50,EA,84-5677,Y
+IT-10287,O-ring Buna-N dash 214,EA,,Y
+IT-10288,O-ring Buna-N dash 222,EA,,Y
+IT-10289,O-ring Buna-N dash 325,EA,77-5547,Y
+IT-10290,Shaft collar set screw 3/4 in,EA,55-1579,Y
+IT-10291,Shaft collar set screw 1 in,EA,45-3673,Y
+IT-10292,Cotton shop rags white,LB,,Y
+IT-10293,Cotton shop rags mixed color,LB,,Y
+IT-10294,Floor sweep compound,LB,,Y
+IT-10295,Oil-dry absorbent 40 lb bag,EA,,Y
+IT-10296,Trash liner 55 gal (box of 100),EA,,Y
+IT-10297,Push broom 24 in,EA,,Y
+IT-10298,Spray bottle 32 oz,EA,,Y
+IT-10299,Steel funnel 1 qt,EA,84-1407,Y
+IT-10300,Paint marker white,EA,76-3639,Y

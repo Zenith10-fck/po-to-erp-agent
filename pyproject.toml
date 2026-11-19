@@ -1,0 +1,29 @@
+[project]
+name = "po-to-erp-agent"
+version = "0.1.0"
+description = "Reference build: emailed PDF purchase orders to ERP-ready CSV, with code gates and a review queue."
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "pymupdf>=1.24",
+    "rapidfuzz>=3.9",
+    "pydantic>=2.7",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.2",
+    "reportlab>=4.2",
+    "pillow>=10.3",
+    "numpy>=1.26",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/po_agent"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

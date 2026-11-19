@@ -1,0 +1,250 @@
+{
+  "doc_id": "dev-003",
+  "sender": "\"J. Marchetti\" <purchasing@dunmore-fabrication.example>",
+  "subject": "Purchase Order DF-26-9288 - Dunmore Fabrication Co.",
+  "source_file": "dunmore_PO_DF-26-9288.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal purchase order with itemized quantities, prices, and order total, directing the supplier to ship goods."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "DF-26-9288",
+      "page": 1,
+      "quote": "PO Number: DF-26-9288"
+    },
+    "po_date": {
+      "value": "29-Oct-2026",
+      "page": 1,
+      "quote": "Order date: 29-Oct-2026"
+    },
+    "customer_name": {
+      "value": "Dunmore Fabrication Co.",
+      "page": 1,
+      "quote": "ORDERED BY Dunmore Fabrication Co."
+    },
+    "bill_to_name": {
+      "value": "Dunmore Fabrication Co.",
+      "page": 1,
+      "quote": "INVOICE TO Dunmore Fabrication Co."
+    },
+    "bill_to_address": {
+      "value": "1705 Ironworks Blvd, Fort Wayne, IN 46802",
+      "page": 1,
+      "quote": "1705 Ironworks Blvd Fort Wayne, IN 46802"
+    },
+    "ship_to_name": {
+      "value": "Dunmore North Yard",
+      "page": 1,
+      "quote": "DELIVER TO Dunmore North Yard"
+    },
+    "ship_to_address": {
+      "value": "1452 Boiler Ave, South Bend, IN 46601",
+      "page": 1,
+      "quote": "1452 Boiler Ave South Bend, IN 46601"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency: USD"
+    },
+    "order_total": {
+      "value": "2368.77",
+      "page": 1,
+      "quote": "Order Total 2368.77"
+    },
+    "carrier_name": {
+      "value": "FedEx",
+      "page": 1,
+      "quote": "Carrier: FedEx"
+    },
+    "carrier_account_no": {
+      "value": "560381519",
+      "page": 1,
+      "quote": "Bill freight to our FedEx account: 560381519"
+    },
+    "shipping_notes": {
+      "value": "Reference our PO number on the packing slip",
+      "page": 1,
+      "quote": "Delivery instructions: Reference our PO number on the packing slip"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "2044.00 1"
+        },
+        "item_no": {
+          "value": "IT-10242",
+          "page": 1,
+          "quote": "IT-10242 Cable tie 11 in black (bag of 100)"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cable tie 11 in black (bag of 100)",
+          "page": 1,
+          "quote": "Cable tie 11 in black (bag of 100)"
+        },
+        "qty": {
+          "value": "7",
+          "page": 1,
+          "quote": "7 cs IT-10242"
+        },
+        "uom": {
+          "value": "cs",
+          "page": 1,
+          "quote": "7 cs IT-10242"
+        },
+        "unit_price": {
+          "value": "292.00",
+          "page": 1,
+          "quote": "292.00 2044.00 1"
+        },
+        "line_total": {
+          "value": "2044.00",
+          "page": 1,
+          "quote": "292.00 2044.00 1"
+        },
+        "requested_date": {
+          "value": "05-Nov-2026",
+          "page": 1,
+          "quote": "05-Nov-2026 292.00 2044.00 1"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "105.25 2"
+        },
+        "item_no": {
+          "value": "IT-10234",
+          "page": 1,
+          "quote": "IT-10234 TIG rod ER70S-2 3/32 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "TIG rod ER70S-2 3/32 in",
+          "page": 1,
+          "quote": "TIG rod ER70S-2 3/32 in"
+        },
+        "qty": {
+          "value": "25",
+          "page": 1,
+          "quote": "25 lb IT-10234"
+        },
+        "uom": {
+          "value": "lb",
+          "page": 1,
+          "quote": "25 lb IT-10234"
+        },
+        "unit_price": {
+          "value": "4.21",
+          "page": 1,
+          "quote": "4.21 105.25 2"
+        },
+        "line_total": {
+          "value": "105.25",
+          "page": 1,
+          "quote": "4.21 105.25 2"
+        },
+        "requested_date": {
+          "value": "07-Nov-2026",
+          "page": 1,
+          "quote": "07-Nov-2026 4.21 105.25 2"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "219.52 3"
+        },
+        "item_no": {
+          "value": "IT-10284",
+          "page": 1,
+          "quote": "IT-10284 Roller chain #50 10 ft box"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Roller chain #50 10 ft box",
+          "page": 1,
+          "quote": "Roller chain #50 10 ft box"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 ea IT-10284"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "8 ea IT-10284"
+        },
+        "unit_price": {
+          "value": "27.44",
+          "page": 1,
+          "quote": "27.44 219.52 3"
+        },
+        "line_total": {
+          "value": "219.52",
+          "page": 1,
+          "quote": "27.44 219.52 3"
+        },
+        "requested_date": {
+          "value": "21-Nov-2026",
+          "page": 1,
+          "quote": "21-Nov-2026 27.44 219.52 3"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 6.9,
+      "cost_usd": 0.0183142,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 24.2,
+      "cost_usd": 0.046236000000000006,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

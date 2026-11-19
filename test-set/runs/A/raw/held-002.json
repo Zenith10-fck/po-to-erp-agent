@@ -1,0 +1,203 @@
+{
+  "doc_id": "held-002",
+  "sender": "\"J. Marchetti\" <purchasing@stonebridge-elevator-service.example>",
+  "subject": "PO 4500361594",
+  "source_file": "PO_4500361594.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a Stonebridge PO with line items, quantities, and prices ordering goods from Northfield Industrial Supply."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "4500361594",
+      "page": 1,
+      "quote": "PO Number 4500361594"
+    },
+    "po_date": {
+      "value": "11/3/2026",
+      "page": 1,
+      "quote": "DATE 11/3/2026"
+    },
+    "customer_name": {
+      "value": "Stonebridge Elevator Service",
+      "page": 1,
+      "quote": "Stonebridge Elevator Service 220 Gantry Way South Bend, IN 46601"
+    },
+    "bill_to_name": {
+      "value": "Stonebridge Elevator Service",
+      "page": 1,
+      "quote": "BILL TO Stonebridge Elevator Service"
+    },
+    "bill_to_address": {
+      "value": "220 Gantry Way, South Bend, IN 46601",
+      "page": 1,
+      "quote": "Stonebridge Elevator Service 220 Gantry Way South Bend, IN 46601"
+    },
+    "ship_to_name": {
+      "value": "Stonebridge Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Stonebridge Main Plant"
+    },
+    "ship_to_address": {
+      "value": "220 Gantry Way, South Bend, IN 46601",
+      "page": 1,
+      "quote": "Stonebridge Main Plant 220 Gantry Way South Bend, IN 46601"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "CURRENCY USD"
+    },
+    "order_total": {
+      "value": "105.50",
+      "page": 1,
+      "quote": "Grand Total 105.50"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Deliver Mon-Fri 7am-3pm only",
+      "page": 1,
+      "quote": "SPECIAL INSTRUCTIONS Deliver Mon-Fri 7am-3pm only"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 250 pcs 98-8149"
+        },
+        "item_no": {
+          "value": "98-8149",
+          "page": 1,
+          "quote": "98-8149 Hex bolt M6 x 30 zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M6 x 30 zinc",
+          "page": 1,
+          "quote": "Hex bolt M6 x 30 zinc"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "1 250 pcs"
+        },
+        "uom": {
+          "value": "pcs",
+          "page": 1,
+          "quote": "250 pcs 98-8149"
+        },
+        "unit_price": {
+          "value": "0.08",
+          "page": 1,
+          "quote": "0.08 20.00"
+        },
+        "line_total": {
+          "value": "20.00",
+          "page": 1,
+          "quote": "0.08 20.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 50 ft 51-3587"
+        },
+        "item_no": {
+          "value": "51-3587",
+          "page": 1,
+          "quote": "51-3587 Polyurethane tubing 1/4 in OD blue"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 1/4 in OD blue",
+          "page": 1,
+          "quote": "Polyurethane tubing 1/4 in OD blue"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "2 50 ft"
+        },
+        "uom": {
+          "value": "ft",
+          "page": 1,
+          "quote": "50 ft 51-3587"
+        },
+        "unit_price": {
+          "value": "1.71",
+          "page": 1,
+          "quote": "1.71 85.50"
+        },
+        "line_total": {
+          "value": "85.50",
+          "page": 1,
+          "quote": "1.71 85.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.1,
+      "cost_usd": 0.018259,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 33.0,
+      "cost_usd": 0.0643442,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

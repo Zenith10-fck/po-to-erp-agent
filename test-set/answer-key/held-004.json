@@ -1,0 +1,73 @@
+{
+  "doc_id": "held-004",
+  "split": "heldout",
+  "category": "layout",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "ravenglass_PO_P118572.pdf",
+  "truth": {
+    "customer_id": "C0022",
+    "customer_po_number": "P118572",
+    "po_date": "2026-11-05",
+    "bill_to_id": "B0022",
+    "ship_to_id": "S0054",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10069",
+        "customer_part_no": "",
+        "order_qty": "11",
+        "order_uom": "CS",
+        "base_qty": "1100",
+        "base_uom": "EA",
+        "unit_price": "722.0000",
+        "line_total": "7942.00",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10261",
+        "customer_part_no": "",
+        "order_qty": "2",
+        "order_uom": "RL",
+        "base_qty": "500",
+        "base_uom": "FT",
+        "unit_price": "642.5000",
+        "line_total": "1285.00",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10141",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "RL",
+        "base_qty": "4",
+        "base_uom": "RL",
+        "unit_price": "5.2900",
+        "line_total": "21.16",
+        "requested_date": ""
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10033",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "BX",
+        "base_qty": "1200",
+        "base_uom": "EA",
+        "unit_price": "7.0000",
+        "line_total": "84.00",
+        "requested_date": ""
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": ""
+  },
+  "trap_detail": null
+}

@@ -1,0 +1,119 @@
+{
+  "doc_id": "held-012",
+  "split": "heldout",
+  "seed": 5012,
+  "kind": "po",
+  "layout": "modern_blocks",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Thornbury Steel Erectors",
+    "address_lines": [
+      "840 Boiler Ave",
+      "Youngstown, OH 44503"
+    ],
+    "contact": "Purchasing: T. Nakamura, 555-0187",
+    "logo_text": "THORNBURY"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "75115",
+  "po_number_label": "P.O. Number",
+  "po_date": "Oct 28, 2026",
+  "bill_to": {
+    "name": "Thornbury Steel Erectors",
+    "address_lines": [
+      "840 Boiler Ave",
+      "Youngstown, OH 44503"
+    ]
+  },
+  "ship_to": {
+    "name": "Thornbury Distribution Center",
+    "address_lines": [
+      "4960 Ironworks Blvd",
+      "Canton, OH 44702"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Deliver to rear dock, door 6",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10005",
+      "customer_part_no": null,
+      "description": "Hex bolt M8 x 25 stainless A2",
+      "qty": "2",
+      "uom": "bx",
+      "unit_price": "$22.80",
+      "line_total": "$45.60",
+      "requested_date": "Nov 9, 2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10061",
+      "customer_part_no": null,
+      "description": "Wedge anchor 5/8 x 6 in zinc",
+      "qty": "40",
+      "uom": "ea",
+      "unit_price": "$1.57",
+      "line_total": "$62.80",
+      "requested_date": "Nov 19, 2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10283",
+      "customer_part_no": null,
+      "description": "Roller chain #40 10 ft box",
+      "qty": "12",
+      "uom": "cs",
+      "unit_price": "$335.70",
+      "line_total": "$4,028.40",
+      "requested_date": "Nov 25, 2026"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10133",
+      "customer_part_no": null,
+      "description": "Surface conditioning disc 2 in medium",
+      "qty": "40",
+      "uom": "ea",
+      "unit_price": "$1.47",
+      "line_total": "$58.80",
+      "requested_date": "Nov 4, 2026"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10295",
+      "customer_part_no": null,
+      "description": "Oil-dry absorbent 40 lb bag",
+      "qty": "1",
+      "uom": "ea",
+      "unit_price": "$10.12",
+      "line_total": "$10.12",
+      "requested_date": "Nov 11, 2026"
+    },
+    {
+      "line_no": "6",
+      "item_no": "IT-10095",
+      "customer_part_no": null,
+      "description": "Hose clamp worm drive #6 stainless",
+      "qty": "12",
+      "uom": "ea",
+      "unit_price": "$1.48",
+      "line_total": "$17.76",
+      "requested_date": "Nov 6, 2026"
+    }
+  ],
+  "order_total": "$4,223.48",
+  "order_total_label": "PO Total",
+  "payment_terms": "Net 60",
+  "injection_text": null,
+  "injection_style": null
+}

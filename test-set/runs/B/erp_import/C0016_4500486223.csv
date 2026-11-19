@@ -1,0 +1,4 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0016","4500486223","2026-11-02","B0016","S0041","USD",1,"IT-10283","",6,"EA",6,"EA",32.2800,193.68,"","","","scan_20261102_1141.pdf","B"
+"C0016","4500486223","2026-11-02","B0016","S0041","USD",2,"IT-10189","",2,"EA",2,"EA",32.9900,65.98,"","","","scan_20261102_1141.pdf","B"
+"C0016","4500486223","2026-11-02","B0016","S0041","USD",3,"IT-10105","",200,"EA",200,"EA",0.2800,56.00,"","","","scan_20261102_1141.pdf","B"

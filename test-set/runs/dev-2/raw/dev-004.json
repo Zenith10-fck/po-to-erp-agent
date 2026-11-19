@@ -1,0 +1,391 @@
+{
+  "doc_id": "dev-004",
+  "sender": "\"V. Dutta\" <orders@harlow-fastener.example>",
+  "subject": "Purchase Order 71078 - Harlow Fastener",
+  "source_file": "harlow_PO_71078.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document lists specific items, quantities, prices, and ship-to/bill-to instructing the supplier to fulfill the order."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "71078",
+      "page": 1,
+      "quote": "RE: Order No. 71078"
+    },
+    "po_date": {
+      "value": "2026-10-24",
+      "page": 1,
+      "quote": "Date: 2026-10-24"
+    },
+    "customer_name": {
+      "value": "Harlow Fastener",
+      "page": 1,
+      "quote": "Harlow Fastener\n410 Mill Road"
+    },
+    "bill_to_name": {
+      "value": "Harlow Fastener Supply Inc.",
+      "page": 1,
+      "quote": "Bill to: Harlow Fastener Supply Inc., 410 Mill Road, Dayton, OH 45402"
+    },
+    "bill_to_address": {
+      "value": "410 Mill Road, Dayton, OH 45402",
+      "page": 1,
+      "quote": "Bill to: Harlow Fastener Supply Inc., 410 Mill Road, Dayton, OH 45402"
+    },
+    "ship_to_name": {
+      "value": "Harlow South Plant",
+      "page": 1,
+      "quote": "Ship to: Harlow South Plant, 3802 Loomis Ct, Akron, OH 44301"
+    },
+    "ship_to_address": {
+      "value": "3802 Loomis Ct, Akron, OH 44301",
+      "page": 1,
+      "quote": "Ship to: Harlow South Plant, 3802 Loomis Ct, Akron, OH 44301"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "3,220.60",
+      "page": 1,
+      "quote": "Grand Total: 3,220.60"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "Delivery notes: Liftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1) 10 CS of IT-10284"
+        },
+        "item_no": {
+          "value": "IT-10284",
+          "page": 1,
+          "quote": "1) 10 CS of IT-10284 @ 274.40"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Roller chain #50 10 ft box",
+          "page": 1,
+          "quote": "= 2,744.00 - Roller chain #50 10 ft box, need by 2026-11-11"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "1) 10 CS of IT-10284"
+        },
+        "uom": {
+          "value": "CS",
+          "page": 1,
+          "quote": "1) 10 CS of IT-10284"
+        },
+        "unit_price": {
+          "value": "274.40",
+          "page": 1,
+          "quote": "@ 274.40 = 2,744.00"
+        },
+        "line_total": {
+          "value": "2,744.00",
+          "page": 1,
+          "quote": "@ 274.40 = 2,744.00"
+        },
+        "requested_date": {
+          "value": "2026-11-11",
+          "page": 1,
+          "quote": "need by 2026-11-11"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2) 50 FT of IT-10266"
+        },
+        "item_no": {
+          "value": "IT-10266",
+          "page": 1,
+          "quote": "2) 50 FT of IT-10266 @ 3.22"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hydraulic hose 100R2 3/8 in",
+          "page": 1,
+          "quote": "= 161.00 - Hydraulic hose 100R2 3/8 in, need by 2026-11-16"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "2) 50 FT of IT-10266"
+        },
+        "uom": {
+          "value": "FT",
+          "page": 1,
+          "quote": "2) 50 FT of IT-10266"
+        },
+        "unit_price": {
+          "value": "3.22",
+          "page": 1,
+          "quote": "@ 3.22 = 161.00"
+        },
+        "line_total": {
+          "value": "161.00",
+          "page": 1,
+          "quote": "@ 3.22 = 161.00"
+        },
+        "requested_date": {
+          "value": "2026-11-16",
+          "page": 1,
+          "quote": "need by 2026-11-16"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3) 3 PK of IT-10100"
+        },
+        "item_no": {
+          "value": "IT-10100",
+          "page": 1,
+          "quote": "3) 3 PK of IT-10100 @ 19.70"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass hose barb 1/4 in x 1/4 NPT",
+          "page": 1,
+          "quote": "= 59.10 - Brass hose barb 1/4 in x 1/4 NPT, need by 2026-11-22"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3) 3 PK of IT-10100"
+        },
+        "uom": {
+          "value": "PK",
+          "page": 1,
+          "quote": "3) 3 PK of IT-10100"
+        },
+        "unit_price": {
+          "value": "19.70",
+          "page": 1,
+          "quote": "@ 19.70 = 59.10"
+        },
+        "line_total": {
+          "value": "59.10",
+          "page": 1,
+          "quote": "@ 19.70 = 59.10"
+        },
+        "requested_date": {
+          "value": "2026-11-22",
+          "page": 1,
+          "quote": "need by 2026-11-22"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4) 2 BX of IT-10110"
+        },
+        "item_no": {
+          "value": "IT-10110",
+          "page": 1,
+          "quote": "4) 2 BX of IT-10110 @ 33.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Steel pipe plug 1/2 in NPT",
+          "page": 1,
+          "quote": "= 67.00 - Steel pipe plug 1/2 in NPT, need by 2026-11-26"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "4) 2 BX of IT-10110"
+        },
+        "uom": {
+          "value": "BX",
+          "page": 1,
+          "quote": "4) 2 BX of IT-10110"
+        },
+        "unit_price": {
+          "value": "33.50",
+          "page": 1,
+          "quote": "@ 33.50 = 67.00"
+        },
+        "line_total": {
+          "value": "67.00",
+          "page": 1,
+          "quote": "@ 33.50 = 67.00"
+        },
+        "requested_date": {
+          "value": "2026-11-26",
+          "page": 1,
+          "quote": "need by 2026-11-26"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5) 25 EA of IT-10178"
+        },
+        "item_no": {
+          "value": "IT-10178",
+          "page": 1,
+          "quote": "5) 25 EA of IT-10178 @ 6.86"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 3/16 in",
+          "page": 1,
+          "quote": "= 171.50 - HSS jobber drill bit 3/16 in, need by 2026-11-09"
+        },
+        "qty": {
+          "value": "25",
+          "page": 1,
+          "quote": "5) 25 EA of IT-10178"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "5) 25 EA of IT-10178"
+        },
+        "unit_price": {
+          "value": "6.86",
+          "page": 1,
+          "quote": "@ 6.86 = 171.50"
+        },
+        "line_total": {
+          "value": "171.50",
+          "page": 1,
+          "quote": "@ 6.86 = 171.50"
+        },
+        "requested_date": {
+          "value": "2026-11-09",
+          "page": 1,
+          "quote": "need by 2026-11-09"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6) 2 BX of IT-10034"
+        },
+        "item_no": {
+          "value": "IT-10034",
+          "page": 1,
+          "quote": "6) 2 BX of IT-10034 @ 9.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Split lock washer M8 zinc",
+          "page": 1,
+          "quote": "= 18.00 - Split lock washer M8 zinc, need by 2026-11-15"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "6) 2 BX of IT-10034"
+        },
+        "uom": {
+          "value": "BX",
+          "page": 1,
+          "quote": "6) 2 BX of IT-10034"
+        },
+        "unit_price": {
+          "value": "9.00",
+          "page": 1,
+          "quote": "@ 9.00 = 18.00"
+        },
+        "line_total": {
+          "value": "18.00",
+          "page": 1,
+          "quote": "@ 9.00 = 18.00"
+        },
+        "requested_date": {
+          "value": "2026-11-15",
+          "page": 1,
+          "quote": "need by 2026-11-15"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.4,
+      "cost_usd": 0.018256,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 58.5,
+      "cost_usd": 0.11262459999999999,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "doc_id": "held-009",
+  "sender": "\"D. Brennan\" <purchasing@brightwater-tool-die.example>",
+  "subject": "Brightwater Tool & Die LLC PO 4500486223",
+  "source_file": "scan_20261102_1141.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a standard Purchase Order form from Brightwater listing items, quantities, and prices ordered from Northfield Industrial Supply."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "4500486223",
+      "page": 1,
+      "quote": "P.O. Number 4500486223"
+    },
+    "po_date": {
+      "value": "11/02/2026",
+      "page": 1,
+      "quote": "DATE 11/02/2026"
+    },
+    "customer_name": {
+      "value": "Brightwater Tool & Die LLC",
+      "page": 1,
+      "quote": "Brightwater Tool & Die LLC 615 Lathe St Rockford, IL 61101"
+    },
+    "bill_to_name": {
+      "value": "Brightwater Tool & Die LLC",
+      "page": 1,
+      "quote": "BILL TO Brightwater Tool & Die LLC 615 Lathe St Rockford, IL 61101"
+    },
+    "bill_to_address": {
+      "value": "615 Lathe St, Rockford, IL 61101",
+      "page": 1,
+      "quote": "615 Lathe St Rockford, IL 61101"
+    },
+    "ship_to_name": {
+      "value": "Brightwater Plant 2",
+      "page": 1,
+      "quote": "SHIP TO Brightwater Plant 2 1556 Tannery Row Peoria, IL 61602"
+    },
+    "ship_to_address": {
+      "value": "1556 Tannery Row, Peoria, IL 61602",
+      "page": 1,
+      "quote": "1556 Tannery Row Peoria, IL 61602"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "315.66",
+      "page": 1,
+      "quote": "Grand Total 315.66"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 | 6 | EA | IT-10283"
+        },
+        "item_no": {
+          "value": "IT-10283",
+          "page": 1,
+          "quote": "PART NO. IT-10283"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Roller chain #40 10 ft box",
+          "page": 1,
+          "quote": "Roller chain #40 10 ft box"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "QTY 6"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT EA"
+        },
+        "unit_price": {
+          "value": "32.28",
+          "page": 1,
+          "quote": "UNIT PRICE 32.28"
+        },
+        "line_total": {
+          "value": "193.68",
+          "page": 1,
+          "quote": "AMOUNT 193.68"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 | 2 | EA | IT-10189"
+        },
+        "item_no": {
+          "value": "IT-10189",
+          "page": 1,
+          "quote": "PART NO. IT-10189"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Carbide end mill 4 flute 1/4 in",
+          "page": 1,
+          "quote": "Carbide end mill 4 flute 1/4 in"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "QTY 2"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT EA"
+        },
+        "unit_price": {
+          "value": "32.99",
+          "page": 1,
+          "quote": "UNIT PRICE 32.99"
+        },
+        "line_total": {
+          "value": "65.98",
+          "page": 1,
+          "quote": "AMOUNT 65.98"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 | 200 | EA | IT-10105"
+        },
+        "item_no": {
+          "value": "IT-10105",
+          "page": 1,
+          "quote": "PART NO. IT-10105"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Grease fitting 1/8 NPT straight",
+          "page": 1,
+          "quote": "Grease fitting 1/8 NPT straight"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "QTY 200"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT EA"
+        },
+        "unit_price": {
+          "value": "0.28",
+          "page": 1,
+          "quote": "UNIT PRICE 0.28"
+        },
+        "line_total": {
+          "value": "56.00",
+          "page": 1,
+          "quote": "AMOUNT 56.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "4500486223",
+      "page": 1,
+      "quote": "P.O. Number 4500486223"
+    },
+    "po_date": {
+      "value": "11/02/2026",
+      "page": 1,
+      "quote": "DATE 11/02/2026"
+    },
+    "customer_name": {
+      "value": "Brightwater Tool & Die LLC",
+      "page": 1,
+      "quote": "Brightwater Tool & Die LLC 615 Lathe St"
+    },
+    "bill_to_name": {
+      "value": "Brightwater Tool & Die LLC",
+      "page": 1,
+      "quote": "BILL TO Brightwater Tool & Die LLC"
+    },
+    "bill_to_address": {
+      "value": "615 Lathe St, Rockford, IL 61101",
+      "page": 1,
+      "quote": "615 Lathe St Rockford, IL 61101"
+    },
+    "ship_to_name": {
+      "value": "Brightwater Plant 2",
+      "page": 1,
+      "quote": "SHIP TO Brightwater Plant 2"
+    },
+    "ship_to_address": {
+      "value": "1556 Tannery Row, Peoria, IL 61602",
+      "page": 1,
+      "quote": "1556 Tannery Row Peoria, IL 61602"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "315.66",
+      "page": 1,
+      "quote": "Grand Total 315.66"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1  6  EA  IT-10283"
+        },
+        "item_no": {
+          "value": "IT-10283",
+          "page": 1,
+          "quote": "PART NO. IT-10283"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Roller chain #40 10 ft box",
+          "page": 1,
+          "quote": "DESCRIPTION Roller chain #40 10 ft box"
+        },
+        "qty": {
+          "value": "6",
+          "page": 1,
+          "quote": "QTY 6"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT EA"
+        },
+        "unit_price": {
+          "value": "32.28",
+          "page": 1,
+          "quote": "UNIT PRICE 32.28"
+        },
+        "line_total": {
+          "value": "193.68",
+          "page": 1,
+          "quote": "AMOUNT 193.68"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2  2  EA  IT-10189"
+        },
+        "item_no": {
+          "value": "IT-10189",
+          "page": 1,
+          "quote": "PART NO. IT-10189"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Carbide end mill 4 flute 1/4 in",
+          "page": 1,
+          "quote": "DESCRIPTION Carbide end mill 4 flute 1/4 in"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "QTY 2"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT EA"
+        },
+        "unit_price": {
+          "value": "32.99",
+          "page": 1,
+          "quote": "UNIT PRICE 32.99"
+        },
+        "line_total": {
+          "value": "65.98",
+          "page": 1,
+          "quote": "AMOUNT 65.98"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3  200  EA  IT-10105"
+        },
+        "item_no": {
+          "value": "IT-10105",
+          "page": 1,
+          "quote": "PART NO. IT-10105"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Grease fitting 1/8 NPT straight",
+          "page": 1,
+          "quote": "DESCRIPTION Grease fitting 1/8 NPT straight"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "QTY 200"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "UNIT EA"
+        },
+        "unit_price": {
+          "value": "0.28",
+          "page": 1,
+          "quote": "UNIT PRICE 0.28"
+        },
+        "line_total": {
+          "value": "56.00",
+          "page": 1,
+          "quote": "AMOUNT 56.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.9,
+      "cost_usd": 0.0183188,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 35.6,
+      "cost_usd": 0.0700274,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 34.4,
+      "cost_usd": 0.07448540000000001,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

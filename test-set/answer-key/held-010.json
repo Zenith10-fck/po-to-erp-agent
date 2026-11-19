@@ -1,0 +1,61 @@
+{
+  "doc_id": "held-010",
+  "split": "heldout",
+  "category": "multipage",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "PO_49386.pdf",
+  "truth": {
+    "customer_id": "C0015",
+    "customer_po_number": "49386",
+    "po_date": "2026-10-26",
+    "bill_to_id": "B0015",
+    "ship_to_id": "S0038",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10121",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "7.2600",
+        "line_total": "363.00",
+        "requested_date": "2026-11-14"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10177",
+        "customer_part_no": "",
+        "order_qty": "10",
+        "order_uom": "EA",
+        "base_qty": "10",
+        "base_uom": "EA",
+        "unit_price": "4.3000",
+        "line_total": "43.00",
+        "requested_date": "2026-11-22"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10235",
+        "customer_part_no": "",
+        "order_qty": "24",
+        "order_uom": "EA",
+        "base_qty": "24",
+        "base_uom": "EA",
+        "unit_price": "1.2500",
+        "line_total": "30.00",
+        "requested_date": "2026-11-12"
+      }
+    ],
+    "carrier_account_no": "701593519",
+    "shipping_notes": "Dock 3, call before delivery"
+  },
+  "trap_detail": null
+}

@@ -1,0 +1,7 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0017","71741","2026-10-30","B0017","S0042","USD",1,"IT-10089","",8,"PK",80,"EA",52.4000,419.20,"2026-11-18","","Partial shipments OK","scan_20261030_1100.pdf","B"
+"C0017","71741","2026-10-30","B0017","S0042","USD",2,"IT-10097","",12,"EA",12,"EA",1.3400,16.08,"2026-11-17","","Partial shipments OK","scan_20261030_1100.pdf","B"
+"C0017","71741","2026-10-30","B0017","S0042","USD",3,"IT-10183","",8,"PK",48,"EA",86.0400,688.32,"2026-11-12","","Partial shipments OK","scan_20261030_1100.pdf","B"
+"C0017","71741","2026-10-30","B0017","S0042","USD",4,"IT-10291","",6,"EA",6,"EA",1.3600,8.16,"2026-11-11","","Partial shipments OK","scan_20261030_1100.pdf","B"
+"C0017","71741","2026-10-30","B0017","S0042","USD",5,"IT-10125","",50,"EA",50,"EA",7.1100,355.50,"2026-11-16","","Partial shipments OK","scan_20261030_1100.pdf","B"
+"C0017","71741","2026-10-30","B0017","S0042","USD",6,"IT-10005","",8,"CS",8000,"EA",230.0000,1840.00,"2026-11-10","","Partial shipments OK","scan_20261030_1100.pdf","B"

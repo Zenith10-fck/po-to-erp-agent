@@ -1,0 +1,344 @@
+{
+  "doc_id": "dev-015",
+  "sender": "\"P. Whitcombe\" <purchasing@granite-peak-mining.example>",
+  "subject": "Purchase Order GPMS-26-7211 - Granite Peak Mining Services",
+  "source_file": "PO_GPMS-26-7211.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal purchase order with PO number, line items, quantities, and pricing ordering goods from a supplier."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "GPMS-26-7211",
+      "page": 1,
+      "quote": "P.O. Number: GPMS-26-7211"
+    },
+    "po_date": {
+      "value": "17-Oct-2026",
+      "page": 1,
+      "quote": "Order date: 17-Oct-2026"
+    },
+    "customer_name": {
+      "value": "Granite Peak Mining Services",
+      "page": 1,
+      "quote": "ORDERED BY Granite Peak Mining Services"
+    },
+    "bill_to_name": {
+      "value": "Granite Peak Mining Services",
+      "page": 1,
+      "quote": "INVOICE TO Granite Peak Mining Services"
+    },
+    "bill_to_address": {
+      "value": "9 Quarry Ln, Duluth, MN 55802",
+      "page": 1,
+      "quote": "Granite Peak Mining Services 9 Quarry Ln Duluth, MN 55802"
+    },
+    "ship_to_name": {
+      "value": "Granite Main Plant",
+      "page": 1,
+      "quote": "DELIVER TO Granite Main Plant"
+    },
+    "ship_to_address": {
+      "value": "9 Quarry Ln, Duluth, MN 55802",
+      "page": 1,
+      "quote": "Granite Main Plant 9 Quarry Ln Duluth, MN 55802"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency: USD"
+    },
+    "order_total": {
+      "value": "2362.62",
+      "page": 1,
+      "quote": "Grand Total 2362.62"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "38.16 1"
+        },
+        "item_no": {
+          "value": "IT-10274",
+          "page": 1,
+          "quote": "IT-10274 Ball bearing 6206-2RS"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6206-2RS",
+          "page": 1,
+          "quote": "Ball bearing 6206-2RS"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 ea IT-10274"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "4 ea IT-10274"
+        },
+        "unit_price": {
+          "value": "9.54",
+          "page": 1,
+          "quote": "9.54 38.16 1"
+        },
+        "line_total": {
+          "value": "38.16",
+          "page": 1,
+          "quote": "9.54 38.16 1"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "39.86 2"
+        },
+        "item_no": {
+          "value": "IT-10210",
+          "page": 1,
+          "quote": "IT-10210 Brake parts cleaner 14 oz aerosol"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brake parts cleaner 14 oz aerosol",
+          "page": 1,
+          "quote": "Brake parts cleaner 14 oz aerosol"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 ea IT-10210"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "2 ea IT-10210"
+        },
+        "unit_price": {
+          "value": "19.93",
+          "page": 1,
+          "quote": "19.93 39.86 2"
+        },
+        "line_total": {
+          "value": "39.86",
+          "page": 1,
+          "quote": "19.93 39.86 2"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "383.20 3"
+        },
+        "item_no": {
+          "value": "IT-10146",
+          "page": 1,
+          "quote": "IT-10146 Packing tape 2 in x 110 yd tan"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Packing tape 2 in x 110 yd tan",
+          "page": 1,
+          "quote": "Packing tape 2 in x 110 yd tan"
+        },
+        "qty": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 rl IT-10146"
+        },
+        "uom": {
+          "value": "rl",
+          "page": 1,
+          "quote": "40 rl IT-10146"
+        },
+        "unit_price": {
+          "value": "9.58",
+          "page": 1,
+          "quote": "9.58 383.20 3"
+        },
+        "line_total": {
+          "value": "383.20",
+          "page": 1,
+          "quote": "9.58 383.20 3"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "527.80 4"
+        },
+        "item_no": {
+          "value": "IT-10228",
+          "page": 1,
+          "quote": "IT-10228 MIG wire ER70S-6 .045 in 33 lb spool"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "MIG wire ER70S-6 .045 in 33 lb spool",
+          "page": 1,
+          "quote": "MIG wire ER70S-6 .045 in 33 lb spool"
+        },
+        "qty": {
+          "value": "7",
+          "page": 1,
+          "quote": "7 ea IT-10228"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "7 ea IT-10228"
+        },
+        "unit_price": {
+          "value": "75.40",
+          "page": 1,
+          "quote": "75.40 527.80 4"
+        },
+        "line_total": {
+          "value": "527.80",
+          "page": 1,
+          "quote": "75.40 527.80 4"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "1373.60 5"
+        },
+        "item_no": {
+          "value": "IT-10160",
+          "page": 1,
+          "quote": "IT-10160 Welding gloves 14 in size L"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Welding gloves 14 in size L",
+          "page": 1,
+          "quote": "Welding gloves 14 in size L"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 PALLET IT-10160"
+        },
+        "uom": {
+          "value": "PALLET",
+          "page": 1,
+          "quote": "2 PALLET IT-10160"
+        },
+        "unit_price": {
+          "value": "686.80",
+          "page": 1,
+          "quote": "686.80 1373.60 5"
+        },
+        "line_total": {
+          "value": "1373.60",
+          "page": 1,
+          "quote": "686.80 1373.60 5"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 6.8,
+      "cost_usd": 0.018258200000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 42.1,
+      "cost_usd": 0.08891160000000001,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

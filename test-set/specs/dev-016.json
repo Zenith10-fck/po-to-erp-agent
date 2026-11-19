@@ -1,0 +1,119 @@
+{
+  "doc_id": "dev-016",
+  "split": "dev",
+  "seed": 1016,
+  "kind": "po",
+  "layout": "form_boxes",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Oakhaven Conveyor Co.",
+    "address_lines": [
+      "608 Trestle Rd",
+      "Lima, OH 45801"
+    ],
+    "contact": "Purchasing: B. Aldana, 555-0157",
+    "logo_text": "OAKHAVEN"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "OC/6610",
+  "po_number_label": "P.O. Number",
+  "po_date": "2026-10-22",
+  "bill_to": {
+    "name": "Oakhaven Conveyor Co.",
+    "address_lines": [
+      "608 Trestle Rd",
+      "Lima, OH 45801"
+    ]
+  },
+  "ship_to": {
+    "name": "Oakhaven Main Plant",
+    "address_lines": [
+      "608 Trestle Rd",
+      "Lima, OH 45801"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Liftgate required",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10090",
+      "customer_part_no": null,
+      "description": "Ball valve brass 1/2 in full port",
+      "qty": "8",
+      "uom": "EA",
+      "unit_price": "26.07",
+      "line_total": "208.56",
+      "requested_date": "2026-11-16"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10036",
+      "customer_part_no": null,
+      "description": "Split lock washer M12 zinc",
+      "qty": "500",
+      "uom": "EA",
+      "unit_price": "0.13",
+      "line_total": "56.00",
+      "requested_date": "2026-11-03"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10182",
+      "customer_part_no": null,
+      "description": "HSS jobber drill bit 1/2 in",
+      "qty": "10",
+      "uom": "EA",
+      "unit_price": "7.71",
+      "line_total": "77.10",
+      "requested_date": "2026-11-01"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10258",
+      "customer_part_no": null,
+      "description": "Polyurethane tubing 3/8 in OD black",
+      "qty": "150",
+      "uom": "FT",
+      "unit_price": "4.57",
+      "line_total": "685.50",
+      "requested_date": "2026-11-08"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10018",
+      "customer_part_no": null,
+      "description": "Hex nut M10 zinc",
+      "qty": "200",
+      "uom": "EA",
+      "unit_price": "0.38",
+      "line_total": "76.00",
+      "requested_date": "2026-11-09"
+    },
+    {
+      "line_no": "6",
+      "item_no": "IT-10244",
+      "customer_part_no": null,
+      "description": "Cable tie 14 in natural (bag of 100)",
+      "qty": "5",
+      "uom": "CS",
+      "unit_price": "62.80",
+      "line_total": "314.00",
+      "requested_date": "2026-11-21"
+    }
+  ],
+  "order_total": "1,417.16",
+  "order_total_label": "PO Total",
+  "payment_terms": "Net 60",
+  "injection_text": null,
+  "injection_style": null
+}

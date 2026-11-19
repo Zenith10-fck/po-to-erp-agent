@@ -1,0 +1,85 @@
+{
+  "doc_id": "dev-010",
+  "split": "dev",
+  "category": "multipage",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "PO_4500281298.pdf",
+  "truth": {
+    "customer_id": "C0010",
+    "customer_po_number": "4500281298",
+    "po_date": "2026-10-03",
+    "bill_to_id": "B0010",
+    "ship_to_id": "S0025",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10088",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "8.0100",
+        "line_total": "400.50",
+        "requested_date": "2026-10-30"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10076",
+        "customer_part_no": "",
+        "order_qty": "20",
+        "order_uom": "EA",
+        "base_qty": "20",
+        "base_uom": "EA",
+        "unit_price": "6.3800",
+        "line_total": "127.60",
+        "requested_date": "2026-10-28"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10228",
+        "customer_part_no": "",
+        "order_qty": "3",
+        "order_uom": "EA",
+        "base_qty": "3",
+        "base_uom": "EA",
+        "unit_price": "72.5000",
+        "line_total": "217.50",
+        "requested_date": "2026-10-22"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10108",
+        "customer_part_no": "",
+        "order_qty": "200",
+        "order_uom": "EA",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "0.8600",
+        "line_total": "172.00",
+        "requested_date": "2026-10-26"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10058",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "BX",
+        "base_qty": "300",
+        "base_uom": "EA",
+        "unit_price": "46.5000",
+        "line_total": "558.00",
+        "requested_date": "2026-11-01"
+      }
+    ],
+    "carrier_account_no": "K4ZJKP",
+    "shipping_notes": ""
+  },
+  "trap_detail": null
+}

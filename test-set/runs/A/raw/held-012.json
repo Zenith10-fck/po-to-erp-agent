@@ -1,0 +1,391 @@
+{
+  "doc_id": "held-012",
+  "sender": "\"T. Nakamura\" <purchasing@thornbury-steel-erectors.example>",
+  "subject": "Thornbury Steel Erectors PO 75115",
+  "source_file": "PO_75115.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal PO (#75115) from Thornbury Steel Erectors listing items, quantities, and prices ordered from Northfield Industrial Supply."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "75115",
+      "page": 1,
+      "quote": "P.O. Number 75115"
+    },
+    "po_date": {
+      "value": "Oct 28, 2026",
+      "page": 1,
+      "quote": "Order date Oct 28, 2026"
+    },
+    "customer_name": {
+      "value": "Thornbury Steel Erectors",
+      "page": 1,
+      "quote": "FROM Thornbury Steel Erectors"
+    },
+    "bill_to_name": {
+      "value": "Thornbury Steel Erectors",
+      "page": 1,
+      "quote": "BILL TO Thornbury Steel Erectors"
+    },
+    "bill_to_address": {
+      "value": "840 Boiler Ave, Youngstown, OH 44503",
+      "page": 1,
+      "quote": "Thornbury Steel Erectors 840 Boiler Ave Youngstown, OH 44503"
+    },
+    "ship_to_name": {
+      "value": "Thornbury Distribution Center",
+      "page": 1,
+      "quote": "SHIP TO Thornbury Distribution Center"
+    },
+    "ship_to_address": {
+      "value": "4960 Ironworks Blvd, Canton, OH 44702",
+      "page": 1,
+      "quote": "Thornbury Distribution Center 4960 Ironworks Blvd Canton, OH 44702"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "$4,223.48",
+      "page": 1,
+      "quote": "PO Total $4,223.48"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Deliver to rear dock, door 6",
+      "page": 1,
+      "quote": "DELIVERY NOTES Deliver to rear dock, door 6"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 Hex bolt M8 x 25 stainless A2"
+        },
+        "item_no": {
+          "value": "IT-10005",
+          "page": 1,
+          "quote": "IT-10005 Nov 9, 2026 2 bx $22.80 $45.60"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M8 x 25 stainless A2",
+          "page": 1,
+          "quote": "Hex bolt M8 x 25 stainless A2"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 bx $22.80 $45.60"
+        },
+        "uom": {
+          "value": "bx",
+          "page": 1,
+          "quote": "2 bx $22.80 $45.60"
+        },
+        "unit_price": {
+          "value": "$22.80",
+          "page": 1,
+          "quote": "2 bx $22.80 $45.60"
+        },
+        "line_total": {
+          "value": "$45.60",
+          "page": 1,
+          "quote": "2 bx $22.80 $45.60"
+        },
+        "requested_date": {
+          "value": "Nov 9, 2026",
+          "page": 1,
+          "quote": "IT-10005 Nov 9, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 Wedge anchor 5/8 x 6 in zinc"
+        },
+        "item_no": {
+          "value": "IT-10061",
+          "page": 1,
+          "quote": "IT-10061 Nov 19, 2026 40 ea $1.57 $62.80"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wedge anchor 5/8 x 6 in zinc",
+          "page": 1,
+          "quote": "Wedge anchor 5/8 x 6 in zinc"
+        },
+        "qty": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 ea $1.57 $62.80"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "40 ea $1.57 $62.80"
+        },
+        "unit_price": {
+          "value": "$1.57",
+          "page": 1,
+          "quote": "40 ea $1.57 $62.80"
+        },
+        "line_total": {
+          "value": "$62.80",
+          "page": 1,
+          "quote": "40 ea $1.57 $62.80"
+        },
+        "requested_date": {
+          "value": "Nov 19, 2026",
+          "page": 1,
+          "quote": "IT-10061 Nov 19, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 Roller chain #40 10 ft box"
+        },
+        "item_no": {
+          "value": "IT-10283",
+          "page": 1,
+          "quote": "IT-10283 Nov 25, 2026 12 cs $335.70 $4,028.40"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Roller chain #40 10 ft box",
+          "page": 1,
+          "quote": "Roller chain #40 10 ft box"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 cs $335.70 $4,028.40"
+        },
+        "uom": {
+          "value": "cs",
+          "page": 1,
+          "quote": "12 cs $335.70 $4,028.40"
+        },
+        "unit_price": {
+          "value": "$335.70",
+          "page": 1,
+          "quote": "12 cs $335.70 $4,028.40"
+        },
+        "line_total": {
+          "value": "$4,028.40",
+          "page": 1,
+          "quote": "12 cs $335.70 $4,028.40"
+        },
+        "requested_date": {
+          "value": "Nov 25, 2026",
+          "page": 1,
+          "quote": "IT-10283 Nov 25, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 Surface conditioning disc 2 in medium"
+        },
+        "item_no": {
+          "value": "IT-10133",
+          "page": 1,
+          "quote": "IT-10133 Nov 4, 2026 40 ea $1.47 $58.80"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Surface conditioning disc 2 in medium",
+          "page": 1,
+          "quote": "Surface conditioning disc 2 in medium"
+        },
+        "qty": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 ea $1.47 $58.80"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "40 ea $1.47 $58.80"
+        },
+        "unit_price": {
+          "value": "$1.47",
+          "page": 1,
+          "quote": "40 ea $1.47 $58.80"
+        },
+        "line_total": {
+          "value": "$58.80",
+          "page": 1,
+          "quote": "40 ea $1.47 $58.80"
+        },
+        "requested_date": {
+          "value": "Nov 4, 2026",
+          "page": 1,
+          "quote": "IT-10133 Nov 4, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 Oil-dry absorbent 40 lb bag"
+        },
+        "item_no": {
+          "value": "IT-10295",
+          "page": 1,
+          "quote": "IT-10295 Nov 11, 2026 1 ea $10.12 $10.12"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Oil-dry absorbent 40 lb bag",
+          "page": 1,
+          "quote": "Oil-dry absorbent 40 lb bag"
+        },
+        "qty": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 ea $10.12 $10.12"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "1 ea $10.12 $10.12"
+        },
+        "unit_price": {
+          "value": "$10.12",
+          "page": 1,
+          "quote": "1 ea $10.12 $10.12"
+        },
+        "line_total": {
+          "value": "$10.12",
+          "page": 1,
+          "quote": "1 ea $10.12 $10.12"
+        },
+        "requested_date": {
+          "value": "Nov 11, 2026",
+          "page": 1,
+          "quote": "IT-10295 Nov 11, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 Hose clamp worm drive #6 stainless"
+        },
+        "item_no": {
+          "value": "IT-10095",
+          "page": 1,
+          "quote": "IT-10095 Nov 6, 2026 12 ea $1.48 $17.76"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hose clamp worm drive #6 stainless",
+          "page": 1,
+          "quote": "Hose clamp worm drive #6 stainless"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 ea $1.48 $17.76"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "12 ea $1.48 $17.76"
+        },
+        "unit_price": {
+          "value": "$1.48",
+          "page": 1,
+          "quote": "12 ea $1.48 $17.76"
+        },
+        "line_total": {
+          "value": "$17.76",
+          "page": 1,
+          "quote": "12 ea $1.48 $17.76"
+        },
+        "requested_date": {
+          "value": "Nov 6, 2026",
+          "page": 1,
+          "quote": "IT-10095 Nov 6, 2026"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 6.9,
+      "cost_usd": 0.0183986,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 53.2,
+      "cost_usd": 0.1106654,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

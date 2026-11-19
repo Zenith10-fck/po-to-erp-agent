@@ -1,0 +1,344 @@
+{
+  "doc_id": "held-015",
+  "sender": "\"S. Halloran\" <buyer@quillfeather-printing-works.example>",
+  "subject": "Purchase Order QPW/4117 - Quillfeather Printing Works",
+  "source_file": "quillfeather_PO_QPW_4117.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a standard purchase order (PO# QPW/4117) from Quillfeather Printing Works listing specific items, quantities, and costs to be supplied by the vendor."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "QPW/4117",
+      "page": 1,
+      "quote": "PO #: QPW/4117"
+    },
+    "po_date": {
+      "value": "November 10, 2026",
+      "page": 1,
+      "quote": "ORDER DATE: November 10, 2026"
+    },
+    "customer_name": {
+      "value": "Quillfeather Printing Works",
+      "page": 1,
+      "quote": "Quillfeather Printing Works\nPGM POR310     PURCHASE ORDER"
+    },
+    "bill_to_name": {
+      "value": "Quillfeather Printing Works",
+      "page": 1,
+      "quote": "BILL TO: Quillfeather Printing Works"
+    },
+    "bill_to_address": {
+      "value": "1388 Depot St, Cedar Rapids, IA 52401",
+      "page": 1,
+      "quote": "1388 Depot St\nCedar Rapids, IA 52401"
+    },
+    "ship_to_name": {
+      "value": "Quillfeather Service Center",
+      "page": 1,
+      "quote": "SHIP TO: Quillfeather Service Center"
+    },
+    "ship_to_address": {
+      "value": "440 Loomis Ct, Des Moines, IA 50309",
+      "page": 1,
+      "quote": "440 Loomis Ct\nDes Moines, IA 50309"
+    },
+    "currency": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "order_total": {
+      "value": "1,446.44",
+      "page": 1,
+      "quote": "Total ....   1,446.44"
+    },
+    "carrier_name": {
+      "value": "UPS",
+      "page": 1,
+      "quote": "SHIP VIA: UPS    Ship collect, UPS acct: SB7YHJ"
+    },
+    "carrier_account_no": {
+      "value": "SB7YHJ",
+      "page": 1,
+      "quote": "Ship collect, UPS acct: SB7YHJ"
+    },
+    "shipping_notes": {
+      "value": "Deliver to rear dock, door 6",
+      "page": 1,
+      "quote": "SHIPPING INSTR: Deliver to rear dock, door 6"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 IT-10047"
+        },
+        "item_no": {
+          "value": "IT-10047",
+          "page": 1,
+          "quote": "10 IT-10047     Self-drilling screw #8 x 3/4 in hex washer head"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Self-drilling screw #8 x 3/4 in hex washer head",
+          "page": 1,
+          "quote": "Self-drilling screw #8 x 3/4 in hex washer head"
+        },
+        "qty": {
+          "value": "500",
+          "page": 1,
+          "quote": "500 each       0.14      70.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "500 each       0.14      70.00"
+        },
+        "unit_price": {
+          "value": "0.14",
+          "page": 1,
+          "quote": "500 each       0.14      70.00"
+        },
+        "line_total": {
+          "value": "70.00",
+          "page": 1,
+          "quote": "500 each       0.14      70.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "20",
+          "page": 1,
+          "quote": "20 IT-10007"
+        },
+        "item_no": {
+          "value": "IT-10007",
+          "page": 1,
+          "quote": "20 IT-10007     Hex bolt M10 x 30 zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M10 x 30 zinc",
+          "page": 1,
+          "quote": "Hex bolt M10 x 30 zinc"
+        },
+        "qty": {
+          "value": "100",
+          "page": 1,
+          "quote": "100 each       0.49      49.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "100 each       0.49      49.00"
+        },
+        "unit_price": {
+          "value": "0.49",
+          "page": 1,
+          "quote": "100 each       0.49      49.00"
+        },
+        "line_total": {
+          "value": "49.00",
+          "page": 1,
+          "quote": "100 each       0.49      49.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "30",
+          "page": 1,
+          "quote": "30 IT-10059"
+        },
+        "item_no": {
+          "value": "IT-10059",
+          "page": 1,
+          "quote": "30 IT-10059     Wedge anchor 1/2 x 4 in zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wedge anchor 1/2 x 4 in zinc",
+          "page": 1,
+          "quote": "Wedge anchor 1/2 x 4 in zinc"
+        },
+        "qty": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 each        1.28      51.20"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "40 each        1.28      51.20"
+        },
+        "unit_price": {
+          "value": "1.28",
+          "page": 1,
+          "quote": "40 each        1.28      51.20"
+        },
+        "line_total": {
+          "value": "51.20",
+          "page": 1,
+          "quote": "40 each        1.28      51.20"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 IT-10263"
+        },
+        "item_no": {
+          "value": "IT-10263",
+          "page": 1,
+          "quote": "40 IT-10263     Proof coil chain grade 30 5/16 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Proof coil chain grade 30 5/16 in",
+          "page": 1,
+          "quote": "Proof coil chain grade 30 5/16 in"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 ft         4.84    1,210.00"
+        },
+        "uom": {
+          "value": "ft",
+          "page": 1,
+          "quote": "250 ft         4.84    1,210.00"
+        },
+        "unit_price": {
+          "value": "4.84",
+          "page": 1,
+          "quote": "250 ft         4.84    1,210.00"
+        },
+        "line_total": {
+          "value": "1,210.00",
+          "page": 1,
+          "quote": "250 ft         4.84    1,210.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 IT-10175"
+        },
+        "item_no": {
+          "value": "IT-10175",
+          "page": 1,
+          "quote": "50 IT-10175     Hi-vis safety vest size 2XL"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hi-vis safety vest size 2XL",
+          "page": 1,
+          "quote": "Hi-vis safety vest size 2XL"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each        5.52      66.24"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each        5.52      66.24"
+        },
+        "unit_price": {
+          "value": "5.52",
+          "page": 1,
+          "quote": "12 each        5.52      66.24"
+        },
+        "line_total": {
+          "value": "66.24",
+          "page": 1,
+          "quote": "12 each        5.52      66.24"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 8.1,
+      "cost_usd": 0.019653200000000003,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 34.8,
+      "cost_usd": 0.0617176,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

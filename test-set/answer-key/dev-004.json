@@ -1,0 +1,97 @@
+{
+  "doc_id": "dev-004",
+  "split": "dev",
+  "category": "layout",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "harlow_PO_71078.pdf",
+  "truth": {
+    "customer_id": "C0001",
+    "customer_po_number": "71078",
+    "po_date": "2026-10-24",
+    "bill_to_id": "B0001",
+    "ship_to_id": "S0003",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10284",
+        "customer_part_no": "",
+        "order_qty": "10",
+        "order_uom": "CS",
+        "base_qty": "100",
+        "base_uom": "EA",
+        "unit_price": "274.4000",
+        "line_total": "2744.00",
+        "requested_date": "2026-11-11"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10266",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "FT",
+        "base_qty": "50",
+        "base_uom": "FT",
+        "unit_price": "3.2200",
+        "line_total": "161.00",
+        "requested_date": "2026-11-16"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10100",
+        "customer_part_no": "",
+        "order_qty": "3",
+        "order_uom": "PK",
+        "base_qty": "30",
+        "base_uom": "EA",
+        "unit_price": "19.7000",
+        "line_total": "59.10",
+        "requested_date": "2026-11-22"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10110",
+        "customer_part_no": "",
+        "order_qty": "2",
+        "order_uom": "BX",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "33.5000",
+        "line_total": "67.00",
+        "requested_date": "2026-11-26"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10178",
+        "customer_part_no": "",
+        "order_qty": "25",
+        "order_uom": "EA",
+        "base_qty": "25",
+        "base_uom": "EA",
+        "unit_price": "6.8600",
+        "line_total": "171.50",
+        "requested_date": "2026-11-09"
+      },
+      {
+        "line_no": 6,
+        "item_id": "IT-10034",
+        "customer_part_no": "",
+        "order_qty": "2",
+        "order_uom": "BX",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "9.0000",
+        "line_total": "18.00",
+        "requested_date": "2026-11-15"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Liftgate required"
+  },
+  "trap_detail": null
+}

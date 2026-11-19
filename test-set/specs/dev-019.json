@@ -1,0 +1,91 @@
+{
+  "doc_id": "dev-019",
+  "split": "dev",
+  "seed": 1019,
+  "kind": "quote_request",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Tallgrass Equipment Rental Inc.",
+    "address_lines": [
+      "500 Ledger Ct Suite 200",
+      "Peoria, IL 61602"
+    ],
+    "contact": "Purchasing: E. Varga, 555-0143",
+    "logo_text": "TALLGRASS"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "RFQ-7339",
+  "po_number_label": "RFQ No.",
+  "po_date": "30-Sep-2026",
+  "bill_to": null,
+  "ship_to": {
+    "name": "Tallgrass Service Center",
+    "address_lines": [
+      "2893 Switchyard Rd",
+      "Joliet, IL 60432"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Please quote price and lead time. This is not an order.",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10174",
+      "customer_part_no": null,
+      "description": "Hi-vis safety vest size XL",
+      "qty": "250",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10112",
+      "customer_part_no": null,
+      "description": "Flap disc 4-1/2 in 40 grit",
+      "qty": "50",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10054",
+      "customer_part_no": null,
+      "description": "Threaded rod M8 x 1 m zinc",
+      "qty": "100",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10126",
+      "customer_part_no": null,
+      "description": "Sandpaper sheet 9 x 11 in 80 grit",
+      "qty": "250",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    }
+  ],
+  "order_total": null,
+  "order_total_label": null,
+  "payment_terms": null,
+  "injection_text": null,
+  "injection_style": null
+}

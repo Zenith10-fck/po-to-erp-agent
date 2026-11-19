@@ -1,0 +1,93 @@
+{
+  "doc_id": "held-010",
+  "split": "heldout",
+  "seed": 5010,
+  "kind": "po",
+  "layout": "side_by_side",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [
+    "cover",
+    "terms"
+  ],
+  "buyer": {
+    "name": "Westmark Plastics Inc.",
+    "address_lines": [
+      "2460 Kiln St",
+      "Evansville, IN 47708"
+    ],
+    "contact": "Purchasing: S. Halloran, 555-0160",
+    "logo_text": "WESTMARK"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "49386",
+  "po_number_label": "Order No.",
+  "po_date": "26-Oct-2026",
+  "bill_to": {
+    "name": "Westmark Plastics Inc.",
+    "address_lines": [
+      "2460 Kiln St",
+      "Evansville, IN 47708"
+    ]
+  },
+  "ship_to": {
+    "name": "Westmark Service Center",
+    "address_lines": [
+      "1101 Depot St",
+      "Muncie, IN 47305"
+    ]
+  },
+  "currency": null,
+  "carrier": {
+    "name": "FedEx",
+    "account_no": "701593519",
+    "label": "Bill freight to our FedEx account"
+  },
+  "shipping_notes": "Dock 3, call before delivery",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10121",
+      "customer_part_no": null,
+      "description": "Sanding belt 3 x 21 in 60 grit",
+      "qty": "50",
+      "uom": "each",
+      "unit_price": "7.26",
+      "line_total": "363.00",
+      "requested_date": "14-Nov-2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10177",
+      "customer_part_no": null,
+      "description": "HSS jobber drill bit 1/8 in",
+      "qty": "10",
+      "uom": "ea.",
+      "unit_price": "4.30",
+      "line_total": "43.00",
+      "requested_date": "22-Nov-2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10235",
+      "customer_part_no": null,
+      "description": "MIG contact tip .045 in",
+      "qty": "24",
+      "uom": "ea",
+      "unit_price": "1.25",
+      "line_total": "30.00",
+      "requested_date": "12-Nov-2026"
+    }
+  ],
+  "order_total": "436.00",
+  "order_total_label": "Order Total",
+  "payment_terms": "2% 10 Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

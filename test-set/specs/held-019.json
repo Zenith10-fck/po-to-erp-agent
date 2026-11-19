@@ -1,0 +1,91 @@
+{
+  "doc_id": "held-019",
+  "split": "heldout",
+  "seed": 5019,
+  "kind": "quote_request",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Westmark Plastics Inc.",
+    "address_lines": [
+      "2460 Kiln St",
+      "Evansville, IN 47708"
+    ],
+    "contact": "Purchasing: D. Brennan, 555-0190",
+    "logo_text": "WESTMARK"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "RFQ-1722",
+  "po_number_label": "RFQ No.",
+  "po_date": "01-Nov-2026",
+  "bill_to": null,
+  "ship_to": {
+    "name": "Westmark Main Plant",
+    "address_lines": [
+      "2460 Kiln St",
+      "Evansville, IN 47708"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Please quote price and lead time. This is not an order.",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10297",
+      "customer_part_no": null,
+      "description": "Push broom 24 in",
+      "qty": "25",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10009",
+      "customer_part_no": null,
+      "description": "Hex bolt M10 x 50 zinc",
+      "qty": "25",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10243",
+      "customer_part_no": null,
+      "description": "Cable tie 14 in black (bag of 100)",
+      "qty": "50",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10205",
+      "customer_part_no": null,
+      "description": "Carbide burr 1/4 in tree",
+      "qty": "25",
+      "uom": "EA",
+      "unit_price": null,
+      "line_total": null,
+      "requested_date": null
+    }
+  ],
+  "order_total": null,
+  "order_total_label": null,
+  "payment_terms": null,
+  "injection_text": null,
+  "injection_style": null
+}

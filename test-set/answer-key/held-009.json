@@ -1,0 +1,64 @@
+{
+  "doc_id": "held-009",
+  "split": "heldout",
+  "category": "handwritten",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261102_1141.pdf",
+  "truth": {
+    "customer_id": "C0016",
+    "customer_po_number": "4500486223",
+    "po_date": "2026-11-02",
+    "bill_to_id": "B0016",
+    "ship_to_id": "S0041",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10283",
+        "customer_part_no": "",
+        "order_qty": "6",
+        "order_uom": "EA",
+        "base_qty": "6",
+        "base_uom": "EA",
+        "unit_price": "32.2800",
+        "line_total": "193.68",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10189",
+        "customer_part_no": "",
+        "order_qty": "2",
+        "order_uom": "EA",
+        "base_qty": "2",
+        "base_uom": "EA",
+        "unit_price": "32.9900",
+        "line_total": "65.98",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10105",
+        "customer_part_no": "",
+        "order_qty": "200",
+        "order_uom": "EA",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "0.2800",
+        "line_total": "56.00",
+        "requested_date": ""
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": ""
+  },
+  "trap_detail": null
+}

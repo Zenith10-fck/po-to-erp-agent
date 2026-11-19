@@ -1,0 +1,90 @@
+{
+  "doc_id": "dev-003",
+  "split": "dev",
+  "seed": 1003,
+  "kind": "po",
+  "layout": "side_by_side",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Dunmore Fabrication Co.",
+    "address_lines": [
+      "1705 Ironworks Blvd",
+      "Fort Wayne, IN 46802"
+    ],
+    "contact": "Purchasing: J. Marchetti, 555-0179",
+    "logo_text": "DUNMORE"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "DF-26-9288",
+  "po_number_label": "PO Number",
+  "po_date": "29-Oct-2026",
+  "bill_to": {
+    "name": "Dunmore Fabrication Co.",
+    "address_lines": [
+      "1705 Ironworks Blvd",
+      "Fort Wayne, IN 46802"
+    ]
+  },
+  "ship_to": {
+    "name": "Dunmore North Yard",
+    "address_lines": [
+      "1452 Boiler Ave",
+      "South Bend, IN 46601"
+    ]
+  },
+  "currency": "USD",
+  "carrier": {
+    "name": "FedEx",
+    "account_no": "560381519",
+    "label": "Bill freight to our FedEx account"
+  },
+  "shipping_notes": "Reference our PO number on the packing slip",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10242",
+      "customer_part_no": null,
+      "description": "Cable tie 11 in black (bag of 100)",
+      "qty": "7",
+      "uom": "cs",
+      "unit_price": "292.00",
+      "line_total": "2044.00",
+      "requested_date": "05-Nov-2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10234",
+      "customer_part_no": null,
+      "description": "TIG rod ER70S-2 3/32 in",
+      "qty": "25",
+      "uom": "lb",
+      "unit_price": "4.21",
+      "line_total": "105.25",
+      "requested_date": "07-Nov-2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10284",
+      "customer_part_no": null,
+      "description": "Roller chain #50 10 ft box",
+      "qty": "8",
+      "uom": "ea",
+      "unit_price": "27.44",
+      "line_total": "219.52",
+      "requested_date": "21-Nov-2026"
+    }
+  ],
+  "order_total": "2368.77",
+  "order_total_label": "Order Total",
+  "payment_terms": "Net 60",
+  "injection_text": null,
+  "injection_style": null
+}

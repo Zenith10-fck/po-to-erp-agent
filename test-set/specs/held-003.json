@@ -1,0 +1,112 @@
+{
+  "doc_id": "held-003",
+  "split": "heldout",
+  "seed": 5003,
+  "kind": "po",
+  "layout": "letter_style",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Halvorsen Marine Repair LLC",
+    "address_lines": [
+      "18 Ropewalk Ln Suite 4",
+      "Sandusky, OH 44870"
+    ],
+    "contact": "Purchasing: T. Nakamura, 555-0151",
+    "logo_text": "HALVORSEN"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "HMR/8992",
+  "po_number_label": "PO Number",
+  "po_date": "October 31, 2026",
+  "bill_to": {
+    "name": "Halvorsen Marine Repair LLC",
+    "address_lines": [
+      "18 Ropewalk Ln Suite 4",
+      "Sandusky, OH 44870"
+    ]
+  },
+  "ship_to": {
+    "name": "Halvorsen North Yard",
+    "address_lines": [
+      "4722 Depot St",
+      "Toledo, OH 43604"
+    ]
+  },
+  "currency": "USD",
+  "carrier": {
+    "name": "UPS",
+    "account_no": "YFZF2A",
+    "label": "Ship collect, UPS acct"
+  },
+  "shipping_notes": "Reference our PO number on the packing slip",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10151",
+      "customer_part_no": null,
+      "description": "Nitrile coated work gloves size M",
+      "qty": "9",
+      "uom": "pack",
+      "unit_price": "36.60",
+      "line_total": "329.40",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10283",
+      "customer_part_no": null,
+      "description": "Roller chain #40 10 ft box",
+      "qty": "4",
+      "uom": "each",
+      "unit_price": "33.57",
+      "line_total": "134.28",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10203",
+      "customer_part_no": null,
+      "description": "Carbide burr 1/4 in cylinder",
+      "qty": "5",
+      "uom": "each",
+      "unit_price": "19.07",
+      "line_total": "95.35",
+      "requested_date": null
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10235",
+      "customer_part_no": null,
+      "description": "MIG contact tip .045 in",
+      "qty": "40",
+      "uom": "each",
+      "unit_price": "1.34",
+      "line_total": "53.60",
+      "requested_date": null
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10273",
+      "customer_part_no": null,
+      "description": "Ball bearing 6205-2RS",
+      "qty": "12",
+      "uom": "each",
+      "unit_price": "8.49",
+      "line_total": "101.88",
+      "requested_date": null
+    }
+  ],
+  "order_total": "714.51",
+  "order_total_label": "Total USD",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

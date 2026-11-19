@@ -1,0 +1,16 @@
+{
+  "run_id": "A",
+  "documents": 20,
+  "auto": 10,
+  "review": 7,
+  "ignored": 3,
+  "model_calls": 42,
+  "model_seconds_total": 1452.7,
+  "api_equivalent_cost_usd": 2.7928,
+  "models": [
+    "claude-sonnet-5"
+  ],
+  "wall_seconds_phase1": 400.3,
+  "replayed": false,
+  "cost_note": "claude -p on a subscription: no money is charged per call; cost is what the CLI reports as API-equivalent."
+}

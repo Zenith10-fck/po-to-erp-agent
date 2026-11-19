@@ -1,0 +1,1426 @@
+{
+  "doc_id": "held-011",
+  "sender": "\"F. Ibarra\" <orders@cinderford-foundry.example>",
+  "subject": "Cinderford Foundry Co. PO CF/6807",
+  "source_file": "cinderford_PO_CF_6807.pdf",
+  "mode": "text",
+  "pages": 2,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO (CF/6807) from Cinderford Foundry to vendor Northfield Industrial Supply listing items and quantities to be supplied."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1,
+      2
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "CF/6807",
+      "page": 1,
+      "quote": "P.O. Number CF/6807"
+    },
+    "po_date": {
+      "value": "2026-11-01",
+      "page": 1,
+      "quote": "Date 2026-11-01"
+    },
+    "customer_name": {
+      "value": "Cinderford Foundry Co.",
+      "page": 1,
+      "quote": "Cinderford Foundry Co. 2001 Depot St Canton, OH 44702 Purchasing: F. Ibarra, 555-0114"
+    },
+    "bill_to_name": {
+      "value": "Cinderford Foundry Co.",
+      "page": 1,
+      "quote": "BILL TO Cinderford Foundry Co. 2001 Depot St Canton, OH 44702"
+    },
+    "bill_to_address": {
+      "value": "2001 Depot St, Canton, OH 44702",
+      "page": 1,
+      "quote": "BILL TO Cinderford Foundry Co. 2001 Depot St Canton, OH 44702"
+    },
+    "ship_to_name": {
+      "value": "Cinderford Main Plant",
+      "page": 1,
+      "quote": "SHIP TO Cinderford Main Plant 2001 Depot St Canton, OH 44702"
+    },
+    "ship_to_address": {
+      "value": "2001 Depot St, Canton, OH 44702",
+      "page": 1,
+      "quote": "SHIP TO Cinderford Main Plant 2001 Depot St Canton, OH 44702"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency USD"
+    },
+    "order_total": {
+      "value": "7,509.78",
+      "page": 2,
+      "quote": "Order Total 7,509.78"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Receiving closes at 2:30 pm",
+      "page": 2,
+      "quote": "Shipping Instructions: Receiving closes at 2:30 pm"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10091 10 each 13.92 139.20"
+        },
+        "item_no": {
+          "value": "IT-10091",
+          "page": 1,
+          "quote": "1 IT-10091 10 each 13.92 139.20"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball valve brass 3/4 in full port",
+          "page": 1,
+          "quote": "Ball valve brass 3/4 in full port"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 each 13.92 139.20"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "10 each 13.92 139.20"
+        },
+        "unit_price": {
+          "value": "13.92",
+          "page": 1,
+          "quote": "10 each 13.92 139.20"
+        },
+        "line_total": {
+          "value": "139.20",
+          "page": 1,
+          "quote": "10 each 13.92 139.20"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10293 50 lb 2.19 109.50"
+        },
+        "item_no": {
+          "value": "IT-10293",
+          "page": 1,
+          "quote": "2 IT-10293 50 lb 2.19 109.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cotton shop rags mixed color",
+          "page": 1,
+          "quote": "Cotton shop rags mixed color"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 lb 2.19 109.50"
+        },
+        "uom": {
+          "value": "lb",
+          "page": 1,
+          "quote": "50 lb 2.19 109.50"
+        },
+        "unit_price": {
+          "value": "2.19",
+          "page": 1,
+          "quote": "50 lb 2.19 109.50"
+        },
+        "line_total": {
+          "value": "109.50",
+          "page": 1,
+          "quote": "50 lb 2.19 109.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 48-5627 500 each 0.21 105.00"
+        },
+        "item_no": {
+          "value": "48-5627",
+          "page": 1,
+          "quote": "3 48-5627 500 each 0.21 105.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Socket head cap screw M6 x 30 black oxide",
+          "page": 1,
+          "quote": "Socket head cap screw M6 x 30 black oxide"
+        },
+        "qty": {
+          "value": "500",
+          "page": 1,
+          "quote": "500 each 0.21 105.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "500 each 0.21 105.00"
+        },
+        "unit_price": {
+          "value": "0.21",
+          "page": 1,
+          "quote": "500 each 0.21 105.00"
+        },
+        "line_total": {
+          "value": "105.00",
+          "page": 1,
+          "quote": "500 each 0.21 105.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10057 24 each 8.22 197.28"
+        },
+        "item_no": {
+          "value": "IT-10057",
+          "page": 1,
+          "quote": "4 IT-10057 24 each 8.22 197.28"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Threaded rod M16 x 1 m zinc",
+          "page": 1,
+          "quote": "Threaded rod M16 x 1 m zinc"
+        },
+        "qty": {
+          "value": "24",
+          "page": 1,
+          "quote": "24 each 8.22 197.28"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "24 each 8.22 197.28"
+        },
+        "unit_price": {
+          "value": "8.22",
+          "page": 1,
+          "quote": "24 each 8.22 197.28"
+        },
+        "line_total": {
+          "value": "197.28",
+          "page": 1,
+          "quote": "24 each 8.22 197.28"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 IT-10261 1 roll 662.50 662.50"
+        },
+        "item_no": {
+          "value": "IT-10261",
+          "page": 1,
+          "quote": "5 IT-10261 1 roll 662.50 662.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wire rope galvanized 1/4 in",
+          "page": 1,
+          "quote": "Wire rope galvanized 1/4 in"
+        },
+        "qty": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 roll 662.50 662.50"
+        },
+        "uom": {
+          "value": "roll",
+          "page": 1,
+          "quote": "1 roll 662.50 662.50"
+        },
+        "unit_price": {
+          "value": "662.50",
+          "page": 1,
+          "quote": "1 roll 662.50 662.50"
+        },
+        "line_total": {
+          "value": "662.50",
+          "page": 1,
+          "quote": "1 roll 662.50 662.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 IT-10109 12 each 1.49 17.88"
+        },
+        "item_no": {
+          "value": "IT-10109",
+          "page": 1,
+          "quote": "6 IT-10109 12 each 1.49 17.88"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Steel pipe plug 3/8 in NPT",
+          "page": 1,
+          "quote": "Steel pipe plug 3/8 in NPT"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each 1.49 17.88"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each 1.49 17.88"
+        },
+        "unit_price": {
+          "value": "1.49",
+          "page": 1,
+          "quote": "12 each 1.49 17.88"
+        },
+        "line_total": {
+          "value": "17.88",
+          "page": 1,
+          "quote": "12 each 1.49 17.88"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "7",
+          "page": 1,
+          "quote": "7 IT-10023 500 each 0.09 45.00"
+        },
+        "item_no": {
+          "value": "IT-10023",
+          "page": 1,
+          "quote": "7 IT-10023 500 each 0.09 45.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Flat washer M5 zinc",
+          "page": 1,
+          "quote": "Flat washer M5 zinc"
+        },
+        "qty": {
+          "value": "500",
+          "page": 1,
+          "quote": "500 each 0.09 45.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "500 each 0.09 45.00"
+        },
+        "unit_price": {
+          "value": "0.09",
+          "page": 1,
+          "quote": "500 each 0.09 45.00"
+        },
+        "line_total": {
+          "value": "45.00",
+          "page": 1,
+          "quote": "500 each 0.09 45.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 IT-10199 2 pack 13.95 27.90"
+        },
+        "item_no": {
+          "value": "IT-10199",
+          "page": 1,
+          "quote": "8 IT-10199 2 pack 13.95 27.90"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Reciprocating saw blade 9 in wood",
+          "page": 1,
+          "quote": "Reciprocating saw blade 9 in wood"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 pack 13.95 27.90"
+        },
+        "uom": {
+          "value": "pack",
+          "page": 1,
+          "quote": "2 pack 13.95 27.90"
+        },
+        "unit_price": {
+          "value": "13.95",
+          "page": 1,
+          "quote": "2 pack 13.95 27.90"
+        },
+        "line_total": {
+          "value": "27.90",
+          "page": 1,
+          "quote": "2 pack 13.95 27.90"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "9",
+          "page": 1,
+          "quote": "9 IT-10183 7 pack 86.04 602.28"
+        },
+        "item_no": {
+          "value": "IT-10183",
+          "page": 1,
+          "quote": "9 IT-10183 7 pack 86.04 602.28"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cobalt drill bit 1/8 in",
+          "page": 1,
+          "quote": "Cobalt drill bit 1/8 in"
+        },
+        "qty": {
+          "value": "7",
+          "page": 1,
+          "quote": "7 pack 86.04 602.28"
+        },
+        "uom": {
+          "value": "pack",
+          "page": 1,
+          "quote": "7 pack 86.04 602.28"
+        },
+        "unit_price": {
+          "value": "86.04",
+          "page": 1,
+          "quote": "7 pack 86.04 602.28"
+        },
+        "line_total": {
+          "value": "602.28",
+          "page": 1,
+          "quote": "7 pack 86.04 602.28"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 89-2061 250 each 0.11 27.50"
+        },
+        "item_no": {
+          "value": "89-2061",
+          "page": 1,
+          "quote": "10 89-2061 250 each 0.11 27.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Split lock washer M10 zinc",
+          "page": 1,
+          "quote": "Split lock washer M10 zinc"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 each 0.11 27.50"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "250 each 0.11 27.50"
+        },
+        "unit_price": {
+          "value": "0.11",
+          "page": 1,
+          "quote": "250 each 0.11 27.50"
+        },
+        "line_total": {
+          "value": "27.50",
+          "page": 1,
+          "quote": "250 each 0.11 27.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "11",
+          "page": 1,
+          "quote": "11 IT-10295 25 each 9.73 243.25"
+        },
+        "item_no": {
+          "value": "IT-10295",
+          "page": 1,
+          "quote": "11 IT-10295 25 each 9.73 243.25"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Oil-dry absorbent 40 lb bag",
+          "page": 1,
+          "quote": "Oil-dry absorbent 40 lb bag"
+        },
+        "qty": {
+          "value": "25",
+          "page": 1,
+          "quote": "25 each 9.73 243.25"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "25 each 9.73 243.25"
+        },
+        "unit_price": {
+          "value": "9.73",
+          "page": 1,
+          "quote": "25 each 9.73 243.25"
+        },
+        "line_total": {
+          "value": "243.25",
+          "page": 1,
+          "quote": "25 each 9.73 243.25"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 IT-10291 40 each 1.36 54.40"
+        },
+        "item_no": {
+          "value": "IT-10291",
+          "page": 1,
+          "quote": "12 IT-10291 40 each 1.36 54.40"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Shaft collar set screw 1 in",
+          "page": 1,
+          "quote": "Shaft collar set screw 1 in"
+        },
+        "qty": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 each 1.36 54.40"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "40 each 1.36 54.40"
+        },
+        "unit_price": {
+          "value": "1.36",
+          "page": 1,
+          "quote": "40 each 1.36 54.40"
+        },
+        "line_total": {
+          "value": "54.40",
+          "page": 1,
+          "quote": "40 each 1.36 54.40"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "13",
+          "page": 1,
+          "quote": "13 IT-10063 250 each 0.05 12.50"
+        },
+        "item_no": {
+          "value": "IT-10063",
+          "page": 1,
+          "quote": "13 IT-10063 250 each 0.05 12.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cotter pin 5/32 x 2 in zinc",
+          "page": 1,
+          "quote": "Cotter pin 5/32 x 2 in zinc"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 each 0.05 12.50"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "250 each 0.05 12.50"
+        },
+        "unit_price": {
+          "value": "0.05",
+          "page": 1,
+          "quote": "250 each 0.05 12.50"
+        },
+        "line_total": {
+          "value": "12.50",
+          "page": 1,
+          "quote": "250 each 0.05 12.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "14",
+          "page": 1,
+          "quote": "14 IT-10175 10 case 132.75 1,327.50"
+        },
+        "item_no": {
+          "value": "IT-10175",
+          "page": 1,
+          "quote": "14 IT-10175 10 case 132.75 1,327.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hi-vis safety vest size 2XL",
+          "page": 1,
+          "quote": "Hi-vis safety vest size 2XL"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 case 132.75 1,327.50"
+        },
+        "uom": {
+          "value": "case",
+          "page": 1,
+          "quote": "10 case 132.75 1,327.50"
+        },
+        "unit_price": {
+          "value": "132.75",
+          "page": 1,
+          "quote": "10 case 132.75 1,327.50"
+        },
+        "line_total": {
+          "value": "1,327.50",
+          "page": 1,
+          "quote": "10 case 132.75 1,327.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "15",
+          "page": 1,
+          "quote": "15 IT-10011 250 each 0.80 200.00"
+        },
+        "item_no": {
+          "value": "IT-10011",
+          "page": 1,
+          "quote": "15 IT-10011 250 each 0.80 200.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M12 x 40 zinc",
+          "page": 1,
+          "quote": "Hex bolt M12 x 40 zinc"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 each 0.80 200.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "250 each 0.80 200.00"
+        },
+        "unit_price": {
+          "value": "0.80",
+          "page": 1,
+          "quote": "250 each 0.80 200.00"
+        },
+        "line_total": {
+          "value": "200.00",
+          "page": 1,
+          "quote": "250 each 0.80 200.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "16",
+          "page": 1,
+          "quote": "16 IT-10013 5 box 71.00 355.00"
+        },
+        "item_no": {
+          "value": "IT-10013",
+          "page": 1,
+          "quote": "16 IT-10013 5 box 71.00 355.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M12 x 60 zinc",
+          "page": 1,
+          "quote": "Hex bolt M12 x 60 zinc"
+        },
+        "qty": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 box 71.00 355.00"
+        },
+        "uom": {
+          "value": "box",
+          "page": 1,
+          "quote": "5 box 71.00 355.00"
+        },
+        "unit_price": {
+          "value": "71.00",
+          "page": 1,
+          "quote": "5 box 71.00 355.00"
+        },
+        "line_total": {
+          "value": "355.00",
+          "page": 1,
+          "quote": "5 box 71.00 355.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "17",
+          "page": 1,
+          "quote": "17 IT-10287 9 pack 11.50 103.50"
+        },
+        "item_no": {
+          "value": "IT-10287",
+          "page": 1,
+          "quote": "17 IT-10287 9 pack 11.50 103.50"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "O-ring Buna-N dash 214",
+          "page": 1,
+          "quote": "O-ring Buna-N dash 214"
+        },
+        "qty": {
+          "value": "9",
+          "page": 1,
+          "quote": "9 pack 11.50 103.50"
+        },
+        "uom": {
+          "value": "pack",
+          "page": 1,
+          "quote": "9 pack 11.50 103.50"
+        },
+        "unit_price": {
+          "value": "11.50",
+          "page": 1,
+          "quote": "9 pack 11.50 103.50"
+        },
+        "line_total": {
+          "value": "103.50",
+          "page": 1,
+          "quote": "9 pack 11.50 103.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "18",
+          "page": 1,
+          "quote": "18 IT-10021 250 each 0.20 50.00"
+        },
+        "item_no": {
+          "value": "IT-10021",
+          "page": 1,
+          "quote": "18 IT-10021 250 each 0.20 50.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex nut M16 zinc",
+          "page": 1,
+          "quote": "Hex nut M16 zinc"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 each 0.20 50.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "250 each 0.20 50.00"
+        },
+        "unit_price": {
+          "value": "0.20",
+          "page": 1,
+          "quote": "250 each 0.20 50.00"
+        },
+        "line_total": {
+          "value": "50.00",
+          "page": 1,
+          "quote": "250 each 0.20 50.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "19",
+          "page": 1,
+          "quote": "19 IT-10033 2 box 7.00 14.00"
+        },
+        "item_no": {
+          "value": "IT-10033",
+          "page": 1,
+          "quote": "19 IT-10033 2 box 7.00 14.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Split lock washer M6 zinc",
+          "page": 1,
+          "quote": "Split lock washer M6 zinc"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 box 7.00 14.00"
+        },
+        "uom": {
+          "value": "box",
+          "page": 1,
+          "quote": "2 box 7.00 14.00"
+        },
+        "unit_price": {
+          "value": "7.00",
+          "page": 1,
+          "quote": "2 box 7.00 14.00"
+        },
+        "line_total": {
+          "value": "14.00",
+          "page": 1,
+          "quote": "2 box 7.00 14.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "20",
+          "page": 1,
+          "quote": "20 76-8752 25 each 4.43 110.75"
+        },
+        "item_no": {
+          "value": "76-8752",
+          "page": 1,
+          "quote": "20 76-8752 25 each 4.43 110.75"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/8 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/8 in"
+        },
+        "qty": {
+          "value": "25",
+          "page": 1,
+          "quote": "25 each 4.43 110.75"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "25 each 4.43 110.75"
+        },
+        "unit_price": {
+          "value": "4.43",
+          "page": 1,
+          "quote": "25 each 4.43 110.75"
+        },
+        "line_total": {
+          "value": "110.75",
+          "page": 1,
+          "quote": "25 each 4.43 110.75"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "21",
+          "page": 1,
+          "quote": "21 IT-10249 20 each 5.56 111.20"
+        },
+        "item_no": {
+          "value": "IT-10249",
+          "page": 1,
+          "quote": "21 IT-10249 20 each 5.56 111.20"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Heat shrink tubing 1/2 in x 4 ft",
+          "page": 1,
+          "quote": "Heat shrink tubing 1/2 in x 4 ft"
+        },
+        "qty": {
+          "value": "20",
+          "page": 1,
+          "quote": "20 each 5.56 111.20"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "20 each 5.56 111.20"
+        },
+        "unit_price": {
+          "value": "5.56",
+          "page": 1,
+          "quote": "20 each 5.56 111.20"
+        },
+        "line_total": {
+          "value": "111.20",
+          "page": 1,
+          "quote": "20 each 5.56 111.20"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "22",
+          "page": 1,
+          "quote": "22 IT-10131 12 each 8.88 106.56"
+        },
+        "item_no": {
+          "value": "IT-10131",
+          "page": 1,
+          "quote": "22 IT-10131 12 each 8.88 106.56"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wire wheel 6 in crimped",
+          "page": 1,
+          "quote": "Wire wheel 6 in crimped"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each 8.88 106.56"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each 8.88 106.56"
+        },
+        "unit_price": {
+          "value": "8.88",
+          "page": 1,
+          "quote": "12 each 8.88 106.56"
+        },
+        "line_total": {
+          "value": "106.56",
+          "page": 1,
+          "quote": "12 each 8.88 106.56"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "23",
+          "page": 1,
+          "quote": "23 57-9888 4 each 1.75 7.00"
+        },
+        "item_no": {
+          "value": "57-9888",
+          "page": 1,
+          "quote": "23 57-9888 4 each 1.75 7.00"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass hose barb 3/8 in x 1/4 NPT",
+          "page": 1,
+          "quote": "Brass hose barb 3/8 in x 1/4 NPT"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 each 1.75 7.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "4 each 1.75 7.00"
+        },
+        "unit_price": {
+          "value": "1.75",
+          "page": 1,
+          "quote": "4 each 1.75 7.00"
+        },
+        "line_total": {
+          "value": "7.00",
+          "page": 1,
+          "quote": "4 each 1.75 7.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "24",
+          "page": 1,
+          "quote": "24 73-3945 3 case 67.60 202.80"
+        },
+        "item_no": {
+          "value": "73-3945",
+          "page": 1,
+          "quote": "24 73-3945 3 case 67.60 202.80"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cable tie 14 in black (bag of 100)",
+          "page": 1,
+          "quote": "Cable tie 14 in black (bag of 100)"
+        },
+        "qty": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 case 67.60 202.80"
+        },
+        "uom": {
+          "value": "case",
+          "page": 1,
+          "quote": "3 case 67.60 202.80"
+        },
+        "unit_price": {
+          "value": "67.60",
+          "page": 1,
+          "quote": "3 case 67.60 202.80"
+        },
+        "line_total": {
+          "value": "202.80",
+          "page": 1,
+          "quote": "3 case 67.60 202.80"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "25",
+          "page": 1,
+          "quote": "25 IT-10147 11 case 235.08 2,585.88"
+        },
+        "item_no": {
+          "value": "IT-10147",
+          "page": 1,
+          "quote": "25 IT-10147 11 case 235.08 2,585.88"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Aluminum foil tape 2 in x 50 yd",
+          "page": 1,
+          "quote": "Aluminum foil tape 2 in x 50 yd"
+        },
+        "qty": {
+          "value": "11",
+          "page": 1,
+          "quote": "11 case 235.08 2,585.88"
+        },
+        "uom": {
+          "value": "case",
+          "page": 1,
+          "quote": "11 case 235.08 2,585.88"
+        },
+        "unit_price": {
+          "value": "235.08",
+          "page": 1,
+          "quote": "11 case 235.08 2,585.88"
+        },
+        "line_total": {
+          "value": "2,585.88",
+          "page": 1,
+          "quote": "11 case 235.08 2,585.88"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "26",
+          "page": 1,
+          "quote": "26 IT-10119 12 each 2.83 33.96"
+        },
+        "item_no": {
+          "value": "IT-10119",
+          "page": 1,
+          "quote": "26 IT-10119 12 each 2.83 33.96"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Grinding wheel 4-1/2 x 1/4 in depressed center",
+          "page": 1,
+          "quote": "Grinding wheel 4-1/2 x 1/4 in depressed center"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each 2.83 33.96"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each 2.83 33.96"
+        },
+        "unit_price": {
+          "value": "2.83",
+          "page": 1,
+          "quote": "12 each 2.83 33.96"
+        },
+        "line_total": {
+          "value": "33.96",
+          "page": 1,
+          "quote": "12 each 2.83 33.96"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "27",
+          "page": 1,
+          "quote": "27 IT-10017 CF-7385 200 each 0.12 24.00"
+        },
+        "item_no": {
+          "value": "IT-10017",
+          "page": 1,
+          "quote": "27 IT-10017 CF-7385 200 each 0.12 24.00"
+        },
+        "customer_part_no": {
+          "value": "CF-7385",
+          "page": 1,
+          "quote": "27 IT-10017 CF-7385 Hex nut M8 stainless A2"
+        },
+        "description": {
+          "value": "Hex nut M8 stainless A2",
+          "page": 1,
+          "quote": "Hex nut M8 stainless A2"
+        },
+        "qty": {
+          "value": "200",
+          "page": 1,
+          "quote": "200 each 0.12 24.00"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "200 each 0.12 24.00"
+        },
+        "unit_price": {
+          "value": "0.12",
+          "page": 1,
+          "quote": "200 each 0.12 24.00"
+        },
+        "line_total": {
+          "value": "24.00",
+          "page": 1,
+          "quote": "200 each 0.12 24.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "28",
+          "page": 1,
+          "quote": "28 35-5107 4 roll 8.36 33.44"
+        },
+        "item_no": {
+          "value": "35-5107",
+          "page": 1,
+          "quote": "28 35-5107 4 roll 8.36 33.44"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "PTFE thread seal tape 1/2 in",
+          "page": 1,
+          "quote": "PTFE thread seal tape 1/2 in"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 roll 8.36 33.44"
+        },
+        "uom": {
+          "value": "roll",
+          "page": 1,
+          "quote": "4 roll 8.36 33.44"
+        },
+        "unit_price": {
+          "value": "8.36",
+          "page": 1,
+          "quote": "4 roll 8.36 33.44"
+        },
+        "line_total": {
+          "value": "33.44",
+          "page": 1,
+          "quote": "4 roll 8.36 33.44"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 6.8,
+      "cost_usd": 0.018387,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 150.1,
+      "cost_usd": 0.3099648,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

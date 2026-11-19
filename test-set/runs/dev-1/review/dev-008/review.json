@@ -1,0 +1,269 @@
+{
+  "doc_id": "dev-008",
+  "source_file": "scan_20261019_1602.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "sender": "\"T. Nakamura\" <orders@kessler-machine-works.example>",
+  "subject": "New order KMWE-26-3404",
+  "route": "review",
+  "reason_codes": [
+    "R09"
+  ],
+  "findings": [
+    {
+      "code": "R09",
+      "scope": "line 1",
+      "field": "requested_date",
+      "read": "October 29, 2026",
+      "expected": "October 29, 2025",
+      "page": 1,
+      "note": "second read differs",
+      "name": "Dual-read disagreement"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is titled \"Purchase Order\" with PO number KMWE-26-3404, listing items, quantities, and prices for Kessler to order from Northfield Industrial Supply."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "KMWE-26-3404",
+      "page": 1,
+      "quote": "P.O. Number: KMWE-26-3404"
+    },
+    "po_date": {
+      "value": "October 19, 2026",
+      "page": 1,
+      "quote": "Date: October 19, 2026"
+    },
+    "customer_name": {
+      "value": "Kessler Machine Works East",
+      "page": 1,
+      "quote": "Kessler Machine Works East, 2875 Eastgate Pkwy, Akron, OH 44301"
+    },
+    "bill_to_name": {
+      "value": "Kessler Machine Works East",
+      "page": 1,
+      "quote": "BILL TO, Kessler Machine Works East"
+    },
+    "bill_to_address": {
+      "value": "2875 Eastgate Pkwy, Akron, OH 44301",
+      "page": 1,
+      "quote": "2875 Eastgate Pkwy, Akron, OH 44301"
+    },
+    "ship_to_name": {
+      "value": "Kessler Main Plant",
+      "page": 1,
+      "quote": "SHIP TO, Kessler Main Plant"
+    },
+    "ship_to_address": {
+      "value": "2875 Eastgate Pkwy, Akron, OH 44301",
+      "page": 1,
+      "quote": "2875 Eastgate Pkwy, Akron, OH 44301"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency, USD"
+    },
+    "order_total": {
+      "value": "111.56",
+      "page": 1,
+      "quote": "Total, 111.56"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Partial shipments OK",
+      "page": 1,
+      "quote": "Shipping instructions: Partial shipments OK"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 | IT-10028 | Flat washer M8 stainless A2"
+        },
+        "item_no": {
+          "value": "IT-10028",
+          "page": 1,
+          "quote": "Vendor Item IT-10028"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Flat washer M8 stainless A2",
+          "page": 1,
+          "quote": "Flat washer M8 stainless A2"
+        },
+        "qty": {
+          "value": "500",
+          "page": 1,
+          "quote": "Qty 500"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "U/M EA"
+        },
+        "unit_price": {
+          "value": "0.17",
+          "page": 1,
+          "quote": "Unit Price 0.17"
+        },
+        "line_total": {
+          "value": "85.00",
+          "page": 1,
+          "quote": "Extended 85.00"
+        },
+        "requested_date": {
+          "value": "October 29, 2026",
+          "page": 1,
+          "quote": "Req. Date October 29, 2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 | IT-10076 | Brass compression connector 1/2 in"
+        },
+        "item_no": {
+          "value": "IT-10076",
+          "page": 1,
+          "quote": "Vendor Item IT-10076"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass compression connector 1/2 in",
+          "page": 1,
+          "quote": "Brass compression connector 1/2 in"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "Qty 4"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "U/M EA"
+        },
+        "unit_price": {
+          "value": "6.64",
+          "page": 1,
+          "quote": "Unit Price 6.64"
+        },
+        "line_total": {
+          "value": "26.56",
+          "page": 1,
+          "quote": "Extended 26.56"
+        },
+        "requested_date": {
+          "value": "November 12, 2026",
+          "page": 1,
+          "quote": "Req. Date November 12, 2026"
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0005",
+    "customer_name": "Kessler Machine Works East",
+    "bill_to_id": "B0005",
+    "ship_to_id": "S0015",
+    "currency": "USD",
+    "po_number": "KMWE-26-3404",
+    "po_date": "2026-10-19",
+    "carrier_account_no": "",
+    "shipping_notes": "Partial shipments OK",
+    "order_total_printed": "111.56",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10028",
+        "customer_part_no": "",
+        "order_qty": "500",
+        "order_uom": "EA",
+        "base_qty": "500",
+        "base_uom": "EA",
+        "unit_price": "0.17",
+        "list_price": "0.17",
+        "line_total_printed": "85.00",
+        "requested_date": "2026-10-29"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10076",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "EA",
+        "base_qty": "4",
+        "base_uom": "EA",
+        "unit_price": "6.64",
+        "list_price": "6.64",
+        "line_total_printed": "26.56",
+        "requested_date": "2026-11-12"
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 9.6,
+      "cost_usd": 0.019115800000000002,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 35.5,
+      "cost_usd": 0.0733988,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 53.1,
+      "cost_usd": 0.11811579999999999,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "doc_id": "dev-020",
+  "split": "dev",
+  "seed": 1020,
+  "kind": "newsletter",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Great Lakes Industrial Buyer",
+    "address_lines": [],
+    "contact": null,
+    "logo_text": "GREAT"
+  },
+  "supplier": null,
+  "po_number": null,
+  "po_number_label": null,
+  "po_date": "October 5, 2026",
+  "bill_to": null,
+  "ship_to": null,
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [],
+  "order_total": null,
+  "order_total_label": null,
+  "payment_terms": null,
+  "injection_text": null,
+  "injection_style": null,
+  "title": "Great Lakes Industrial Buyer - October 2026",
+  "body_paragraphs": [
+    "Steel prices held steady this month after two quarters of small increases.",
+    "Freight lanes in the Midwest report shorter transit times as the harvest season ends.",
+    "Our annual maintenance and repair supply survey opens next week. Members can take part online.",
+    "Upcoming event: regional safety equipment expo, Columbus, November 12."
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "doc_id": "dev-013",
+  "source_file": "Order-PO-84082.pdf",
+  "mode": "text",
+  "pages": 1,
+  "sender": "\"V. Dutta\" <purchasing@larkspur-food-machinery.example>",
+  "subject": "RESEND: PO PO-84082",
+  "route": "review",
+  "reason_codes": [
+    "R10"
+  ],
+  "findings": [
+    {
+      "code": "R10",
+      "scope": "order",
+      "field": "po_number",
+      "read": "PO-84082",
+      "expected": null,
+      "page": null,
+      "note": "this customer and PO number were already processed (dev-002)",
+      "name": "Duplicate PO"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO (PO-84082) from Larkspur to supplier Northfield Industrial Supply listing items, quantities, and prices to be supplied; it's a resend of a prior order, which still counts."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "PO-84082",
+      "page": 1,
+      "quote": "Purchase Order No. PO-84082"
+    },
+    "po_date": {
+      "value": "October 24, 2026",
+      "page": 1,
+      "quote": "Order date\nOctober 24, 2026"
+    },
+    "customer_name": {
+      "value": "Larkspur Food Machinery Ltd.",
+      "page": 1,
+      "quote": "FROM\nLarkspur Food Machinery Ltd."
+    },
+    "bill_to_name": {
+      "value": "Larkspur Food Machinery Ltd.",
+      "page": 1,
+      "quote": "BILL TO\nLarkspur Food Machinery Ltd."
+    },
+    "bill_to_address": {
+      "value": "1120 Granary Rd, Madison, WI 53703",
+      "page": 1,
+      "quote": "1120 Granary Rd\nMadison, WI 53703"
+    },
+    "ship_to_name": {
+      "value": "Larkspur Service Center",
+      "page": 1,
+      "quote": "SHIP TO\nLarkspur Service Center"
+    },
+    "ship_to_address": {
+      "value": "1783 Smelter Way, Madison, WI 53703",
+      "page": 1,
+      "quote": "1783 Smelter Way\nMadison, WI 53703"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD"
+    },
+    "order_total": {
+      "value": "1,510.60",
+      "page": 1,
+      "quote": "Total USD 1,510.60"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Receiving closes at 2:30 pm",
+      "page": 1,
+      "quote": "DELIVERY NOTES\nReceiving closes at 2:30 pm"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 14-7981 12 box 63.80 765.60"
+        },
+        "item_no": {
+          "value": "14-7981",
+          "page": 1,
+          "quote": "Supplier Item 14-7981"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass compression union 1/4 in",
+          "page": 1,
+          "quote": "Brass compression union 1/4 in"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "Quantity 12"
+        },
+        "uom": {
+          "value": "box",
+          "page": 1,
+          "quote": "Unit box"
+        },
+        "unit_price": {
+          "value": "63.80",
+          "page": 1,
+          "quote": "Price 63.80"
+        },
+        "line_total": {
+          "value": "765.60",
+          "page": 1,
+          "quote": "Amount 765.60"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 59-9674 50 roll 6.50 325.00"
+        },
+        "item_no": {
+          "value": "59-9674",
+          "page": 1,
+          "quote": "Supplier Item 59-9674"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Double-sided foam tape 3/4 in",
+          "page": 1,
+          "quote": "Double-sided foam tape 3/4 in"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "Quantity 50"
+        },
+        "uom": {
+          "value": "roll",
+          "page": 1,
+          "quote": "Unit roll"
+        },
+        "unit_price": {
+          "value": "6.50",
+          "page": 1,
+          "quote": "Price 6.50"
+        },
+        "line_total": {
+          "value": "325.00",
+          "page": 1,
+          "quote": "Amount 325.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 63-6288 1 roll 420.00 420.00"
+        },
+        "item_no": {
+          "value": "63-6288",
+          "page": 1,
+          "quote": "Supplier Item 63-6288"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 1/4 in OD black",
+          "page": 1,
+          "quote": "Polyurethane tubing 1/4 in OD black"
+        },
+        "qty": {
+          "value": "1",
+          "page": 1,
+          "quote": "Quantity 1"
+        },
+        "uom": {
+          "value": "roll",
+          "page": 1,
+          "quote": "Unit roll"
+        },
+        "unit_price": {
+          "value": "420.00",
+          "page": 1,
+          "quote": "Price 420.00"
+        },
+        "line_total": {
+          "value": "420.00",
+          "page": 1,
+          "quote": "Amount 420.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0011",
+    "customer_name": "Larkspur Food Machinery Ltd.",
+    "bill_to_id": "B0011",
+    "ship_to_id": "S0027",
+    "currency": "USD",
+    "po_number": "PO-84082",
+    "po_date": "2026-10-24",
+    "carrier_account_no": "",
+    "shipping_notes": "Receiving closes at 2:30 pm",
+    "order_total_printed": "1510.60",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10072",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "BX",
+        "base_qty": "120",
+        "base_uom": "EA",
+        "unit_price": "63.80",
+        "list_price": "63.80",
+        "line_total_printed": "765.60",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10148",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "RL",
+        "base_qty": "50",
+        "base_uom": "RL",
+        "unit_price": "6.50",
+        "list_price": "6.50",
+        "line_total_printed": "325.00",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10256",
+        "customer_part_no": "",
+        "order_qty": "1",
+        "order_uom": "RL",
+        "base_qty": "250",
+        "base_uom": "FT",
+        "unit_price": "420.00",
+        "list_price": "420.00",
+        "line_total_printed": "420.00",
+        "requested_date": ""
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.0,
+      "cost_usd": 0.018601600000000003,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 31.5,
+      "cost_usd": 0.069619,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

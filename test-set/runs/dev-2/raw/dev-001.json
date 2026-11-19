@@ -1,0 +1,250 @@
+{
+  "doc_id": "dev-001",
+  "sender": "\"S. Halloran\" <procurement@pinecrest-hydraulics.example>",
+  "subject": "PO PH/1311",
+  "source_file": "PO_PH_1311.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal Purchase Order (PH/1311) listing line items, quantities, and pricing for goods to be supplied."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "PH/1311",
+      "page": 1,
+      "quote": "Purchase Order No. PH/1311"
+    },
+    "po_date": {
+      "value": "10/1/2026",
+      "page": 1,
+      "quote": "Date 10/1/2026"
+    },
+    "customer_name": {
+      "value": "Pinecrest Hydraulics Corp.",
+      "page": 1,
+      "quote": "Pinecrest Hydraulics Corp. 92 Gantry Way Toledo, OH 43604"
+    },
+    "bill_to_name": {
+      "value": "Pinecrest Hydraulics Corp.",
+      "page": 1,
+      "quote": "BILL TO Pinecrest Hydraulics Corp."
+    },
+    "bill_to_address": {
+      "value": "92 Gantry Way, Toledo, OH 43604",
+      "page": 1,
+      "quote": "Pinecrest Hydraulics Corp. 92 Gantry Way Toledo, OH 43604"
+    },
+    "ship_to_name": {
+      "value": "Pinecrest North Yard",
+      "page": 1,
+      "quote": "SHIP TO Pinecrest North Yard"
+    },
+    "ship_to_address": {
+      "value": "2961 Loomis Ct, Akron, OH 44301",
+      "page": 1,
+      "quote": "Pinecrest North Yard 2961 Loomis Ct Akron, OH 44301"
+    },
+    "currency": {
+      "value": "$",
+      "page": 1,
+      "quote": "Grand Total $339.25"
+    },
+    "order_total": {
+      "value": "$339.25",
+      "page": 1,
+      "quote": "Grand Total $339.25"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "Shipping Instructions: Liftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 MRO-4685 Cable tie 11 in black (bag of 100)"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "MRO-4685",
+          "page": 1,
+          "quote": "Our Part # ... 1 MRO-4685 Cable tie 11 in black (bag of 100)"
+        },
+        "description": {
+          "value": "Cable tie 11 in black (bag of 100)",
+          "page": 1,
+          "quote": "1 MRO-4685 Cable tie 11 in black (bag of 100)"
+        },
+        "qty": {
+          "value": "25",
+          "page": 1,
+          "quote": "25 each $6.07 $151.75"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "25 each $6.07 $151.75"
+        },
+        "unit_price": {
+          "value": "$6.07",
+          "page": 1,
+          "quote": "25 each $6.07 $151.75"
+        },
+        "line_total": {
+          "value": "$151.75",
+          "page": 1,
+          "quote": "25 each $6.07 $151.75"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 MRO-6098 Hose clamp worm drive #10 stainless"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "MRO-6098",
+          "page": 1,
+          "quote": "2 MRO-6098 Hose clamp worm drive #10 stainless"
+        },
+        "description": {
+          "value": "Hose clamp worm drive #10 stainless",
+          "page": 1,
+          "quote": "2 MRO-6098 Hose clamp worm drive #10 stainless"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 ea. $0.67 $167.50"
+        },
+        "uom": {
+          "value": "ea.",
+          "page": 1,
+          "quote": "250 ea. $0.67 $167.50"
+        },
+        "unit_price": {
+          "value": "$0.67",
+          "page": 1,
+          "quote": "250 ea. $0.67 $167.50"
+        },
+        "line_total": {
+          "value": "$167.50",
+          "page": 1,
+          "quote": "250 ea. $0.67 $167.50"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 MRO-7176 Self-drilling screw #12 x 1-1/2 in hex washer head"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "MRO-7176",
+          "page": 1,
+          "quote": "3 MRO-7176 Self-drilling screw #12 x 1-1/2 in hex washer head"
+        },
+        "description": {
+          "value": "Self-drilling screw #12 x 1-1/2 in hex washer head",
+          "page": 1,
+          "quote": "3 MRO-7176 Self-drilling screw #12 x 1-1/2 in hex washer head"
+        },
+        "qty": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 boxes $20.00 $20.00"
+        },
+        "uom": {
+          "value": "boxes",
+          "page": 1,
+          "quote": "1 boxes $20.00 $20.00"
+        },
+        "unit_price": {
+          "value": "$20.00",
+          "page": 1,
+          "quote": "1 boxes $20.00 $20.00"
+        },
+        "line_total": {
+          "value": "$20.00",
+          "page": 1,
+          "quote": "1 boxes $20.00 $20.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 13.7,
+      "cost_usd": 0.022945,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 48.2,
+      "cost_usd": 0.0735558,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

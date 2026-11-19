@@ -1,0 +1,7 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0007","OC-26-8757","2026-10-23","B0007","S0018","USD",1,"IT-10156","",6,"PR",6,"PR",11.3500,68.10,"2026-11-24","","Dock 3, call before delivery","scan_20261023_1617.pdf","dev-1"
+"C0007","OC-26-8757","2026-10-23","B0007","S0018","USD",2,"IT-10186","",11,"PK",66,"EA",74.1000,815.10,"2026-11-08","","Dock 3, call before delivery","scan_20261023_1617.pdf","dev-1"
+"C0007","OC-26-8757","2026-10-23","B0007","S0018","USD",3,"IT-10288","",200,"EA",200,"EA",0.2600,52.00,"2026-11-02","","Dock 3, call before delivery","scan_20261023_1617.pdf","dev-1"
+"C0007","OC-26-8757","2026-10-23","B0007","S0018","USD",4,"IT-10094","",5,"BX",30,"EA",71.8800,359.40,"2026-11-27","","Dock 3, call before delivery","scan_20261023_1617.pdf","dev-1"
+"C0007","OC-26-8757","2026-10-23","B0007","S0018","USD",5,"IT-10256","",250,"FT",250,"FT",1.7300,432.50,"2026-11-10","","Dock 3, call before delivery","scan_20261023_1617.pdf","dev-1"
+"C0007","OC-26-8757","2026-10-23","B0007","S0018","USD",6,"IT-10066","",50,"EA",50,"EA",8.4400,422.00,"2026-11-07","","Dock 3, call before delivery","scan_20261023_1617.pdf","dev-1"

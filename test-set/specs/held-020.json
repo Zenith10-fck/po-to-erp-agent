@@ -1,0 +1,38 @@
+{
+  "doc_id": "held-020",
+  "split": "heldout",
+  "seed": 5020,
+  "kind": "newsletter",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Midwest Fastener Forum",
+    "address_lines": [],
+    "contact": null,
+    "logo_text": "MIDWEST"
+  },
+  "supplier": null,
+  "po_number": null,
+  "po_number_label": null,
+  "po_date": "November 9, 2026",
+  "bill_to": null,
+  "ship_to": null,
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [],
+  "order_total": null,
+  "order_total_label": null,
+  "payment_terms": null,
+  "injection_text": null,
+  "injection_style": null,
+  "title": "Midwest Fastener Forum Newsletter - November 2026",
+  "body_paragraphs": [
+    "Demand for stainless fasteners grew in the third quarter, led by food machinery builders.",
+    "Three tips for keeping a cleaner tool crib before the year-end inventory count.",
+    "Member spotlight: a family-run distributor celebrates 40 years in business.",
+    "Reminder: the winter forum dinner is on December 3. Seats are limited."
+  ]
+}

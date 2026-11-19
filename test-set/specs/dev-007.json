@@ -1,0 +1,89 @@
+{
+  "doc_id": "dev-007",
+  "split": "dev",
+  "seed": 1007,
+  "kind": "po",
+  "layout": "erp_export",
+  "degradations": [
+    "skew",
+    "noise"
+  ],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Tallgrass Equipment Rental Inc.",
+    "address_lines": [
+      "500 Ledger Ct Suite 200",
+      "Peoria, IL 61602"
+    ],
+    "contact": "Purchasing: H. Sorensen, 555-0147",
+    "logo_text": "TALLGRASS"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "P226967",
+  "po_number_label": "P.O. Number",
+  "po_date": "10/9/2026",
+  "bill_to": {
+    "name": "Tallgrass Equipment Rental Inc.",
+    "address_lines": [
+      "500 Ledger Ct Suite 200",
+      "Peoria, IL 61602"
+    ]
+  },
+  "ship_to": {
+    "name": "Tallgrass Service Center",
+    "address_lines": [
+      "2893 Switchyard Rd",
+      "Joliet, IL 60432"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Dock 3, call before delivery",
+  "lines": [
+    {
+      "line_no": "10",
+      "item_no": "IT-10118",
+      "customer_part_no": null,
+      "description": "Cut-off wheel 14 x 1/8 in chop saw",
+      "qty": "50",
+      "uom": "ea",
+      "unit_price": "6.67",
+      "line_total": "333.50",
+      "requested_date": null
+    },
+    {
+      "line_no": "20",
+      "item_no": "IT-10272",
+      "customer_part_no": null,
+      "description": "Ball bearing 6204-2RS",
+      "qty": "12",
+      "uom": "bx",
+      "unit_price": "35.20",
+      "line_total": "422.40",
+      "requested_date": null
+    },
+    {
+      "line_no": "30",
+      "item_no": "IT-10032",
+      "customer_part_no": null,
+      "description": "Flat washer M16 stainless A2",
+      "qty": "50",
+      "uom": "ea",
+      "unit_price": "0.17",
+      "line_total": "8.50",
+      "requested_date": null
+    }
+  ],
+  "order_total": "764.40",
+  "order_total_label": "Total",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

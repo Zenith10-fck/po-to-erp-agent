@@ -1,0 +1,115 @@
+{
+  "doc_id": "dev-010",
+  "split": "dev",
+  "seed": 1010,
+  "kind": "po",
+  "layout": "modern_blocks",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [
+    "cover",
+    "terms"
+  ],
+  "buyer": {
+    "name": "Copperline Electric Contractors",
+    "address_lines": [
+      "77 Switchyard Rd",
+      "Kalamazoo, MI 49007"
+    ],
+    "contact": "Purchasing: R. Lindqvist, 555-0190",
+    "logo_text": "COPPERLINE"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "4500281298",
+  "po_number_label": "Purchase Order No.",
+  "po_date": "2026-10-03",
+  "bill_to": {
+    "name": "Copperline Electric Contractors",
+    "address_lines": [
+      "77 Switchyard Rd",
+      "Kalamazoo, MI 49007"
+    ]
+  },
+  "ship_to": {
+    "name": "Copperline Main Plant",
+    "address_lines": [
+      "77 Switchyard Rd",
+      "Kalamazoo, MI 49007"
+    ]
+  },
+  "currency": "USD",
+  "carrier": {
+    "name": "UPS",
+    "account_no": "K4ZJKP",
+    "label": "Ship collect, UPS acct"
+  },
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10088",
+      "customer_part_no": null,
+      "description": "Pneumatic quick coupler socket 3/8 in",
+      "qty": "50",
+      "uom": "each",
+      "unit_price": "8.01",
+      "line_total": "400.50",
+      "requested_date": "2026-10-30"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10076",
+      "customer_part_no": null,
+      "description": "Brass compression connector 1/2 in",
+      "qty": "20",
+      "uom": "each",
+      "unit_price": "6.38",
+      "line_total": "127.60",
+      "requested_date": "2026-10-28"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10228",
+      "customer_part_no": null,
+      "description": "MIG wire ER70S-6 .045 in 33 lb spool",
+      "qty": "3",
+      "uom": "each",
+      "unit_price": "72.50",
+      "line_total": "217.50",
+      "requested_date": "2026-10-22"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10108",
+      "customer_part_no": null,
+      "description": "Steel pipe plug 1/4 in NPT",
+      "qty": "200",
+      "uom": "each",
+      "unit_price": "0.86",
+      "line_total": "172.00",
+      "requested_date": "2026-10-26"
+    },
+    {
+      "line_no": "5",
+      "item_no": "IT-10058",
+      "customer_part_no": null,
+      "description": "Wedge anchor 3/8 x 3 in zinc",
+      "qty": "12",
+      "uom": "box",
+      "unit_price": "46.50",
+      "line_total": "558.00",
+      "requested_date": "2026-11-01"
+    }
+  ],
+  "order_total": "1,475.60",
+  "order_total_label": "PO Total",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

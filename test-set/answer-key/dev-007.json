@@ -1,0 +1,64 @@
+{
+  "doc_id": "dev-007",
+  "split": "dev",
+  "category": "scan",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261009_0811.pdf",
+  "truth": {
+    "customer_id": "C0009",
+    "customer_po_number": "P226967",
+    "po_date": "2026-10-09",
+    "bill_to_id": "B0009",
+    "ship_to_id": "S0021",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10118",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "6.6700",
+        "line_total": "333.50",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10272",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "BX",
+        "base_qty": "120",
+        "base_uom": "EA",
+        "unit_price": "35.2000",
+        "line_total": "422.40",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10032",
+        "customer_part_no": "",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "0.1700",
+        "line_total": "8.50",
+        "requested_date": ""
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Dock 3, call before delivery"
+  },
+  "trap_detail": null
+}

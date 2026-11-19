@@ -1,0 +1,250 @@
+{
+  "doc_id": "dev-013",
+  "sender": "\"V. Dutta\" <purchasing@larkspur-food-machinery.example>",
+  "subject": "RESEND: PO PO-84082",
+  "source_file": "Order-PO-84082.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a PO from Larkspur Food Machinery to Northfield Industrial Supply listing items, quantities, and prices to be supplied; a resend of the same order still counts as a purchase order."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "PO-84082",
+      "page": 1,
+      "quote": "Purchase Order No. PO-84082"
+    },
+    "po_date": {
+      "value": "October 24, 2026",
+      "page": 1,
+      "quote": "Order date\nOctober 24, 2026"
+    },
+    "customer_name": {
+      "value": "Larkspur Food Machinery Ltd.",
+      "page": 1,
+      "quote": "FROM\nLarkspur Food Machinery Ltd."
+    },
+    "bill_to_name": {
+      "value": "Larkspur Food Machinery Ltd.",
+      "page": 1,
+      "quote": "BILL TO\nLarkspur Food Machinery Ltd."
+    },
+    "bill_to_address": {
+      "value": "1120 Granary Rd, Madison, WI 53703",
+      "page": 1,
+      "quote": "1120 Granary Rd\nMadison, WI 53703"
+    },
+    "ship_to_name": {
+      "value": "Larkspur Service Center",
+      "page": 1,
+      "quote": "SHIP TO\nLarkspur Service Center"
+    },
+    "ship_to_address": {
+      "value": "1783 Smelter Way, Madison, WI 53703",
+      "page": 1,
+      "quote": "1783 Smelter Way\nMadison, WI 53703"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD"
+    },
+    "order_total": {
+      "value": "1,510.60",
+      "page": 1,
+      "quote": "Total USD 1,510.60"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Receiving closes at 2:30 pm",
+      "page": 1,
+      "quote": "DELIVERY NOTES\nReceiving closes at 2:30 pm"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 Brass compression union 1/4 in"
+        },
+        "item_no": {
+          "value": "14-7981",
+          "page": 1,
+          "quote": "14-7981"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass compression union 1/4 in",
+          "page": 1,
+          "quote": "Brass compression union 1/4 in"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 box"
+        },
+        "uom": {
+          "value": "box",
+          "page": 1,
+          "quote": "12 box"
+        },
+        "unit_price": {
+          "value": "63.80",
+          "page": 1,
+          "quote": "63.80 765.60"
+        },
+        "line_total": {
+          "value": "765.60",
+          "page": 1,
+          "quote": "63.80 765.60"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 Double-sided foam tape 3/4 in"
+        },
+        "item_no": {
+          "value": "59-9674",
+          "page": 1,
+          "quote": "59-9674"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Double-sided foam tape 3/4 in",
+          "page": 1,
+          "quote": "Double-sided foam tape 3/4 in"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 roll"
+        },
+        "uom": {
+          "value": "roll",
+          "page": 1,
+          "quote": "50 roll"
+        },
+        "unit_price": {
+          "value": "6.50",
+          "page": 1,
+          "quote": "6.50 325.00"
+        },
+        "line_total": {
+          "value": "325.00",
+          "page": 1,
+          "quote": "6.50 325.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 Polyurethane tubing 1/4 in OD black"
+        },
+        "item_no": {
+          "value": "63-6288",
+          "page": 1,
+          "quote": "63-6288"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Polyurethane tubing 1/4 in OD black",
+          "page": 1,
+          "quote": "Polyurethane tubing 1/4 in OD black"
+        },
+        "qty": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 roll"
+        },
+        "uom": {
+          "value": "roll",
+          "page": 1,
+          "quote": "1 roll"
+        },
+        "unit_price": {
+          "value": "420.00",
+          "page": 1,
+          "quote": "420.00 420.00"
+        },
+        "line_total": {
+          "value": "420.00",
+          "page": 1,
+          "quote": "420.00 420.00"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 11.4,
+      "cost_usd": 0.0223182,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 19.8,
+      "cost_usd": 0.0416422,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

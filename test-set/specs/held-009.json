@@ -1,0 +1,86 @@
+{
+  "doc_id": "held-009",
+  "split": "heldout",
+  "seed": 5009,
+  "kind": "po",
+  "layout": "classic_table",
+  "degradations": [],
+  "handwritten": true,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Brightwater Tool & Die LLC",
+    "address_lines": [
+      "615 Lathe St",
+      "Rockford, IL 61101"
+    ],
+    "contact": "Purchasing: D. Brennan, 555-0194",
+    "logo_text": "BRIGHTWATER"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "4500486223",
+  "po_number_label": "P.O. Number",
+  "po_date": "11/02/2026",
+  "bill_to": {
+    "name": "Brightwater Tool & Die LLC",
+    "address_lines": [
+      "615 Lathe St",
+      "Rockford, IL 61101"
+    ]
+  },
+  "ship_to": {
+    "name": "Brightwater Plant 2",
+    "address_lines": [
+      "1556 Tannery Row",
+      "Peoria, IL 61602"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10283",
+      "customer_part_no": null,
+      "description": "Roller chain #40 10 ft box",
+      "qty": "6",
+      "uom": "EA",
+      "unit_price": "32.28",
+      "line_total": "193.68",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10189",
+      "customer_part_no": null,
+      "description": "Carbide end mill 4 flute 1/4 in",
+      "qty": "2",
+      "uom": "EA",
+      "unit_price": "32.99",
+      "line_total": "65.98",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10105",
+      "customer_part_no": null,
+      "description": "Grease fitting 1/8 NPT straight",
+      "qty": "200",
+      "uom": "EA",
+      "unit_price": "0.28",
+      "line_total": "56.00",
+      "requested_date": null
+    }
+  ],
+  "order_total": "315.66",
+  "order_total_label": "Grand Total",
+  "payment_terms": "Net 30 days",
+  "injection_text": null,
+  "injection_style": null
+}

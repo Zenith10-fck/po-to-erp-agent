@@ -1,0 +1,68 @@
+{
+  "doc_id": "dev-012",
+  "split": "dev",
+  "category": "trap",
+  "is_po": true,
+  "trap": "price_off_5pct",
+  "expected_route": "review",
+  "expected_reason_codes": [
+    "R06"
+  ],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "PO_PO-72531.pdf",
+  "truth": {
+    "customer_id": "C0001",
+    "customer_po_number": "PO-72531",
+    "po_date": "2026-10-08",
+    "bill_to_id": "B0001",
+    "ship_to_id": "S0004",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10016",
+        "customer_part_no": "",
+        "order_qty": "250",
+        "order_uom": "EA",
+        "base_qty": "250",
+        "base_uom": "EA",
+        "unit_price": "0.2200",
+        "line_total": "55.00",
+        "requested_date": "2026-11-01"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10180",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "8.4700",
+        "line_total": "101.64",
+        "requested_date": "2026-11-04"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10134",
+        "customer_part_no": "",
+        "order_qty": "1",
+        "order_uom": "CS",
+        "base_qty": "24",
+        "base_uom": "RL",
+        "unit_price": "226.8000",
+        "line_total": "226.80",
+        "requested_date": "2026-10-27"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": ""
+  },
+  "trap_detail": {
+    "line_no": 2,
+    "field": "unit_price",
+    "printed": "8.47",
+    "list_price": "8.92"
+  }
+}

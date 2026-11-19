@@ -1,0 +1,756 @@
+{
+  "doc_id": "held-007",
+  "sender": "\"K. Abernathy\" <orders@sablewood-cabinet.example>",
+  "subject": "Purchase Order SC-26-4344 - Sablewood Cabinet Co.",
+  "source_file": "scan_20261106_1073.pdf",
+  "mode": "scan",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Scanned document is a Sablewood Cabinet Co. purchase order listing items, quantities, and prices ordered from the vendor (us), with ship-to and requested dates."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "SC-26-4344",
+      "page": 1,
+      "quote": "P.O. Number SC-26-4344"
+    },
+    "po_date": {
+      "value": "11/06/2026",
+      "page": 1,
+      "quote": "Date 11/06/2026"
+    },
+    "customer_name": {
+      "value": "Sablewood Cabinet Co.",
+      "page": 1,
+      "quote": "Sablewood Cabinet Co.\n300 Tannery Row Suite 12"
+    },
+    "bill_to_name": {
+      "value": "Sablewood Cabinet Co.",
+      "page": 1,
+      "quote": "BILL TO\nSablewood Cabinet Co."
+    },
+    "bill_to_address": {
+      "value": "300 Tannery Row Suite 12, Elkhart, IN 46516",
+      "page": 1,
+      "quote": "300 Tannery Row Suite 12\nElkhart, IN 46516"
+    },
+    "ship_to_name": {
+      "value": "Sablewood Maintenance Shop",
+      "page": 1,
+      "quote": "SHIP TO\nSablewood Maintenance Shop"
+    },
+    "ship_to_address": {
+      "value": "838 Mill Road, South Bend, IN 46601",
+      "page": 1,
+      "quote": "838 Mill Road\nSouth Bend, IN 46601"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency\nUSD"
+    },
+    "order_total": {
+      "value": "2,417.78",
+      "page": 1,
+      "quote": "Grand Total 2,417.78"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "Shipping Instructions:\nLiftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10195"
+        },
+        "item_no": {
+          "value": "IT-10195",
+          "page": 1,
+          "quote": "Vendor Item IT-10195"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hacksaw blade 12 in 18 TPI",
+          "page": 1,
+          "quote": "Hacksaw blade 12 in 18 TPI"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each 1.58"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each 1.58"
+        },
+        "unit_price": {
+          "value": "1.58",
+          "page": 1,
+          "quote": "1.58 18.96"
+        },
+        "line_total": {
+          "value": "18.96",
+          "page": 1,
+          "quote": "18.96 11/24/2026"
+        },
+        "requested_date": {
+          "value": "11/24/2026",
+          "page": 1,
+          "quote": "18.96 11/24/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10207"
+        },
+        "item_no": {
+          "value": "IT-10207",
+          "page": 1,
+          "quote": "Vendor Item IT-10207"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cutting fluid 1 gal",
+          "page": 1,
+          "quote": "Cutting fluid 1 gal"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 each 23.63"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "10 each 23.63"
+        },
+        "unit_price": {
+          "value": "23.63",
+          "page": 1,
+          "quote": "23.63 236.30"
+        },
+        "line_total": {
+          "value": "236.30",
+          "page": 1,
+          "quote": "236.30 12/09/2026"
+        },
+        "requested_date": {
+          "value": "12/09/2026",
+          "page": 1,
+          "quote": "236.30 12/09/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 IT-10065"
+        },
+        "item_no": {
+          "value": "IT-10065",
+          "page": 1,
+          "quote": "Vendor Item IT-10065"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Blind rivet aluminum 3/16 x 1/2 in",
+          "page": 1,
+          "quote": "Blind rivet aluminum 3/16 x 1/2 in"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 case 500.00"
+        },
+        "uom": {
+          "value": "case",
+          "page": 1,
+          "quote": "4 case 500.00"
+        },
+        "unit_price": {
+          "value": "500.00",
+          "page": 1,
+          "quote": "500.00 2,000.00"
+        },
+        "line_total": {
+          "value": "2,000.00",
+          "page": 1,
+          "quote": "2,000.00 11/27/2026"
+        },
+        "requested_date": {
+          "value": "11/27/2026",
+          "page": 1,
+          "quote": "2,000.00 11/27/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10273"
+        },
+        "item_no": {
+          "value": "IT-10273",
+          "page": 1,
+          "quote": "Vendor Item IT-10273"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6205-2RS",
+          "page": 1,
+          "quote": "Ball bearing 6205-2RS"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each 8.49"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each 8.49"
+        },
+        "unit_price": {
+          "value": "8.49",
+          "page": 1,
+          "quote": "8.49 101.88"
+        },
+        "line_total": {
+          "value": "101.88",
+          "page": 1,
+          "quote": "101.88 12/02/2026"
+        },
+        "requested_date": {
+          "value": "12/02/2026",
+          "page": 1,
+          "quote": "101.88 12/02/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 IT-10101"
+        },
+        "item_no": {
+          "value": "IT-10101",
+          "page": 1,
+          "quote": "Vendor Item IT-10101"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass hose barb 3/8 in x 1/4 NPT",
+          "page": 1,
+          "quote": "Brass hose barb 3/8 in x 1/4 NPT"
+        },
+        "qty": {
+          "value": "24",
+          "page": 1,
+          "quote": "24 each 1.82"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "24 each 1.82"
+        },
+        "unit_price": {
+          "value": "1.82",
+          "page": 1,
+          "quote": "1.82 43.68"
+        },
+        "line_total": {
+          "value": "43.68",
+          "page": 1,
+          "quote": "43.68 11/27/2026"
+        },
+        "requested_date": {
+          "value": "11/27/2026",
+          "page": 1,
+          "quote": "43.68 11/27/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 IT-10179"
+        },
+        "item_no": {
+          "value": "IT-10179",
+          "page": 1,
+          "quote": "Vendor Item IT-10179"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/4 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/4 in"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 each 4.24"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "4 each 4.24"
+        },
+        "unit_price": {
+          "value": "4.24",
+          "page": 1,
+          "quote": "4.24 16.96"
+        },
+        "line_total": {
+          "value": "16.96",
+          "page": 1,
+          "quote": "16.96 11/18/2026"
+        },
+        "requested_date": {
+          "value": "11/18/2026",
+          "page": 1,
+          "quote": "16.96 11/18/2026"
+        }
+      }
+    ]
+  },
+  "extract2": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "SC-26-4344",
+      "page": 1,
+      "quote": "P.O. Number SC-26-4344"
+    },
+    "po_date": {
+      "value": "11/06/2026",
+      "page": 1,
+      "quote": "Date 11/06/2026"
+    },
+    "customer_name": {
+      "value": "Sablewood Cabinet Co.",
+      "page": 1,
+      "quote": "Sablewood Cabinet Co. 300 Tannery Row Suite 12"
+    },
+    "bill_to_name": {
+      "value": "Sablewood Cabinet Co.",
+      "page": 1,
+      "quote": "BILL TO Sablewood Cabinet Co."
+    },
+    "bill_to_address": {
+      "value": "300 Tannery Row Suite 12, Elkhart, IN 46516",
+      "page": 1,
+      "quote": "300 Tannery Row Suite 12 Elkhart, IN 46516"
+    },
+    "ship_to_name": {
+      "value": "Sablewood Maintenance Shop",
+      "page": 1,
+      "quote": "SHIP TO Sablewood Maintenance Shop"
+    },
+    "ship_to_address": {
+      "value": "838 Mill Road, South Bend, IN 46601",
+      "page": 1,
+      "quote": "838 Mill Road South Bend, IN 46601"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Currency USD"
+    },
+    "order_total": {
+      "value": "2,417.78",
+      "page": 1,
+      "quote": "Grand Total 2,417.78"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Liftgate required",
+      "page": 1,
+      "quote": "Shipping Instructions: Liftgate required"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1 IT-10195 Hacksaw blade 12 in 18 TPI"
+        },
+        "item_no": {
+          "value": "IT-10195",
+          "page": 1,
+          "quote": "Vendor Item IT-10195"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hacksaw blade 12 in 18 TPI",
+          "page": 1,
+          "quote": "Hacksaw blade 12 in 18 TPI"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each 1.58 18.96"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each 1.58 18.96"
+        },
+        "unit_price": {
+          "value": "1.58",
+          "page": 1,
+          "quote": "each 1.58 18.96"
+        },
+        "line_total": {
+          "value": "18.96",
+          "page": 1,
+          "quote": "1.58 18.96 11/24/2026"
+        },
+        "requested_date": {
+          "value": "11/24/2026",
+          "page": 1,
+          "quote": "18.96 11/24/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2 IT-10207 Cutting fluid 1 gal"
+        },
+        "item_no": {
+          "value": "IT-10207",
+          "page": 1,
+          "quote": "Vendor Item IT-10207"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Cutting fluid 1 gal",
+          "page": 1,
+          "quote": "Cutting fluid 1 gal"
+        },
+        "qty": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 each 23.63 236.30"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "10 each 23.63 236.30"
+        },
+        "unit_price": {
+          "value": "23.63",
+          "page": 1,
+          "quote": "each 23.63 236.30"
+        },
+        "line_total": {
+          "value": "236.30",
+          "page": 1,
+          "quote": "23.63 236.30 12/09/2026"
+        },
+        "requested_date": {
+          "value": "12/09/2026",
+          "page": 1,
+          "quote": "236.30 12/09/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3 IT-10065 Blind rivet aluminum 3/16 x 1/2 in"
+        },
+        "item_no": {
+          "value": "IT-10065",
+          "page": 1,
+          "quote": "Vendor Item IT-10065"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Blind rivet aluminum 3/16 x 1/2 in",
+          "page": 1,
+          "quote": "Blind rivet aluminum 3/16 x 1/2 in"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 case 500.00 2,000.00"
+        },
+        "uom": {
+          "value": "case",
+          "page": 1,
+          "quote": "4 case 500.00 2,000.00"
+        },
+        "unit_price": {
+          "value": "500.00",
+          "page": 1,
+          "quote": "case 500.00 2,000.00"
+        },
+        "line_total": {
+          "value": "2,000.00",
+          "page": 1,
+          "quote": "500.00 2,000.00 11/27/2026"
+        },
+        "requested_date": {
+          "value": "11/27/2026",
+          "page": 1,
+          "quote": "2,000.00 11/27/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 IT-10273 Ball bearing 6205-2RS"
+        },
+        "item_no": {
+          "value": "IT-10273",
+          "page": 1,
+          "quote": "Vendor Item IT-10273"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Ball bearing 6205-2RS",
+          "page": 1,
+          "quote": "Ball bearing 6205-2RS"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "12 each 8.49 101.88"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "12 each 8.49 101.88"
+        },
+        "unit_price": {
+          "value": "8.49",
+          "page": 1,
+          "quote": "each 8.49 101.88"
+        },
+        "line_total": {
+          "value": "101.88",
+          "page": 1,
+          "quote": "8.49 101.88 12/02/2026"
+        },
+        "requested_date": {
+          "value": "12/02/2026",
+          "page": 1,
+          "quote": "101.88 12/02/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "5",
+          "page": 1,
+          "quote": "5 IT-10101 Brass hose barb 3/8 in x 1/4 NPT"
+        },
+        "item_no": {
+          "value": "IT-10101",
+          "page": 1,
+          "quote": "Vendor Item IT-10101"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass hose barb 3/8 in x 1/4 NPT",
+          "page": 1,
+          "quote": "Brass hose barb 3/8 in x 1/4 NPT"
+        },
+        "qty": {
+          "value": "24",
+          "page": 1,
+          "quote": "24 each 1.82 43.68"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "24 each 1.82 43.68"
+        },
+        "unit_price": {
+          "value": "1.82",
+          "page": 1,
+          "quote": "each 1.82 43.68"
+        },
+        "line_total": {
+          "value": "43.68",
+          "page": 1,
+          "quote": "1.82 43.68 11/27/2026"
+        },
+        "requested_date": {
+          "value": "11/27/2026",
+          "page": 1,
+          "quote": "43.68 11/27/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "6",
+          "page": 1,
+          "quote": "6 IT-10179 HSS jobber drill bit 1/4 in"
+        },
+        "item_no": {
+          "value": "IT-10179",
+          "page": 1,
+          "quote": "Vendor Item IT-10179"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "HSS jobber drill bit 1/4 in",
+          "page": 1,
+          "quote": "HSS jobber drill bit 1/4 in"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "4 each 4.24 16.96"
+        },
+        "uom": {
+          "value": "each",
+          "page": 1,
+          "quote": "4 each 4.24 16.96"
+        },
+        "unit_price": {
+          "value": "4.24",
+          "page": 1,
+          "quote": "each 4.24 16.96"
+        },
+        "line_total": {
+          "value": "16.96",
+          "page": 1,
+          "quote": "4.24 16.96 11/18/2026"
+        },
+        "requested_date": {
+          "value": "11/18/2026",
+          "page": 1,
+          "quote": "16.96 11/18/2026"
+        }
+      }
+    ]
+  },
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 9.3,
+      "cost_usd": 0.0199274,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 28.4,
+      "cost_usd": 0.051546,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract2",
+      "ok": true,
+      "error": null,
+      "seconds": 49.6,
+      "cost_usd": 0.1052612,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

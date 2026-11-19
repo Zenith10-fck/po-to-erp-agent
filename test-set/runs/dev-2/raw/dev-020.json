@@ -1,0 +1,26 @@
+{
+  "doc_id": "dev-020",
+  "sender": "Great Lakes Industrial Buyer <news@greatlakes-buyer.example>",
+  "subject": "Great Lakes Industrial Buyer - October 2026",
+  "source_file": "newsletter_2026_10.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "other",
+    "reason": "This is an industry newsletter with news items, not an order, bill, or price inquiry."
+  },
+  "extract": null,
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 6.9,
+      "cost_usd": 0.017994999999999997,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "doc_id": "held-008",
+  "split": "heldout",
+  "seed": 5008,
+  "kind": "po",
+  "layout": "compact_grid",
+  "degradations": [
+    "fax",
+    "rotate180"
+  ],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Quillfeather Printing Works",
+    "address_lines": [
+      "1388 Depot St",
+      "Cedar Rapids, IA 52401"
+    ],
+    "contact": "Purchasing: B. Aldana, 555-0173",
+    "logo_text": "QUILLFEATHER"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "4500292109",
+  "po_number_label": "Purchase Order No.",
+  "po_date": "11/13/2026",
+  "bill_to": {
+    "name": "Quillfeather Printing Works",
+    "address_lines": [
+      "1388 Depot St",
+      "Cedar Rapids, IA 52401"
+    ]
+  },
+  "ship_to": {
+    "name": "Quillfeather Main Plant",
+    "address_lines": [
+      "1388 Depot St",
+      "Cedar Rapids, IA 52401"
+    ]
+  },
+  "currency": "USD",
+  "carrier": {
+    "name": "FedEx Ground",
+    "account_no": null,
+    "label": "Ship via"
+  },
+  "shipping_notes": "Deliver to rear dock, door 6",
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": "IT-10129",
+      "customer_part_no": null,
+      "description": "Wire cup brush 3 in knotted",
+      "qty": "3",
+      "uom": "ea",
+      "unit_price": "$14.93",
+      "line_total": "$44.79",
+      "requested_date": "12/7/2026"
+    },
+    {
+      "line_no": "2",
+      "item_no": "IT-10169",
+      "customer_part_no": null,
+      "description": "Ear plugs uncorded (box of 200)",
+      "qty": "9",
+      "uom": "ea",
+      "unit_price": "$17.89",
+      "line_total": "$161.01",
+      "requested_date": "11/30/2026"
+    },
+    {
+      "line_no": "3",
+      "item_no": "IT-10005",
+      "customer_part_no": null,
+      "description": "Hex bolt M8 x 25 stainless A2",
+      "qty": "250",
+      "uom": "ea",
+      "unit_price": "$0.24",
+      "line_total": "$60.00",
+      "requested_date": "12/5/2026"
+    },
+    {
+      "line_no": "4",
+      "item_no": "IT-10213",
+      "customer_part_no": null,
+      "description": "Anti-seize compound 8 oz",
+      "qty": "4",
+      "uom": "ea",
+      "unit_price": "$19.27",
+      "line_total": "$77.08",
+      "requested_date": "11/28/2026"
+    }
+  ],
+  "order_total": "$342.88",
+  "order_total_label": "Total",
+  "payment_terms": "2% 10 Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

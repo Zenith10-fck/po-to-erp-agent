@@ -1,0 +1,94 @@
+{
+  "doc_id": "dev-014",
+  "split": "dev",
+  "category": "trap",
+  "is_po": true,
+  "trap": "ambiguous_customer",
+  "expected_route": "review",
+  "expected_reason_codes": [
+    "R02"
+  ],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "Order-KM-26-2432.pdf",
+  "truth": {
+    "customer_id": "C0004",
+    "customer_po_number": "KM-26-2432",
+    "po_date": "2026-10-13",
+    "bill_to_id": "B0004",
+    "ship_to_id": "S0014",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10224",
+        "customer_part_no": "",
+        "order_qty": "10",
+        "order_uom": "CS",
+        "base_qty": "60",
+        "base_uom": "EA",
+        "unit_price": "154.3800",
+        "line_total": "1543.80",
+        "requested_date": "2026-11-04"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10092",
+        "customer_part_no": "",
+        "order_qty": "10",
+        "order_uom": "BX",
+        "base_qty": "60",
+        "base_uom": "EA",
+        "unit_price": "92.9400",
+        "line_total": "929.40",
+        "requested_date": "2026-11-12"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10244",
+        "customer_part_no": "",
+        "order_qty": "6",
+        "order_uom": "CS",
+        "base_qty": "120",
+        "base_uom": "EA",
+        "unit_price": "65.4000",
+        "line_total": "392.40",
+        "requested_date": "2026-11-06"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10268",
+        "customer_part_no": "",
+        "order_qty": "3",
+        "order_uom": "BX",
+        "base_qty": "30",
+        "base_uom": "EA",
+        "unit_price": "43.3000",
+        "line_total": "129.90",
+        "requested_date": "2026-10-27"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10256",
+        "customer_part_no": "",
+        "order_qty": "8",
+        "order_uom": "RL",
+        "base_qty": "2000",
+        "base_uom": "FT",
+        "unit_price": "450.0000",
+        "line_total": "3600.00",
+        "requested_date": "2026-11-09"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Reference our PO number on the packing slip"
+  },
+  "trap_detail": {
+    "field": "customer_name",
+    "printed": "Kessler Machine",
+    "matches": [
+      "C0004",
+      "C0005"
+    ]
+  }
+}

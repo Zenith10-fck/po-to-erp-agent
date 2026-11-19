@@ -1,0 +1,5 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0022","P118572","2026-11-05","B0022","S0054","USD",1,"IT-10069","",11,"CS",1100,"EA",722.0000,7942.00,"","","Our truck will pick up","ravenglass_PO_P118572.pdf","A"
+"C0022","P118572","2026-11-05","B0022","S0054","USD",2,"IT-10261","",2,"RL",500,"FT",642.5000,1285.00,"","","Our truck will pick up","ravenglass_PO_P118572.pdf","A"
+"C0022","P118572","2026-11-05","B0022","S0054","USD",3,"IT-10141","",4,"RL",4,"RL",5.2900,21.16,"","","Our truck will pick up","ravenglass_PO_P118572.pdf","A"
+"C0022","P118572","2026-11-05","B0022","S0054","USD",4,"IT-10033","",12,"BX",1200,"EA",7.0000,84.00,"","","Our truck will pick up","ravenglass_PO_P118572.pdf","A"

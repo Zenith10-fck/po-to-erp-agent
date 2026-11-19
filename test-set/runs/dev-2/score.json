@@ -1,0 +1,385 @@
+{
+  "run": "dev-2",
+  "split": "dev",
+  "scored_at": "2026-11-16T16:44:25+00:00",
+  "documents": 20,
+  "model": [
+    "claude-sonnet-5"
+  ],
+  "headline": {
+    "wrong_values_written": 0,
+    "values_written": 1026,
+    "review_orders_auto_approved": 0,
+    "auto_orders_with_wrong_values": 0,
+    "auto_orders": 9,
+    "auto_approved": 9,
+    "sent_to_review": 8,
+    "ignored": 3
+  },
+  "routing": {
+    "correct_route_pct": 90.0,
+    "careful_review": 2,
+    "false_review": 0,
+    "reason_code_accuracy_pct": 100.0,
+    "reason_code_cases": 6
+  },
+  "field_read_accuracy_pct": {
+    "overall": 100.0,
+    "by_category": {
+      "clean": 100.0,
+      "handwritten": 100.0,
+      "injection": 100.0,
+      "layout": 100.0,
+      "multipage": 100.0,
+      "scan": 100.0,
+      "trap": 100.0
+    },
+    "by_field": {
+      "item_number": 100.0,
+      "line_count": 100.0,
+      "line_total": 100.0,
+      "po_date": 100.0,
+      "po_number": 100.0,
+      "qty": 100.0,
+      "requested_date": 100.0,
+      "unit_price": 100.0,
+      "uom": 100.0
+    }
+  },
+  "cost_and_time": {
+    "api_equivalent_cost_usd_total": 2.6431,
+    "api_equivalent_cost_usd_per_po": 0.1555,
+    "model_seconds_per_po": 79.0,
+    "note": "claude -p on a subscription: no money is charged per call; cost is what the CLI reports as API-equivalent."
+  },
+  "per_document": [
+    {
+      "doc_id": "dev-001",
+      "category": "clean",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 18,
+      "fields_read_right": 18
+    },
+    {
+      "doc_id": "dev-002",
+      "category": "clean",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 18,
+      "fields_read_right": 18
+    },
+    {
+      "doc_id": "dev-003",
+      "category": "clean",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 21,
+      "fields_read_right": 21
+    },
+    {
+      "doc_id": "dev-004",
+      "category": "layout",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 39,
+      "fields_read_right": 39
+    },
+    {
+      "doc_id": "dev-005",
+      "category": "scan",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 39,
+      "fields_read_right": 39
+    },
+    {
+      "doc_id": "dev-006",
+      "category": "scan",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 15,
+      "fields_read_right": 15
+    },
+    {
+      "doc_id": "dev-007",
+      "category": "scan",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "review",
+      "expected_codes": [],
+      "codes": [
+        "R11"
+      ],
+      "verdict": "careful_review",
+      "wrong_values_written": 0,
+      "fields_read": 18,
+      "fields_read_right": 18
+    },
+    {
+      "doc_id": "dev-008",
+      "category": "scan",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "review",
+      "expected_codes": [],
+      "codes": [
+        "R09"
+      ],
+      "verdict": "careful_review",
+      "wrong_values_written": 0,
+      "fields_read": 15,
+      "fields_read_right": 15
+    },
+    {
+      "doc_id": "dev-009",
+      "category": "handwritten",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 21,
+      "fields_read_right": 21
+    },
+    {
+      "doc_id": "dev-010",
+      "category": "multipage",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 33,
+      "fields_read_right": 33
+    },
+    {
+      "doc_id": "dev-011",
+      "category": "multipage",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "auto",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 159,
+      "fields_read_right": 159
+    },
+    {
+      "doc_id": "dev-012",
+      "category": "trap",
+      "trap": "price_off_5pct",
+      "expected_route": "review",
+      "route": "review",
+      "expected_codes": [
+        "R06"
+      ],
+      "codes": [
+        "R06"
+      ],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 21,
+      "fields_read_right": 21
+    },
+    {
+      "doc_id": "dev-013",
+      "category": "trap",
+      "trap": "duplicate_po",
+      "expected_route": "review",
+      "route": "review",
+      "expected_codes": [
+        "R10"
+      ],
+      "codes": [
+        "R10"
+      ],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 18,
+      "fields_read_right": 18
+    },
+    {
+      "doc_id": "dev-014",
+      "category": "trap",
+      "trap": "ambiguous_customer",
+      "expected_route": "review",
+      "route": "review",
+      "expected_codes": [
+        "R02"
+      ],
+      "codes": [
+        "R02"
+      ],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 33,
+      "fields_read_right": 33
+    },
+    {
+      "doc_id": "dev-015",
+      "category": "trap",
+      "trap": "unknown_uom",
+      "expected_route": "review",
+      "route": "review",
+      "expected_codes": [
+        "R05"
+      ],
+      "codes": [
+        "R05"
+      ],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 28,
+      "fields_read_right": 28
+    },
+    {
+      "doc_id": "dev-016",
+      "category": "trap",
+      "trap": "math_mismatch",
+      "expected_route": "review",
+      "route": "review",
+      "expected_codes": [
+        "R07"
+      ],
+      "codes": [
+        "R07"
+      ],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 39,
+      "fields_read_right": 39
+    },
+    {
+      "doc_id": "dev-017",
+      "category": "injection",
+      "trap": "injection_visible_note",
+      "expected_route": "review",
+      "route": "review",
+      "expected_codes": [
+        "R13"
+      ],
+      "codes": [
+        "R13"
+      ],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 15,
+      "fields_read_right": 15
+    },
+    {
+      "doc_id": "dev-018",
+      "category": "non_po",
+      "trap": null,
+      "expected_route": "ignored",
+      "route": "ignored",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 0,
+      "fields_read_right": 0
+    },
+    {
+      "doc_id": "dev-019",
+      "category": "non_po",
+      "trap": null,
+      "expected_route": "ignored",
+      "route": "ignored",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 0,
+      "fields_read_right": 0
+    },
+    {
+      "doc_id": "dev-020",
+      "category": "non_po",
+      "trap": null,
+      "expected_route": "ignored",
+      "route": "ignored",
+      "expected_codes": [],
+      "codes": [],
+      "verdict": "ok",
+      "wrong_values_written": 0,
+      "fields_read": 0,
+      "fields_read_right": 0
+    }
+  ],
+  "failures": [
+    {
+      "doc_id": "dev-007",
+      "category": "scan",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "review",
+      "expected_codes": [],
+      "codes": [
+        "R11"
+      ],
+      "verdict": "careful_review",
+      "wrong_values_written": 0,
+      "fields_read": 18,
+      "fields_read_right": 18,
+      "wrong_value_details": [],
+      "findings": [
+        "R11 order legibility: the model could not read every field with certainty"
+      ]
+    },
+    {
+      "doc_id": "dev-008",
+      "category": "scan",
+      "trap": null,
+      "expected_route": "auto",
+      "route": "review",
+      "expected_codes": [],
+      "codes": [
+        "R09"
+      ],
+      "verdict": "careful_review",
+      "wrong_values_written": 0,
+      "fields_read": 15,
+      "fields_read_right": 15,
+      "wrong_value_details": [],
+      "findings": [
+        "R09 line 1 requested_date: second read differs"
+      ]
+    }
+  ]
+}

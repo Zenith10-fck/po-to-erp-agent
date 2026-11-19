@@ -1,0 +1,86 @@
+{
+  "doc_id": "held-016",
+  "split": "heldout",
+  "seed": 5016,
+  "kind": "po",
+  "layout": "side_by_side",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Halvorsen Marine Repair LLC",
+    "address_lines": [
+      "18 Ropewalk Ln Suite 4",
+      "Sandusky, OH 44870"
+    ],
+    "contact": "Purchasing: L. Petrova, 555-0189",
+    "logo_text": "HALVORSEN"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "68308",
+  "po_number_label": "PO #",
+  "po_date": "13-Nov-2026",
+  "bill_to": {
+    "name": "Halvorsen Marine Repair LLC",
+    "address_lines": [
+      "18 Ropewalk Ln Suite 4",
+      "Sandusky, OH 44870"
+    ]
+  },
+  "ship_to": {
+    "name": "Halvorsen Maintenance Shop",
+    "address_lines": [
+      "2187 Smelter Way",
+      "Youngstown, OH 44503"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": null,
+  "lines": [
+    {
+      "line_no": "1",
+      "item_no": null,
+      "customer_part_no": "HM7215",
+      "description": "Thread locker blue 50 ml",
+      "qty": "7",
+      "uom": "ea",
+      "unit_price": "$22.37",
+      "line_total": "$156.59",
+      "requested_date": null
+    },
+    {
+      "line_no": "2",
+      "item_no": null,
+      "customer_part_no": "HM8890",
+      "description": "Grease fitting 1/8 NPT straight",
+      "qty": "50",
+      "uom": "ea",
+      "unit_price": "$0.29",
+      "line_total": "$14.50",
+      "requested_date": null
+    },
+    {
+      "line_no": "3",
+      "item_no": null,
+      "customer_part_no": "HM9616",
+      "description": "Sanding belt 6 x 48 in 60 grit",
+      "qty": "50",
+      "uom": "ea",
+      "unit_price": "$2.05",
+      "line_total": "$102.50",
+      "requested_date": null
+    }
+  ],
+  "order_total": "$273.59",
+  "order_total_label": "PO Total",
+  "payment_terms": "Net 30",
+  "injection_text": null,
+  "injection_style": null
+}

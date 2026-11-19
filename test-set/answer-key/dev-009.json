@@ -1,0 +1,64 @@
+{
+  "doc_id": "dev-009",
+  "split": "dev",
+  "category": "handwritten",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20260928_1508.pdf",
+  "truth": {
+    "customer_id": "C0023",
+    "customer_po_number": "FABS/6533",
+    "po_date": "2026-09-28",
+    "bill_to_id": "B0023",
+    "ship_to_id": "S0055",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10042",
+        "customer_part_no": "",
+        "order_qty": "100",
+        "order_uom": "EA",
+        "base_qty": "100",
+        "base_uom": "EA",
+        "unit_price": "0.8400",
+        "line_total": "84.00",
+        "requested_date": "2026-10-21"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10272",
+        "customer_part_no": "",
+        "order_qty": "12",
+        "order_uom": "EA",
+        "base_qty": "12",
+        "base_uom": "EA",
+        "unit_price": "3.3800",
+        "line_total": "40.56",
+        "requested_date": "2026-10-11"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10250",
+        "customer_part_no": "",
+        "order_qty": "4",
+        "order_uom": "RL",
+        "base_qty": "1000",
+        "base_uom": "FT",
+        "unit_price": "800.0000",
+        "line_total": "3200.00",
+        "requested_date": "2026-10-11"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Liftgate required"
+  },
+  "trap_detail": null
+}

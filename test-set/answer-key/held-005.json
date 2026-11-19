@@ -1,0 +1,88 @@
+{
+  "doc_id": "held-005",
+  "split": "heldout",
+  "category": "scan",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [
+    "R09",
+    "R11"
+  ],
+  "source_file": "scan_20261101_1098.pdf",
+  "truth": {
+    "customer_id": "C0019",
+    "customer_po_number": "64115",
+    "po_date": "2026-11-01",
+    "bill_to_id": "B0019",
+    "ship_to_id": "S0045",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10259",
+        "customer_part_no": "",
+        "order_qty": "100",
+        "order_uom": "FT",
+        "base_qty": "100",
+        "base_uom": "FT",
+        "unit_price": "3.2700",
+        "line_total": "327.00",
+        "requested_date": "2026-11-10"
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10179",
+        "customer_part_no": "",
+        "order_qty": "6",
+        "order_uom": "EA",
+        "base_qty": "6",
+        "base_uom": "EA",
+        "unit_price": "3.9600",
+        "line_total": "23.76",
+        "requested_date": "2026-11-30"
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10145",
+        "customer_part_no": "",
+        "order_qty": "10",
+        "order_uom": "RL",
+        "base_qty": "10",
+        "base_uom": "RL",
+        "unit_price": "7.5700",
+        "line_total": "75.70",
+        "requested_date": "2026-11-26"
+      },
+      {
+        "line_no": 4,
+        "item_id": "IT-10099",
+        "customer_part_no": "",
+        "order_qty": "3",
+        "order_uom": "BX",
+        "base_qty": "30",
+        "base_uom": "EA",
+        "unit_price": "7.1000",
+        "line_total": "21.30",
+        "requested_date": "2026-11-12"
+      },
+      {
+        "line_no": 5,
+        "item_id": "IT-10047",
+        "customer_part_no": "",
+        "order_qty": "200",
+        "order_uom": "EA",
+        "base_qty": "200",
+        "base_uom": "EA",
+        "unit_price": "0.1300",
+        "line_total": "26.00",
+        "requested_date": "2026-11-14"
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Liftgate required"
+  },
+  "trap_detail": null
+}

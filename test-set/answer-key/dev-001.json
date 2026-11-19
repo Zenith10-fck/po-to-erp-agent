@@ -1,0 +1,61 @@
+{
+  "doc_id": "dev-001",
+  "split": "dev",
+  "category": "clean",
+  "is_po": true,
+  "trap": null,
+  "expected_route": "auto",
+  "expected_reason_codes": [],
+  "acceptable_extra_codes": [],
+  "acceptable_review_codes": [],
+  "source_file": "PO_PH_1311.pdf",
+  "truth": {
+    "customer_id": "C0002",
+    "customer_po_number": "PH/1311",
+    "po_date": "2026-10-01",
+    "bill_to_id": "B0002",
+    "ship_to_id": "S0007",
+    "currency": "USD",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10242",
+        "customer_part_no": "MRO-4685",
+        "order_qty": "25",
+        "order_uom": "EA",
+        "base_qty": "25",
+        "base_uom": "EA",
+        "unit_price": "6.0700",
+        "line_total": "151.75",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10096",
+        "customer_part_no": "MRO-6098",
+        "order_qty": "250",
+        "order_uom": "EA",
+        "base_qty": "250",
+        "base_uom": "EA",
+        "unit_price": "0.6700",
+        "line_total": "167.50",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": "IT-10050",
+        "customer_part_no": "MRO-7176",
+        "order_qty": "1",
+        "order_uom": "BX",
+        "base_qty": "250",
+        "base_uom": "EA",
+        "unit_price": "20.0000",
+        "line_total": "20.00",
+        "requested_date": ""
+      }
+    ],
+    "carrier_account_no": "",
+    "shipping_notes": "Liftgate required"
+  },
+  "trap_detail": null
+}

@@ -1,0 +1,319 @@
+{
+  "doc_id": "held-016",
+  "source_file": "halvorsen_PO_68308.pdf",
+  "mode": "text",
+  "pages": 1,
+  "sender": "\"L. Petrova\" <buyer@halvorsen-marine-repair.example>",
+  "subject": "Halvorsen Marine Repair LLC PO 68308",
+  "route": "review",
+  "reason_codes": [
+    "R04"
+  ],
+  "findings": [
+    {
+      "code": "R04",
+      "scope": "line 3",
+      "field": "item",
+      "read": "HM9616",
+      "expected": null,
+      "page": 1,
+      "note": "no item with this number",
+      "name": "Item not matched"
+    }
+  ],
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal PO (PO #68308) listing ordered items, quantities, and prices instructing a supplier to deliver goods."
+  },
+  "extraction": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "68308",
+      "page": 1,
+      "quote": "PO #: 68308"
+    },
+    "po_date": {
+      "value": "13-Nov-2026",
+      "page": 1,
+      "quote": "Order date: 13-Nov-2026"
+    },
+    "customer_name": {
+      "value": "Halvorsen Marine Repair LLC",
+      "page": 1,
+      "quote": "ORDERED BY Halvorsen Marine Repair LLC"
+    },
+    "bill_to_name": {
+      "value": "Halvorsen Marine Repair LLC",
+      "page": 1,
+      "quote": "INVOICE TO Halvorsen Marine Repair LLC"
+    },
+    "bill_to_address": {
+      "value": "18 Ropewalk Ln Suite 4, Sandusky, OH 44870",
+      "page": 1,
+      "quote": "18 Ropewalk Ln Suite 4 Sandusky, OH 44870"
+    },
+    "ship_to_name": {
+      "value": "Halvorsen Maintenance Shop",
+      "page": 1,
+      "quote": "DELIVER TO Halvorsen Maintenance Shop"
+    },
+    "ship_to_address": {
+      "value": "2187 Smelter Way, Youngstown, OH 44503",
+      "page": 1,
+      "quote": "2187 Smelter Way Youngstown, OH 44503"
+    },
+    "currency": {
+      "value": "$",
+      "page": 1,
+      "quote": "PO Total $273.59"
+    },
+    "order_total": {
+      "value": "$273.59",
+      "page": 1,
+      "quote": "PO Total $273.59"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "$156.59 1"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "HM7215",
+          "page": 1,
+          "quote": "HM7215 Thread locker blue 50 ml"
+        },
+        "description": {
+          "value": "Thread locker blue 50 ml",
+          "page": 1,
+          "quote": "Thread locker blue 50 ml"
+        },
+        "qty": {
+          "value": "7",
+          "page": 1,
+          "quote": "7 ea HM7215"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "7 ea HM7215"
+        },
+        "unit_price": {
+          "value": "$22.37",
+          "page": 1,
+          "quote": "$22.37 $156.59"
+        },
+        "line_total": {
+          "value": "$156.59",
+          "page": 1,
+          "quote": "$22.37 $156.59 1"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "$14.50 2"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "HM8890",
+          "page": 1,
+          "quote": "HM8890 Grease fitting 1/8 NPT straight"
+        },
+        "description": {
+          "value": "Grease fitting 1/8 NPT straight",
+          "page": 1,
+          "quote": "Grease fitting 1/8 NPT straight"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 ea HM8890"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "50 ea HM8890"
+        },
+        "unit_price": {
+          "value": "$0.29",
+          "page": 1,
+          "quote": "$0.29 $14.50"
+        },
+        "line_total": {
+          "value": "$14.50",
+          "page": 1,
+          "quote": "$0.29 $14.50 2"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "$102.50 3"
+        },
+        "item_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "customer_part_no": {
+          "value": "HM9616",
+          "page": 1,
+          "quote": "HM9616 Sanding belt 6 x 48 in 60 grit"
+        },
+        "description": {
+          "value": "Sanding belt 6 x 48 in 60 grit",
+          "page": 1,
+          "quote": "Sanding belt 6 x 48 in 60 grit"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 ea HM9616"
+        },
+        "uom": {
+          "value": "ea",
+          "page": 1,
+          "quote": "50 ea HM9616"
+        },
+        "unit_price": {
+          "value": "$2.05",
+          "page": 1,
+          "quote": "$2.05 $102.50"
+        },
+        "line_total": {
+          "value": "$102.50",
+          "page": 1,
+          "quote": "$2.05 $102.50 3"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "matched": {
+    "customer_id": "C0014",
+    "customer_name": "Halvorsen Marine Repair LLC",
+    "bill_to_id": "B0014",
+    "ship_to_id": "S0034",
+    "currency": "USD",
+    "po_number": "68308",
+    "po_date": "2026-11-13",
+    "carrier_account_no": "",
+    "shipping_notes": "",
+    "order_total_printed": "273.59",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_id": "IT-10211",
+        "customer_part_no": "HM7215",
+        "order_qty": "7",
+        "order_uom": "EA",
+        "base_qty": "7",
+        "base_uom": "EA",
+        "unit_price": "22.37",
+        "list_price": "22.37",
+        "line_total_printed": "156.59",
+        "requested_date": ""
+      },
+      {
+        "line_no": 2,
+        "item_id": "IT-10105",
+        "customer_part_no": "HM8890",
+        "order_qty": "50",
+        "order_uom": "EA",
+        "base_qty": "50",
+        "base_uom": "EA",
+        "unit_price": "0.29",
+        "list_price": "0.29",
+        "line_total_printed": "14.50",
+        "requested_date": ""
+      },
+      {
+        "line_no": 3,
+        "item_id": null,
+        "customer_part_no": "HM9616",
+        "order_qty": "50",
+        "order_uom": null,
+        "base_qty": null,
+        "base_uom": null,
+        "unit_price": null,
+        "list_price": null,
+        "line_total_printed": "102.50",
+        "requested_date": ""
+      }
+    ]
+  },
+  "csv_file": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 11.3,
+      "cost_usd": 0.022613199999999996,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 27.0,
+      "cost_usd": 0.0492992,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

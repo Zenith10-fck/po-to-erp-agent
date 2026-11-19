@@ -1,0 +1,344 @@
+{
+  "doc_id": "held-001",
+  "sender": "\"B. Aldana\" <procurement@bluestem-agri-parts.example>",
+  "subject": "PO BAP-26-9531",
+  "source_file": "Order-BAP-26-9531.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document is a formal purchase order from Bluestem Agri Parts listing items, quantities, and costs ordered from the vendor."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "BAP-26-9531",
+      "page": 1,
+      "quote": "Purchase Order No.: BAP-26-9531"
+    },
+    "po_date": {
+      "value": "11/13/2026",
+      "page": 1,
+      "quote": "ORDER DATE: 11/13/2026"
+    },
+    "customer_name": {
+      "value": "Bluestem Agri Parts Inc.",
+      "page": 1,
+      "quote": "Bluestem Agri Parts Inc."
+    },
+    "bill_to_name": {
+      "value": "Bluestem Agri Parts Inc.",
+      "page": 1,
+      "quote": "BILL TO: Bluestem Agri Parts Inc."
+    },
+    "bill_to_address": {
+      "value": "3310 Sawmill Rd, Des Moines, IA 50309",
+      "page": 1,
+      "quote": "3310 Sawmill Rd\nDes Moines, IA 50309"
+    },
+    "ship_to_name": {
+      "value": "Bluestem Main Plant",
+      "page": 1,
+      "quote": "SHIP TO: Bluestem Main Plant"
+    },
+    "ship_to_address": {
+      "value": "3310 Sawmill Rd, Des Moines, IA 50309",
+      "page": 1,
+      "quote": "3310 Sawmill Rd\nDes Moines, IA 50309"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Total USD .... 705.84"
+    },
+    "order_total": {
+      "value": "705.84",
+      "page": 1,
+      "quote": "Total USD .... 705.84"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Deliver to rear dock, door 6",
+      "page": 1,
+      "quote": "SHIPPING INSTR: Deliver to rear dock, door 6"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "10",
+          "page": 1,
+          "quote": "10 TP-1783 Hex bolt M6 x 30 zinc"
+        },
+        "item_no": {
+          "value": "TP-1783",
+          "page": 1,
+          "quote": "10 TP-1783 Hex bolt M6 x 30 zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M6 x 30 zinc",
+          "page": 1,
+          "quote": "Hex bolt M6 x 30 zinc"
+        },
+        "qty": {
+          "value": "8",
+          "page": 1,
+          "quote": "8 CS 40.00 320.00 12/04/2026"
+        },
+        "uom": {
+          "value": "CS",
+          "page": 1,
+          "quote": "8 CS 40.00 320.00 12/04/2026"
+        },
+        "unit_price": {
+          "value": "40.00",
+          "page": 1,
+          "quote": "8 CS 40.00 320.00 12/04/2026"
+        },
+        "line_total": {
+          "value": "320.00",
+          "page": 1,
+          "quote": "8 CS 40.00 320.00 12/04/2026"
+        },
+        "requested_date": {
+          "value": "12/04/2026",
+          "page": 1,
+          "quote": "8 CS 40.00 320.00 12/04/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "20",
+          "page": 1,
+          "quote": "20 TP-4880 Hex bolt M10 x 30 zinc"
+        },
+        "item_no": {
+          "value": "TP-4880",
+          "page": 1,
+          "quote": "20 TP-4880 Hex bolt M10 x 30 zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex bolt M10 x 30 zinc",
+          "page": 1,
+          "quote": "Hex bolt M10 x 30 zinc"
+        },
+        "qty": {
+          "value": "100",
+          "page": 1,
+          "quote": "100 EA 0.47 47.00 12/02/2026"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "100 EA 0.47 47.00 12/02/2026"
+        },
+        "unit_price": {
+          "value": "0.47",
+          "page": 1,
+          "quote": "100 EA 0.47 47.00 12/02/2026"
+        },
+        "line_total": {
+          "value": "47.00",
+          "page": 1,
+          "quote": "100 EA 0.47 47.00 12/02/2026"
+        },
+        "requested_date": {
+          "value": "12/02/2026",
+          "page": 1,
+          "quote": "100 EA 0.47 47.00 12/02/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "30",
+          "page": 1,
+          "quote": "30 TP-2540 Hex nut M8 stainless A2"
+        },
+        "item_no": {
+          "value": "TP-2540",
+          "page": 1,
+          "quote": "30 TP-2540 Hex nut M8 stainless A2"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Hex nut M8 stainless A2",
+          "page": 1,
+          "quote": "Hex nut M8 stainless A2"
+        },
+        "qty": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 EA 0.12 6.00 12/02/2026"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "50 EA 0.12 6.00 12/02/2026"
+        },
+        "unit_price": {
+          "value": "0.12",
+          "page": 1,
+          "quote": "50 EA 0.12 6.00 12/02/2026"
+        },
+        "line_total": {
+          "value": "6.00",
+          "page": 1,
+          "quote": "50 EA 0.12 6.00 12/02/2026"
+        },
+        "requested_date": {
+          "value": "12/02/2026",
+          "page": 1,
+          "quote": "50 EA 0.12 6.00 12/02/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "40",
+          "page": 1,
+          "quote": "40 TP-6038 Leather driver gloves size L"
+        },
+        "item_no": {
+          "value": "TP-6038",
+          "page": 1,
+          "quote": "40 TP-6038 Leather driver gloves size L"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Leather driver gloves size L",
+          "page": 1,
+          "quote": "Leather driver gloves size L"
+        },
+        "qty": {
+          "value": "9",
+          "page": 1,
+          "quote": "9 PR 12.26 110.34 12/06/2026"
+        },
+        "uom": {
+          "value": "PR",
+          "page": 1,
+          "quote": "9 PR 12.26 110.34 12/06/2026"
+        },
+        "unit_price": {
+          "value": "12.26",
+          "page": 1,
+          "quote": "9 PR 12.26 110.34 12/06/2026"
+        },
+        "line_total": {
+          "value": "110.34",
+          "page": 1,
+          "quote": "9 PR 12.26 110.34 12/06/2026"
+        },
+        "requested_date": {
+          "value": "12/06/2026",
+          "page": 1,
+          "quote": "9 PR 12.26 110.34 12/06/2026"
+        }
+      },
+      {
+        "line_no": {
+          "value": "50",
+          "page": 1,
+          "quote": "50 TP-8551 Steel pipe plug 3/4 in NPT"
+        },
+        "item_no": {
+          "value": "TP-8551",
+          "page": 1,
+          "quote": "50 TP-8551 Steel pipe plug 3/4 in NPT"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Steel pipe plug 3/4 in NPT",
+          "page": 1,
+          "quote": "Steel pipe plug 3/4 in NPT"
+        },
+        "qty": {
+          "value": "250",
+          "page": 1,
+          "quote": "250 EA 0.89 222.50 12/07/2026"
+        },
+        "uom": {
+          "value": "EA",
+          "page": 1,
+          "quote": "250 EA 0.89 222.50 12/07/2026"
+        },
+        "unit_price": {
+          "value": "0.89",
+          "page": 1,
+          "quote": "250 EA 0.89 222.50 12/07/2026"
+        },
+        "line_total": {
+          "value": "222.50",
+          "page": 1,
+          "quote": "250 EA 0.89 222.50 12/07/2026"
+        },
+        "requested_date": {
+          "value": "12/07/2026",
+          "page": 1,
+          "quote": "250 EA 0.89 222.50 12/07/2026"
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 8.4,
+      "cost_usd": 0.0191226,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 51.8,
+      "cost_usd": 0.1060578,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}

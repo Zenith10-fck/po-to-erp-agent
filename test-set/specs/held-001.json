@@ -1,0 +1,108 @@
+{
+  "doc_id": "held-001",
+  "split": "heldout",
+  "seed": 5001,
+  "kind": "po",
+  "layout": "erp_export",
+  "degradations": [],
+  "handwritten": false,
+  "extra_pages": [],
+  "buyer": {
+    "name": "Bluestem Agri Parts Inc.",
+    "address_lines": [
+      "3310 Sawmill Rd",
+      "Des Moines, IA 50309"
+    ],
+    "contact": "Purchasing: B. Aldana, 555-0163",
+    "logo_text": "BLUESTEM"
+  },
+  "supplier": {
+    "name": "Northfield Industrial Supply",
+    "address_lines": [
+      "1200 Commerce Pkwy",
+      "Columbus, OH 43215"
+    ]
+  },
+  "po_number": "BAP-26-9531",
+  "po_number_label": "Purchase Order No.",
+  "po_date": "11/13/2026",
+  "bill_to": {
+    "name": "Bluestem Agri Parts Inc.",
+    "address_lines": [
+      "3310 Sawmill Rd",
+      "Des Moines, IA 50309"
+    ]
+  },
+  "ship_to": {
+    "name": "Bluestem Main Plant",
+    "address_lines": [
+      "3310 Sawmill Rd",
+      "Des Moines, IA 50309"
+    ]
+  },
+  "currency": null,
+  "carrier": null,
+  "shipping_notes": "Deliver to rear dock, door 6",
+  "lines": [
+    {
+      "line_no": "10",
+      "item_no": null,
+      "customer_part_no": "TP-1783",
+      "description": "Hex bolt M6 x 30 zinc",
+      "qty": "8",
+      "uom": "CS",
+      "unit_price": "40.00",
+      "line_total": "320.00",
+      "requested_date": "12/04/2026"
+    },
+    {
+      "line_no": "20",
+      "item_no": null,
+      "customer_part_no": "TP-4880",
+      "description": "Hex bolt M10 x 30 zinc",
+      "qty": "100",
+      "uom": "EA",
+      "unit_price": "0.47",
+      "line_total": "47.00",
+      "requested_date": "12/02/2026"
+    },
+    {
+      "line_no": "30",
+      "item_no": null,
+      "customer_part_no": "TP-2540",
+      "description": "Hex nut M8 stainless A2",
+      "qty": "50",
+      "uom": "EA",
+      "unit_price": "0.12",
+      "line_total": "6.00",
+      "requested_date": "12/02/2026"
+    },
+    {
+      "line_no": "40",
+      "item_no": null,
+      "customer_part_no": "TP-6038",
+      "description": "Leather driver gloves size L",
+      "qty": "9",
+      "uom": "PR",
+      "unit_price": "12.26",
+      "line_total": "110.34",
+      "requested_date": "12/06/2026"
+    },
+    {
+      "line_no": "50",
+      "item_no": null,
+      "customer_part_no": "TP-8551",
+      "description": "Steel pipe plug 3/4 in NPT",
+      "qty": "250",
+      "uom": "EA",
+      "unit_price": "0.89",
+      "line_total": "222.50",
+      "requested_date": "12/07/2026"
+    }
+  ],
+  "order_total": "705.84",
+  "order_total_label": "Total USD",
+  "payment_terms": "Net 45",
+  "injection_text": null,
+  "injection_style": null
+}

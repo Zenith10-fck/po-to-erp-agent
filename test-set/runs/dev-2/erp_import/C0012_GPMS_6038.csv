@@ -1,0 +1,3 @@
+"customer_id","customer_po_number","po_date","bill_to_id","ship_to_id","currency","line_no","item_id","customer_part_no","order_qty","order_uom","base_qty","base_uom","unit_price","line_total","requested_date","carrier_account_no","shipping_notes","source_file","run_id"
+"C0012","GPMS/6038","2026-10-01","B0012","S0029","USD",1,"IT-10108","",100,"EA",100,"EA",0.8900,89.00,"2026-11-05","","Dock 3, call before delivery","scan_20261001_0895.pdf","dev-2"
+"C0012","GPMS/6038","2026-10-01","B0012","S0029","USD",2,"IT-10168","",9,"EA",9,"EA",19.4900,175.41,"2026-11-05","","Dock 3, call before delivery","scan_20261001_0895.pdf","dev-2"

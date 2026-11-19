@@ -1,0 +1,297 @@
+{
+  "doc_id": "held-004",
+  "sender": "\"S. Halloran\" <orders@ravenglass.example>",
+  "subject": "Purchase Order P118572 - Ravenglass",
+  "source_file": "ravenglass_PO_P118572.pdf",
+  "mode": "text",
+  "pages": 1,
+  "classify": {
+    "doc_type": "purchase_order",
+    "reason": "Document lists items, quantities, prices and instructs supplier to enter the order, with ship/bill addresses - a standard PO."
+  },
+  "extract": {
+    "legibility": "clear",
+    "po_pages": [
+      1
+    ],
+    "ignored_pages": [],
+    "suspicious_content": {
+      "present": false,
+      "page": null,
+      "quote": null
+    },
+    "po_number": {
+      "value": "P118572",
+      "page": 1,
+      "quote": "RE: Purchase Order No. P118572"
+    },
+    "po_date": {
+      "value": "05-Nov-2026",
+      "page": 1,
+      "quote": "Date: 05-Nov-2026"
+    },
+    "customer_name": {
+      "value": "Ravenglass",
+      "page": 1,
+      "quote": "Ravenglass\n715 Commerce Dr\nGreen Bay, WI 54301"
+    },
+    "bill_to_name": {
+      "value": "Ravenglass Bottling Co.",
+      "page": 1,
+      "quote": "Bill to: Ravenglass Bottling Co., 715 Commerce Dr, Green Bay, WI 54301"
+    },
+    "bill_to_address": {
+      "value": "715 Commerce Dr, Green Bay, WI 54301",
+      "page": 1,
+      "quote": "Bill to: Ravenglass Bottling Co., 715 Commerce Dr, Green Bay, WI 54301"
+    },
+    "ship_to_name": {
+      "value": "Ravenglass Distribution Center",
+      "page": 1,
+      "quote": "Ship to: Ravenglass Distribution Center, 618 Cannery Ave, Madison, WI 53703"
+    },
+    "ship_to_address": {
+      "value": "618 Cannery Ave, Madison, WI 53703",
+      "page": 1,
+      "quote": "Ship to: Ravenglass Distribution Center, 618 Cannery Ave, Madison, WI 53703"
+    },
+    "currency": {
+      "value": "USD",
+      "page": 1,
+      "quote": "Order Total: $9,332.16 USD"
+    },
+    "order_total": {
+      "value": "$9,332.16",
+      "page": 1,
+      "quote": "Order Total: $9,332.16 USD"
+    },
+    "carrier_name": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "carrier_account_no": {
+      "value": null,
+      "page": null,
+      "quote": null
+    },
+    "shipping_notes": {
+      "value": "Our truck will pick up",
+      "page": 1,
+      "quote": "Ship via: Our truck will pick up"
+    },
+    "lines": [
+      {
+        "line_no": {
+          "value": "1",
+          "page": 1,
+          "quote": "1) 11 cs of IT-10069 @ $722.00 = $7,942.00 - Brass compression elbow 3/4 in"
+        },
+        "item_no": {
+          "value": "IT-10069",
+          "page": 1,
+          "quote": "1) 11 cs of IT-10069 @ $722.00 = $7,942.00 - Brass compression elbow 3/4 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Brass compression elbow 3/4 in",
+          "page": 1,
+          "quote": "1) 11 cs of IT-10069 @ $722.00 = $7,942.00 - Brass compression elbow 3/4 in"
+        },
+        "qty": {
+          "value": "11",
+          "page": 1,
+          "quote": "1) 11 cs of IT-10069 @ $722.00 = $7,942.00 - Brass compression elbow 3/4 in"
+        },
+        "uom": {
+          "value": "cs",
+          "page": 1,
+          "quote": "1) 11 cs of IT-10069 @ $722.00 = $7,942.00 - Brass compression elbow 3/4 in"
+        },
+        "unit_price": {
+          "value": "$722.00",
+          "page": 1,
+          "quote": "1) 11 cs of IT-10069 @ $722.00 = $7,942.00 - Brass compression elbow 3/4 in"
+        },
+        "line_total": {
+          "value": "$7,942.00",
+          "page": 1,
+          "quote": "1) 11 cs of IT-10069 @ $722.00 = $7,942.00 - Brass compression elbow 3/4 in"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "2",
+          "page": 1,
+          "quote": "2) 2 rl of IT-10261 @ $642.50 = $1,285.00 - Wire rope galvanized 1/4 in"
+        },
+        "item_no": {
+          "value": "IT-10261",
+          "page": 1,
+          "quote": "2) 2 rl of IT-10261 @ $642.50 = $1,285.00 - Wire rope galvanized 1/4 in"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Wire rope galvanized 1/4 in",
+          "page": 1,
+          "quote": "2) 2 rl of IT-10261 @ $642.50 = $1,285.00 - Wire rope galvanized 1/4 in"
+        },
+        "qty": {
+          "value": "2",
+          "page": 1,
+          "quote": "2) 2 rl of IT-10261 @ $642.50 = $1,285.00 - Wire rope galvanized 1/4 in"
+        },
+        "uom": {
+          "value": "rl",
+          "page": 1,
+          "quote": "2) 2 rl of IT-10261 @ $642.50 = $1,285.00 - Wire rope galvanized 1/4 in"
+        },
+        "unit_price": {
+          "value": "$642.50",
+          "page": 1,
+          "quote": "2) 2 rl of IT-10261 @ $642.50 = $1,285.00 - Wire rope galvanized 1/4 in"
+        },
+        "line_total": {
+          "value": "$1,285.00",
+          "page": 1,
+          "quote": "2) 2 rl of IT-10261 @ $642.50 = $1,285.00 - Wire rope galvanized 1/4 in"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "3",
+          "page": 1,
+          "quote": "3) 4 rl of IT-10141 @ $5.29 = $21.16 - Electrical tape 3/4 in white"
+        },
+        "item_no": {
+          "value": "IT-10141",
+          "page": 1,
+          "quote": "3) 4 rl of IT-10141 @ $5.29 = $21.16 - Electrical tape 3/4 in white"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Electrical tape 3/4 in white",
+          "page": 1,
+          "quote": "3) 4 rl of IT-10141 @ $5.29 = $21.16 - Electrical tape 3/4 in white"
+        },
+        "qty": {
+          "value": "4",
+          "page": 1,
+          "quote": "3) 4 rl of IT-10141 @ $5.29 = $21.16 - Electrical tape 3/4 in white"
+        },
+        "uom": {
+          "value": "rl",
+          "page": 1,
+          "quote": "3) 4 rl of IT-10141 @ $5.29 = $21.16 - Electrical tape 3/4 in white"
+        },
+        "unit_price": {
+          "value": "$5.29",
+          "page": 1,
+          "quote": "3) 4 rl of IT-10141 @ $5.29 = $21.16 - Electrical tape 3/4 in white"
+        },
+        "line_total": {
+          "value": "$21.16",
+          "page": 1,
+          "quote": "3) 4 rl of IT-10141 @ $5.29 = $21.16 - Electrical tape 3/4 in white"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      },
+      {
+        "line_no": {
+          "value": "4",
+          "page": 1,
+          "quote": "4) 12 bx of IT-10033 @ $7.00 = $84.00 - Split lock washer M6 zinc"
+        },
+        "item_no": {
+          "value": "IT-10033",
+          "page": 1,
+          "quote": "4) 12 bx of IT-10033 @ $7.00 = $84.00 - Split lock washer M6 zinc"
+        },
+        "customer_part_no": {
+          "value": null,
+          "page": null,
+          "quote": null
+        },
+        "description": {
+          "value": "Split lock washer M6 zinc",
+          "page": 1,
+          "quote": "4) 12 bx of IT-10033 @ $7.00 = $84.00 - Split lock washer M6 zinc"
+        },
+        "qty": {
+          "value": "12",
+          "page": 1,
+          "quote": "4) 12 bx of IT-10033 @ $7.00 = $84.00 - Split lock washer M6 zinc"
+        },
+        "uom": {
+          "value": "bx",
+          "page": 1,
+          "quote": "4) 12 bx of IT-10033 @ $7.00 = $84.00 - Split lock washer M6 zinc"
+        },
+        "unit_price": {
+          "value": "$7.00",
+          "page": 1,
+          "quote": "4) 12 bx of IT-10033 @ $7.00 = $84.00 - Split lock washer M6 zinc"
+        },
+        "line_total": {
+          "value": "$84.00",
+          "page": 1,
+          "quote": "4) 12 bx of IT-10033 @ $7.00 = $84.00 - Split lock washer M6 zinc"
+        },
+        "requested_date": {
+          "value": null,
+          "page": null,
+          "quote": null
+        }
+      }
+    ]
+  },
+  "extract2": null,
+  "calls": [
+    {
+      "kind": "classify",
+      "ok": true,
+      "error": null,
+      "seconds": 7.0,
+      "cost_usd": 0.018231,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    },
+    {
+      "kind": "extract",
+      "ok": true,
+      "error": null,
+      "seconds": 56.5,
+      "cost_usd": 0.10881919999999999,
+      "model": [
+        "claude-sonnet-5"
+      ]
+    }
+  ]
+}
